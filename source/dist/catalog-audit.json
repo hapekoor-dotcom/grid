@@ -1,0 +1,346 @@
+{
+  "date": "2026-11-05",
+  "sourceCount": 219,
+  "included": 169,
+  "excluded": [
+    {
+      "id": "snl-264",
+      "name": "ADJ Magna tube + Led par 12p hex (pack)",
+      "reason": "Accessory or mixed equipment bundle: add constituent devices separately"
+    },
+    {
+      "id": "snl-248",
+      "name": "Sunlight Pack",
+      "reason": "Accessory or mixed equipment bundle: add constituent devices separately"
+    },
+    {
+      "id": "snl-262",
+      "name": "Sunlight Moving Pack",
+      "reason": "Accessory or mixed equipment bundle: add constituent devices separately"
+    },
+    {
+      "id": "snl-436",
+      "name": "Mirror ball mount + stand",
+      "source": "https://snl.ee/en/light/mirror_balls/?cat_id=436",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-97",
+      "name": "Fog liquid",
+      "source": "https://snl.ee/en/light/smoke-machines/?cat_id=97",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-402",
+      "name": "Haze liquid",
+      "source": "https://snl.ee/en/light/smoke-machines/?cat_id=402",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-483",
+      "name": "Bubble Haze System",
+      "reason": "Accessory or mixed equipment bundle: add constituent devices separately"
+    },
+    {
+      "id": "snl-265",
+      "name": "ADJ Magna tube",
+      "reason": "Accessory or mixed equipment bundle: add constituent devices separately"
+    },
+    {
+      "id": "snl-150",
+      "name": "Snow liquid",
+      "source": "https://snl.ee/en/light/special_effects/?cat_id=150",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-151",
+      "name": "Bubble liquid",
+      "source": "https://snl.ee/en/light/special_effects/?cat_id=151",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-331",
+      "name": "Karaoke system AST 50",
+      "source": "https://snl.ee/en/video/?cat_id=331",
+      "reason": "Unclassified video accessory"
+    },
+    {
+      "id": "snl-333",
+      "name": "2 psc. Wireless microphones Saramonic UwMic9 TX9 + 1 psc. Receiver RX9",
+      "source": "https://snl.ee/en/video/?cat_id=333",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-457",
+      "name": "Adjustable Frame for banners/photo",
+      "source": "https://snl.ee/en/video/?cat_id=457",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-373",
+      "name": "Gold Fencing Post",
+      "source": "https://snl.ee/en/video/?cat_id=373",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-479",
+      "name": "Dual microphone + receiver + charging bin",
+      "source": "https://snl.ee/en/video/?cat_id=479",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-218",
+      "name": "Tripod screen Projecta Professional 213cm*213cm",
+      "source": "https://snl.ee/en/video/?cat_id=218",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-539",
+      "name": "Armored Fiber Optic HDMI Cable 50m/80m",
+      "source": "https://snl.ee/en/video/?cat_id=539",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-387",
+      "name": "Gravity Table + Black Cover",
+      "source": "https://snl.ee/en/video/?cat_id=387",
+      "reason": "Unclassified video accessory"
+    },
+    {
+      "id": "snl-344",
+      "name": "SanDisk Extreme Portable SSD 500GB",
+      "source": "https://snl.ee/en/video/?cat_id=344",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-415",
+      "name": "Studio Cube Umbrella Softbox 135W (2 Softbox + 2*135w bulb + 2 tripod + bag)",
+      "source": "https://snl.ee/en/video/?cat_id=415",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-329",
+      "name": "Lens Panasonic HSA12035",
+      "source": "https://snl.ee/en/video/?cat_id=329",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-301",
+      "name": "TRIPOD SCREEN PROJECTA PROFESSIONAL 180CM*180CM",
+      "source": "https://snl.ee/en/video/screens/?cat_id=301",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-317",
+      "name": "Fast Folding Screen 120“ (2.66m*1.5m) 16:9",
+      "source": "https://snl.ee/en/video/screens/?cat_id=317",
+      "reason": "Unclassified video accessory"
+    },
+    {
+      "id": "snl-492",
+      "name": "Adjustable Stand with ChromaKey Green Screen (3m*7m)",
+      "source": "https://snl.ee/en/video/screens/?cat_id=492",
+      "reason": "Unclassified video accessory"
+    },
+    {
+      "id": "snl-146",
+      "name": "Digital videocam Panasonic NV-GS5",
+      "source": "https://snl.ee/en/video/cameras_lenses_accessories/?cat_id=146",
+      "reason": "Unclassified video accessory"
+    },
+    {
+      "id": "snl-276",
+      "name": "Sports Cam Full HD + wifi + accessories",
+      "source": "https://snl.ee/en/video/cameras_lenses_accessories/?cat_id=276",
+      "reason": "Unclassified video accessory"
+    },
+    {
+      "id": "snl-482",
+      "name": "YT-1200 Auto Motorized Rotating Panoramic Head with Remote",
+      "source": "https://snl.ee/en/video/cameras_lenses_accessories/?cat_id=482",
+      "reason": "Unclassified video accessory"
+    },
+    {
+      "id": "snl-465",
+      "name": "Smart Remote for GoPro Hero 11/10/9/8/MAX OLED Screen",
+      "reason": "Accessory or mixed equipment bundle: add constituent devices separately"
+    },
+    {
+      "id": "snl-366",
+      "name": "",
+      "reason": "Accessory or mixed equipment bundle: add constituent devices separately"
+    },
+    {
+      "id": "snl-529",
+      "name": "",
+      "reason": "Accessory or mixed equipment bundle: add constituent devices separately"
+    },
+    {
+      "id": "snl-425",
+      "name": "Stand with square base + top plate",
+      "source": "https://snl.ee/en/video/video_projectors/?cat_id=425",
+      "reason": "Unclassified video accessory"
+    },
+    {
+      "id": "snl-386",
+      "name": "Karaoke VocoPro mixer + 2 wireless mic",
+      "source": "https://snl.ee/en/video/karaoke_systems/?cat_id=386",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-488",
+      "name": "M9 Pro Bluetooth 5.1 Audio Receiver/Transmitter",
+      "source": "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=488",
+      "reason": "Unclassified video accessory"
+    },
+    {
+      "id": "snl-334",
+      "name": "2 psc. Saramonic UwMic9 TX9/HU9 + 1 psc. receiver RX9",
+      "source": "https://snl.ee/en/video/camera_microphone_systems/?cat_id=334",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-452",
+      "name": "Shotgun mic Audio technica ATR6550",
+      "source": "https://snl.ee/en/video/camera_microphone_systems/?cat_id=452",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-396",
+      "name": "Video cables",
+      "source": "https://snl.ee/en/video/video_cabels/?cat_id=396",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-417",
+      "name": "Single channel Cable Protector",
+      "source": "https://snl.ee/en/video/video_cabels/?cat_id=417",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-497",
+      "name": "Double Channel Cable Protector",
+      "source": "https://snl.ee/en/video/video_cabels/?cat_id=497",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-446",
+      "name": "Tripod for Camera/Lighting Neewer",
+      "source": "https://snl.ee/en/video/lighting_equipment_for_filming/?cat_id=446",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-378",
+      "name": "Accessories for GoPro cameras",
+      "source": "https://snl.ee/en/video/tripods_and_mounting_accessories_grip/?cat_id=378",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-394",
+      "name": "Camera Stand Heavy Duty",
+      "source": "https://snl.ee/en/video/tripods_and_mounting_accessories_grip/?cat_id=394",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-381",
+      "name": "",
+      "reason": "Accessory or mixed equipment bundle: add constituent devices separately"
+    },
+    {
+      "id": "snl-392",
+      "name": "Battery Charger GP PowerBank Travel",
+      "reason": "Accessory or mixed equipment bundle: add constituent devices separately"
+    },
+    {
+      "id": "snl-343",
+      "name": "Playstation 4 pro + 2 original joystics + 5 СD discs with games",
+      "source": "https://snl.ee/en/video/game_consoles/?cat_id=343",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-424",
+      "name": "Sandisk Extreme Portable SSD 1TB (V2)",
+      "source": "https://snl.ee/en/video/storage_ssd_hdd_usb_flash_drive_memory_cards/?cat_id=424",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-359",
+      "name": "Memory card SanDisk microSDXC 256gb",
+      "source": "https://snl.ee/en/video/storage_ssd_hdd_usb_flash_drive_memory_cards/?cat_id=359",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-360",
+      "name": "Memory card SanDisk Extreme Pro SDXC 64gb",
+      "source": "https://snl.ee/en/video/storage_ssd_hdd_usb_flash_drive_memory_cards/?cat_id=360",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-426",
+      "name": "Memory Card Sandisk Extreme Pro SDXC 128Gb",
+      "source": "https://snl.ee/en/video/storage_ssd_hdd_usb_flash_drive_memory_cards/?cat_id=426",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-427",
+      "name": "USB flash drive SanDisk Ultra 32 GB",
+      "source": "https://snl.ee/en/video/storage_ssd_hdd_usb_flash_drive_memory_cards/?cat_id=427",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    },
+    {
+      "id": "snl-428",
+      "name": "USB flash drive Sandisk Ultra 128Gb",
+      "source": "https://snl.ee/en/video/storage_ssd_hdd_usb_flash_drive_memory_cards/?cat_id=428",
+      "reason": "Consumable, passive screen/accessory, audio or out of lighting/video signal scope"
+    }
+  ],
+  "scope": "S&L light, effects, video, controllers and power categories; standalone equipment excluding consumables/cables/passive screens/audio. Unknown technical fields remain null. Manufacturer manuals not verified for every product.",
+  "manufacturerVerifiedProfiles": 30,
+  "channelProfiles": 42,
+  "consumptionKnown": 70,
+  "categoryCounts": {
+    "light": 70,
+    "effect": 14,
+    "input": 28,
+    "power": 15,
+    "video": 33,
+    "node": 9
+  },
+  "kindCounts": {
+    "par": 27,
+    "strobe": 4,
+    "bar": 4,
+    "spot": 12,
+    "head": 5,
+    "beam": 1,
+    "laser": 9,
+    "fog": 5,
+    "snow": 2,
+    "console": 18,
+    "bubble": 2,
+    "flame": 1,
+    "mirrorball": 6,
+    "pixel": 2,
+    "battery": 1,
+    "battery-extension": 1,
+    "generator": 1,
+    "solar": 1,
+    "haze": 1,
+    "confetti": 1,
+    "fan": 2,
+    "tv": 10,
+    "projector": 5,
+    "camera": 2,
+    "processor": 17,
+    "distro": 4,
+    "splitter": 4,
+    "receiver": 3,
+    "node": 2,
+    "dimmer": 2,
+    "ledwall": 1,
+    "computer": 6,
+    "laptop": 2,
+    "powerbank": 5
+  },
+  "warning": "Manufacturer sources verify specific fields only, not all model specifications; rental specs retained with provenance, unknowns require manual confirmation."
+}

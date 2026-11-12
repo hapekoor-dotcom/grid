@@ -1,0 +1,4228 @@
+[
+  {
+    "id": "snl-432",
+    "name": "Showtec Dreamwave + DMX controller",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=432",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "par",
+    "modes": [
+      10,
+      34
+    ],
+    "watts": 70.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power consumption: 70 W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-506",
+    "name": "Eurolite Led Mega Strobe 768 Bar",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=506",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "strobe",
+    "modes": [
+      7,
+      18,
+      21,
+      113,
+      125,
+      257,
+      269
+    ],
+    "watts": 350,
+    "wattsBasis": "manufacturer",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Режимы и потребление сверены с документацией производителя."
+    ],
+    "verifiedFields": [
+      "modes",
+      "watts"
+    ],
+    "powerEvidence": "Total connected load: 350 W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.steinigke.de/en/data/mpn52200950-eurolite-led-mega-strobe-768-bar.pdf"
+  },
+  {
+    "id": "snl-509",
+    "name": "Eurolite Led Mega Strobe 812 Panel",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=509",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "strobe",
+    "modes": [
+      6,
+      17,
+      20,
+      21,
+      298,
+      310
+    ],
+    "watts": 400,
+    "wattsBasis": "manufacturer",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Режимы и потребление сверены с документацией производителя."
+    ],
+    "verifiedFields": [
+      "modes",
+      "watts"
+    ],
+    "powerEvidence": "Total connected load: 400 W",
+    "connectors": [
+      "DMX XLR 5-pin",
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.steinigke.de/mpn52200945-eurolite-led-mega-strobe-812-panel.html"
+  },
+  {
+    "id": "snl-498",
+    "name": "Led Bar ADJ UBL 6H",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=498",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "bar",
+    "modes": [
+      6,
+      11,
+      13,
+      16,
+      18,
+      25,
+      28
+    ],
+    "watts": 26,
+    "wattsBasis": "manufacturer",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Режимы и потребление сверены с документацией производителя."
+    ],
+    "verifiedFields": [
+      "modes",
+      "watts"
+    ],
+    "connectors": [
+      "DMX XLR 5-pin",
+      "Locking power IN/OUT"
+    ],
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.adj.com/products/ubl6h"
+  },
+  {
+    "id": "snl-499",
+    "name": "Led Bar ADJ UBL 12H",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=499",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "bar",
+    "modes": [
+      6,
+      11,
+      13,
+      16,
+      36,
+      43,
+      46
+    ],
+    "watts": 61,
+    "wattsBasis": "manufacturer",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [
+      "https://www.adj.eu/mwdownloads/download/link/id/1709"
+    ],
+    "notes": [
+      "Режимы и потребление сверены с документацией производителя.",
+      "Название S&L — UBL12H; вступление страницы описывает UB12H. Перед монтажом подтвердить модель на корпусе. Данные здесь для UBL12H."
+    ],
+    "verifiedFields": [
+      "modes",
+      "watts"
+    ],
+    "powerEvidence": "Power consumption: 61W",
+    "connectors": [
+      "DMX XLR 5-pin",
+      "Locking power IN/OUT"
+    ],
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.adj.com/products/ubl12h"
+  },
+  {
+    "id": "snl-311",
+    "name": "Wireless Led par ADJ Element Hex IP",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=311",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "par",
+    "modes": [
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "watts": 42,
+    "wattsBasis": "manufacturer",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [
+      "https://www.adj.eu/mwdownloads/download/link/id/1121"
+    ],
+    "notes": [
+      "Режимы и потребление сверены с документацией производителя.",
+      "WiFLY EXR: не добавлять выдуманный проводной DMX IN/OUT."
+    ],
+    "verifiedFields": [
+      "modes",
+      "watts"
+    ],
+    "powerEvidence": "Power Draw Total (All LED's @ Full On): 42W",
+    "connectors": [
+      "WiFLY EXR wireless DMX",
+      "IEC charging input"
+    ],
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.adj.eu/element-hexip",
+    "battery": true,
+    "batteryWh": 73.26,
+    "wirelessDMX": true
+  },
+  {
+    "id": "snl-245",
+    "name": "American DJ 12P Hex",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=245",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "par",
+    "modes": [
+      6,
+      7,
+      8,
+      12
+    ],
+    "watts": 150.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power Draw: 150W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-450",
+    "name": "ADJ Led PAR 18P Hex",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=450",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "par",
+    "modes": [
+      6,
+      7,
+      8,
+      12
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "modes"
+    ],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-236",
+    "name": "ADJ Ikon Profile",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=236",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "spot",
+    "modes": [
+      3
+    ],
+    "watts": 44,
+    "wattsBasis": "manufacturer",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Ikon Profile / WW: 3CH; не смешивать с Profile Plus."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power consumption: 44W",
+    "connectors": [],
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.adj.com/products/ikon-profile"
+  },
+  {
+    "id": "snl-115",
+    "name": "Kupo Profile 19° 750W",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=115",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "spot",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-485",
+    "name": "Shehds LED 250W RGBW Model 15-55°",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=485",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "spot",
+    "modes": [
+      11
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Потребление не равно мощности LED/лампы. Максимальная входная мощность не подтверждена."
+    ],
+    "verifiedFields": [
+      "modes"
+    ],
+    "connectors": [],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-116",
+    "name": "Kupo Profile 26° 750W",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=116",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "spot",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-303",
+    "name": "Wireless Led Flood Light Projektor 30w (outdoor)",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=303",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "battery": true
+  },
+  {
+    "id": "snl-113",
+    "name": "GS Industry Projector",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=113",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-117",
+    "name": "Kupo Ciclorama 1000W",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=117",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-164",
+    "name": "Projektor Phillips Tempo 3 400w",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=164",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-133",
+    "name": "Appolo AB-159B 1200 W",
+    "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=133",
+    "sourceCategory": "LED projectors, lamp projectors, follow spots",
+    "category": "light",
+    "kind": "spot",
+    "modes": [
+      4
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "modes"
+    ],
+    "connectors": [],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-239",
+    "name": "Moving head Chauvet Intimidator WAVE IRC + IRC remote",
+    "source": "https://snl.ee/en/light/moving_heads/?cat_id=239",
+    "sourceCategory": "Moving Heads",
+    "category": "light",
+    "kind": "head",
+    "modes": [
+      14,
+      34
+    ],
+    "watts": 174,
+    "wattsBasis": "manufacturer",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "modes"
+    ],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.chauvetdj.com/products/intimidator-wave-irc/",
+    "current230": 1.3
+  },
+  {
+    "id": "snl-308",
+    "name": "ADJ Kaos",
+    "source": "https://snl.ee/en/light/moving_heads/?cat_id=308",
+    "sourceCategory": "Moving Heads",
+    "category": "light",
+    "kind": "head",
+    "modes": [
+      2,
+      6,
+      15,
+      23,
+      45
+    ],
+    "watts": 140,
+    "wattsBasis": "manufacturer",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power Consumption: 140W",
+    "connectors": [
+      "powerCON"
+    ],
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.adj.com/products/kaos"
+  },
+  {
+    "id": "snl-238",
+    "name": "ADJ Pocket Spot Twins + UC IR wireless remote",
+    "source": "https://snl.ee/en/light/moving_heads/?cat_id=238",
+    "sourceCategory": "Moving Heads",
+    "category": "light",
+    "kind": "head",
+    "modes": [
+      19,
+      23
+    ],
+    "watts": 66.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power consumption: 66W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-444",
+    "name": "WASH Moving Head ADJ Focus Flex",
+    "source": "https://snl.ee/en/light/moving_heads/?cat_id=444",
+    "sourceCategory": "Moving Heads",
+    "category": "light",
+    "kind": "head",
+    "modes": [
+      {
+        "channels": 16,
+        "label": "16 RGBW"
+      },
+      {
+        "channels": 25,
+        "label": "25 RGBW"
+      },
+      {
+        "channels": 34,
+        "label": "34 RGBW"
+      },
+      {
+        "channels": 42,
+        "label": "42 RGBW"
+      },
+      {
+        "channels": 50,
+        "label": "50 RGBW"
+      },
+      {
+        "channels": 25,
+        "label": "25 CMY"
+      },
+      {
+        "channels": 28,
+        "label": "28 CMY"
+      }
+    ],
+    "watts": 340,
+    "wattsBasis": "manufacturer",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [
+      "https://www.adj.eu/mwdownloads/download/link/id/1509"
+    ],
+    "notes": [
+      "Режимы и потребление сверены с документацией производителя."
+    ],
+    "verifiedFields": [
+      "modes",
+      "watts"
+    ],
+    "powerEvidence": "power consumption: 340W",
+    "connectors": [
+      "DMX XLR 5-pin",
+      "Locking power IN/OUT"
+    ],
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.adj.com/products/focus-flex",
+    "photometry": {
+      "format": "IES",
+      "manifest": "assets/ies/focus-flex/manifest.json",
+      "profiles": 39,
+      "source": "https://www.adj.eu/mwdownloads/download/link/id/1507",
+      "beamAngleDegrees": [
+        4,
+        31
+      ],
+      "fieldAngleDegrees": [
+        5,
+        55
+      ],
+      "lumensWideFull": 3240,
+      "leds": {
+        "count": 7,
+        "wattsEach": 40,
+        "color": "RGBW"
+      },
+      "panDegrees": [
+        540,
+        630
+      ],
+      "tiltDegrees": 265,
+      "dimensionsMm": [
+        233,
+        177,
+        349
+      ],
+      "massKg": 7
+    }
+  },
+  {
+    "id": "snl-445",
+    "name": "BEAM Moving Head ADJ Vizi Beam Rxone",
+    "source": "https://snl.ee/en/light/moving_heads/?cat_id=445",
+    "sourceCategory": "Moving Heads",
+    "category": "light",
+    "kind": "beam",
+    "modes": [
+      15,
+      17
+    ],
+    "watts": 199,
+    "wattsBasis": "manufacturer",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Режимы и потребление сверены с документацией производителя."
+    ],
+    "verifiedFields": [
+      "modes",
+      "watts"
+    ],
+    "powerEvidence": "Power Consumption: 199W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.adj.com/products/vizi-beam-rxone"
+  },
+  {
+    "id": "snl-470",
+    "name": "Spot Moving head ADJ Focus Spot 4Z",
+    "source": "https://snl.ee/en/light/moving_heads/?cat_id=470",
+    "sourceCategory": "Moving Heads",
+    "category": "light",
+    "kind": "spot",
+    "modes": [
+      16,
+      18,
+      22
+    ],
+    "watts": 240,
+    "wattsBasis": "manufacturer",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Режимы и потребление сверены с документацией производителя.",
+      "S&L указывает 3-pin DMX, текущий ADJ — 5-pin; проверить экземпляр. 240W из официального ADJ press release."
+    ],
+    "verifiedFields": [
+      "modes",
+      "watts"
+    ],
+    "connectors": [
+      "DMX XLR 5-pin",
+      "Locking power IN/OUT"
+    ],
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.adj.com/products/focus-spot-4z",
+    "powerSource": "https://www.adj.com/blogs/news/adj-expands-focus-series-with-powerful-versatile-new-moving-head-spot"
+  },
+  {
+    "id": "snl-222",
+    "name": "Moving Head ADJ Vortex 1200",
+    "source": "https://snl.ee/en/light/moving_heads/?cat_id=222",
+    "sourceCategory": "Moving Heads",
+    "category": "light",
+    "kind": "head",
+    "modes": [
+      14,
+      15,
+      17,
+      29
+    ],
+    "watts": 174.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power Draw: 174W",
+    "connectors": [
+      "powerCON"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-297",
+    "name": "RGB Spider Laser Moving head 1720mW",
+    "source": "https://snl.ee/en/light/moving_heads/?cat_id=297",
+    "sourceCategory": "Moving Heads",
+    "category": "light",
+    "kind": "laser",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ]
+  },
+  {
+    "id": "snl-451",
+    "name": "Chauvet Cumulus Low Fog machine",
+    "source": "https://snl.ee/en/light/?cat_id=451",
+    "sourceCategory": "Light equipment",
+    "category": "effect",
+    "kind": "fog",
+    "modes": [
+      2
+    ],
+    "watts": 970,
+    "wattsBasis": "rental-spec-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "modes"
+    ],
+    "connectors": [
+      "DMX XLR 5-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-447",
+    "name": "Snowmachine ADJ Snow Flurry OH",
+    "source": "https://snl.ee/en/light/?cat_id=447",
+    "sourceCategory": "Light equipment",
+    "category": "effect",
+    "kind": "snow",
+    "modes": [
+      1
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Потребление не равно мощности LED/лампы. Максимальная входная мощность не подтверждена.",
+      "Вступление S&L описывает VF Flurry, заголовок Snow Flurry OH. Не переносить 1250W из вступления без проверки."
+    ],
+    "verifiedFields": [
+      "modes"
+    ],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-320",
+    "name": "DJ Led Table",
+    "source": "https://snl.ee/en/light/?cat_id=320",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-505",
+    "name": "DMX controller Wolfmix W1 Mk2",
+    "source": "https://snl.ee/en/light/?cat_id=505",
+    "sourceCategory": "Light equipment",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "DMX XLR 5-pin",
+      "DMX XLR 3-pin"
+    ]
+  },
+  {
+    "id": "snl-235",
+    "name": "ADJ Fog Fury Jett",
+    "source": "https://snl.ee/en/light/?cat_id=235",
+    "sourceCategory": "Light equipment",
+    "category": "effect",
+    "kind": "fog",
+    "modes": [
+      1,
+      2,
+      3,
+      5,
+      7
+    ],
+    "watts": 730.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power Consumption: 730W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-310",
+    "name": "Chauvet Hurricane Bubble Haze",
+    "source": "https://snl.ee/en/light/?cat_id=310",
+    "sourceCategory": "Light equipment",
+    "category": "effect",
+    "kind": "bubble",
+    "modes": [
+      4
+    ],
+    "watts": 558,
+    "wattsBasis": "rental-spec-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "modes"
+    ],
+    "connectors": [
+      "DMX XLR 5-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-202",
+    "name": "Equinox RGB 1.5m DMX Multicoloured Flame Effect",
+    "source": "https://snl.ee/en/light/?cat_id=202",
+    "sourceCategory": "Light equipment",
+    "category": "effect",
+    "kind": "flame",
+    "modes": [
+      6
+    ],
+    "watts": 130.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power consumption: 130W",
+    "connectors": [],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-435",
+    "name": "Plasma ball 20 cm",
+    "source": "https://snl.ee/en/light/?cat_id=435",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-266",
+    "name": "ADJ H2O DMX IR (80W) + remote UC IR",
+    "source": "https://snl.ee/en/light/?cat_id=266",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "spot",
+    "modes": [
+      3
+    ],
+    "watts": 70.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power consumption: 70W",
+    "connectors": [],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-293",
+    "name": "Laser LASERWORLD PRO 1600 RGB ext. + remote control",
+    "source": "https://snl.ee/en/light/?cat_id=293",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "laser",
+    "modes": [],
+    "watts": 80.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power Consumption: 80 W",
+    "connectors": []
+  },
+  {
+    "id": "snl-439",
+    "name": "Chauvet 4in1 DJ Swarm WASH FX ILS",
+    "source": "https://snl.ee/en/light/?cat_id=439",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "par",
+    "modes": [
+      2,
+      18
+    ],
+    "watts": 50,
+    "wattsBasis": "manufacturer",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "modes"
+    ],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.chauvetdj.com/products/swarm-wash-fx-ils/",
+    "current230": 0.4
+  },
+  {
+    "id": "snl-503",
+    "name": "Wireless Led par Apollo Element Hex",
+    "source": "https://snl.ee/en/light/?cat_id=503",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Потребление не равно мощности LED/лампы. Максимальная входная мощность не подтверждена."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "battery": true
+  },
+  {
+    "id": "snl-241",
+    "name": "American DJ Warlock",
+    "source": "https://snl.ee/en/light/?cat_id=241",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "par",
+    "modes": [
+      8
+    ],
+    "watts": 202.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power consumption: 202W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-530",
+    "name": "Eurolite GoFlow 100",
+    "source": "https://snl.ee/en/light/?cat_id=530",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "spot",
+    "modes": [
+      2,
+      6,
+      8
+    ],
+    "watts": 140.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power consumption: 140 W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-240",
+    "name": "RGB text and pattern Laser Laserworld EL-500RGB KeyTEX",
+    "source": "https://snl.ee/en/light/?cat_id=240",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "laser",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-252",
+    "name": "Equinox 60W Kaleido",
+    "source": "https://snl.ee/en/light/?cat_id=252",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "spot",
+    "modes": [
+      4
+    ],
+    "watts": 85.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power consumption: 85W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-422",
+    "name": "Gold Mirror Ball 30cm + motor + hook",
+    "source": "https://snl.ee/en/light/?cat_id=422",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "mirrorball",
+    "modes": [],
+    "watts": 4,
+    "wattsBasis": "rental-spec-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-494",
+    "name": "Aurora laser RGB dmx",
+    "source": "https://snl.ee/en/light/?cat_id=494",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "laser",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-477",
+    "name": "5W Laser EM-RGB270 50kpps",
+    "source": "https://snl.ee/en/light/?cat_id=477",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "laser",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-520",
+    "name": "Chauvet Freedom Stick X4 — 1 stick (S&L pack ×4)",
+    "source": "https://snl.ee/en/light/?cat_id=520",
+    "sourceCategory": "Light equipment",
+    "category": "light",
+    "kind": "pixel",
+    "modes": [
+      3,
+      8,
+      48,
+      50
+    ],
+    "watts": 11,
+    "wattsBasis": "manufacturer",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [
+      "https://www.chauvetdj.com/wp-content/uploads/2023/05/Freedom_Stick_X4_UM_Rev1.pdf"
+    ],
+    "notes": [
+      "Режимы и потребление сверены с документацией производителя.",
+      "11W на один stick. Позиция S&L — комплект 4 шт.; в грид добавлять по одному, не считать комплект одним прибором.",
+      "Позиция может быть комплектом: число приборов и потребление на единицу проверить; не считать название комплекта паспортом одного устройства."
+    ],
+    "verifiedFields": [
+      "modes",
+      "watts"
+    ],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.chauvetdj.com/products/freedom-stick-x4/",
+    "battery": true
+  },
+  {
+    "id": "snl-368",
+    "name": "EcoFLOW DELTA Max Power Station, 2016Wh",
+    "source": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=368",
+    "sourceCategory": "Wireless light equipment",
+    "category": "power",
+    "kind": "battery",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "catalogGroup": "EcoFlow",
+    "catalogTitle": "Delta Max",
+    "catalogSubtitle": "Power Station · 2016 Wh"
+  },
+  {
+    "id": "snl-369",
+    "name": "EcoFLOW DELTA Max Smart Extra Battery, 2016Wh",
+    "source": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=369",
+    "sourceCategory": "Wireless light equipment",
+    "category": "power",
+    "kind": "battery-extension",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Специализированный источник/дополнение: не считать обычной сетевой розеткой; выходные интерфейсы требуют ручной настройки."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "planningOnly": true,
+    "powerPorts": [],
+    "catalogGroup": "EcoFlow",
+    "catalogTitle": "Delta Max",
+    "catalogSubtitle": "Extra Battery · 2016 Wh"
+  },
+  {
+    "id": "snl-448",
+    "name": "Smart Generator EcoFlow 1800W",
+    "source": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=448",
+    "sourceCategory": "Wireless light equipment",
+    "category": "power",
+    "kind": "generator",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Специализированный источник/дополнение: не считать обычной сетевой розеткой; выходные интерфейсы требуют ручной настройки."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "planningOnly": true,
+    "powerPorts": [],
+    "catalogGroup": "EcoFlow",
+    "catalogTitle": "Smart Generator",
+    "catalogSubtitle": "1800 W"
+  },
+  {
+    "id": "snl-460",
+    "name": "Solar Panel 400W EcoFlow (Power bank Delta max charging)",
+    "source": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=460",
+    "sourceCategory": "Wireless light equipment",
+    "category": "power",
+    "kind": "solar",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Специализированный источник/дополнение: не считать обычной сетевой розеткой; выходные интерфейсы требуют ручной настройки."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "planningOnly": true,
+    "powerPorts": [],
+    "catalogGroup": "EcoFlow",
+    "catalogTitle": "Solar Panel",
+    "catalogSubtitle": "400 W"
+  },
+  {
+    "id": "snl-414",
+    "name": "Neewer 530 Pro RGB LED (2 RGB Led Panels + 2 Stands + 2 Softbox with grid + 4 Sony Batterries NP-F96",
+    "source": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=414",
+    "sourceCategory": "Wireless light equipment",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Позиция может быть комплектом: число приборов и потребление на единицу проверить; не считать название комплекта паспортом одного устройства."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-357",
+    "name": "Chauvet Cast Panel Pack (2 Chauvet Led Panels + 2 Stands + 2 Softbox + 4 Sony Batterries NP-F960)",
+    "source": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=357",
+    "sourceCategory": "Wireless light equipment",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Позиция может быть комплектом: число приборов и потребление на единицу проверить; не считать название комплекта паспортом одного устройства."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-493",
+    "name": "Wireless Light for Music stand and etc.",
+    "source": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=493",
+    "sourceCategory": "Wireless light equipment",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-398",
+    "name": "8ch. DMX mini controller Beamz",
+    "source": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=398",
+    "sourceCategory": "Wireless light equipment",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ]
+  },
+  {
+    "id": "snl-230",
+    "name": "Strobo ADJ SP-1500 MKII + Strobo Master 1",
+    "source": "https://snl.ee/en/light/stroboscopes_and_blinders/?cat_id=230",
+    "sourceCategory": "Stroboscopes and blinders",
+    "category": "light",
+    "kind": "strobe",
+    "modes": [
+      2
+    ],
+    "watts": 1600.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power draw: 1,600 W",
+    "connectors": [],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-184",
+    "name": "American DJ FREQ Matrix QUAD + UC3 konroller",
+    "source": "https://snl.ee/en/light/stroboscopes_and_blinders/?cat_id=184",
+    "sourceCategory": "Stroboscopes and blinders",
+    "category": "light",
+    "kind": "strobe",
+    "modes": [
+      2,
+      5,
+      18,
+      64
+    ],
+    "watts": 152.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power Consumption: 152W",
+    "connectors": [],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-192",
+    "name": "American DJ Eco UV Bar Plus",
+    "source": "https://snl.ee/en/light/uv/?cat_id=192",
+    "sourceCategory": "UV Lights",
+    "category": "light",
+    "kind": "bar",
+    "modes": [],
+    "watts": 60.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power Draw: 60W",
+    "connectors": []
+  },
+  {
+    "id": "snl-295",
+    "name": "ADJ Led BAR UV Plus DMX + remote control",
+    "source": "https://snl.ee/en/light/uv/?cat_id=295",
+    "sourceCategory": "UV Lights",
+    "category": "light",
+    "kind": "bar",
+    "modes": [
+      3
+    ],
+    "watts": 52.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power Draw: 52W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-100",
+    "name": "Mirror ball 30cm + mootor + hook",
+    "source": "https://snl.ee/en/light/mirror_balls/?cat_id=100",
+    "sourceCategory": "Mirror Balls",
+    "category": "light",
+    "kind": "mirrorball",
+    "modes": [],
+    "watts": 4,
+    "wattsBasis": "rental-spec-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-362",
+    "name": "Eurolite Half Mirror Ball 40cm (Built In Motor)",
+    "source": "https://snl.ee/en/light/mirror_balls/?cat_id=362",
+    "sourceCategory": "Mirror Balls",
+    "category": "light",
+    "kind": "mirrorball",
+    "modes": [],
+    "watts": 4.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power Consumption: 4W",
+    "connectors": []
+  },
+  {
+    "id": "snl-99",
+    "name": "Light weight Mirror Ball 50cm + motor + hook",
+    "source": "https://snl.ee/en/light/mirror_balls/?cat_id=99",
+    "sourceCategory": "Mirror Balls",
+    "category": "light",
+    "kind": "mirrorball",
+    "modes": [],
+    "watts": 4,
+    "wattsBasis": "rental-spec-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-403",
+    "name": "Mirror ball motor with weight 3 kg",
+    "source": "https://snl.ee/en/light/mirror_balls/?cat_id=403",
+    "sourceCategory": "Mirror Balls",
+    "category": "light",
+    "kind": "mirrorball",
+    "modes": [],
+    "watts": 4,
+    "wattsBasis": "rental-spec-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-351",
+    "name": "Mini Fogger HQ power 400w + controller",
+    "source": "https://snl.ee/en/light/smoke-machines/?cat_id=351",
+    "sourceCategory": "Smoke Machines",
+    "category": "effect",
+    "kind": "fog",
+    "modes": [],
+    "watts": 400.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "В карточке S&L подтверждён только внешний пульт; DMX не заявлен."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power consumption: 400 W",
+    "connectors": []
+  },
+  {
+    "id": "snl-442",
+    "name": "Fogger Chauvet DJ Hurricane 1200",
+    "source": "https://snl.ee/en/light/smoke-machines/?cat_id=442",
+    "sourceCategory": "Smoke Machines",
+    "category": "effect",
+    "kind": "fog",
+    "modes": [],
+    "watts": 1180,
+    "wattsBasis": "manufacturer-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [
+      "https://www.chauvetdj.com/wp-content/uploads/2015/12/Hurricane_1200_UM_Rev3.pdf"
+    ],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "Mains fixed cable",
+      "FC-T / FC-W remote (not DMX)"
+    ],
+    "current230": 5.2,
+    "manufacturerSource": "https://www.chauvetdj.com/products/hurricane-1200/"
+  },
+  {
+    "id": "snl-292",
+    "name": "Fog machine ADJ FOG FURY JETT PRO 1.5kW + remote control",
+    "source": "https://snl.ee/en/light/smoke-machines/?cat_id=292",
+    "sourceCategory": "Smoke Machines",
+    "category": "effect",
+    "kind": "fog",
+    "modes": [
+      1,
+      2,
+      3,
+      7,
+      9
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "modes"
+    ],
+    "connectors": [
+      "DMX XLR 5-pin",
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-350",
+    "name": "Hazer Stariville AFH-600 DMX + DMX controller",
+    "source": "https://snl.ee/en/light/smoke-machines/?cat_id=350",
+    "sourceCategory": "Smoke Machines",
+    "category": "effect",
+    "kind": "haze",
+    "modes": [],
+    "watts": 600.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "power consumption: 600 W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ]
+  },
+  {
+    "id": "snl-20",
+    "name": "Lava effect",
+    "source": "https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=20",
+    "sourceCategory": "Projection and decor light effects, gobo projectors",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-186",
+    "name": "Dynamic Cloud lighting",
+    "source": "https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=186",
+    "sourceCategory": "Projection and decor light effects, gobo projectors",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-462",
+    "name": "Hypnotic laser SL-A200RGB + remote",
+    "source": "https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=462",
+    "sourceCategory": "Projection and decor light effects, gobo projectors",
+    "category": "light",
+    "kind": "laser",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-17",
+    "name": "Martin DC2 Fire",
+    "source": "https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=17",
+    "sourceCategory": "Projection and decor light effects, gobo projectors",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-18",
+    "name": "Martin DC3 Oil",
+    "source": "https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=18",
+    "sourceCategory": "Projection and decor light effects, gobo projectors",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-171",
+    "name": "ADJ H2O DMX Pro + ADJ UC3 kontroller",
+    "source": "https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=171",
+    "sourceCategory": "Projection and decor light effects, gobo projectors",
+    "category": "light",
+    "kind": "spot",
+    "modes": [
+      3
+    ],
+    "watts": 69.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power consumption: 69W",
+    "connectors": [],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-19",
+    "name": "SGM COLOUR DYNAMIC 100 adv. (Sand Effect)",
+    "source": "https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=19",
+    "sourceCategory": "Projection and decor light effects, gobo projectors",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-294",
+    "name": "String ADJ Color Strand LED + remote control",
+    "source": "https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=294",
+    "sourceCategory": "Projection and decor light effects, gobo projectors",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-231",
+    "name": "Motion Orb™",
+    "source": "https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=231",
+    "sourceCategory": "Projection and decor light effects, gobo projectors",
+    "category": "light",
+    "kind": "pixel",
+    "modes": [
+      9,
+      165,
+      240,
+      315
+    ],
+    "watts": 42,
+    "wattsBasis": "rental-spec-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "modes"
+    ],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-153",
+    "name": "AMERICAN DJ Gobo Projector LED",
+    "source": "https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=153",
+    "sourceCategory": "Projection and decor light effects, gobo projectors",
+    "category": "light",
+    "kind": "spot",
+    "modes": [],
+    "watts": 12.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power consumption: 12W",
+    "connectors": []
+  },
+  {
+    "id": "snl-201",
+    "name": "ADJ Ikon LED Gobo Projector",
+    "source": "https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=201",
+    "sourceCategory": "Projection and decor light effects, gobo projectors",
+    "category": "light",
+    "kind": "spot",
+    "modes": [],
+    "watts": 83.6,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power consumption: 83.6W",
+    "connectors": []
+  },
+  {
+    "id": "snl-3",
+    "name": "American DJ Led Messenger",
+    "source": "https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=3",
+    "sourceCategory": "Projection and decor light effects, gobo projectors",
+    "category": "light",
+    "kind": "par",
+    "modes": [
+      3
+    ],
+    "watts": 55.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power consumption: 55W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-225",
+    "name": "Mini Laser RGB",
+    "source": "https://snl.ee/en/light/lasers/?cat_id=225",
+    "sourceCategory": "Lasers",
+    "category": "light",
+    "kind": "laser",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-9",
+    "name": "Eurolite MS3 Polar laser (adv. version)",
+    "source": "https://snl.ee/en/light/lasers/?cat_id=9",
+    "sourceCategory": "Lasers",
+    "category": "light",
+    "kind": "laser",
+    "modes": [],
+    "watts": 35.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power consumption: 35 W",
+    "connectors": []
+  },
+  {
+    "id": "snl-226",
+    "name": "Chauvet DJ Scorpion Script Laser",
+    "source": "https://snl.ee/en/light/lasers/?cat_id=226",
+    "sourceCategory": "Lasers",
+    "category": "light",
+    "kind": "laser",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-227",
+    "name": "ADJ Inno Roll HP 80W LED Scanner + UC 3 kontroller",
+    "source": "https://snl.ee/en/light/disco_lights/?cat_id=227",
+    "sourceCategory": "Disco lights",
+    "category": "light",
+    "kind": "par",
+    "modes": [
+      9
+    ],
+    "watts": 108.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "В S&L спецификации Power Link: No; не выводить силовой OUT из общего рекламного текста."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power Consumption: 108W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-228",
+    "name": "LED CRYSTALL BALL adv. + Remote control",
+    "source": "https://snl.ee/en/light/disco_lights/?cat_id=228",
+    "sourceCategory": "Disco lights",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-399",
+    "name": "Chauvet Rotosphere Q3 Led Mirror Ball",
+    "source": "https://snl.ee/en/light/disco_lights/?cat_id=399",
+    "sourceCategory": "Disco lights",
+    "category": "light",
+    "kind": "mirrorball",
+    "modes": [
+      3,
+      9,
+      19
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "modes"
+    ],
+    "connectors": [],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-33",
+    "name": "Bubble generator Chauvet Bubble King + remote control FC5",
+    "source": "https://snl.ee/en/light/special_effects/?cat_id=33",
+    "sourceCategory": "Special Effects (Snow machine, low fog machine, bubble machine, confetti machine, flame machine and etc)",
+    "category": "effect",
+    "kind": "bubble",
+    "modes": [],
+    "watts": 84,
+    "wattsBasis": "manufacturer-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [
+      "https://www.chauvetdj.com/wp-content/uploads/2015/12/B550_Bubble_King_UM_Rev6.pdf"
+    ],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Штатный Bubble King не DMX. S&L упоминает внешний DMX converter: добавлять отдельно, если он действительно в комплекте."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "Mains input"
+    ],
+    "current230": 0.4,
+    "manufacturerSource": "https://www.chauvetdj.com/products/bubble-king/"
+  },
+  {
+    "id": "snl-35",
+    "name": "Snow mashine ADJ Snow Flurry",
+    "source": "https://snl.ee/en/light/special_effects/?cat_id=35",
+    "sourceCategory": "Special Effects (Snow machine, low fog machine, bubble machine, confetti machine, flame machine and etc)",
+    "category": "effect",
+    "kind": "snow",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [
+      "https://assets.centryngroup.com/dl/files/SNOW_FLURRY__DL__001.pdf"
+    ],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Оригинальный Snow Flurry: таймер/пульт, не DMX. Не путать с VF Snow Flurry HO."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "manufacturerSource": "https://www.adj.com/products/snow-flurry"
+  },
+  {
+    "id": "snl-255",
+    "name": "Chauvet Funfetti + remote control",
+    "source": "https://snl.ee/en/light/special_effects/?cat_id=255",
+    "sourceCategory": "Special Effects (Snow machine, low fog machine, bubble machine, confetti machine, flame machine and etc)",
+    "category": "effect",
+    "kind": "confetti",
+    "modes": [
+      1
+    ],
+    "watts": 1430,
+    "wattsBasis": "manufacturer-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "modes"
+    ],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "modesBasis": "rental-spec",
+    "manufacturerSource": "https://www.chauvetdj.com/products/funfetti-shot/",
+    "current230": 7
+  },
+  {
+    "id": "snl-440",
+    "name": "Floor Fan machine chrome 16”",
+    "source": "https://snl.ee/en/light/special_effects/?cat_id=440",
+    "sourceCategory": "Special Effects (Snow machine, low fog machine, bubble machine, confetti machine, flame machine and etc)",
+    "category": "effect",
+    "kind": "fan",
+    "modes": [],
+    "watts": 90,
+    "wattsBasis": "rental-spec-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-309",
+    "name": "ADJ Entour Cyclone",
+    "source": "https://snl.ee/en/light/special_effects/?cat_id=309",
+    "sourceCategory": "Special Effects (Snow machine, low fog machine, bubble machine, confetti machine, flame machine and etc)",
+    "category": "effect",
+    "kind": "fan",
+    "modes": [
+      1,
+      2
+    ],
+    "watts": 220.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts",
+      "modes"
+    ],
+    "powerEvidence": "Power Consumption: 220W",
+    "connectors": [
+      "DMX XLR 3-pin",
+      "powerCON"
+    ],
+    "modesBasis": "rental-spec"
+  },
+  {
+    "id": "snl-533",
+    "name": "Portable TV Video Wall with 4psc. TV 55″ (Full set)",
+    "source": "https://snl.ee/en/video/?cat_id=533",
+    "sourceCategory": "Video and Karaoke",
+    "category": "video",
+    "kind": "tv",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Позиция может быть комплектом: число приборов и потребление на единицу проверить; не считать название комплекта паспортом одного устройства."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-515",
+    "name": "LCD TV Samsung UE55CU7172UXXH, UHD, 55”",
+    "source": "https://snl.ee/en/video/?cat_id=515",
+    "sourceCategory": "Video and Karaoke",
+    "category": "video",
+    "kind": "tv",
+    "modes": [],
+    "watts": 145,
+    "wattsBasis": "manufacturer-max",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Потребление не равно мощности LED/лампы. Максимальная входная мощность не подтверждена."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI",
+      "RJ45 / Ethernet: verify protocol"
+    ],
+    "manufacturerSource": "https://www.samsung.com/lt/tvs/uhd-4k-tv/cu7000-55-inch-ue55cu7172uxxh/"
+  },
+  {
+    "id": "snl-512",
+    "name": "Video projector NEC ME403U",
+    "source": "https://snl.ee/en/video/?cat_id=512",
+    "sourceCategory": "Video and Karaoke",
+    "category": "video",
+    "kind": "projector",
+    "modes": [],
+    "watts": 305,
+    "wattsBasis": "manufacturer-high-bright",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [
+      "https://www.sharpnecdisplays.eu/p/datasheet/en/datasheet/t/projectors/business-projectors/rp/me403u.pdf"
+    ],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "305 W High Bright / 220 W ECO; значение S&L 295 W заменено паспортным."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power Consumption: 295 W",
+    "connectors": [
+      "HDMI",
+      "RJ45 / Ethernet: verify protocol"
+    ],
+    "manufacturerSource": "https://www.sharpnecdisplays.eu/p/datasheet/en/datasheet/t/projectors/business-projectors/rp/me403u.pdf"
+  },
+  {
+    "id": "snl-513",
+    "name": "Laser Video projector EPSON EB-770F",
+    "source": "https://snl.ee/en/video/?cat_id=513",
+    "sourceCategory": "Video and Karaoke",
+    "category": "video",
+    "kind": "projector",
+    "modes": [],
+    "watts": 263,
+    "wattsBasis": "manufacturer-peak",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI",
+      "RJ45 / Ethernet: verify protocol"
+    ],
+    "manufacturerSource": "https://www.epson.eu/en_EU/products/projector/ultra-short-throw/eb-770f-projector/p/38505"
+  },
+  {
+    "id": "snl-328",
+    "name": "Panasonic Lumix DC – G9",
+    "source": "https://snl.ee/en/video/?cat_id=328",
+    "sourceCategory": "Video and Karaoke",
+    "category": "input",
+    "kind": "camera",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-510",
+    "name": "Video mixer Black Magic ATEM Mini Extreme ISO",
+    "source": "https://snl.ee/en/video/?cat_id=510",
+    "sourceCategory": "Video and Karaoke",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": 36.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power Usage: 36W",
+    "connectors": [
+      "HDMI",
+      "RJ45 / Ethernet: verify protocol"
+    ]
+  },
+  {
+    "id": "snl-330",
+    "name": "Camera GoPro Hero 9 Black",
+    "source": "https://snl.ee/en/video/?cat_id=330",
+    "sourceCategory": "Video and Karaoke",
+    "category": "input",
+    "kind": "camera",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-478",
+    "name": "HDMI video transmitter + receiver",
+    "source": "https://snl.ee/en/video/?cat_id=478",
+    "sourceCategory": "Video and Karaoke",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-480",
+    "name": "23.8” Touch Screen Monitor HP E-Series E24t G4",
+    "source": "https://snl.ee/en/video/?cat_id=480",
+    "sourceCategory": "Video and Karaoke",
+    "category": "video",
+    "kind": "tv",
+    "modes": [],
+    "watts": 52,
+    "wattsBasis": "manufacturer-max",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "52 W максимум, 25 W типично; E24t G4 touch, не E24 G4."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "manufacturerSource": "https://support.hp.com/us-en/product/product-specs/hp-e24t-g4-fhd-touch-monitor/34513980"
+  },
+  {
+    "id": "snl-537",
+    "name": "15.6\" 4K Portable Monitor UHD 3840*2160",
+    "source": "https://snl.ee/en/video/?cat_id=537",
+    "sourceCategory": "Video and Karaoke",
+    "category": "video",
+    "kind": "tv",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-476",
+    "name": "Wireless LED Video Light VL66",
+    "source": "https://snl.ee/en/video/?cat_id=476",
+    "sourceCategory": "Video and Karaoke",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-526",
+    "name": "8K TV Video Wall Controller",
+    "source": "https://snl.ee/en/video/?cat_id=526",
+    "sourceCategory": "Video and Karaoke",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-531",
+    "name": "Camera Field Monitor 6” FEELWORLD F6 Plus V2",
+    "source": "https://snl.ee/en/video/?cat_id=531",
+    "sourceCategory": "Video and Karaoke",
+    "category": "video",
+    "kind": "tv",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-473",
+    "name": "12 in 1 Type-C Dock-Station",
+    "source": "https://snl.ee/en/video/?cat_id=473",
+    "sourceCategory": "Video and Karaoke",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI",
+      "RJ45 / Ethernet: verify protocol"
+    ]
+  },
+  {
+    "id": "snl-307",
+    "name": "LCD Samsung 50'' Ultra HD LED UE50NU7092UXXH",
+    "source": "https://snl.ee/en/video/tv_and_monitors/?cat_id=307",
+    "sourceCategory": "TV and monitors",
+    "category": "video",
+    "kind": "tv",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI",
+      "RJ45 / Ethernet: verify protocol"
+    ]
+  },
+  {
+    "id": "snl-496",
+    "name": "LCD SAMSUNG 40” FULL HD LED UE55F6650SS",
+    "source": "https://snl.ee/en/video/tv_and_monitors/?cat_id=496",
+    "sourceCategory": "TV and monitors",
+    "category": "video",
+    "kind": "tv",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Потребление не равно мощности LED/лампы. Максимальная входная мощность не подтверждена.",
+      "Название S&L и артикул в описании расходятся: UE55F6650SS vs LH40DBEPLGC/EN. Нужна сверка модели."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI",
+      "RJ45 / Ethernet: verify protocol"
+    ]
+  },
+  {
+    "id": "snl-336",
+    "name": "Televiisor LG 32LD350 – 32“",
+    "source": "https://snl.ee/en/video/tv_and_monitors/?cat_id=336",
+    "sourceCategory": "TV and monitors",
+    "category": "video",
+    "kind": "tv",
+    "modes": [],
+    "watts": 110.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power Consumption: 110 W",
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-341",
+    "name": "Curved monitor 24” Samsung C24T550FDU",
+    "source": "https://snl.ee/en/video/tv_and_monitors/?cat_id=341",
+    "sourceCategory": "TV and monitors",
+    "category": "video",
+    "kind": "tv",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-365",
+    "name": "TV LCD Philips 32PFL7332/10 32”",
+    "source": "https://snl.ee/en/video/tv_and_monitors/?cat_id=365",
+    "sourceCategory": "TV and monitors",
+    "category": "video",
+    "kind": "tv",
+    "modes": [],
+    "watts": 128.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power consumption: 128 W",
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-327",
+    "name": "Blackmagic Design Atem Mini Pro",
+    "source": "https://snl.ee/en/video/videomixers/?cat_id=327",
+    "sourceCategory": "Videomixers",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI",
+      "RJ45 / Ethernet: verify protocol"
+    ]
+  },
+  {
+    "id": "snl-405",
+    "name": "Projector NEC VT660K 2000lum",
+    "source": "https://snl.ee/en/video/video_projectors/?cat_id=405",
+    "sourceCategory": "Video Projectors",
+    "category": "video",
+    "kind": "projector",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-173",
+    "name": "Videoprojector Sanyo PLC-XU355",
+    "source": "https://snl.ee/en/video/video_projectors/?cat_id=173",
+    "sourceCategory": "Video Projectors",
+    "category": "video",
+    "kind": "projector",
+    "modes": [],
+    "watts": 330.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power Consumption: 330W",
+    "connectors": []
+  },
+  {
+    "id": "snl-511",
+    "name": "Video projector NEC ME383W",
+    "source": "https://snl.ee/en/video/video_projectors/?cat_id=511",
+    "sourceCategory": "Video Projectors",
+    "category": "video",
+    "kind": "projector",
+    "modes": [],
+    "watts": 288.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power Consumption: 288 W",
+    "connectors": [
+      "HDMI",
+      "RJ45 / Ethernet: verify protocol"
+    ]
+  },
+  {
+    "id": "snl-542",
+    "name": "NovaStar VX4 – professional video controller for LED screens",
+    "source": "https://snl.ee/en/video/karaoke_systems/?cat_id=542",
+    "sourceCategory": "Karaoke systems",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI",
+      "RJ45 / Ethernet: verify protocol"
+    ]
+  },
+  {
+    "id": "snl-126",
+    "name": "Hedtec Radio Switch pack",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=126",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "power",
+    "kind": "distro",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Позиция может быть комплектом: число приборов и потребление на единицу проверить; не считать название комплекта паспортом одного устройства."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "catalogHidden": true
+  },
+  {
+    "id": "snl-124",
+    "name": "Showtec DJ Switch 6",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=124",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "power",
+    "kind": "distro",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "outputs": 6,
+    "catalogHidden": true
+  },
+  {
+    "id": "snl-125",
+    "name": "Showtec DJ Switch 10",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=125",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "power",
+    "kind": "distro",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "outputs": 10,
+    "catalogHidden": true
+  },
+  {
+    "id": "snl-156",
+    "name": "ADJ Controller UC3",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=156",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Специализированный пульт, не универсальный DMX/Art-Net источник. Совместимость и управляющий разъём сверить."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "ethernet": false
+  },
+  {
+    "id": "snl-203",
+    "name": "ADJ UC3 RC System",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=203",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Специализированный пульт, не универсальный DMX/Art-Net источник. Совместимость и управляющий разъём сверить."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "ethernet": false
+  },
+  {
+    "id": "snl-128",
+    "name": "Martin MC1",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=128",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Специализированный пульт, не универсальный DMX/Art-Net источник. Совместимость и управляющий разъём сверить."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "ethernet": false
+  },
+  {
+    "id": "snl-408",
+    "name": "Martin Detonator",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=408",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Специализированный пульт, не универсальный DMX/Art-Net источник. Совместимость и управляющий разъём сверить."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "ethernet": false
+  },
+  {
+    "id": "snl-449",
+    "name": "DMX controller Elation SDC-6 V2",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=449",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ]
+  },
+  {
+    "id": "snl-532",
+    "name": "8 ch. Light Console DMX-48",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=532",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": 2.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power consumption: 2W",
+    "connectors": []
+  },
+  {
+    "id": "snl-127",
+    "name": "Martin RS 485",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=127",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "node",
+    "kind": "splitter",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "4 изолированных выхода плюс отдельный пассивный DMX THRU, не 5 независимых линий."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "outputs": 4,
+    "inputs": 1,
+    "dmxThru": true,
+    "manufacturerSource": "https://www.martin.com/en-US/products/rs-485-optosplitter",
+    "previousNames": [
+      "Martin RS 485 5ch DMX Splitter"
+    ]
+  },
+  {
+    "id": "snl-516",
+    "name": "NA 4 RDM",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=516",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "node",
+    "kind": "splitter",
+    "modes": [],
+    "watts": 10.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power consumption 10W",
+    "connectors": [
+      "DMX XLR 3-pin",
+      "powerCON"
+    ],
+    "outputs": 4,
+    "previousNames": [
+      "NA Company DMX Splitter 4 RDM 3pin"
+    ]
+  },
+  {
+    "id": "snl-517",
+    "name": "NA 8 RDM",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=517",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "node",
+    "kind": "splitter",
+    "modes": [],
+    "watts": 10.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power consumption 10W",
+    "connectors": [
+      "DMX XLR 3-pin",
+      "powerCON"
+    ],
+    "outputs": 8,
+    "previousNames": [
+      "NA Company DMX Splitter 8 RDM 3pin"
+    ]
+  },
+  {
+    "id": "snl-508",
+    "name": "Swisson XPD-28-3R",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=508",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "node",
+    "kind": "splitter",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "XPD-28 — DMX-сплиттер, не Ethernet-нода. Два входа, выходы назначаются A/B."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "outputs": 8,
+    "inputs": 2,
+    "previousNames": [
+      "DMX splitter Swisson XPD-28-3R"
+    ]
+  },
+  {
+    "id": "snl-400",
+    "name": "Chauvet D-FI HUB",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=400",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "node",
+    "kind": "receiver",
+    "modes": [],
+    "watts": 4,
+    "wattsBasis": "manufacturer-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "manufacturerSource": "https://www.chauvetdj.com/products/d-fi-hub/",
+    "current230": 0.1,
+    "ethernet": false,
+    "wirelessDMX": true,
+    "outputs": 1,
+    "inputs": 1
+  },
+  {
+    "id": "snl-540",
+    "name": "FlareCON Air 2 transmitter/receiver",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=540",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "node",
+    "kind": "receiver",
+    "modes": [],
+    "watts": 4,
+    "wattsBasis": "manufacturer-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "manufacturerSource": "https://www.chauvetdj.com/products/flarecon-air-2/",
+    "ethernet": false,
+    "wirelessDMX": true,
+    "battery": true,
+    "outputs": 1
+  },
+  {
+    "id": "snl-123",
+    "name": "Wireless DMX",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=123",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "node",
+    "kind": "receiver",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": null,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-251",
+    "name": "American DJ Hexcon",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=251",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": 3.6,
+    "wattsBasis": "rental-spec-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ]
+  },
+  {
+    "id": "snl-401",
+    "name": "ADJ WiFLY NE1 DMX controller",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=401",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": 2.7,
+    "wattsBasis": "rental-spec-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ]
+  },
+  {
+    "id": "snl-233",
+    "name": "DMX controller WiFLY RGBW8C + WiFLY Transceiver",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=233",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": 3.6,
+    "wattsBasis": "rental-spec-230V",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ]
+  },
+  {
+    "id": "snl-490",
+    "name": "DMX recorder Eurolite Easy Show",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=490",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": 1.25,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power consumption: 1,25 W",
+    "connectors": [
+      "DMX XLR 3-pin"
+    ]
+  },
+  {
+    "id": "snl-407",
+    "name": "Chauvet Obey 4 DMX",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=407",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-250",
+    "name": "Chauvet Obey 70 Dmx",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=250",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-131",
+    "name": "Elation Scene Setter",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=131",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-323",
+    "name": "ADJ DMX 3.0",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=323",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "node",
+    "kind": "node",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "USB-DMX интерфейс, не беспроводной ресивер. Проверить аппаратную ревизию и лицензированные universes; порт не равен universe."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "usbPowered": true,
+    "ethernet": false,
+    "wirelessDMX": false,
+    "manufacturerSource": "https://www.adj.eu/mydmx-3-0",
+    "previousNames": [
+      "DMX interface ADJ My DMX 3.0"
+    ]
+  },
+  {
+    "id": "snl-384",
+    "name": "Avolites T2 USB Interface",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=384",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "DMX XLR 5-pin"
+    ]
+  },
+  {
+    "id": "snl-535",
+    "name": "Lighting controller Avolites T3",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=535",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "USB host budget; <=900mA",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Ethernet Art-Net/sACN идёт с ПК, не с T3. Питание USB от ПК; не добавлять отдельную сетевую нагрузку без учёта USB-бюджета."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "USB-C host / power",
+      "4 × DMX XLR 5-pin",
+      "LTC XLR 3-pin IN"
+    ],
+    "usbPowered": true,
+    "ethernet": false,
+    "outputs": 4,
+    "manufacturerSource": "https://www.t3.avolites.com/"
+  },
+  {
+    "id": "snl-536",
+    "name": "Additional console Avolites T3 Wing",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=536",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "input",
+    "kind": "console",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "USB host budget; <=900mA",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "USB-C host / power"
+    ],
+    "usbPowered": true,
+    "ethernet": false,
+    "outputs": 0,
+    "manufacturerSource": "https://www.t3.avolites.com/"
+  },
+  {
+    "id": "snl-174",
+    "name": "Power Distribjutor 32A - 16A",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=174",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "power",
+    "kind": "distro",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "catalogHidden": true
+  },
+  {
+    "id": "snl-261",
+    "name": "Dimmer ADJ UNI PACK 2 2.3kW",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=261",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "power",
+    "kind": "dimmer",
+    "modes": [
+      1
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Позиция может быть комплектом: число приборов и потребление на единицу проверить; не считать название комплекта паспортом одного устройства.",
+      "DMX диммер с силовыми выходами: требует отдельного адреса и настройки нагрузки; не обычный распределитель."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ],
+    "planningOnly": true,
+    "manufacturerSource": "https://www.adj.com/products/uni-pak-ii",
+    "modesBasis": "manufacturer",
+    "catalogHidden": true
+  },
+  {
+    "id": "snl-152",
+    "name": "Eurolite DPX-610 DMX",
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=152",
+    "sourceCategory": "Light controllers, dimmers",
+    "category": "power",
+    "kind": "dimmer",
+    "modes": [
+      6
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [
+      "https://www.steinigke.de/download/70064122-Manual-83725-4.000-eurolite-dpx-610-s-dmx-dimmer-pack-de_en.pdf"
+    ],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "DMX диммер с силовыми выходами: требует отдельного адреса и настройки нагрузки; не обычный распределитель."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "planningOnly": true,
+    "modesBasis": "manufacturer",
+    "manufacturerSource": "https://www.steinigke.de/mpn70064120-eurolite-dpx-610-dmx-dimmerpack.html",
+    "catalogHidden": true
+  },
+  {
+    "id": "snl-541",
+    "name": "LED screen Xiuhu P3.91",
+    "source": "https://snl.ee/en/video/led_screens/?cat_id=541",
+    "sourceCategory": "LED Screens",
+    "category": "video",
+    "kind": "ledwall",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-345",
+    "name": "4 Port HDMI 18G Splitter",
+    "source": "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=345",
+    "sourceCategory": "Splitters, switches, video capture, converters, repeaters, audio extractors, bluetooth",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-353",
+    "name": "HDMI Switcher 2.0 4*1 Pro-Signal",
+    "source": "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=353",
+    "sourceCategory": "Splitters, switches, video capture, converters, repeaters, audio extractors, bluetooth",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-354",
+    "name": "4K HDMI Repeater V1.4 Well",
+    "source": "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=354",
+    "sourceCategory": "Splitters, switches, video capture, converters, repeaters, audio extractors, bluetooth",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-356",
+    "name": "HDMI Splitter Nedis 1 in/2 out",
+    "source": "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=356",
+    "sourceCategory": "Splitters, switches, video capture, converters, repeaters, audio extractors, bluetooth",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-358",
+    "name": "Video Card Capture HDMI With Loop",
+    "source": "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=358",
+    "sourceCategory": "Splitters, switches, video capture, converters, repeaters, audio extractors, bluetooth",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-364",
+    "name": "Mini HDMI2AV to AV Video Converter",
+    "source": "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=364",
+    "sourceCategory": "Splitters, switches, video capture, converters, repeaters, audio extractors, bluetooth",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-383",
+    "name": "HDMI Extender Nedis 50m Cat5e/6",
+    "source": "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=383",
+    "sourceCategory": "Splitters, switches, video capture, converters, repeaters, audio extractors, bluetooth",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": 10.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power consumption: 10 W",
+    "connectors": [
+      "HDMI",
+      "RJ45 / Ethernet: verify protocol"
+    ]
+  },
+  {
+    "id": "snl-390",
+    "name": "Black Magic HDMI/ SDI/HDMI Micro Converters Set",
+    "source": "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=390",
+    "sourceCategory": "Splitters, switches, video capture, converters, repeaters, audio extractors, bluetooth",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": 2.0,
+    "wattsBasis": "rental-spec",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [
+      "watts"
+    ],
+    "powerEvidence": "Power Consumption: 2 W",
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-391",
+    "name": "HDMI Audio Extractor Splitter 4K@60Hz",
+    "source": "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=391",
+    "sourceCategory": "Splitters, switches, video capture, converters, repeaters, audio extractors, bluetooth",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-489",
+    "name": "Mini 2x1 4K HDMI Switch & Audio Extractor",
+    "source": "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=489",
+    "sourceCategory": "Splitters, switches, video capture, converters, repeaters, audio extractors, bluetooth",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-420",
+    "name": "Hdmi-Vga converter",
+    "source": "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=420",
+    "sourceCategory": "Splitters, switches, video capture, converters, repeaters, audio extractors, bluetooth",
+    "category": "video",
+    "kind": "processor",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-389",
+    "name": "WD TV Live HD Media Player",
+    "source": "https://snl.ee/en/video/dvd_usb_video_players/?cat_id=389",
+    "sourceCategory": "DVD, USB video players",
+    "category": "input",
+    "kind": "computer",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI",
+      "RJ45 / Ethernet: verify protocol"
+    ]
+  },
+  {
+    "id": "snl-472",
+    "name": "Android Media Player G96Q MAX",
+    "source": "https://snl.ee/en/video/dvd_usb_video_players/?cat_id=472",
+    "sourceCategory": "DVD, USB video players",
+    "category": "input",
+    "kind": "computer",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI",
+      "RJ45 / Ethernet: verify protocol"
+    ]
+  },
+  {
+    "id": "snl-376",
+    "name": "KUPO CICLORAMA 1000W FDL-1000 Soft floodlight + Dimmer ADJ Uni Pack 2",
+    "source": "https://snl.ee/en/video/lighting_equipment_for_filming/?cat_id=376",
+    "sourceCategory": "Lighting equipment for filming",
+    "category": "light",
+    "kind": "par",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": true,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству.",
+      "Позиция может быть комплектом: число приборов и потребление на единицу проверить; не считать название комплекта паспортом одного устройства."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "DMX XLR 3-pin"
+    ]
+  },
+  {
+    "id": "snl-339",
+    "name": "Tablet Samsung Galaxy Tab A",
+    "source": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=339",
+    "sourceCategory": "Computers, tablets, mobile phones, clickers",
+    "category": "input",
+    "kind": "computer",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-340",
+    "name": "Tablet Lenovo – X505F",
+    "source": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=340",
+    "sourceCategory": "Computers, tablets, mobile phones, clickers",
+    "category": "input",
+    "kind": "computer",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-346",
+    "name": "Laptop MacBook Pro (Retina, Mid 2012)",
+    "source": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=346",
+    "sourceCategory": "Computers, tablets, mobile phones, clickers",
+    "category": "input",
+    "kind": "laptop",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-347",
+    "name": "Laptop Asus TUF Gaming FX505DU-AL079T",
+    "source": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=347",
+    "sourceCategory": "Computers, tablets, mobile phones, clickers",
+    "category": "input",
+    "kind": "laptop",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [
+      "HDMI"
+    ]
+  },
+  {
+    "id": "snl-370",
+    "name": "Mobile phone Samsung S9+",
+    "source": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=370",
+    "sourceCategory": "Computers, tablets, mobile phones, clickers",
+    "category": "input",
+    "kind": "computer",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-380",
+    "name": "Smartphone Samsung Galaxy A5 (2016)",
+    "source": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=380",
+    "sourceCategory": "Computers, tablets, mobile phones, clickers",
+    "category": "input",
+    "kind": "computer",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": true,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": []
+  },
+  {
+    "id": "snl-441",
+    "name": "JoyTutus Power Bank 60000mAH (216WH)",
+    "source": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=441",
+    "sourceCategory": "Power stations, power banks",
+    "category": "power",
+    "kind": "powerbank",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "planningOnly": true,
+    "powerPorts": [],
+    "catalogGroup": "Power Bank",
+    "catalogTitle": "JoyTutus",
+    "catalogSubtitle": "60 000 mAh · 216 Wh"
+  },
+  {
+    "id": "snl-349",
+    "name": "Power bank MAXOAK K3 36000mAh",
+    "source": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=349",
+    "sourceCategory": "Power stations, power banks",
+    "category": "power",
+    "kind": "powerbank",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "planningOnly": true,
+    "powerPorts": [],
+    "catalogGroup": "Power Bank",
+    "catalogTitle": "MAXOAK K3",
+    "catalogSubtitle": "36 000 mAh"
+  },
+  {
+    "id": "snl-434",
+    "name": "Powerbank Baseus 15W 20000mA",
+    "source": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=434",
+    "sourceCategory": "Power stations, power banks",
+    "category": "power",
+    "kind": "powerbank",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "planningOnly": true,
+    "powerPorts": [],
+    "catalogGroup": "Power Bank",
+    "catalogTitle": "Baseus",
+    "catalogSubtitle": "20 000 mAh · 15 W"
+  },
+  {
+    "id": "snl-352",
+    "name": "Power bank Samsung 10000mAh",
+    "source": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=352",
+    "sourceCategory": "Power stations, power banks",
+    "category": "power",
+    "kind": "powerbank",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "planningOnly": true,
+    "powerPorts": [],
+    "catalogGroup": "Power Bank",
+    "catalogTitle": "Samsung",
+    "catalogSubtitle": "10 000 mAh"
+  },
+  {
+    "id": "snl-382",
+    "name": "Jump starter Denver Power Bank 10000mAh",
+    "source": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=382",
+    "sourceCategory": "Power stations, power banks",
+    "category": "power",
+    "kind": "powerbank",
+    "modes": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "consumes": false,
+    "powerLink": false,
+    "dmx": false,
+    "manuals": [],
+    "notes": [
+      "Каталог S&L; параметры, не подтверждённые отдельно, требуют проверки по шильдику/руководству."
+    ],
+    "verifiedFields": [],
+    "connectors": [],
+    "planningOnly": true,
+    "powerPorts": [],
+    "catalogGroup": "Power Bank",
+    "catalogTitle": "Denver",
+    "catalogSubtitle": "Jump Starter · 10 000 mAh"
+  },
+  {
+    "id": "swisson-xnd8",
+    "name": "Swisson XND-8",
+    "category": "node",
+    "kind": "node",
+    "source": "https://www.swisson.com/en/products/data-distribution/ethernet-dmx-node/",
+    "manufacturerSource": "https://www.swisson.com/en/products/data-distribution/ethernet-dmx-node/",
+    "manuals": [
+      "https://www.swisson.com/site/assets/files/1238/um_xnd-8-d0-len-v01-05-1.pdf"
+    ],
+    "modes": [],
+    "watts": 11,
+    "wattsBasis": "typical",
+    "consumes": true,
+    "powerLink": true,
+    "dmx": true,
+    "outputs": 8,
+    "connectors": [
+      "Ethernet RJ45",
+      "DMX XLR: variant-dependent",
+      "powerCON IN/OUT"
+    ],
+    "notes": [
+      "Добавлена по модели ноды пользователя; наличие в каталоге S&L не подтверждено.",
+      "11W — типичное, не максимальное потребление."
+    ],
+    "verifiedFields": [
+      "outputs",
+      "watts"
+    ]
+  }
+]

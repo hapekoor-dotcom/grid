@@ -1,0 +1,3450 @@
+{
+  "version": 4,
+  "nodes": [
+    {
+      "id": "mw457ka1-eo4qek0",
+      "model": "xnd8",
+      "spec": {
+        "id": "xnd8",
+        "name": "Swisson XND-8",
+        "category": "node",
+        "kind": "node",
+        "label": "XND-8",
+        "outputs": 8,
+        "watts": 11,
+        "wattsBasis": "typical",
+        "consumes": true,
+        "powerLink": true,
+        "ethernet": true,
+        "dmxConnector": "DMX: hardware variant",
+        "source": "https://www.swisson.com/en/products/data-distribution/ethernet-dmx-node/",
+        "notes": "Восемь DMX-портов переключаются IN/OUT; по умолчанию схема использует OUT. Конкретный суффикс XND-8 (3/5-pin/RJ45) не указан: не подставлять XLR 5 автоматически. USB-B служебный, не USB-DMX. 11 W — typical, не max. Power-link суммарно до 19,8 A по руководству.",
+        "rentalSource": "https://www.swisson.com/en/products/data-distribution/ethernet-dmx-node/",
+        "catalogTitle": "Swisson XND-8",
+        "catalogSubtitle": "8 портов · Art-Net / sACN",
+        "modes": [],
+        "verification": {
+          "status": "partial",
+          "sources": [
+            "https://www.swisson.com/site/assets/files/1238/um_xnd-8-d0-len-v01-05-1.pdf"
+          ],
+          "checkedFields": [
+            "outputs",
+            "watts",
+            "ethernet",
+            "rdm",
+            "powerLink",
+            "protocols",
+            "signalPorts",
+            "powerPortDefinitions"
+          ],
+          "missingFields": [
+            "dmxConnectorVariant"
+          ],
+          "note": "Восемь DMX-портов переключаются IN/OUT; по умолчанию схема использует OUT. Конкретный суффикс XND-8 (3/5-pin/RJ45) не указан: не подставлять XLR 5 автоматически. USB-B служебный, не USB-DMX. 11 W — typical, не max. Power-link суммарно до 19,8 A по руководству.",
+          "checkedAt": "2026-11-05",
+          "catalogSource": "https://www.swisson.com/en/products/data-distribution/ethernet-dmx-node/",
+          "auditScope": "physical signal/power topology, source-vs-load role, model-specific documentation"
+        },
+        "dmx": true,
+        "rdm": true,
+        "protocols": [
+          "Art-Net 1–4",
+          "sACN",
+          "RDM"
+        ],
+        "connectors": [
+          "Ethernet RJ45 etherCON",
+          "8 × DMX: вариант 3-pin / 5-pin / RJ45",
+          "powerCON IN/OUT",
+          "USB-B: firmware only"
+        ],
+        "manufacturerSource": "https://www.swisson.com/site/assets/files/1238/um_xnd-8-d0-len-v01-05-1.pdf",
+        "verifiedFields": [
+          "outputs",
+          "watts",
+          "ethernet",
+          "rdm",
+          "powerLink",
+          "protocols",
+          "signalPorts",
+          "powerPortDefinitions"
+        ],
+        "manuals": [
+          "https://www.swisson.com/site/assets/files/1238/um_xnd-8-d0-len-v01-05-1.pdf"
+        ],
+        "signalPorts": [
+          {
+            "id": "ethernetIn",
+            "type": "ethernet",
+            "out": false,
+            "connector": "RJ45 etherCON",
+            "label": "LAN",
+            "configurableDirection": true
+          },
+          {
+            "id": "out1",
+            "type": "dmx",
+            "out": true,
+            "connector": "DMX: hardware variant",
+            "label": "U1",
+            "universeIndex": 0,
+            "configurableDirection": true
+          },
+          {
+            "id": "out2",
+            "type": "dmx",
+            "out": true,
+            "connector": "DMX: hardware variant",
+            "label": "U2",
+            "universeIndex": 1,
+            "configurableDirection": true
+          },
+          {
+            "id": "out3",
+            "type": "dmx",
+            "out": true,
+            "connector": "DMX: hardware variant",
+            "label": "U3",
+            "universeIndex": 2,
+            "configurableDirection": true
+          },
+          {
+            "id": "out4",
+            "type": "dmx",
+            "out": true,
+            "connector": "DMX: hardware variant",
+            "label": "U4",
+            "universeIndex": 3,
+            "configurableDirection": true
+          },
+          {
+            "id": "out5",
+            "type": "dmx",
+            "out": true,
+            "connector": "DMX: hardware variant",
+            "label": "U5",
+            "universeIndex": 4,
+            "configurableDirection": true
+          },
+          {
+            "id": "out6",
+            "type": "dmx",
+            "out": true,
+            "connector": "DMX: hardware variant",
+            "label": "U6",
+            "universeIndex": 5,
+            "configurableDirection": true
+          },
+          {
+            "id": "out7",
+            "type": "dmx",
+            "out": true,
+            "connector": "DMX: hardware variant",
+            "label": "U7",
+            "universeIndex": 6,
+            "configurableDirection": true
+          },
+          {
+            "id": "out8",
+            "type": "dmx",
+            "out": true,
+            "connector": "DMX: hardware variant",
+            "label": "U8",
+            "universeIndex": 7,
+            "configurableDirection": true
+          }
+        ],
+        "powerPortDefinitions": [
+          {
+            "id": "powerIn",
+            "type": "power",
+            "out": false,
+            "connector": "powerCON IN",
+            "label": "IN",
+            "powerDomain": "ac"
+          },
+          {
+            "id": "powerOut",
+            "type": "power",
+            "out": true,
+            "connector": "powerCON OUT",
+            "label": "OUT",
+            "powerDomain": "ac"
+          }
+        ],
+        "hardwareVariants": [
+          {
+            "id": "3",
+            "dmxConnector": "3-pin XLR",
+            "name": "XND-8R3 · XLR 3-pin",
+            "signalPorts": [
+              {
+                "id": "ethernetIn",
+                "type": "ethernet",
+                "out": false,
+                "connector": "RJ45 etherCON",
+                "label": "LAN",
+                "configurableDirection": true
+              },
+              {
+                "id": "out1",
+                "type": "dmx",
+                "out": true,
+                "connector": "3-pin XLR",
+                "label": "U1",
+                "universeIndex": 0,
+                "configurableDirection": true
+              },
+              {
+                "id": "out2",
+                "type": "dmx",
+                "out": true,
+                "connector": "3-pin XLR",
+                "label": "U2",
+                "universeIndex": 1,
+                "configurableDirection": true
+              },
+              {
+                "id": "out3",
+                "type": "dmx",
+                "out": true,
+                "connector": "3-pin XLR",
+                "label": "U3",
+                "universeIndex": 2,
+                "configurableDirection": true
+              },
+              {
+                "id": "out4",
+                "type": "dmx",
+                "out": true,
+                "connector": "3-pin XLR",
+                "label": "U4",
+                "universeIndex": 3,
+                "configurableDirection": true
+              },
+              {
+                "id": "out5",
+                "type": "dmx",
+                "out": true,
+                "connector": "3-pin XLR",
+                "label": "U5",
+                "universeIndex": 4,
+                "configurableDirection": true
+              },
+              {
+                "id": "out6",
+                "type": "dmx",
+                "out": true,
+                "connector": "3-pin XLR",
+                "label": "U6",
+                "universeIndex": 5,
+                "configurableDirection": true
+              },
+              {
+                "id": "out7",
+                "type": "dmx",
+                "out": true,
+                "connector": "3-pin XLR",
+                "label": "U7",
+                "universeIndex": 6,
+                "configurableDirection": true
+              },
+              {
+                "id": "out8",
+                "type": "dmx",
+                "out": true,
+                "connector": "3-pin XLR",
+                "label": "U8",
+                "universeIndex": 7,
+                "configurableDirection": true
+              }
+            ]
+          },
+          {
+            "id": "5",
+            "dmxConnector": "5-pin XLR",
+            "name": "XND-8R5 · XLR 5-pin",
+            "signalPorts": [
+              {
+                "id": "ethernetIn",
+                "type": "ethernet",
+                "out": false,
+                "connector": "RJ45 etherCON",
+                "label": "LAN",
+                "configurableDirection": true
+              },
+              {
+                "id": "out1",
+                "type": "dmx",
+                "out": true,
+                "connector": "5-pin XLR",
+                "label": "U1",
+                "universeIndex": 0,
+                "configurableDirection": true
+              },
+              {
+                "id": "out2",
+                "type": "dmx",
+                "out": true,
+                "connector": "5-pin XLR",
+                "label": "U2",
+                "universeIndex": 1,
+                "configurableDirection": true
+              },
+              {
+                "id": "out3",
+                "type": "dmx",
+                "out": true,
+                "connector": "5-pin XLR",
+                "label": "U3",
+                "universeIndex": 2,
+                "configurableDirection": true
+              },
+              {
+                "id": "out4",
+                "type": "dmx",
+                "out": true,
+                "connector": "5-pin XLR",
+                "label": "U4",
+                "universeIndex": 3,
+                "configurableDirection": true
+              },
+              {
+                "id": "out5",
+                "type": "dmx",
+                "out": true,
+                "connector": "5-pin XLR",
+                "label": "U5",
+                "universeIndex": 4,
+                "configurableDirection": true
+              },
+              {
+                "id": "out6",
+                "type": "dmx",
+                "out": true,
+                "connector": "5-pin XLR",
+                "label": "U6",
+                "universeIndex": 5,
+                "configurableDirection": true
+              },
+              {
+                "id": "out7",
+                "type": "dmx",
+                "out": true,
+                "connector": "5-pin XLR",
+                "label": "U7",
+                "universeIndex": 6,
+                "configurableDirection": true
+              },
+              {
+                "id": "out8",
+                "type": "dmx",
+                "out": true,
+                "connector": "5-pin XLR",
+                "label": "U8",
+                "universeIndex": 7,
+                "configurableDirection": true
+              }
+            ]
+          },
+          {
+            "id": "rj45",
+            "dmxConnector": "RJ45 DMX",
+            "name": "XND-8R8 · RJ45 DMX",
+            "signalPorts": [
+              {
+                "id": "ethernetIn",
+                "type": "ethernet",
+                "out": false,
+                "connector": "RJ45 etherCON",
+                "label": "LAN",
+                "configurableDirection": true
+              },
+              {
+                "id": "out1",
+                "type": "dmx",
+                "out": true,
+                "connector": "RJ45 DMX",
+                "label": "U1",
+                "universeIndex": 0,
+                "configurableDirection": true
+              },
+              {
+                "id": "out2",
+                "type": "dmx",
+                "out": true,
+                "connector": "RJ45 DMX",
+                "label": "U2",
+                "universeIndex": 1,
+                "configurableDirection": true
+              },
+              {
+                "id": "out3",
+                "type": "dmx",
+                "out": true,
+                "connector": "RJ45 DMX",
+                "label": "U3",
+                "universeIndex": 2,
+                "configurableDirection": true
+              },
+              {
+                "id": "out4",
+                "type": "dmx",
+                "out": true,
+                "connector": "RJ45 DMX",
+                "label": "U4",
+                "universeIndex": 3,
+                "configurableDirection": true
+              },
+              {
+                "id": "out5",
+                "type": "dmx",
+                "out": true,
+                "connector": "RJ45 DMX",
+                "label": "U5",
+                "universeIndex": 4,
+                "configurableDirection": true
+              },
+              {
+                "id": "out6",
+                "type": "dmx",
+                "out": true,
+                "connector": "RJ45 DMX",
+                "label": "U6",
+                "universeIndex": 5,
+                "configurableDirection": true
+              },
+              {
+                "id": "out7",
+                "type": "dmx",
+                "out": true,
+                "connector": "RJ45 DMX",
+                "label": "U7",
+                "universeIndex": 6,
+                "configurableDirection": true
+              },
+              {
+                "id": "out8",
+                "type": "dmx",
+                "out": true,
+                "connector": "RJ45 DMX",
+                "label": "U8",
+                "universeIndex": 7,
+                "configurableDirection": true
+              }
+            ]
+          }
+        ],
+        "variantDefaultId": null,
+        "powerLinkCurrentA": 19.8,
+        "shortName": "Swisson XND-8",
+        "manual": "https://www.swisson.com/site/assets/files/1238/um_xnd-8-d0-len-v01-05-1.pdf",
+        "generic": false,
+        "brand": "Swisson"
+      },
+      "name": "Swisson XND-8",
+      "nameChoice": "model",
+      "category": "node",
+      "kind": "node",
+      "label": "Swisson XND-8",
+      "x": 1344,
+      "y": 3264,
+      "number": 1,
+      "rotation": 0,
+      "dmx": false,
+      "channels": null,
+      "modeId": null,
+      "modeLabel": "",
+      "modeChoice": "default",
+      "watts": 11,
+      "wattsBasis": "typical",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 8,
+      "universes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "DMX: hardware variant",
+      "internalBattery": false,
+      "ethernet": true,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {
+        "out1": 0,
+        "out2": 1,
+        "out3": 2,
+        "out4": 3,
+        "out5": 4,
+        "out6": 5,
+        "out7": 6,
+        "out8": 7
+      },
+      "width": 240,
+      "height": 144
+    },
+    {
+      "id": "mw45mo6m-ulm4q45",
+      "model": "outlet",
+      "spec": {
+        "id": "outlet",
+        "name": "Питание",
+        "category": "power",
+        "kind": "outlet",
+        "label": "SOCKET",
+        "outputs": 4,
+        "watts": 0,
+        "notes": "Один выход. Укажи линию, фазу и допустимый бюджет мощности.",
+        "generic": true,
+        "catalogSubtitle": "Типовой блок",
+        "catalogTitle": "Питание",
+        "shortName": "Питание"
+      },
+      "name": "Питание",
+      "nameChoice": "model",
+      "category": "power",
+      "kind": "outlet",
+      "label": "Питание",
+      "x": 1032,
+      "y": 3264,
+      "number": 1,
+      "rotation": 0,
+      "dmx": false,
+      "channels": null,
+      "modeId": null,
+      "modeLabel": "",
+      "modeChoice": "default",
+      "watts": 0,
+      "wattsBasis": "unknown",
+      "consumes": false,
+      "powerLink": false,
+      "outputs": 4,
+      "universes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "limits": {
+        "L1": 2500
+      },
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "A",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {},
+      "width": 120,
+      "height": 120,
+      "powerOff": false
+    },
+    {
+      "id": "mw45nkw3-z7pm22v",
+      "model": "snl-445",
+      "spec": {
+        "id": "snl-445",
+        "name": "BEAM Moving Head ADJ Vizi Beam Rxone",
+        "source": "https://snl.ee/en/light/moving_heads/?cat_id=445",
+        "sourceCategory": "Moving Heads",
+        "category": "light",
+        "kind": "beam",
+        "modes": [
+          {
+            "channels": 15,
+            "label": "15 CH",
+            "id": "15ch"
+          },
+          {
+            "channels": 17,
+            "label": "17 CH",
+            "id": "17ch"
+          }
+        ],
+        "watts": 199,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [],
+        "notes": "Цветовое колесо 14 цветов+белый; паспортное потребление 199 W. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power Consumption: 199W",
+        "connectors": [
+          "DMX XLR 3-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/vizi-beam-rxone",
+        "manual": "https://www.adj.com/products/vizi-beam-rxone",
+        "dmxConnector": "3-pin XLR",
+        "label": "BEAM",
+        "defaultModeId": "17ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/vizi-beam-rxone",
+            "https://www.adj.eu/mwdownloads/download/link/id/868"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "Цветовое колесо 14 цветов+белый; паспортное потребление 199 W. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "14 цветов + белый",
+        "defaultModeBasis": "planner-choice",
+        "default": 17,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "3-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "3-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "fixtureType": "moving-beam",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "Vizi RXONE",
+        "catalogSubtitle": "14 цветов + белый · 15–17 CH · 3-pin",
+        "shortName": "Vizi RXONE"
+      },
+      "name": "Vizi RXONE",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "beam",
+      "label": "Vizi RXONE",
+      "x": -456,
+      "y": 888,
+      "number": 1,
+      "rotation": 0,
+      "dmx": true,
+      "channels": 17,
+      "modeId": "17ch",
+      "modeLabel": "17 CH",
+      "modeChoice": "user",
+      "watts": 199,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "3-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {},
+      "width": 216,
+      "height": 168
+    },
+    {
+      "id": "mw45oqev-jtk5yel",
+      "model": "snl-445",
+      "spec": {
+        "id": "snl-445",
+        "name": "BEAM Moving Head ADJ Vizi Beam Rxone",
+        "source": "https://snl.ee/en/light/moving_heads/?cat_id=445",
+        "sourceCategory": "Moving Heads",
+        "category": "light",
+        "kind": "beam",
+        "modes": [
+          {
+            "channels": 15,
+            "label": "15 CH",
+            "id": "15ch"
+          },
+          {
+            "channels": 17,
+            "label": "17 CH",
+            "id": "17ch"
+          }
+        ],
+        "watts": 199,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [],
+        "notes": "Цветовое колесо 14 цветов+белый; паспортное потребление 199 W. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power Consumption: 199W",
+        "connectors": [
+          "DMX XLR 3-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/vizi-beam-rxone",
+        "manual": "https://www.adj.com/products/vizi-beam-rxone",
+        "dmxConnector": "3-pin XLR",
+        "label": "BEAM",
+        "defaultModeId": "17ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/vizi-beam-rxone",
+            "https://www.adj.eu/mwdownloads/download/link/id/868"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "Цветовое колесо 14 цветов+белый; паспортное потребление 199 W. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "14 цветов + белый",
+        "defaultModeBasis": "planner-choice",
+        "default": 17,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "3-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "3-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "fixtureType": "moving-beam",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "Vizi RXONE",
+        "catalogSubtitle": "14 цветов + белый · 15–17 CH · 3-pin",
+        "shortName": "Vizi RXONE"
+      },
+      "name": "Vizi RXONE",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "beam",
+      "label": "Vizi RXONE",
+      "x": -216,
+      "y": 888,
+      "number": 2,
+      "rotation": 0,
+      "dmx": true,
+      "channels": 17,
+      "modeId": "17ch",
+      "modeLabel": "17 CH",
+      "modeChoice": "default",
+      "watts": 199,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "3-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {},
+      "width": 192,
+      "height": 168
+    },
+    {
+      "id": "mw45ov9w-cznka7a",
+      "model": "snl-445",
+      "spec": {
+        "id": "snl-445",
+        "name": "BEAM Moving Head ADJ Vizi Beam Rxone",
+        "source": "https://snl.ee/en/light/moving_heads/?cat_id=445",
+        "sourceCategory": "Moving Heads",
+        "category": "light",
+        "kind": "beam",
+        "modes": [
+          {
+            "channels": 15,
+            "label": "15 CH",
+            "id": "15ch"
+          },
+          {
+            "channels": 17,
+            "label": "17 CH",
+            "id": "17ch"
+          }
+        ],
+        "watts": 199,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [],
+        "notes": "Цветовое колесо 14 цветов+белый; паспортное потребление 199 W. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power Consumption: 199W",
+        "connectors": [
+          "DMX XLR 3-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/vizi-beam-rxone",
+        "manual": "https://www.adj.com/products/vizi-beam-rxone",
+        "dmxConnector": "3-pin XLR",
+        "label": "BEAM",
+        "defaultModeId": "17ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/vizi-beam-rxone",
+            "https://www.adj.eu/mwdownloads/download/link/id/868"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "Цветовое колесо 14 цветов+белый; паспортное потребление 199 W. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "14 цветов + белый",
+        "defaultModeBasis": "planner-choice",
+        "default": 17,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "3-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "3-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "fixtureType": "moving-beam",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "Vizi RXONE",
+        "catalogSubtitle": "14 цветов + белый · 15–17 CH · 3-pin",
+        "shortName": "Vizi RXONE"
+      },
+      "name": "Vizi RXONE",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "beam",
+      "label": "Vizi RXONE",
+      "x": 24,
+      "y": 888,
+      "number": 3,
+      "rotation": 0,
+      "dmx": true,
+      "channels": 17,
+      "modeId": "17ch",
+      "modeLabel": "17 CH",
+      "modeChoice": "default",
+      "watts": 199,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "3-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {},
+      "width": 192,
+      "height": 168
+    },
+    {
+      "id": "mw45p0r1-fn0866e",
+      "model": "snl-445",
+      "spec": {
+        "id": "snl-445",
+        "name": "BEAM Moving Head ADJ Vizi Beam Rxone",
+        "source": "https://snl.ee/en/light/moving_heads/?cat_id=445",
+        "sourceCategory": "Moving Heads",
+        "category": "light",
+        "kind": "beam",
+        "modes": [
+          {
+            "channels": 15,
+            "label": "15 CH",
+            "id": "15ch"
+          },
+          {
+            "channels": 17,
+            "label": "17 CH",
+            "id": "17ch"
+          }
+        ],
+        "watts": 199,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [],
+        "notes": "Цветовое колесо 14 цветов+белый; паспортное потребление 199 W. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power Consumption: 199W",
+        "connectors": [
+          "DMX XLR 3-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/vizi-beam-rxone",
+        "manual": "https://www.adj.com/products/vizi-beam-rxone",
+        "dmxConnector": "3-pin XLR",
+        "label": "BEAM",
+        "defaultModeId": "17ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/vizi-beam-rxone",
+            "https://www.adj.eu/mwdownloads/download/link/id/868"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "Цветовое колесо 14 цветов+белый; паспортное потребление 199 W. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "14 цветов + белый",
+        "defaultModeBasis": "planner-choice",
+        "default": 17,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "3-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "3-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "fixtureType": "moving-beam",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "Vizi RXONE",
+        "catalogSubtitle": "14 цветов + белый · 15–17 CH · 3-pin",
+        "shortName": "Vizi RXONE"
+      },
+      "name": "Vizi RXONE",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "beam",
+      "label": "Vizi RXONE",
+      "x": 264,
+      "y": 888,
+      "number": 4,
+      "rotation": 0,
+      "dmx": true,
+      "channels": 17,
+      "modeId": "17ch",
+      "modeLabel": "17 CH",
+      "modeChoice": "default",
+      "watts": 199,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "3-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {},
+      "width": 192,
+      "height": 168
+    },
+    {
+      "id": "mw45qydq-il55fqf",
+      "model": "snl-499",
+      "spec": {
+        "id": "snl-499",
+        "name": "Led Bar ADJ UBL 12H",
+        "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=499",
+        "sourceCategory": "LED projectors, lamp projectors, follow spots",
+        "category": "light",
+        "kind": "bar",
+        "modes": [
+          {
+            "channels": 6,
+            "label": "6 CH",
+            "id": "6ch"
+          },
+          {
+            "channels": 11,
+            "label": "11 CH",
+            "id": "11ch"
+          },
+          {
+            "channels": 13,
+            "label": "13 CH",
+            "id": "13ch"
+          },
+          {
+            "channels": 16,
+            "label": "16 CH",
+            "id": "16ch"
+          },
+          {
+            "channels": 36,
+            "label": "36 CH",
+            "id": "36ch"
+          },
+          {
+            "channels": 43,
+            "label": "43 CH",
+            "id": "43ch"
+          },
+          {
+            "channels": 46,
+            "label": "46 CH",
+            "id": "46ch"
+          }
+        ],
+        "watts": 61,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [
+          "https://www.adj.eu/mwdownloads/download/link/id/1709"
+        ],
+        "notes": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power consumption: 61W",
+        "connectors": [
+          "DMX XLR 5-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/ubl12h",
+        "manual": "https://www.adj.com/products/ubl12h",
+        "dmxConnector": "5-pin XLR",
+        "label": "BAR",
+        "defaultModeId": "11ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/ubl12h",
+            "https://www.adj.eu/mwdownloads/download/link/id/1709"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "RGBAL+UV",
+        "defaultModeBasis": "planner-choice",
+        "default": 11,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "5-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "5-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "ADJ UBL12H",
+        "catalogSubtitle": "RGBAL+UV · 6–46 CH · 5-pin",
+        "shortName": "ADJ UBL12H"
+      },
+      "name": "ADJ UBL12H",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "bar",
+      "label": "ADJ UBL12H",
+      "x": -888,
+      "y": 1104,
+      "number": 1,
+      "rotation": 90,
+      "dmx": true,
+      "channels": 11,
+      "modeId": "11ch",
+      "modeLabel": "11 CH",
+      "modeChoice": "default",
+      "watts": 61,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "5-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {}
+    },
+    {
+      "id": "mw45r585-h6ov5i6",
+      "model": "snl-499",
+      "spec": {
+        "id": "snl-499",
+        "name": "Led Bar ADJ UBL 12H",
+        "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=499",
+        "sourceCategory": "LED projectors, lamp projectors, follow spots",
+        "category": "light",
+        "kind": "bar",
+        "modes": [
+          {
+            "channels": 6,
+            "label": "6 CH",
+            "id": "6ch"
+          },
+          {
+            "channels": 11,
+            "label": "11 CH",
+            "id": "11ch"
+          },
+          {
+            "channels": 13,
+            "label": "13 CH",
+            "id": "13ch"
+          },
+          {
+            "channels": 16,
+            "label": "16 CH",
+            "id": "16ch"
+          },
+          {
+            "channels": 36,
+            "label": "36 CH",
+            "id": "36ch"
+          },
+          {
+            "channels": 43,
+            "label": "43 CH",
+            "id": "43ch"
+          },
+          {
+            "channels": 46,
+            "label": "46 CH",
+            "id": "46ch"
+          }
+        ],
+        "watts": 61,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [
+          "https://www.adj.eu/mwdownloads/download/link/id/1709"
+        ],
+        "notes": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power consumption: 61W",
+        "connectors": [
+          "DMX XLR 5-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/ubl12h",
+        "manual": "https://www.adj.com/products/ubl12h",
+        "dmxConnector": "5-pin XLR",
+        "label": "BAR",
+        "defaultModeId": "11ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/ubl12h",
+            "https://www.adj.eu/mwdownloads/download/link/id/1709"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "RGBAL+UV",
+        "defaultModeBasis": "planner-choice",
+        "default": 11,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "5-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "5-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "ADJ UBL12H",
+        "catalogSubtitle": "RGBAL+UV · 6–46 CH · 5-pin",
+        "shortName": "ADJ UBL12H"
+      },
+      "name": "ADJ UBL12H",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "bar",
+      "label": "ADJ UBL12H",
+      "x": -888,
+      "y": 2256,
+      "number": 2,
+      "rotation": 90,
+      "dmx": true,
+      "channels": 11,
+      "modeId": "11ch",
+      "modeLabel": "11 CH",
+      "modeChoice": "default",
+      "watts": 61,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "5-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {}
+    },
+    {
+      "id": "mw45r5np-azhxe6i",
+      "model": "snl-499",
+      "spec": {
+        "id": "snl-499",
+        "name": "Led Bar ADJ UBL 12H",
+        "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=499",
+        "sourceCategory": "LED projectors, lamp projectors, follow spots",
+        "category": "light",
+        "kind": "bar",
+        "modes": [
+          {
+            "channels": 6,
+            "label": "6 CH",
+            "id": "6ch"
+          },
+          {
+            "channels": 11,
+            "label": "11 CH",
+            "id": "11ch"
+          },
+          {
+            "channels": 13,
+            "label": "13 CH",
+            "id": "13ch"
+          },
+          {
+            "channels": 16,
+            "label": "16 CH",
+            "id": "16ch"
+          },
+          {
+            "channels": 36,
+            "label": "36 CH",
+            "id": "36ch"
+          },
+          {
+            "channels": 43,
+            "label": "43 CH",
+            "id": "43ch"
+          },
+          {
+            "channels": 46,
+            "label": "46 CH",
+            "id": "46ch"
+          }
+        ],
+        "watts": 61,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [
+          "https://www.adj.eu/mwdownloads/download/link/id/1709"
+        ],
+        "notes": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power consumption: 61W",
+        "connectors": [
+          "DMX XLR 5-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/ubl12h",
+        "manual": "https://www.adj.com/products/ubl12h",
+        "dmxConnector": "5-pin XLR",
+        "label": "BAR",
+        "defaultModeId": "11ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/ubl12h",
+            "https://www.adj.eu/mwdownloads/download/link/id/1709"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "RGBAL+UV",
+        "defaultModeBasis": "planner-choice",
+        "default": 11,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "5-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "5-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "ADJ UBL12H",
+        "catalogSubtitle": "RGBAL+UV · 6–46 CH · 5-pin",
+        "shortName": "ADJ UBL12H"
+      },
+      "name": "ADJ UBL12H",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "bar",
+      "label": "ADJ UBL12H",
+      "x": -888,
+      "y": 1968,
+      "number": 3,
+      "rotation": 90,
+      "dmx": true,
+      "channels": 11,
+      "modeId": "11ch",
+      "modeLabel": "11 CH",
+      "modeChoice": "default",
+      "watts": 61,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "5-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {}
+    },
+    {
+      "id": "mw45r65n-u1ie5cl",
+      "model": "snl-499",
+      "spec": {
+        "id": "snl-499",
+        "name": "Led Bar ADJ UBL 12H",
+        "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=499",
+        "sourceCategory": "LED projectors, lamp projectors, follow spots",
+        "category": "light",
+        "kind": "bar",
+        "modes": [
+          {
+            "channels": 6,
+            "label": "6 CH",
+            "id": "6ch"
+          },
+          {
+            "channels": 11,
+            "label": "11 CH",
+            "id": "11ch"
+          },
+          {
+            "channels": 13,
+            "label": "13 CH",
+            "id": "13ch"
+          },
+          {
+            "channels": 16,
+            "label": "16 CH",
+            "id": "16ch"
+          },
+          {
+            "channels": 36,
+            "label": "36 CH",
+            "id": "36ch"
+          },
+          {
+            "channels": 43,
+            "label": "43 CH",
+            "id": "43ch"
+          },
+          {
+            "channels": 46,
+            "label": "46 CH",
+            "id": "46ch"
+          }
+        ],
+        "watts": 61,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [
+          "https://www.adj.eu/mwdownloads/download/link/id/1709"
+        ],
+        "notes": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power consumption: 61W",
+        "connectors": [
+          "DMX XLR 5-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/ubl12h",
+        "manual": "https://www.adj.com/products/ubl12h",
+        "dmxConnector": "5-pin XLR",
+        "label": "BAR",
+        "defaultModeId": "11ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/ubl12h",
+            "https://www.adj.eu/mwdownloads/download/link/id/1709"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "RGBAL+UV",
+        "defaultModeBasis": "planner-choice",
+        "default": 11,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "5-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "5-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "ADJ UBL12H",
+        "catalogSubtitle": "RGBAL+UV · 6–46 CH · 5-pin",
+        "shortName": "ADJ UBL12H"
+      },
+      "name": "ADJ UBL12H",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "bar",
+      "label": "ADJ UBL12H",
+      "x": -888,
+      "y": 1680,
+      "number": 4,
+      "rotation": 90,
+      "dmx": true,
+      "channels": 11,
+      "modeId": "11ch",
+      "modeLabel": "11 CH",
+      "modeChoice": "default",
+      "watts": 61,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "5-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {}
+    },
+    {
+      "id": "mw45r6j2-nnf719g",
+      "model": "snl-499",
+      "spec": {
+        "id": "snl-499",
+        "name": "Led Bar ADJ UBL 12H",
+        "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=499",
+        "sourceCategory": "LED projectors, lamp projectors, follow spots",
+        "category": "light",
+        "kind": "bar",
+        "modes": [
+          {
+            "channels": 6,
+            "label": "6 CH",
+            "id": "6ch"
+          },
+          {
+            "channels": 11,
+            "label": "11 CH",
+            "id": "11ch"
+          },
+          {
+            "channels": 13,
+            "label": "13 CH",
+            "id": "13ch"
+          },
+          {
+            "channels": 16,
+            "label": "16 CH",
+            "id": "16ch"
+          },
+          {
+            "channels": 36,
+            "label": "36 CH",
+            "id": "36ch"
+          },
+          {
+            "channels": 43,
+            "label": "43 CH",
+            "id": "43ch"
+          },
+          {
+            "channels": 46,
+            "label": "46 CH",
+            "id": "46ch"
+          }
+        ],
+        "watts": 61,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [
+          "https://www.adj.eu/mwdownloads/download/link/id/1709"
+        ],
+        "notes": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power consumption: 61W",
+        "connectors": [
+          "DMX XLR 5-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/ubl12h",
+        "manual": "https://www.adj.com/products/ubl12h",
+        "dmxConnector": "5-pin XLR",
+        "label": "BAR",
+        "defaultModeId": "11ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/ubl12h",
+            "https://www.adj.eu/mwdownloads/download/link/id/1709"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "RGBAL+UV",
+        "defaultModeBasis": "planner-choice",
+        "default": 11,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "5-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "5-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "ADJ UBL12H",
+        "catalogSubtitle": "RGBAL+UV · 6–46 CH · 5-pin",
+        "shortName": "ADJ UBL12H"
+      },
+      "name": "ADJ UBL12H",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "bar",
+      "label": "ADJ UBL12H",
+      "x": -888,
+      "y": 1392,
+      "number": 5,
+      "rotation": 90,
+      "dmx": true,
+      "channels": 11,
+      "modeId": "11ch",
+      "modeLabel": "11 CH",
+      "modeChoice": "default",
+      "watts": 61,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "5-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {}
+    },
+    {
+      "id": "mw45rm12-6tiamo8",
+      "model": "snl-499",
+      "spec": {
+        "id": "snl-499",
+        "name": "Led Bar ADJ UBL 12H",
+        "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=499",
+        "sourceCategory": "LED projectors, lamp projectors, follow spots",
+        "category": "light",
+        "kind": "bar",
+        "modes": [
+          {
+            "channels": 6,
+            "label": "6 CH",
+            "id": "6ch"
+          },
+          {
+            "channels": 11,
+            "label": "11 CH",
+            "id": "11ch"
+          },
+          {
+            "channels": 13,
+            "label": "13 CH",
+            "id": "13ch"
+          },
+          {
+            "channels": 16,
+            "label": "16 CH",
+            "id": "16ch"
+          },
+          {
+            "channels": 36,
+            "label": "36 CH",
+            "id": "36ch"
+          },
+          {
+            "channels": 43,
+            "label": "43 CH",
+            "id": "43ch"
+          },
+          {
+            "channels": 46,
+            "label": "46 CH",
+            "id": "46ch"
+          }
+        ],
+        "watts": 61,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [
+          "https://www.adj.eu/mwdownloads/download/link/id/1709"
+        ],
+        "notes": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power consumption: 61W",
+        "connectors": [
+          "DMX XLR 5-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/ubl12h",
+        "manual": "https://www.adj.com/products/ubl12h",
+        "dmxConnector": "5-pin XLR",
+        "label": "BAR",
+        "defaultModeId": "11ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/ubl12h",
+            "https://www.adj.eu/mwdownloads/download/link/id/1709"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "RGBAL+UV",
+        "defaultModeBasis": "planner-choice",
+        "default": 11,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "5-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "5-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "ADJ UBL12H",
+        "catalogSubtitle": "RGBAL+UV · 6–46 CH · 5-pin",
+        "shortName": "ADJ UBL12H"
+      },
+      "name": "ADJ UBL12H",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "bar",
+      "label": "ADJ UBL12H",
+      "x": 2616,
+      "y": 1200,
+      "number": 6,
+      "rotation": 90,
+      "dmx": true,
+      "channels": 11,
+      "modeId": "11ch",
+      "modeLabel": "11 CH",
+      "modeChoice": "default",
+      "watts": 61,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "5-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {}
+    },
+    {
+      "id": "mw45rz3x-3bqdutf",
+      "model": "snl-499",
+      "spec": {
+        "id": "snl-499",
+        "name": "Led Bar ADJ UBL 12H",
+        "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=499",
+        "sourceCategory": "LED projectors, lamp projectors, follow spots",
+        "category": "light",
+        "kind": "bar",
+        "modes": [
+          {
+            "channels": 6,
+            "label": "6 CH",
+            "id": "6ch"
+          },
+          {
+            "channels": 11,
+            "label": "11 CH",
+            "id": "11ch"
+          },
+          {
+            "channels": 13,
+            "label": "13 CH",
+            "id": "13ch"
+          },
+          {
+            "channels": 16,
+            "label": "16 CH",
+            "id": "16ch"
+          },
+          {
+            "channels": 36,
+            "label": "36 CH",
+            "id": "36ch"
+          },
+          {
+            "channels": 43,
+            "label": "43 CH",
+            "id": "43ch"
+          },
+          {
+            "channels": 46,
+            "label": "46 CH",
+            "id": "46ch"
+          }
+        ],
+        "watts": 61,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [
+          "https://www.adj.eu/mwdownloads/download/link/id/1709"
+        ],
+        "notes": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power consumption: 61W",
+        "connectors": [
+          "DMX XLR 5-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/ubl12h",
+        "manual": "https://www.adj.com/products/ubl12h",
+        "dmxConnector": "5-pin XLR",
+        "label": "BAR",
+        "defaultModeId": "11ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/ubl12h",
+            "https://www.adj.eu/mwdownloads/download/link/id/1709"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "RGBAL+UV",
+        "defaultModeBasis": "planner-choice",
+        "default": 11,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "5-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "5-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "ADJ UBL12H",
+        "catalogSubtitle": "RGBAL+UV · 6–46 CH · 5-pin",
+        "shortName": "ADJ UBL12H"
+      },
+      "name": "ADJ UBL12H",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "bar",
+      "label": "ADJ UBL12H",
+      "x": 2616,
+      "y": 2352,
+      "number": 7,
+      "rotation": 90,
+      "dmx": true,
+      "channels": 11,
+      "modeId": "11ch",
+      "modeLabel": "11 CH",
+      "modeChoice": "default",
+      "watts": 61,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "5-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {}
+    },
+    {
+      "id": "mw45rzbz-tvi1d3z",
+      "model": "snl-499",
+      "spec": {
+        "id": "snl-499",
+        "name": "Led Bar ADJ UBL 12H",
+        "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=499",
+        "sourceCategory": "LED projectors, lamp projectors, follow spots",
+        "category": "light",
+        "kind": "bar",
+        "modes": [
+          {
+            "channels": 6,
+            "label": "6 CH",
+            "id": "6ch"
+          },
+          {
+            "channels": 11,
+            "label": "11 CH",
+            "id": "11ch"
+          },
+          {
+            "channels": 13,
+            "label": "13 CH",
+            "id": "13ch"
+          },
+          {
+            "channels": 16,
+            "label": "16 CH",
+            "id": "16ch"
+          },
+          {
+            "channels": 36,
+            "label": "36 CH",
+            "id": "36ch"
+          },
+          {
+            "channels": 43,
+            "label": "43 CH",
+            "id": "43ch"
+          },
+          {
+            "channels": 46,
+            "label": "46 CH",
+            "id": "46ch"
+          }
+        ],
+        "watts": 61,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [
+          "https://www.adj.eu/mwdownloads/download/link/id/1709"
+        ],
+        "notes": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power consumption: 61W",
+        "connectors": [
+          "DMX XLR 5-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/ubl12h",
+        "manual": "https://www.adj.com/products/ubl12h",
+        "dmxConnector": "5-pin XLR",
+        "label": "BAR",
+        "defaultModeId": "11ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/ubl12h",
+            "https://www.adj.eu/mwdownloads/download/link/id/1709"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "RGBAL+UV",
+        "defaultModeBasis": "planner-choice",
+        "default": 11,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "5-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "5-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "ADJ UBL12H",
+        "catalogSubtitle": "RGBAL+UV · 6–46 CH · 5-pin",
+        "shortName": "ADJ UBL12H"
+      },
+      "name": "ADJ UBL12H",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "bar",
+      "label": "ADJ UBL12H",
+      "x": 2616,
+      "y": 2064,
+      "number": 8,
+      "rotation": 90,
+      "dmx": true,
+      "channels": 11,
+      "modeId": "11ch",
+      "modeLabel": "11 CH",
+      "modeChoice": "default",
+      "watts": 61,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "5-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {}
+    },
+    {
+      "id": "mw45rzk1-x05x252",
+      "model": "snl-499",
+      "spec": {
+        "id": "snl-499",
+        "name": "Led Bar ADJ UBL 12H",
+        "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=499",
+        "sourceCategory": "LED projectors, lamp projectors, follow spots",
+        "category": "light",
+        "kind": "bar",
+        "modes": [
+          {
+            "channels": 6,
+            "label": "6 CH",
+            "id": "6ch"
+          },
+          {
+            "channels": 11,
+            "label": "11 CH",
+            "id": "11ch"
+          },
+          {
+            "channels": 13,
+            "label": "13 CH",
+            "id": "13ch"
+          },
+          {
+            "channels": 16,
+            "label": "16 CH",
+            "id": "16ch"
+          },
+          {
+            "channels": 36,
+            "label": "36 CH",
+            "id": "36ch"
+          },
+          {
+            "channels": 43,
+            "label": "43 CH",
+            "id": "43ch"
+          },
+          {
+            "channels": 46,
+            "label": "46 CH",
+            "id": "46ch"
+          }
+        ],
+        "watts": 61,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [
+          "https://www.adj.eu/mwdownloads/download/link/id/1709"
+        ],
+        "notes": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power consumption: 61W",
+        "connectors": [
+          "DMX XLR 5-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/ubl12h",
+        "manual": "https://www.adj.com/products/ubl12h",
+        "dmxConnector": "5-pin XLR",
+        "label": "BAR",
+        "defaultModeId": "11ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/ubl12h",
+            "https://www.adj.eu/mwdownloads/download/link/id/1709"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "RGBAL+UV",
+        "defaultModeBasis": "planner-choice",
+        "default": 11,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "5-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "5-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "ADJ UBL12H",
+        "catalogSubtitle": "RGBAL+UV · 6–46 CH · 5-pin",
+        "shortName": "ADJ UBL12H"
+      },
+      "name": "ADJ UBL12H",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "bar",
+      "label": "ADJ UBL12H",
+      "x": 2616,
+      "y": 1776,
+      "number": 9,
+      "rotation": 90,
+      "dmx": true,
+      "channels": 11,
+      "modeId": "11ch",
+      "modeLabel": "11 CH",
+      "modeChoice": "default",
+      "watts": 61,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "5-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {}
+    },
+    {
+      "id": "mw45rzr3-ycx81bz",
+      "model": "snl-499",
+      "spec": {
+        "id": "snl-499",
+        "name": "Led Bar ADJ UBL 12H",
+        "source": "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=499",
+        "sourceCategory": "LED projectors, lamp projectors, follow spots",
+        "category": "light",
+        "kind": "bar",
+        "modes": [
+          {
+            "channels": 6,
+            "label": "6 CH",
+            "id": "6ch"
+          },
+          {
+            "channels": 11,
+            "label": "11 CH",
+            "id": "11ch"
+          },
+          {
+            "channels": 13,
+            "label": "13 CH",
+            "id": "13ch"
+          },
+          {
+            "channels": 16,
+            "label": "16 CH",
+            "id": "16ch"
+          },
+          {
+            "channels": 36,
+            "label": "36 CH",
+            "id": "36ch"
+          },
+          {
+            "channels": 43,
+            "label": "43 CH",
+            "id": "43ch"
+          },
+          {
+            "channels": 46,
+            "label": "46 CH",
+            "id": "46ch"
+          }
+        ],
+        "watts": 61,
+        "wattsBasis": "manufacturer",
+        "consumes": true,
+        "powerLink": true,
+        "dmx": true,
+        "manuals": [
+          "https://www.adj.eu/mwdownloads/download/link/id/1709"
+        ],
+        "notes": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+        "verifiedFields": [
+          "modes",
+          "connectors",
+          "watts",
+          "powerLink",
+          "colorSystem"
+        ],
+        "powerEvidence": "Power consumption: 61W",
+        "connectors": [
+          "DMX XLR 5-pin IN/OUT",
+          "Locking power IN/OUT"
+        ],
+        "modesBasis": "manufacturer",
+        "manufacturerSource": "https://www.adj.com/products/ubl12h",
+        "manual": "https://www.adj.com/products/ubl12h",
+        "dmxConnector": "5-pin XLR",
+        "label": "BAR",
+        "defaultModeId": "11ch",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.adj.com/products/ubl12h",
+            "https://www.adj.eu/mwdownloads/download/link/id/1709"
+          ],
+          "checkedFields": [
+            "modes",
+            "connectors",
+            "watts",
+            "powerLink",
+            "colorSystem"
+          ],
+          "missingFields": [],
+          "note": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+          "checkedAt": "2026-11-05"
+        },
+        "dmxPhysical": true,
+        "colorSystem": "RGBAL+UV",
+        "defaultModeBasis": "planner-choice",
+        "default": 11,
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "5-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "5-pin XLR",
+            "label": ""
+          }
+        ],
+        "usb": false,
+        "usbPowered": false,
+        "ethernet": false,
+        "video": false,
+        "powerConnector": "Locking Power",
+        "generic": false,
+        "brand": "ADJ",
+        "catalogTitle": "ADJ UBL12H",
+        "catalogSubtitle": "RGBAL+UV · 6–46 CH · 5-pin",
+        "shortName": "ADJ UBL12H"
+      },
+      "name": "ADJ UBL12H",
+      "nameChoice": "model",
+      "category": "light",
+      "kind": "bar",
+      "label": "ADJ UBL12H",
+      "x": 2616,
+      "y": 1488,
+      "number": 10,
+      "rotation": 90,
+      "dmx": true,
+      "channels": 11,
+      "modeId": "11ch",
+      "modeLabel": "11 CH",
+      "modeChoice": "default",
+      "watts": 61,
+      "wattsBasis": "manufacturer",
+      "consumes": true,
+      "powerLink": true,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "5-pin XLR",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {}
+    },
+    {
+      "id": "mw45ss3c-6ax49hj",
+      "model": "outlet",
+      "spec": {
+        "id": "outlet",
+        "name": "Питание",
+        "category": "power",
+        "kind": "outlet",
+        "label": "SOCKET",
+        "outputs": 4,
+        "watts": 0,
+        "notes": "Один выход. Укажи линию, фазу и допустимый бюджет мощности.",
+        "generic": true,
+        "catalogSubtitle": "Типовой блок",
+        "catalogTitle": "Питание",
+        "shortName": "Питание"
+      },
+      "name": "Питание",
+      "nameChoice": "model",
+      "category": "power",
+      "kind": "outlet",
+      "label": "Питание",
+      "x": 2784,
+      "y": 1200,
+      "number": 2,
+      "rotation": 0,
+      "dmx": false,
+      "channels": null,
+      "modeId": null,
+      "modeLabel": "",
+      "modeChoice": "default",
+      "watts": 0,
+      "wattsBasis": "unknown",
+      "consumes": false,
+      "powerLink": false,
+      "outputs": 4,
+      "universes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "limits": {
+        "L1": 1000
+      },
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "A",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {},
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "mw45ssci-e0gmbfh",
+      "model": "outlet",
+      "spec": {
+        "id": "outlet",
+        "name": "Питание",
+        "category": "power",
+        "kind": "outlet",
+        "label": "SOCKET",
+        "outputs": 4,
+        "watts": 0,
+        "notes": "Один выход. Укажи линию, фазу и допустимый бюджет мощности.",
+        "generic": true,
+        "catalogSubtitle": "Типовой блок",
+        "catalogTitle": "Питание",
+        "shortName": "Питание"
+      },
+      "name": "Питание",
+      "nameChoice": "model",
+      "category": "power",
+      "kind": "outlet",
+      "label": "Питание",
+      "x": -1032,
+      "y": 912,
+      "number": 3,
+      "rotation": 0,
+      "dmx": false,
+      "channels": null,
+      "modeId": null,
+      "modeLabel": "",
+      "modeChoice": "default",
+      "watts": 0,
+      "wattsBasis": "unknown",
+      "consumes": false,
+      "powerLink": false,
+      "outputs": 4,
+      "universes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "limits": {
+        "L1": 1000
+      },
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "A",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "",
+      "internalBattery": false,
+      "ethernet": false,
+      "video": false,
+      "usb": false,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {},
+      "width": 120,
+      "height": 120
+    },
+    {
+      "id": "mw4a6qph-gh503ey",
+      "model": "snl-347",
+      "spec": {
+        "id": "snl-347",
+        "name": "Laptop Asus TUF Gaming FX505DU-AL079T",
+        "source": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=347",
+        "sourceCategory": "Computers, tablets, mobile phones, clickers",
+        "category": "input",
+        "kind": "laptop",
+        "modes": [],
+        "watts": null,
+        "wattsBasis": "unknown",
+        "consumes": true,
+        "powerLink": false,
+        "dmx": false,
+        "manuals": [],
+        "notes": "HDMI и RJ45 штатные. Наличие Ethernet не означает запущенный Art-Net: необходим подходящий софт. Региональный SKU AL079T отличается конфигурацией, не найден отдельный паспорт мощности.",
+        "verifiedFields": [
+          "connectors",
+          "video",
+          "usb",
+          "ethernet",
+          "dmx",
+          "signalPorts",
+          "powerPortDefinitions"
+        ],
+        "connectors": [
+          "HDMI 2.0 OUT",
+          "RJ45 LAN",
+          "2 × USB-A 3.1 Gen 1",
+          "USB-A 2.0",
+          "DC power IN"
+        ],
+        "manual": "https://www.asus.com/ca-en/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-fx505dd-dt-du/",
+        "dmxConnector": "",
+        "label": "LAPTOP",
+        "catalogTitle": "Asus FX505DU",
+        "catalogSubtitle": "HDMI 2.0 · RJ45 · 3 × USB",
+        "verification": {
+          "status": "partial",
+          "sources": [
+            "https://www.asus.com/ca-en/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-fx505dd-dt-du/"
+          ],
+          "checkedFields": [
+            "connectors",
+            "video",
+            "usb",
+            "ethernet",
+            "dmx",
+            "signalPorts",
+            "powerPortDefinitions"
+          ],
+          "missingFields": [
+            "operatingACwatts"
+          ],
+          "note": "HDMI и RJ45 штатные. Наличие Ethernet не означает запущенный Art-Net: необходим подходящий софт. Региональный SKU AL079T отличается конфигурацией, не найден отдельный паспорт мощности.",
+          "checkedAt": "2026-11-05",
+          "catalogSource": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=347",
+          "auditScope": "physical signal/power topology, source-vs-load role, model-specific documentation"
+        },
+        "ethernet": true,
+        "video": true,
+        "usb": true,
+        "hasBattery": true,
+        "signalPorts": [
+          {
+            "id": "videoOut",
+            "type": "video",
+            "out": true,
+            "connector": "HDMI Type A 2.0",
+            "label": "HDMI"
+          },
+          {
+            "id": "ethernetOut",
+            "type": "ethernet",
+            "out": true,
+            "connector": "RJ45 Ethernet",
+            "label": "LAN",
+            "configurableDirection": true
+          },
+          {
+            "id": "usbOut",
+            "type": "usb",
+            "out": true,
+            "connector": "USB-A 3.1 Gen1",
+            "label": "USB1",
+            "powerOnly": false,
+            "powerDomain": "dc"
+          },
+          {
+            "id": "usbOut2",
+            "type": "usb",
+            "out": true,
+            "connector": "USB-A 3.1 Gen1",
+            "label": "USB2",
+            "powerOnly": false,
+            "powerDomain": "dc"
+          },
+          {
+            "id": "usbOut3",
+            "type": "usb",
+            "out": true,
+            "connector": "USB-A 2.0",
+            "label": "USB3",
+            "powerOnly": false,
+            "powerDomain": "dc"
+          }
+        ],
+        "manufacturerSource": "https://www.asus.com/ca-en/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-fx505dd-dt-du/",
+        "powerPortDefinitions": [
+          {
+            "id": "powerIn",
+            "type": "power",
+            "out": false,
+            "connector": "ASUS DC adapter barrel",
+            "label": "DC",
+            "powerDomain": "dc"
+          }
+        ],
+        "shortName": "Asus FX505DU",
+        "generic": false,
+        "brand": "Asus",
+        "videoConnector": "HDMI"
+      },
+      "name": "Asus FX505DU",
+      "nameChoice": "model",
+      "category": "input",
+      "kind": "laptop",
+      "label": "Asus FX505DU",
+      "x": 1104,
+      "y": 3264,
+      "number": 1,
+      "rotation": 0,
+      "dmx": false,
+      "channels": null,
+      "modeId": null,
+      "modeLabel": "",
+      "modeChoice": "default",
+      "watts": null,
+      "wattsBasis": "unknown",
+      "consumes": true,
+      "powerLink": false,
+      "outputs": 1,
+      "universes": [
+        1
+      ],
+      "limits": {},
+      "phases": {},
+      "outputLimits": {},
+      "circuit": "",
+      "voltage": 230,
+      "usbPowered": false,
+      "dmxConnector": "",
+      "internalBattery": false,
+      "ethernet": true,
+      "video": true,
+      "usb": true,
+      "videoConnector": "HDMI",
+      "splitRouting": {},
+      "portDirections": {},
+      "hardwareVariant": null,
+      "powerRole": "",
+      "dmxSourceUniverses": {}
+    }
+  ],
+  "edges": [
+    {
+      "id": "mw45plt2-wufmjkg",
+      "from": "mw45oqev-jtk5yel",
+      "port": "powerOut",
+      "to": "mw45ov9w-cznka7a",
+      "toPort": "powerIn",
+      "type": "power",
+      "points": [],
+      "detached": false,
+      "needsReview": false,
+      "fromConnector": "Locking Power"
+    },
+    {
+      "id": "mw45pn2o-jy7ztlq",
+      "from": "mw45ov9w-cznka7a",
+      "port": "powerOut",
+      "to": "mw45p0r1-fn0866e",
+      "toPort": "powerIn",
+      "type": "power",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45pxpp-6o32fk4",
+      "from": "mw45oqev-jtk5yel",
+      "port": "dmxOut",
+      "to": "mw45ov9w-cznka7a",
+      "toPort": "dmxIn",
+      "type": "dmx",
+      "points": [],
+      "fromConnector": "3-pin XLR",
+      "toConnector": "3-pin XLR",
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45pytj-etgiqnm",
+      "from": "mw45ov9w-cznka7a",
+      "port": "dmxOut",
+      "to": "mw45p0r1-fn0866e",
+      "toPort": "dmxIn",
+      "type": "dmx",
+      "points": [],
+      "fromConnector": "3-pin XLR",
+      "toConnector": "3-pin XLR",
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45t8es-66i5lda",
+      "from": "mw45ssci-e0gmbfh",
+      "port": "power1",
+      "to": "mw45qydq-il55fqf",
+      "toPort": "powerIn",
+      "type": "power",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45tawl-l1aepep",
+      "from": "mw45ss3c-6ax49hj",
+      "port": "power1",
+      "to": "mw45rm12-6tiamo8",
+      "toPort": "powerIn",
+      "type": "power",
+      "points": [
+        {
+          "x": 1680,
+          "y": 1152
+        },
+        {
+          "x": 1416,
+          "y": 1128
+        }
+      ],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45tfae-nxfkzqo",
+      "from": "mw45qydq-il55fqf",
+      "port": "powerOut",
+      "to": "mw45r6j2-nnf719g",
+      "toPort": "powerIn",
+      "type": "power",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45tg0e-vbg68vn",
+      "from": "mw45qydq-il55fqf",
+      "port": "dmxOut",
+      "to": "mw45r6j2-nnf719g",
+      "toPort": "dmxIn",
+      "type": "dmx",
+      "points": [],
+      "fromConnector": "5-pin XLR",
+      "toConnector": "5-pin XLR",
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45thyk-meucq3t",
+      "from": "mw45rm12-6tiamo8",
+      "port": "dmxOut",
+      "to": "mw45rzr3-ycx81bz",
+      "toPort": "dmxIn",
+      "type": "dmx",
+      "points": [],
+      "fromConnector": "5-pin XLR",
+      "toConnector": "5-pin XLR",
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45tjiw-e3gnfz6",
+      "from": "mw45r6j2-nnf719g",
+      "port": "powerOut",
+      "to": "mw45r65n-u1ie5cl",
+      "toPort": "powerIn",
+      "type": "power",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45tk4b-12qgca0",
+      "from": "mw45r6j2-nnf719g",
+      "port": "dmxOut",
+      "to": "mw45r65n-u1ie5cl",
+      "toPort": "dmxIn",
+      "type": "dmx",
+      "points": [],
+      "fromConnector": "5-pin XLR",
+      "toConnector": "5-pin XLR",
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45tlcd-a3kvm0l",
+      "from": "mw45rzr3-ycx81bz",
+      "port": "powerOut",
+      "to": "mw45rzk1-x05x252",
+      "toPort": "powerIn",
+      "type": "power",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45tlzf-n7t18k6",
+      "from": "mw45rzr3-ycx81bz",
+      "port": "dmxOut",
+      "to": "mw45rzk1-x05x252",
+      "toPort": "dmxIn",
+      "type": "dmx",
+      "points": [],
+      "fromConnector": "5-pin XLR",
+      "toConnector": "5-pin XLR",
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45tndj-2y9pjcy",
+      "from": "mw45r65n-u1ie5cl",
+      "port": "powerOut",
+      "to": "mw45r5np-azhxe6i",
+      "toPort": "powerIn",
+      "type": "power",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45to0r-0jdm09z",
+      "from": "mw45r65n-u1ie5cl",
+      "port": "dmxOut",
+      "to": "mw45r5np-azhxe6i",
+      "toPort": "dmxIn",
+      "type": "dmx",
+      "points": [],
+      "fromConnector": "5-pin XLR",
+      "toConnector": "5-pin XLR",
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45tp57-ynaqmx0",
+      "from": "mw45rzk1-x05x252",
+      "port": "powerOut",
+      "to": "mw45rzbz-tvi1d3z",
+      "toPort": "powerIn",
+      "type": "power",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45tpqj-f5lak7m",
+      "from": "mw45rzk1-x05x252",
+      "port": "dmxOut",
+      "to": "mw45rzbz-tvi1d3z",
+      "toPort": "dmxIn",
+      "type": "dmx",
+      "points": [],
+      "fromConnector": "5-pin XLR",
+      "toConnector": "5-pin XLR",
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45tr7j-kweyamz",
+      "from": "mw45r5np-azhxe6i",
+      "port": "powerOut",
+      "to": "mw45r585-h6ov5i6",
+      "toPort": "powerIn",
+      "type": "power",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45ts02-yw4upbc",
+      "from": "mw45r5np-azhxe6i",
+      "port": "dmxOut",
+      "to": "mw45r585-h6ov5i6",
+      "toPort": "dmxIn",
+      "type": "dmx",
+      "points": [],
+      "fromConnector": "5-pin XLR",
+      "toConnector": "5-pin XLR",
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45tt9o-zcs5esa",
+      "from": "mw45rzbz-tvi1d3z",
+      "port": "powerOut",
+      "to": "mw45rz3x-3bqdutf",
+      "toPort": "powerIn",
+      "type": "power",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw45ttxi-50gohz0",
+      "from": "mw45rzbz-tvi1d3z",
+      "port": "dmxOut",
+      "to": "mw45rz3x-3bqdutf",
+      "toPort": "dmxIn",
+      "type": "dmx",
+      "points": [],
+      "fromConnector": "5-pin XLR",
+      "toConnector": "5-pin XLR",
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw481z1t-mz7ht6t",
+      "from": "mw45rm12-6tiamo8",
+      "port": "powerOut",
+      "to": "mw45rzr3-ycx81bz",
+      "toPort": "powerIn",
+      "type": "power",
+      "fromConnector": "Locking Power",
+      "toConnector": "Locking Power",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw4eoa5h-q596yvd",
+      "from": "mw4a6qph-gh503ey",
+      "port": "ethernetOut",
+      "to": "mw457ka1-eo4qek0",
+      "toPort": "ethernetIn",
+      "type": "ethernet",
+      "fromConnector": "RJ45 Ethernet",
+      "toConnector": "RJ45 etherCON",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw4euums-7rp55r3",
+      "from": "mw45nkw3-z7pm22v",
+      "port": "dmxOut",
+      "to": "mw45oqev-jtk5yel",
+      "toPort": "dmxIn",
+      "type": "dmx",
+      "fromConnector": "3-pin XLR",
+      "toConnector": "3-pin XLR",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw57moq5-n9toknl",
+      "from": "mw45mo6m-ulm4q45",
+      "port": "power1",
+      "to": "mw457ka1-eo4qek0",
+      "toPort": "powerIn",
+      "type": "power",
+      "fromConnector": "",
+      "toConnector": "powerCON IN",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw59h60h-hxyst2s",
+      "from": "mw45mo6m-ulm4q45",
+      "port": "power2",
+      "to": "mw4a6qph-gh503ey",
+      "toPort": "powerIn",
+      "type": "power",
+      "fromConnector": "",
+      "toConnector": "ASUS DC adapter barrel",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    },
+    {
+      "id": "mw5addnr-pycvkc6",
+      "from": "mw45nkw3-z7pm22v",
+      "port": "powerOut",
+      "to": "mw45oqev-jtk5yel",
+      "toPort": "powerIn",
+      "type": "power",
+      "fromConnector": "Locking Power",
+      "toConnector": "Locking Power",
+      "points": [],
+      "detached": false,
+      "needsReview": false
+    }
+  ],
+  "areas": [
+    {
+      "id": "mw59s06n-0cijqhr",
+      "type": "room",
+      "name": "Помещение",
+      "x": -1440,
+      "y": 288,
+      "w": 2880,
+      "h": 2400
+    },
+    {
+      "id": "mw5a36cf-9gmsx1d",
+      "type": "stage",
+      "name": "Сцена",
+      "x": -480,
+      "y": 408,
+      "w": 960,
+      "h": 576
+    },
+    {
+      "id": "seating-photo-2",
+      "type": "seating",
+      "name": "Сидячая зона · передняя левая",
+      "x": -1176,
+      "y": 1104,
+      "w": 648,
+      "h": 768
+    },
+    {
+      "id": "seating-photo-3",
+      "type": "seating",
+      "name": "Сидячая зона · передняя центральная",
+      "x": -384,
+      "y": 1104,
+      "w": 768,
+      "h": 768
+    },
+    {
+      "id": "seating-photo-4",
+      "type": "seating",
+      "name": "Сидячая зона · передняя правая",
+      "x": 528,
+      "y": 1104,
+      "w": 648,
+      "h": 768
+    },
+    {
+      "id": "seating-photo-5",
+      "type": "seating",
+      "name": "Сидячая зона · задняя левая",
+      "x": -1176,
+      "y": 2016,
+      "w": 648,
+      "h": 432
+    },
+    {
+      "id": "seating-photo-6",
+      "type": "seating",
+      "name": "Сидячая зона · задняя центральная",
+      "x": -384,
+      "y": 2016,
+      "w": 768,
+      "h": 432
+    },
+    {
+      "id": "seating-photo-7",
+      "type": "seating",
+      "name": "Сидячая зона · задняя правая",
+      "x": 528,
+      "y": 2016,
+      "w": 648,
+      "h": 432
+    }
+  ]
+}

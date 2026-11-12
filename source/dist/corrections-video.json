@@ -1,0 +1,2809 @@
+{
+  "snl-515": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiIn2",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 IN"
+      },
+      {
+        "id": "hdmiIn3",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 3 IN"
+      },
+      {
+        "id": "lan",
+        "type": "ethernet",
+        "out": false,
+        "connector": "RJ45 · Ethernet",
+        "label": "LAN"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 1"
+      }
+    ],
+    "watts": 145,
+    "wattsBasis": "manufacturer-max",
+    "catalogSubtitle": "55″ · 4K · 3 HDMI",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.samsung.com/lt/tvs/uhd-4k-tv/cu7000-55-inch-ue55cu7172uxxh/"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts"
+      ],
+      "missingFields": [],
+      "note": "3 входа HDMI, 1 LAN, 1 USB. 145 W максимум; 83 W типично. Ethernet двунаправленный; сторона входа в схеме условна.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "RJ45 · Ethernet",
+      "USB-A"
+    ],
+    "powerLink": false
+  },
+  "snl-512": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiIn2",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 IN"
+      },
+      {
+        "id": "vgaIn",
+        "type": "video",
+        "out": false,
+        "connector": "VGA / DE-15",
+        "label": "VGA / DE-15 IN"
+      },
+      {
+        "id": "vgaOut",
+        "type": "video",
+        "out": true,
+        "connector": "VGA / DE-15",
+        "label": "VGA OUT"
+      },
+      {
+        "id": "cvbsIn",
+        "type": "video",
+        "out": false,
+        "connector": "RCA · CVBS",
+        "label": "RCA · CVBS IN"
+      },
+      {
+        "id": "lan",
+        "type": "ethernet",
+        "out": false,
+        "connector": "RJ45 · Ethernet",
+        "label": "LAN"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 1"
+      },
+      {
+        "id": "usbB1",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-B",
+        "label": "USB-B 1"
+      },
+      {
+        "id": "rs232",
+        "type": "control",
+        "out": false,
+        "connector": "DE-9 · RS-232",
+        "label": "RS-232"
+      }
+    ],
+    "watts": 305,
+    "wattsBasis": "manufacturer-high-bright",
+    "catalogSubtitle": "WUXGA · 2 HDMI · VGA",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.sharpdisplays.eu/p/datasheet/en/datasheet/rp/me403u.xhtml"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts",
+        "serialControl",
+        "videoOutputSource"
+      ],
+      "missingFields": [],
+      "note": "Потребление High Bright из европейского паспорта, не абсолютный максимум всех сетевых напряжений/режимов. USB-A — host/viewer, USB-B — USB Display. Добавлен физический RS-232 DE-9. Аналоговый VGA OUT передаёт RGB с VGA IN; это не HDMI-конвертер.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "VGA / DE-15",
+      "RCA · CVBS",
+      "RJ45 · Ethernet",
+      "USB-A",
+      "USB-B",
+      "DE-9 · RS-232"
+    ],
+    "powerLink": false
+  },
+  "snl-511": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiIn2",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 IN"
+      },
+      {
+        "id": "vgaIn",
+        "type": "video",
+        "out": false,
+        "connector": "VGA / DE-15",
+        "label": "VGA / DE-15 IN"
+      },
+      {
+        "id": "vgaOut",
+        "type": "video",
+        "out": true,
+        "connector": "VGA / DE-15",
+        "label": "VGA OUT"
+      },
+      {
+        "id": "cvbsIn",
+        "type": "video",
+        "out": false,
+        "connector": "RCA · CVBS",
+        "label": "RCA · CVBS IN"
+      },
+      {
+        "id": "lan",
+        "type": "ethernet",
+        "out": false,
+        "connector": "RJ45 · Ethernet",
+        "label": "LAN"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 1"
+      },
+      {
+        "id": "usbB1",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-B",
+        "label": "USB-B 1"
+      },
+      {
+        "id": "rs232",
+        "type": "control",
+        "out": false,
+        "connector": "DE-9 · RS-232",
+        "label": "RS-232"
+      }
+    ],
+    "watts": 293,
+    "wattsBasis": "manufacturer-high-bright",
+    "catalogSubtitle": "WXGA · 2 HDMI · VGA",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.sharpdisplays.eu/p/datasheet/en/datasheet/rp/me383w.xhtml"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts",
+        "serialControl",
+        "videoOutputSource"
+      ],
+      "missingFields": [],
+      "note": "Потребление High Bright из европейского паспорта, не абсолютный максимум всех сетевых напряжений/режимов. USB-A — host/viewer, USB-B — USB Display. Добавлен физический RS-232 DE-9. Аналоговый VGA OUT передаёт RGB с VGA IN; это не HDMI-конвертер.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "VGA / DE-15",
+      "RCA · CVBS",
+      "RJ45 · Ethernet",
+      "USB-A",
+      "USB-B",
+      "DE-9 · RS-232"
+    ],
+    "powerLink": false
+  },
+  "snl-513": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiIn2",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 IN"
+      },
+      {
+        "id": "hdmiIn3",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 3 IN"
+      },
+      {
+        "id": "vgaIn1",
+        "type": "video",
+        "out": false,
+        "connector": "VGA / DE-15",
+        "label": "VGA 1 IN"
+      },
+      {
+        "id": "vgaIn2",
+        "type": "video",
+        "out": false,
+        "connector": "VGA / DE-15",
+        "label": "VGA 2 / OUT",
+        "configurableDirection": true
+      },
+      {
+        "id": "cvbsIn",
+        "type": "video",
+        "out": false,
+        "connector": "RCA · CVBS",
+        "label": "RCA · CVBS IN"
+      },
+      {
+        "id": "lan",
+        "type": "ethernet",
+        "out": false,
+        "connector": "RJ45 · Ethernet",
+        "label": "LAN"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 1"
+      },
+      {
+        "id": "usb2",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A · WLAN module only",
+        "label": "WLAN module"
+      },
+      {
+        "id": "usbB1",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-B",
+        "label": "USB Display"
+      },
+      {
+        "id": "rs232",
+        "type": "control",
+        "out": false,
+        "connector": "DE-9 · RS-232",
+        "label": "RS-232"
+      }
+    ],
+    "watts": 263,
+    "wattsBasis": "manufacturer-peak",
+    "catalogSubtitle": "4100 лм · 3 HDMI · UST",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.epson.eu/en_EU/products/projector/ultra-short-throw/eb-770f-projector/p/38505",
+        "https://files.support.epson.com/docid/cpd6/cpd63099.pdf"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts",
+        "configurableDirection",
+        "serialControl"
+      ],
+      "missingFields": [],
+      "note": "263 W Normal Peak, 197 W Normal On. Computer2/Monitor Out — один физический переключаемый VGA-разъём; направление задаётся в меню проектора и на схеме. USB-B поддерживает USB Display. Внешний USB-A — носитель/камера, USB-A под крышкой — только WLAN-модуль. Есть RS-232 DE-9. Переключение на схеме не меняет настройку проектора.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "VGA / DE-15",
+      "RCA · CVBS",
+      "RJ45 · Ethernet",
+      "USB-A",
+      "USB-A · WLAN module only",
+      "USB-B",
+      "DE-9 · RS-232"
+    ],
+    "powerLink": false
+  },
+  "snl-510": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiIn2",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 IN"
+      },
+      {
+        "id": "hdmiIn3",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 3 IN"
+      },
+      {
+        "id": "hdmiIn4",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 4 IN"
+      },
+      {
+        "id": "hdmiIn5",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 5 IN"
+      },
+      {
+        "id": "hdmiIn6",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 6 IN"
+      },
+      {
+        "id": "hdmiIn7",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 7 IN"
+      },
+      {
+        "id": "hdmiIn8",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 8 IN"
+      },
+      {
+        "id": "hdmiOut1",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 OUT"
+      },
+      {
+        "id": "hdmiOut2",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 OUT"
+      },
+      {
+        "id": "lan",
+        "type": "ethernet",
+        "out": false,
+        "connector": "RJ45 · Ethernet",
+        "label": "LAN"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-C",
+        "label": "USB-C 1"
+      },
+      {
+        "id": "usb2",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-C",
+        "label": "USB-C 2"
+      }
+    ],
+    "watts": 36,
+    "wattsBasis": "manufacturer-rated",
+    "catalogSubtitle": "8 HDMI IN · 2 OUT · ISO",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://documents.blackmagicdesign.com/UserManuals/ATEM_Mini_Manual.pdf",
+        "https://www.fisheraudiovisual.com/wp-content/uploads/2023/01/atem-mini-extreme-iso-techspecs.pdf"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts",
+        "powerPortDefinitions"
+      ],
+      "missingFields": [],
+      "note": "Оригинальный Extreme ISO, не G2: 8 HDMI входов, 2 HDMI выхода, 2 USB-C, 1 GbE. Архивный паспорт Blackmagic 2023 сохранён у прокатчика; текущая страница производителя переключилась на G2. USB-C многофункциональны: webcam out, запись диска и управление; стрелка не ограничивает реальные функции.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "RJ45 · Ethernet",
+      "USB-C"
+    ],
+    "powerPortDefinitions": [
+      {
+        "id": "dcIn",
+        "type": "power",
+        "out": false,
+        "connector": "DC locking barrel",
+        "label": "DC 12V IN",
+        "powerDomain": "dc",
+        "volts": 12
+      }
+    ],
+    "powerLink": false
+  },
+  "snl-327": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiIn2",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 IN"
+      },
+      {
+        "id": "hdmiIn3",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 3 IN"
+      },
+      {
+        "id": "hdmiIn4",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 4 IN"
+      },
+      {
+        "id": "hdmiOut1",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 OUT"
+      },
+      {
+        "id": "lan",
+        "type": "ethernet",
+        "out": false,
+        "connector": "RJ45 · Ethernet",
+        "label": "LAN"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-C",
+        "label": "USB-C 1"
+      }
+    ],
+    "watts": 30,
+    "wattsBasis": "manufacturer-rated",
+    "catalogSubtitle": "4 HDMI IN · 1 OUT · USB-C",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.blackmagicdesign.com/products/atemmini/techspecs"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts",
+        "powerPortDefinitions"
+      ],
+      "missingFields": [],
+      "note": "Проверен раздел ATEM Mini Pro, не Pro ISO/Extreme. USB-C: webcam/запись/управление; Ethernet двунаправленный.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "RJ45 · Ethernet",
+      "USB-C"
+    ],
+    "powerPortDefinitions": [
+      {
+        "id": "dcIn",
+        "type": "power",
+        "out": false,
+        "connector": "DC locking barrel",
+        "label": "DC 12V IN",
+        "powerDomain": "dc",
+        "volts": 12
+      }
+    ],
+    "powerLink": false
+  },
+  "snl-480": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "dpIn",
+        "type": "video",
+        "out": false,
+        "connector": "DisplayPort 1.2",
+        "label": "DisplayPort 1.2 IN"
+      },
+      {
+        "id": "vgaIn",
+        "type": "video",
+        "out": false,
+        "connector": "VGA / DE-15",
+        "label": "VGA / DE-15 IN"
+      },
+      {
+        "id": "usbB1",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-B",
+        "label": "USB Touch"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 1"
+      },
+      {
+        "id": "usb2",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 2"
+      },
+      {
+        "id": "usb3",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 3"
+      },
+      {
+        "id": "usb4",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 4"
+      }
+    ],
+    "watts": 52,
+    "wattsBasis": "manufacturer-max",
+    "catalogSubtitle": "23,8″ · HDMI · DP · Touch",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://support.hp.com/us-en/product/product-specs/hp-e24t-g4-fhd-touch-monitor/34513980",
+        "https://jp.ext.hp.com/content/dam/jp-ext-hp-com/jp/ja/ec/lib/products/desktops/specs/monitor/e24t_spec.pdf"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts"
+      ],
+      "missingFields": [],
+      "note": "52 W максимум, 25 W типично. Один upstream USB-B для touch/USB hub и четыре downstream USB-A. Видеовыхода нет.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "DisplayPort 1.2",
+      "VGA / DE-15",
+      "USB-B",
+      "USB-A"
+    ],
+    "powerLink": false
+  },
+  "snl-531": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiOut",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI LOOP"
+      }
+    ],
+    "watts": 8,
+    "wattsBasis": "manufacturer-max",
+    "catalogSubtitle": "6″ · HDMI IN / LOOP · 8 W",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.feelworld.cn/feelworld-f6-plus-v2-6-inch-3d-lut-touch-screen-dslr-camera-field-monitor-ips-fhd1920x1080-support-4k-hdmi-input-output-tilt-arm-power-output/"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts",
+        "powerPortDefinitions",
+        "usbPowerOnly"
+      ],
+      "missingFields": [],
+      "note": "F6 PLUS V2: HDMI IN и LOOP OUT; DC 12V IN; USB-C 5V только питание (не данные, не видео, не power OUT); DC 8V OUT 5.5×2.1 мм. Питание также от NP-F/LP-E6. 8W максимум самого монитора; внешняя камера/потери БП в эти 8W не входят. 4K60 относится к аппаратной ревизии V7.x, прежние версии V2 не обновляются до неё прошивкой.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A"
+    ],
+    "powerLink": false,
+    "usbPowered": true,
+    "powerPortDefinitions": [
+      {
+        "id": "dcIn",
+        "type": "power",
+        "out": false,
+        "connector": "DC barrel",
+        "label": "DC 12V IN",
+        "powerDomain": "dc",
+        "volts": 12
+      },
+      {
+        "id": "usbPowerIn",
+        "type": "power",
+        "out": false,
+        "connector": "USB-C · power only",
+        "label": "USB-C 5V",
+        "powerDomain": "dc",
+        "volts": 5
+      },
+      {
+        "id": "dcOut",
+        "type": "power",
+        "out": true,
+        "connector": "DC barrel 5.5×2.1 mm",
+        "label": "DC 8V OUT",
+        "powerDomain": "dc",
+        "volts": 8
+      }
+    ]
+  },
+  "snl-341": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "dpIn",
+        "type": "video",
+        "out": false,
+        "connector": "DisplayPort 1.2",
+        "label": "DisplayPort 1.2 IN"
+      },
+      {
+        "id": "vgaIn",
+        "type": "video",
+        "out": false,
+        "connector": "VGA / DE-15",
+        "label": "VGA / DE-15 IN"
+      }
+    ],
+    "watts": 33,
+    "wattsBasis": "manufacturer-typical",
+    "catalogSubtitle": "24″ · HDMI · DP · VGA",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.samsung.com/fr/monitors/curved/curved-monitor-t55-series-24-inch-lc24t550fduxen/"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts",
+        "powerPortDefinitions"
+      ],
+      "missingFields": [
+        "wattsMaximum"
+      ],
+      "note": "33 W типичное потребление, максимум не найден. По одному HDMI 1.4, DisplayPort 1.2 и VGA входу; USB и видеовыходов нет.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "DisplayPort 1.2",
+      "VGA / DE-15"
+    ],
+    "powerPortDefinitions": [
+      {
+        "id": "dcIn",
+        "type": "power",
+        "out": false,
+        "connector": "DC barrel · external adapter",
+        "label": "DC IN",
+        "powerDomain": "dc"
+      }
+    ],
+    "powerLink": false
+  },
+  "snl-365": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiIn2",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 IN"
+      },
+      {
+        "id": "scart1",
+        "type": "video",
+        "out": false,
+        "connector": "SCART",
+        "label": "SCART 1 IN/OUT",
+        "configurableDirection": true
+      },
+      {
+        "id": "scart2",
+        "type": "video",
+        "out": false,
+        "connector": "SCART",
+        "label": "SCART 2 IN/OUT",
+        "configurableDirection": true
+      },
+      {
+        "id": "componentIn",
+        "type": "video",
+        "out": false,
+        "connector": "3×RCA · YPbPr",
+        "label": "YPbPr IN"
+      },
+      {
+        "id": "cvbsIn",
+        "type": "video",
+        "out": false,
+        "connector": "RCA · CVBS",
+        "label": "RCA · CVBS IN"
+      },
+      {
+        "id": "svideoIn",
+        "type": "video",
+        "out": false,
+        "connector": "S-Video · mini-DIN 4",
+        "label": "S-Video · mini-DIN 4"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 1"
+      }
+    ],
+    "watts": 128,
+    "wattsBasis": "manufacturer-rated",
+    "catalogSubtitle": "32″ · 2 HDMI · 128 W",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.documents.philips.com/assets/20230224/f8c87ea356a44987bddaafb300f13e8e.pdf"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts",
+        "configurableDirection"
+      ],
+      "missingFields": [],
+      "note": "Проверена именно европейская /10: 2 HDMI, 2 SCART, компонентный вход, боковые CVBS/S-Video/USB. У SCART есть CVBS in/out; физические разъёмы имеют переключаемое направление на схеме. Не применена другая региональная схема с VGA.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "SCART",
+      "3×RCA · YPbPr",
+      "RCA · CVBS",
+      "S-Video · mini-DIN 4",
+      "USB-A"
+    ],
+    "powerLink": false
+  },
+  "snl-405": {
+    "signalPorts": [
+      {
+        "id": "vgaIn",
+        "type": "video",
+        "out": false,
+        "connector": "VGA / DE-15",
+        "label": "VGA / DE-15 IN"
+      },
+      {
+        "id": "vgaOut",
+        "type": "video",
+        "out": true,
+        "connector": "VGA / DE-15",
+        "label": "VGA OUT"
+      },
+      {
+        "id": "cvbsIn",
+        "type": "video",
+        "out": false,
+        "connector": "RCA · CVBS",
+        "label": "RCA · CVBS IN"
+      },
+      {
+        "id": "svideoIn",
+        "type": "video",
+        "out": false,
+        "connector": "S-Video · mini-DIN 4",
+        "label": "S-Video · mini-DIN 4"
+      },
+      {
+        "id": "usbB1",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-B",
+        "label": "USB Mouse"
+      },
+      {
+        "id": "rs232",
+        "type": "control",
+        "out": false,
+        "connector": "Mini-DIN 8 · NEC PC Control",
+        "label": "PC CONTROL"
+      }
+    ],
+    "watts": 270,
+    "wattsBasis": "manufacturer-normal",
+    "catalogSubtitle": "2000 лм · VGA · CVBS",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://sharp-displays.jp.sharp/support/webdl/dl_service/data/manual/english/vt660k_e.pdf",
+        "https://www.sharp-nec-displays.com/support/webdl/dl_service/data/manual/english/vt660k_us_e.pdf"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts",
+        "serialControl"
+      ],
+      "missingFields": [],
+      "note": "Руководство VT660K: VGA IN/OUT, CVBS, S-Video, USB-B Mouse и PC CONTROL mini-DIN 8. 270 W Normal / 220 W Eco. HDMI/LAN отсутствуют; USB не видеовход. Мониторный VGA OUT выводит сигнал RGB IN.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "VGA / DE-15",
+      "RCA · CVBS",
+      "S-Video · mini-DIN 4",
+      "USB-B",
+      "Mini-DIN 8 · NEC PC Control"
+    ],
+    "powerLink": false
+  },
+  "snl-173": {
+    "signalPorts": [
+      {
+        "id": "vgaIn",
+        "type": "video",
+        "out": false,
+        "connector": "VGA / DE-15",
+        "label": "VGA / DE-15 IN"
+      },
+      {
+        "id": "dviIn",
+        "type": "video",
+        "out": false,
+        "connector": "DVI-I",
+        "label": "DVI-I IN"
+      },
+      {
+        "id": "vgaOut",
+        "type": "video",
+        "out": true,
+        "connector": "VGA / DE-15",
+        "label": "VGA OUT"
+      },
+      {
+        "id": "cvbsIn",
+        "type": "video",
+        "out": false,
+        "connector": "RCA · CVBS",
+        "label": "RCA · CVBS IN"
+      },
+      {
+        "id": "svideoIn",
+        "type": "video",
+        "out": false,
+        "connector": "S-Video · mini-DIN 4",
+        "label": "S-Video · mini-DIN 4"
+      },
+      {
+        "id": "lan",
+        "type": "ethernet",
+        "out": false,
+        "connector": "RJ45 · Ethernet",
+        "label": "LAN"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 1"
+      },
+      {
+        "id": "usbB1",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-B",
+        "label": "USB Mouse"
+      },
+      {
+        "id": "rs232",
+        "type": "control",
+        "out": false,
+        "connector": "DE-9 · RS-232",
+        "label": "RS-232"
+      }
+    ],
+    "watts": 330,
+    "wattsBasis": "manufacturer-normal",
+    "catalogSubtitle": "3500 лм · DVI-I · VGA",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.projectorcentral.com/pdf/projector_spec_4843.pdf"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts",
+        "serialControl",
+        "videoOutputSource"
+      ],
+      "missingFields": [],
+      "note": "Оригинальный паспорт SANYO 04/2009: VGA + DVI-I + CVBS + S-Video IN; отдельный VGA MONITOR OUT; DE-9 CONTROL; USB-B Mouse, USB-A Memory Viewer и LAN. 330 W Normal / 252 W Eco. VGA OUT не конвертирует HDMI/DVI в аналоговое видео.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "VGA / DE-15",
+      "DVI-I",
+      "RCA · CVBS",
+      "S-Video · mini-DIN 4",
+      "RJ45 · Ethernet",
+      "USB-A",
+      "USB-B",
+      "DE-9 · RS-232"
+    ],
+    "powerLink": false
+  },
+  "snl-542": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "dpIn",
+        "type": "video",
+        "out": false,
+        "connector": "DisplayPort",
+        "label": "DisplayPort IN"
+      },
+      {
+        "id": "dviIn1",
+        "type": "video",
+        "out": false,
+        "connector": "DVI",
+        "label": "DVI 1 IN"
+      },
+      {
+        "id": "dviIn2",
+        "type": "video",
+        "out": false,
+        "connector": "DVI",
+        "label": "DVI 2 IN"
+      },
+      {
+        "id": "vgaIn1",
+        "type": "video",
+        "out": false,
+        "connector": "VGA / DE-15",
+        "label": "VGA 1 IN"
+      },
+      {
+        "id": "vgaIn2",
+        "type": "video",
+        "out": false,
+        "connector": "VGA / DE-15",
+        "label": "VGA 2 IN"
+      },
+      {
+        "id": "vgaIn3",
+        "type": "video",
+        "out": false,
+        "connector": "VGA / DE-15",
+        "label": "VGA 3 IN"
+      },
+      {
+        "id": "cvbsIn1",
+        "type": "video",
+        "out": false,
+        "connector": "CVBS",
+        "label": "CVBS 1 IN"
+      },
+      {
+        "id": "cvbsIn2",
+        "type": "video",
+        "out": false,
+        "connector": "CVBS",
+        "label": "CVBS 2 IN"
+      },
+      {
+        "id": "cvbsIn3",
+        "type": "video",
+        "out": false,
+        "connector": "CVBS",
+        "label": "CVBS 3 IN"
+      },
+      {
+        "id": "dviLoop",
+        "type": "video",
+        "out": true,
+        "connector": "DVI",
+        "label": "DVI LOOP"
+      },
+      {
+        "id": "dviMonitor1",
+        "type": "video",
+        "out": true,
+        "connector": "DVI",
+        "label": "MONITOR 1"
+      },
+      {
+        "id": "dviMonitor2",
+        "type": "video",
+        "out": true,
+        "connector": "DVI",
+        "label": "MONITOR 2"
+      },
+      {
+        "id": "ledOut1",
+        "type": "video",
+        "out": true,
+        "connector": "RJ45 · NovaStar LED data",
+        "label": "LED 1 OUT"
+      },
+      {
+        "id": "ledOut2",
+        "type": "video",
+        "out": true,
+        "connector": "RJ45 · NovaStar LED data",
+        "label": "LED 2 OUT"
+      },
+      {
+        "id": "ledOut3",
+        "type": "video",
+        "out": true,
+        "connector": "RJ45 · NovaStar LED data",
+        "label": "LED 3 OUT"
+      },
+      {
+        "id": "ledOut4",
+        "type": "video",
+        "out": true,
+        "connector": "RJ45 · NovaStar LED data",
+        "label": "LED 4 OUT"
+      },
+      {
+        "id": "lan",
+        "type": "ethernet",
+        "out": false,
+        "connector": "RJ45 · Ethernet",
+        "label": "LAN Control"
+      },
+      {
+        "id": "usbB1",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-B",
+        "label": "USB Control"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB Cascade"
+      },
+      {
+        "id": "usb2",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB Cascade"
+      }
+    ],
+    "watts": 25,
+    "wattsBasis": "manufacturer-rated",
+    "catalogSubtitle": "10 IN · 4 LED OUT · 25 W",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.novastar.tech/wp-content/uploads/2019/06/VX4-VX4S-User-Manual-Rev1.1.2.pdf"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts"
+      ],
+      "missingFields": [],
+      "note": "VX4, не VX4S/VX400. HDMI×1, DP×1, DVI×2, VGA×3, CVBS×3; DVI loop×1 и monitor×2; LED OUT×4 и отдельный Ethernet управления. LED OUT предназначены приёмным картам LED, не HDMI и не обычному LAN-коммутатору. USB-B PC/cascade IN; USB-A спереди/сзади не подключать напрямую к PC.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "DisplayPort",
+      "DVI",
+      "VGA / DE-15",
+      "CVBS",
+      "RJ45 · NovaStar LED data",
+      "RJ45 · Ethernet",
+      "USB-B",
+      "USB-A"
+    ],
+    "powerLink": false
+  },
+  "snl-345": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiOut1",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 OUT"
+      },
+      {
+        "id": "hdmiOut2",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 OUT"
+      },
+      {
+        "id": "hdmiOut3",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 3 OUT"
+      },
+      {
+        "id": "hdmiOut4",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 4 OUT"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "HDMI 1→4 · 4K60 · EDID",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.lindy.co.uk/audio-video-c2/splitters-c159/4-port-hdmi-18g-splitter-p12070",
+        "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=345"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "powerPortDefinitions"
+      ],
+      "missingFields": [
+        "rentalPartNumber",
+        "watts"
+      ],
+      "note": "Описание S&L дословно соответствует Lindy 38236; код на шильдике не дан, поэтому идентификация условна. 1 HDMI вход, 4 выхода подтверждены обеими страницами. Питание 5 V DC 1 A — номинал БП, не подтверждённое потребление; не записано как 5 W нагрузки.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A"
+    ],
+    "powerPortDefinitions": [
+      {
+        "id": "dcIn",
+        "type": "power",
+        "out": false,
+        "connector": "DC barrel",
+        "label": "DC 5V IN",
+        "powerDomain": "dc",
+        "volts": 5
+      }
+    ],
+    "powerLink": false
+  },
+  "snl-420": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI Type A IN"
+      },
+      {
+        "id": "vgaOut",
+        "type": "video",
+        "out": true,
+        "connector": "VGA / DE-15",
+        "label": "VGA OUT"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "HDMI → VGA · 1080p",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.assmann.com/product-pdf/en/4016032368007.pdf",
+        "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=420"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "physicalPowerInlet"
+      ],
+      "missingFields": [
+        "watts"
+      ],
+      "note": "DIGITUS DA-70461: активный HDMI→VGA адаптер с несъёмным HDMI кабелем. В первичном паспорте и изображении отдельного AC/DC входа нет, поэтому выдуманная сетевая розетка удалена. Питается со стороны источника HDMI; паспорт не нормирует собственную мощность. Направление преобразования не обратимое.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "VGA / DE-15"
+    ],
+    "powerPortDefinitions": [],
+    "powerLink": false,
+    "powerVia": "HDMI"
+  },
+  "snl-383": {
+    "signalPorts": [
+      {
+        "id": "txHdmiIn",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "TX HDMI IN"
+      },
+      {
+        "id": "txCatOut",
+        "type": "video",
+        "out": true,
+        "connector": "RJ45 · HDMI extender",
+        "label": "TX CAT OUT"
+      },
+      {
+        "id": "rxCatIn",
+        "type": "video",
+        "out": false,
+        "connector": "RJ45 · HDMI extender",
+        "label": "RX CAT IN"
+      },
+      {
+        "id": "rxHdmiOut",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "RX HDMI OUT"
+      }
+    ],
+    "watts": 5,
+    "wattsBasis": "manufacturer-operating",
+    "catalogSubtitle": "HDMI ↔ Cat6 · TX + RX",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://datasheets.content4us.com/da-dk/550670228/portrait",
+        "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=383",
+        "https://snl.ee/userfiles/catalog/61968d78cd25a.jpg"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts",
+        "powerPortDefinitions",
+        "rentalKitPhoto"
+      ],
+      "missingFields": [
+        "wattsMaximum"
+      ],
+      "note": "Nedis VREP3415AT — комплект TX+RX с двумя отдельными DC5V входами и двумя БП. Официальная спецификация позиции указывает 5W operating, 1W standby; 5W не абсолютный максимум. S&L указывает 10W, расхождение не усреднено. RJ45 несёт видео между TX/RX и не является обычной LAN-сетью.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "RJ45 · HDMI extender"
+    ],
+    "powerPortDefinitions": [
+      {
+        "id": "txPowerIn",
+        "type": "power",
+        "out": false,
+        "connector": "DC barrel",
+        "label": "TX DC 5V",
+        "powerDomain": "dc",
+        "volts": 5
+      },
+      {
+        "id": "rxPowerIn",
+        "type": "power",
+        "out": false,
+        "connector": "DC barrel",
+        "label": "RX DC 5V",
+        "powerDomain": "dc",
+        "volts": 5
+      }
+    ],
+    "powerLink": false
+  },
+  "snl-356": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiOut1",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 OUT"
+      },
+      {
+        "id": "hdmiOut2",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 OUT"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "HDMI 1→2 · 4K30 · EDID",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://cdn.nedis.com/datasheets/VSPL3402AT_MAN_COMP_0818_web.PDF",
+        "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=356"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "powerPortDefinitions"
+      ],
+      "missingFields": [
+        "rentalPartNumber",
+        "wattsMaximum"
+      ],
+      "note": "По размерам/EDID/спецификации вероятен VSPL3402AT; S&L код не сообщает. 1 вход и 2 выхода подтверждены S&L и руководством Nedis. 10 W в S&L — operating, не удостоверенный максимум; не импортирован как паспортная мощность.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A"
+    ],
+    "powerPortDefinitions": [
+      {
+        "id": "dcIn",
+        "type": "power",
+        "out": false,
+        "connector": "DC barrel · external adapter",
+        "label": "DC IN",
+        "powerDomain": "dc"
+      }
+    ],
+    "powerLink": false
+  },
+  "snl-390": {
+    "signalPorts": [
+      {
+        "id": "txHdmiIn",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "TX HDMI IN"
+      },
+      {
+        "id": "txSdiOut1",
+        "type": "video",
+        "out": true,
+        "connector": "BNC · 3G-SDI",
+        "label": "TX SDI 1 OUT"
+      },
+      {
+        "id": "txSdiOut2",
+        "type": "video",
+        "out": true,
+        "connector": "BNC · 3G-SDI",
+        "label": "TX SDI 2 OUT"
+      },
+      {
+        "id": "rxSdiIn",
+        "type": "video",
+        "out": false,
+        "connector": "BNC · 3G-SDI",
+        "label": "RX SDI IN"
+      },
+      {
+        "id": "rxSdiLoop",
+        "type": "video",
+        "out": true,
+        "connector": "BNC · 3G-SDI",
+        "label": "RX SDI LOOP"
+      },
+      {
+        "id": "rxHdmiOut",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "RX HDMI OUT"
+      },
+      {
+        "id": "usbC1",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-C",
+        "label": "USB Config / 5V",
+        "powerInput": true,
+        "powerDomain": "dc",
+        "volts": 5
+      },
+      {
+        "id": "usbC2",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-C",
+        "label": "USB Config / 5V",
+        "powerInput": true,
+        "powerDomain": "dc",
+        "volts": 5
+      }
+    ],
+    "watts": 3.6,
+    "wattsBasis": "manufacturer-device-sum",
+    "catalogSubtitle": "HDMI ↔ 3G-SDI · 2 прибора",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.blackmagicdesign.com/products/microconverters/techspecs",
+        "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=390"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts",
+        "usbPowerAndControl"
+      ],
+      "missingFields": [],
+      "note": "Два отдельных Blackmagic Micro Converter: HDMI→SDI 3G (2W) и SDI→HDMI 3G (1.6W). Каждый питается через свой USB-C; эти же физические порты позволяют конфигурацию. Дополнительные выдуманные AC-входы удалены. 3.6W — сумма нагрузки DC устройств, потери адаптеров не включены. Это не один BiDirectional и не внутреннее автоматическое соединение.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "BNC · 3G-SDI",
+      "USB-C"
+    ],
+    "powerPortDefinitions": [],
+    "usbPowered": true,
+    "powerLink": false
+  },
+  "snl-533": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "dpIn",
+        "type": "video",
+        "out": false,
+        "connector": "DisplayPort",
+        "label": "DisplayPort IN"
+      },
+      {
+        "id": "hdmiOut1",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 OUT"
+      },
+      {
+        "id": "hdmiOut2",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 OUT"
+      },
+      {
+        "id": "hdmiOut3",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 3 OUT"
+      },
+      {
+        "id": "hdmiOut4",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 4 OUT"
+      },
+      {
+        "id": "rs232",
+        "type": "control",
+        "out": false,
+        "connector": "DE-9 · RS-232",
+        "label": "RS-232"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "4 × 55″ · HDMI / DP IN",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/en/video/?cat_id=533"
+      ],
+      "checkedFields": [
+        "rentalKitContents",
+        "kitComponents",
+        "rentalSignalPorts",
+        "kitPowerInputs"
+      ],
+      "missingFields": [
+        "controllerManufacturerModel",
+        "controllerWatts"
+      ],
+      "note": "Комплект состоит из 4× SamsungUE55CU7172UXXH и 1× 8K controller (snl-526); kitComponents задаёт состав для разворачивания. На карточке комплекта показаны разъёмы контроллера. HDMI OUT1–4 идут на четыре телевизора. Только телевизоры: 4×145=580W; контроллер дополнительно, общий максимум не известен. Не назначать одному HDMI входу фиктивный видеовыход телевизора.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "DisplayPort",
+      "DE-9 · RS-232"
+    ],
+    "kitComponents": [
+      {
+        "model": "snl-515",
+        "quantity": 4
+      },
+      {
+        "model": "snl-526",
+        "quantity": 1
+      }
+    ],
+    "powerPortDefinitions": [
+      {
+        "id": "tv1Power",
+        "type": "power",
+        "out": false,
+        "connector": "AC input · TV adapter/cable",
+        "label": "TV 1 AC",
+        "powerDomain": "ac"
+      },
+      {
+        "id": "tv2Power",
+        "type": "power",
+        "out": false,
+        "connector": "AC input · TV adapter/cable",
+        "label": "TV 2 AC",
+        "powerDomain": "ac"
+      },
+      {
+        "id": "tv3Power",
+        "type": "power",
+        "out": false,
+        "connector": "AC input · TV adapter/cable",
+        "label": "TV 3 AC",
+        "powerDomain": "ac"
+      },
+      {
+        "id": "tv4Power",
+        "type": "power",
+        "out": false,
+        "connector": "AC input · TV adapter/cable",
+        "label": "TV 4 AC",
+        "powerDomain": "ac"
+      },
+      {
+        "id": "controllerPower",
+        "type": "power",
+        "out": false,
+        "connector": "DC barrel",
+        "label": "CTRL DC12V",
+        "powerDomain": "dc",
+        "volts": 12
+      }
+    ],
+    "powerLink": false
+  },
+  "snl-478": {
+    "signalPorts": [
+      {
+        "id": "txHdmiIn",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI",
+        "label": "TX HDMI IN"
+      },
+      {
+        "id": "txHdmiLoop",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI",
+        "label": "TX HDMI LOOP"
+      },
+      {
+        "id": "rxHdmiOut",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI",
+        "label": "RX HDMI OUT"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "Wireless HDMI · TX + RX",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/en/video/?cat_id=478"
+      ],
+      "checkedFields": [
+        "rentalSignalPorts",
+        "rentalKitContents",
+        "powerPortDefinitions"
+      ],
+      "missingFields": [
+        "manufacturerModel",
+        "manufacturerManual",
+        "watts"
+      ],
+      "note": "Комплект Qkens TX+RX: передатчик HDMI IN+LOOP OUT, приёмник HDMI OUT. У каждой коробки своё питание DC5V; две антенны не RJ45. 5V2A — номинал БП, а не паспортная нагрузка. Точный артикул Qkens не указан. Порты восстановлены по описанию и фотографиям проката.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI"
+    ],
+    "powerLink": false,
+    "powerPortDefinitions": [
+      {
+        "id": "txPowerIn",
+        "type": "power",
+        "out": false,
+        "connector": "DC barrel",
+        "label": "TX DC 5V",
+        "powerDomain": "dc",
+        "volts": 5
+      },
+      {
+        "id": "rxPowerIn",
+        "type": "power",
+        "out": false,
+        "connector": "DC barrel",
+        "label": "RX DC 5V",
+        "powerDomain": "dc",
+        "volts": 5
+      }
+    ]
+  },
+  "snl-537": {
+    "signalPorts": [
+      {
+        "id": "miniHdmiIn",
+        "type": "video",
+        "out": false,
+        "connector": "Mini HDMI Type C",
+        "label": "Mini HDMI Type C IN"
+      },
+      {
+        "id": "usbCVideo",
+        "type": "video",
+        "out": false,
+        "connector": "USB-C · DisplayPort Alt Mode",
+        "label": "USB-C VIDEO"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "15,6″ · 4K · mini HDMI",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/en/video/?cat_id=537",
+        "https://snl.ee/userfiles/catalog/6756d92b969cf.jpg",
+        "https://snl.ee/userfiles/catalog/6756d92abcfeb.jpg"
+      ],
+      "checkedFields": [
+        "rentalSignalPorts",
+        "rentalPortDiagram",
+        "usbPowerOnly"
+      ],
+      "missingFields": [
+        "manufacturerModel",
+        "manufacturerManual",
+        "watts"
+      ],
+      "note": "Схема на фотографии S&L явно разделяет mini HDMI, USB-C video/data и второй USB-C POWER. Порты восстановлены по этой схеме; второй USB-C не является вторым видеовходом. На маркетинговых изображениях watermark JVSUPER, но шильдик/артикул отсутствуют. Это подтверждение разъёмов прокатчиком, не официальный паспорт производителя.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "Mini HDMI Type C",
+      "USB-C · DisplayPort Alt Mode"
+    ],
+    "usbPowered": true,
+    "powerLink": false,
+    "powerPortDefinitions": [
+      {
+        "id": "usbPowerIn",
+        "type": "power",
+        "out": false,
+        "connector": "USB-C · power only",
+        "label": "USB-C POWER",
+        "powerDomain": "dc"
+      }
+    ]
+  },
+  "snl-526": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "dpIn",
+        "type": "video",
+        "out": false,
+        "connector": "DisplayPort",
+        "label": "DisplayPort IN"
+      },
+      {
+        "id": "hdmiOut1",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 OUT"
+      },
+      {
+        "id": "hdmiOut2",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 OUT"
+      },
+      {
+        "id": "hdmiOut3",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 3 OUT"
+      },
+      {
+        "id": "hdmiOut4",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 4 OUT"
+      },
+      {
+        "id": "rs232",
+        "type": "control",
+        "out": false,
+        "connector": "DE-9 · RS-232",
+        "label": "RS-232"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "HDMI + DP → 4 HDMI",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/en/video/?cat_id=526",
+        "https://snl.ee/userfiles/catalog/6762a0782523a.jpg"
+      ],
+      "checkedFields": [
+        "rentalSignalPorts",
+        "rentalPortPhoto",
+        "serialControl",
+        "powerPortDefinitions"
+      ],
+      "missingFields": [
+        "manufacturerModel",
+        "manufacturerManual",
+        "watts"
+      ],
+      "note": "Основная задняя панель S&L: HDMI + DisplayPort INPUT; четыре HDMI OUTPUT; DE-9 RS232; DC12V IN. Второе фото в карточке показывает иной корпус, поэтому точная модель/ревизия не установлена. Разъёмы заданы по основной маркированной панели, а не догадкой по словам 8K. Входная мощность не опубликована.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "DisplayPort",
+      "DE-9 · RS-232"
+    ],
+    "powerLink": false,
+    "powerPortDefinitions": [
+      {
+        "id": "dcIn",
+        "type": "power",
+        "out": false,
+        "connector": "DC barrel",
+        "label": "DC 12V",
+        "powerDomain": "dc",
+        "volts": 12
+      }
+    ]
+  },
+  "snl-473": {
+    "signalPorts": [
+      {
+        "id": "hdmiOut1",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 OUT"
+      },
+      {
+        "id": "hdmiOut2",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 OUT"
+      },
+      {
+        "id": "vgaOut",
+        "type": "video",
+        "out": true,
+        "connector": "VGA / DE-15",
+        "label": "VGA / DE-15 OUT"
+      },
+      {
+        "id": "lan",
+        "type": "ethernet",
+        "out": false,
+        "connector": "RJ45 · Ethernet",
+        "label": "LAN"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 1"
+      },
+      {
+        "id": "usb2",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 2"
+      },
+      {
+        "id": "usb3",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 3"
+      },
+      {
+        "id": "host1",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-C",
+        "label": "USB-C Host"
+      },
+      {
+        "id": "usbCDownstream",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-C · data",
+        "label": "USB-C DATA"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "USB-C · 2 HDMI · VGA",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/en/video/?cat_id=473",
+        "https://snl.ee/userfiles/catalog/63974a6c43890.jpg"
+      ],
+      "checkedFields": [
+        "rentalSignalPorts",
+        "rentalPortDiagram",
+        "usbPowerOnly"
+      ],
+      "missingFields": [
+        "manufacturerModel",
+        "manufacturerManual",
+        "watts"
+      ],
+      "note": "По маркированной схеме S&L: несъёмный USB-C Host; USB-A×3; отдельный USB-C DATA; отдельный USB-C PD IN; HDMI OUT×2, VGA OUT, Ethernet. Отдельный USB-C DATA не заявлен как второй видеовход/выход. Данные изготовителя/точный артикул и потребление не раскрыты. USB-C Host одновременно несёт данные/Alt Mode и питание ноутбука; отдельный AC-вход отсутствует.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "VGA / DE-15",
+      "RJ45 · Ethernet",
+      "USB-A",
+      "USB-C",
+      "USB-C · data"
+    ],
+    "powerLink": false,
+    "usbPowered": true,
+    "powerPortDefinitions": [
+      {
+        "id": "usbPdIn",
+        "type": "power",
+        "out": false,
+        "connector": "USB-C · Power Delivery input",
+        "label": "USB-C PD",
+        "powerDomain": "dc"
+      }
+    ]
+  },
+  "snl-307": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiIn2",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 IN"
+      },
+      {
+        "id": "lan",
+        "type": "ethernet",
+        "out": false,
+        "connector": "RJ45 · Ethernet",
+        "label": "LAN"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A 1"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "50″ · 4K · 2 HDMI",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.samsung.com/ee/support/model/UE50NU7092UXXH/",
+        "https://snl.ee/en/video/tv_and_monitors/?cat_id=307",
+        "https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_UK&OriginYN=N&ModelType=N&ModelName=UE50NU7092U&CttFileID=7075800&CDCttType=EM&VPath=EM%2F201807%2F20180726123206132%2FBN68-09160E-00_UNU7090P_XH_L16_180525.0.pdf",
+        "https://snl.ee/userfiles/catalog/616c0c9fb4780.jpg"
+      ],
+      "checkedFields": [
+        "manufacturerModel",
+        "rentalSignalPorts",
+        "manufacturerManual",
+        "rentalPortPhoto"
+      ],
+      "missingFields": [
+        "manufacturerPortTable",
+        "watts"
+      ],
+      "note": "Точный UE50NU7092U подтверждён поддержкой и оригинальным руководством Samsung BN68-09160E-00. Руководство прямо отсылает за потреблением к шильдику, числового W не содержит. На фото S&L видны HDMI IN×2, USB-A, LAN и IEC C8; аналоговых видео-входов/видеовыхода нет. Фото относится к серии, мелкий шильдик не использован для переноса мощности другого размера. Число портов подтверждено фото прокатчика, а не таблицей Samsung.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "RJ45 · Ethernet",
+      "USB-A"
+    ],
+    "powerLink": false
+  },
+  "snl-496": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI IN"
+      },
+      {
+        "id": "lan",
+        "type": "ethernet",
+        "out": false,
+        "connector": "RJ45 · Ethernet",
+        "label": "LAN"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "40″ / 55″ · выбор модели",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/en/video/tv_and_monitors/?cat_id=496",
+        "https://www.samsung.com/us/business/support/owners/product/db-series-digital-signage-db40e/",
+        "https://snl.ee/userfiles/catalog/641c6f38b5f81.jpg",
+        "https://www.samsung.com/ie/support/model.UE55F6650SSXXH/"
+      ],
+      "checkedFields": [
+        "rentalModelConflict",
+        "manufacturerVariant",
+        "rentalPortPhoto"
+      ],
+      "missingFields": [
+        "rentalModelIdentity"
+      ],
+      "note": "В заголовке S&L UE55F6650SS (55″), в описании LH40DBEPLGC/EN и на фото DB40E (40″). До подтверждения показаны лишь общие HDMI/LAN/USB, мощность не назначена. В списке аппаратных вариантов полностью документированный DB40E с 121W. Вариант 55F6650 не подменён параметрами DB40E: старое официальное eManual семейства не подтверждает число разъёмов конкретного SKU. Выбор модели обязателен перед финальной проверкой.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "RJ45 · Ethernet",
+      "USB-A"
+    ],
+    "variantRequired": true,
+    "hardwareVariants": [
+      {
+        "id": "db40e",
+        "name": "Samsung DB40E",
+        "signalPorts": [
+          {
+            "id": "hdmiIn1",
+            "type": "video",
+            "out": false,
+            "connector": "HDMI Type A",
+            "label": "HDMI IN"
+          },
+          {
+            "id": "dviIn",
+            "type": "video",
+            "out": false,
+            "connector": "DVI-D",
+            "label": "DVI IN"
+          },
+          {
+            "id": "vgaIn",
+            "type": "video",
+            "out": false,
+            "connector": "VGA / DE-15",
+            "label": "VGA IN"
+          },
+          {
+            "id": "componentIn",
+            "type": "video",
+            "out": false,
+            "connector": "3×RCA · Component/CVBS adapter",
+            "label": "YPbPr / CVBS"
+          },
+          {
+            "id": "lan",
+            "type": "ethernet",
+            "out": false,
+            "connector": "RJ45 · Ethernet",
+            "label": "LAN"
+          },
+          {
+            "id": "usb1",
+            "type": "usb",
+            "out": true,
+            "connector": "USB-A",
+            "label": "USB-A"
+          },
+          {
+            "id": "rs232In",
+            "type": "control",
+            "out": false,
+            "connector": "3.5 mm · RS-232",
+            "label": "RS232 IN"
+          },
+          {
+            "id": "rs232Out",
+            "type": "control",
+            "out": true,
+            "connector": "3.5 mm · RS-232",
+            "label": "RS232 OUT"
+          }
+        ],
+        "watts": 121,
+        "wattsBasis": "manufacturer-max",
+        "catalogSubtitle": "40″ · HDMI · DVI · VGA",
+        "verification": {
+          "status": "verified",
+          "sources": [
+            "https://www.samsung.com/us/business/support/owners/product/db-series-digital-signage-db40e/",
+            "https://cdn.s1data.com/product-assets/samsung/db40e/dbe_series_smart_signage_datasheet_web.pdf"
+          ],
+          "checkedFields": [
+            "signalPorts",
+            "watts",
+            "manufacturerModel"
+          ],
+          "missingFields": [],
+          "note": "Samsung DB40E / LH40DBEPLGC: один HDMI, DVI-D, VGA, Component/CVBS через общий адаптер, USB-A, LAN; RS232 IN/OUT 3.5мм. Максимум 121W. Component и composite — общая физическая группа, не два одновременно независимых входа.",
+          "checkedAt": "2026-11-06"
+        }
+      }
+    ],
+    "powerLink": false
+  },
+  "snl-336": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiIn2",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 IN"
+      },
+      {
+        "id": "vgaIn",
+        "type": "video",
+        "out": false,
+        "connector": "VGA / DE-15",
+        "label": "VGA / DE-15 IN"
+      },
+      {
+        "id": "scart",
+        "type": "video",
+        "out": false,
+        "connector": "SCART",
+        "label": "SCART IN/OUT",
+        "configurableDirection": true
+      },
+      {
+        "id": "componentIn",
+        "type": "video",
+        "out": false,
+        "connector": "3×RCA · YPbPr",
+        "label": "YPbPr IN"
+      },
+      {
+        "id": "cvbsIn",
+        "type": "video",
+        "out": false,
+        "connector": "RCA · CVBS",
+        "label": "RCA · CVBS IN"
+      },
+      {
+        "id": "usb1",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB-A"
+      }
+    ],
+    "watts": 120,
+    "wattsBasis": "manufacturer-rated",
+    "catalogSubtitle": "32″ · 2 HDMI · VGA",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.lg.com/ee/toetus/toote/lg-32LD350.AEU",
+        "https://gscs-b2c.lge.com/open/downloadFile?fileId=XwdO1AqQoKxuJN8XZpkZA"
+      ],
+      "checkedFields": [
+        "signalPorts",
+        "watts",
+        "regionalManual",
+        "configurableDirection"
+      ],
+      "missingFields": [],
+      "note": "Проверено руководство европейского 32LD350-ZA: A-5 задняя/боковая панели, стр.137 питание. 2 HDMI (задний и боковой), VGA, SCART, компонентный, CVBS, USB; LAN отсутствует. 120 W по руководству вместо 110 W S&L/150 W ошибочной RU-страницы. SCART поддерживает вход/выход, в схеме один физический порт с переключаемым направлением. RF/CI и аудио не моделируются.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "VGA / DE-15",
+      "SCART",
+      "3×RCA · YPbPr",
+      "RCA · CVBS",
+      "USB-A"
+    ],
+    "powerLink": false
+  },
+  "snl-541": {
+    "signalPorts": [
+      {
+        "id": "ledIn",
+        "type": "video",
+        "out": false,
+        "connector": "LED cabinet data · receiving card unconfirmed",
+        "label": "LED DATA IN",
+        "unverified": true
+      },
+      {
+        "id": "ledOut",
+        "type": "video",
+        "out": true,
+        "connector": "LED cabinet data · receiving card unconfirmed",
+        "label": "LED DATA OUT",
+        "unverified": true
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "P3.91 · LED-кабинет",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/en/video/led_screens/?cat_id=541",
+        "https://snl.ee/userfiles/catalog/6809364658dee.jpg",
+        "https://www.showholed.com/?a=index&c=Lists&lang=en&m=home&tid=48"
+      ],
+      "checkedFields": [
+        "rentalSpecificationConflict",
+        "rentalCabinetPhoto",
+        "manufacturerCatalogSearch"
+      ],
+      "missingFields": [
+        "manufacturerModel",
+        "receivingCard",
+        "connectorPinout",
+        "powerLink",
+        "watts"
+      ],
+      "note": "P3.91 обозначает шаг, а не модель. Фото S&L показывает кабинет и коммутационный блок, но надписи разъёмов/receiving card не читаются. Пара LED DATA IN/OUT оставлена как явно непроверенная схема каскада; это не Ethernet/LAN и не подтверждение pinout. Точные power IN/OUT, лимиты и NovaStar-совместимость не присвоены по внешнему виду. Противоречие S&L: 500×500мм и64×64px не соответствует шагу3.91мм. Каталог изготовителя Showho/Xiuhu исследован, точная серия не установлена.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "LED cabinet data · receiving card unconfirmed"
+    ],
+    "powerLink": false
+  },
+  "snl-353": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiIn2",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 IN"
+      },
+      {
+        "id": "hdmiIn3",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 3 IN"
+      },
+      {
+        "id": "hdmiIn4",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 4 IN"
+      },
+      {
+        "id": "hdmiOut1",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 OUT"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "HDMI 4→1 · 4K60",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=353",
+        "https://www.farnell.com/datasheets/2819751.pdf",
+        "https://ee.farnell.com/pro-signal/psg3059/hdmi-4x1-switcher-4k-60hz/dp/3446593"
+      ],
+      "checkedFields": [
+        "rentalSignalPorts",
+        "manufacturerPortTable",
+        "rentalPortPhoto"
+      ],
+      "missingFields": [
+        "rentalPartNumber",
+        "watts"
+      ],
+      "note": "S&L текст и фото совпадают с Pro Signal PSG3059: четыре HDMI IN, один HDMI OUT. Первичный паспорт владельца бренда Farnell подтверждает топологию и внешний БП 5V1A. 5W — предел адаптера, не опубликованное потребление устройства; поэтому нагрузка не выдумана. Точный артикул на шильдике S&L не приведён.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A"
+    ],
+    "powerPortDefinitions": [
+      {
+        "id": "dcIn",
+        "type": "power",
+        "out": false,
+        "connector": "DC barrel",
+        "label": "DC 5V",
+        "powerDomain": "dc",
+        "volts": 5
+      }
+    ],
+    "powerLink": false
+  },
+  "snl-354": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiOut1",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 OUT"
+      }
+    ],
+    "watts": 1.5,
+    "wattsBasis": "manufacturer-max-provisional-model",
+    "catalogSubtitle": "HDMI 1→1 · репитер",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=354",
+        "https://www.manualslib.com/manual/2554167/Well-Rep-Hdmi1-4-35m-Wl.html?page=3"
+      ],
+      "checkedFields": [
+        "rentalSignalPorts",
+        "manufacturerManual",
+        "powerPortDefinitions",
+        "watts"
+      ],
+      "missingFields": [
+        "rentalPartNumber"
+      ],
+      "note": "Найдено оригинальное руководство Well REP-HDMI1.4/35M-WL: HDMI IN/OUT Type A, необязательный micro-USB POWER, максимум 1.5W (стр.2), питание возможно через HDMI. Текст характеристик совпадает с S&L, но сам артикул прокатчик не указывает; 1.5W относится к этому сопоставленному руководству и отмечено как предварительное соответствие модели. Micro-USB не является видеовходом.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A"
+    ],
+    "powerLink": false,
+    "usbPowered": true,
+    "powerPortDefinitions": [
+      {
+        "id": "usbPowerIn",
+        "type": "power",
+        "out": false,
+        "connector": "Micro-USB · power only",
+        "label": "USB POWER",
+        "powerDomain": "dc",
+        "volts": 5,
+        "optional": true
+      }
+    ]
+  },
+  "snl-358": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiLoop",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI",
+        "label": "HDMI LOOP"
+      },
+      {
+        "id": "usbCapture",
+        "type": "usb",
+        "out": true,
+        "connector": "USB (тип уточнить)",
+        "label": "USB Capture"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "HDMI IN / LOOP · USB",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=358",
+        "https://snl.ee/userfiles/catalog/618180195c840.jpg"
+      ],
+      "checkedFields": [
+        "rentalModel",
+        "rentalSignalPorts",
+        "rentalPortPhoto",
+        "powerPortDefinitions"
+      ],
+      "missingFields": [
+        "manufacturerModel",
+        "manufacturerManual",
+        "watts"
+      ],
+      "note": "YS-11268 без идентифицированного производителя. S&L показывает HDMI INPUT и маркированный DC5V micro-USB; текст подтверждает HDMI LOOP и USB Capture к компьютеру. Power micro-USB не подменяет USB capture выход: физический тип последнего не показан на доступных ракурсах и оставлен явно неизвестным. 4K не означает capture4K; мощность не подтверждена.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A",
+      "HDMI",
+      "USB (тип уточнить)"
+    ],
+    "powerPortDefinitions": [
+      {
+        "id": "usbPowerIn",
+        "type": "power",
+        "out": false,
+        "connector": "Micro-USB · power only",
+        "label": "DC 5V",
+        "powerDomain": "dc",
+        "volts": 5
+      }
+    ],
+    "powerLink": false,
+    "usbPowered": true
+  },
+  "snl-364": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI",
+        "label": "HDMI IN"
+      },
+      {
+        "id": "cvbsOut",
+        "type": "video",
+        "out": true,
+        "connector": "RCA · CVBS",
+        "label": "CVBS OUT"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "HDMI → CVBS · PAL/NTSC",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=364"
+      ],
+      "checkedFields": [
+        "rentalSignalPorts",
+        "rentalPortPhoto",
+        "powerPortDefinitions"
+      ],
+      "missingFields": [
+        "manufacturerModel",
+        "manufacturerManual",
+        "watts"
+      ],
+      "note": "Безымянный MINI HDMI2AV. Фото S&L показывает HDMI INPUT, жёлтый RCA CVBS OUT, красный/белый RCA audio, mini-USB POWER, PAL/NTSC. Выходы аудио не выдаются за дополнительные видеовыходы. USB только питание; мощности и заводского артикула нет.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI",
+      "RCA · CVBS"
+    ],
+    "powerLink": false,
+    "usbPowered": true,
+    "powerPortDefinitions": [
+      {
+        "id": "usbPowerIn",
+        "type": "power",
+        "out": false,
+        "connector": "Mini-USB · power only",
+        "label": "USB POWER",
+        "powerDomain": "dc",
+        "volts": 5
+      }
+    ]
+  },
+  "snl-391": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiOut1",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 OUT"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "HDMI 1→1 · аудиоэкстрактор",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=391"
+      ],
+      "checkedFields": [
+        "rentalSignalPorts",
+        "rentalPortPhoto",
+        "powerPortDefinitions"
+      ],
+      "missingFields": [
+        "manufacturerModel",
+        "manufacturerManual",
+        "watts"
+      ],
+      "note": "На маркированной фотографии S&L: HDMI IN, HDMI OUT с ARC, micro-USB DC5V IN, optical S/PDIF OUT, аналоговый audio OUT 3.5мм через RCA кабель. Это не HDMI 1→2. USB не data. 350mA из проката — ток DC, сетевое потребление с БП не подтверждено. Точного производителя/артикула нет.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A"
+    ],
+    "powerLink": false,
+    "usbPowered": true,
+    "powerPortDefinitions": [
+      {
+        "id": "usbPowerIn",
+        "type": "power",
+        "out": false,
+        "connector": "Micro-USB · power only",
+        "label": "USB 5V",
+        "powerDomain": "dc",
+        "volts": 5
+      }
+    ]
+  },
+  "snl-489": {
+    "signalPorts": [
+      {
+        "id": "hdmiIn1",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 IN"
+      },
+      {
+        "id": "hdmiIn2",
+        "type": "video",
+        "out": false,
+        "connector": "HDMI Type A",
+        "label": "HDMI 2 IN"
+      },
+      {
+        "id": "hdmiOut1",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI 1 OUT"
+      }
+    ],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "catalogSubtitle": "HDMI 2→1 · ARC",
+    "dmx": false,
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=489"
+      ],
+      "checkedFields": [
+        "rentalModel",
+        "rentalSignalPorts",
+        "rentalPortPhoto",
+        "powerPortDefinitions"
+      ],
+      "missingFields": [
+        "manufacturerModel",
+        "manufacturerManual",
+        "watts"
+      ],
+      "note": "S&L VBDWRM H20B2X1: фотографии подтверждают HDMI IN×2, HDMI OUT×1, micro-USB DC5V. Optical/coaxial/RCA/3.5мм относятся к аудио и не создают дополнительные видеовыходы. Первичный паспорт конкретного OEM/мощность не найдены; отсутствие паспорта не удаляет явно видимые HDMI OUT.",
+      "checkedAt": "2026-11-06"
+    },
+    "connectors": [
+      "HDMI Type A"
+    ],
+    "powerLink": false,
+    "usbPowered": true,
+    "powerPortDefinitions": [
+      {
+        "id": "usbPowerIn",
+        "type": "power",
+        "out": false,
+        "connector": "Micro-USB · power only",
+        "label": "USB 5V",
+        "powerDomain": "dc",
+        "volts": 5
+      }
+    ]
+  }
+}

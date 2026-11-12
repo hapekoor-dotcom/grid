@@ -1,0 +1,2692 @@
+RIG GRID — ДАННЫЕ И ИСТОЧНИКИ
+Проверка: 2026-11-05
+Это справочник планировщика. Начальный режим выбран приложением, а не прочитан из физического прибора. Его необходимо согласовать с режимом на самом приборе. Частичные и неподтверждённые данные перечислены у каждой модели.
+
+В каталоге: 189. Моделей: 155. Настраиваемых блоков: 34.
+Проверено частично: 94
+Проверено: 59
+Нужно уточнение: 2
+
+Скрытые позиции и технические копии профилей сохранены в JSON для совместимости проектов.
+
+Питание / Розетка [outlet]
+Полная модель: Розетка
+Блок без модели
+Подпись: Типовой блок
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 0 W (unknown)
+Физические порты: OUT power / DC
+Один выход. Укажи линию, фазу и допустимый бюджет мощности.
+Источники:
+
+Питание / Распределитель [distro]
+Полная модель: Распределитель
+Блок без модели
+Подпись: Типовой блок
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 0 W (unknown)
+Физические порты: IN power / DC; OUT power / DC; OUT power / DC; OUT power / DC; OUT power / DC
+Число выходов меняется в инспекторе. Наследует фазу источника.
+Источники:
+
+Питание / АКБ [battery]
+Полная модель: АКБ
+Блок без модели
+Подпись: Типовой блок
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 0 W (unknown)
+Физические порты: OUT power / DC
+Укажи максимальную выходную мощность и полезную ёмкость Wh.
+Источники:
+
+DMX / Swisson XND-8 [xnd8]
+Полная модель: Swisson XND-8
+Проверено частично
+Подпись: 8 портов · Art-Net / sACN
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 11 W (typical)
+Физические порты: IN RJ45 etherCON / LAN; IN powerCON IN / DC; OUT powerCON OUT / DC; OUT DMX: hardware variant / U1; OUT DMX: hardware variant / U2; OUT DMX: hardware variant / U3; OUT DMX: hardware variant / U4; OUT DMX: hardware variant / U5; OUT DMX: hardware variant / U6; OUT DMX: hardware variant / U7; OUT DMX: hardware variant / U8
+Восемь DMX-портов переключаются IN/OUT; по умолчанию схема использует OUT. Конкретный суффикс XND-8 (3/5-pin/RJ45) не указан: не подставлять XLR 5 автоматически. USB-B служебный, не USB-DMX. 11 W — typical, не max. Power-link суммарно до 19,8 A по руководству.
+Не установлено: dmxConnectorVariant
+Источники:
+  https://www.swisson.com/site/assets/files/1238/um_xnd-8-d0-len-v01-05-1.pdf
+
+DMX / DMX-сплиттер [splitter]
+Полная модель: DMX-сплиттер
+Блок без модели
+Подпись: 
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx / A; OUT dmx / 1; OUT dmx / 2; OUT dmx / 3; OUT dmx / 4
+Типовой блок: укажи модель, мощность и физические разъёмы.
+Источники:
+
+DMX / DMX-ресивер [receiver]
+Полная модель: Беспроводной DMX-ресивер
+Блок без модели
+Подпись: 
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN wireless; OUT dmx
+Радиоканал отображается пунктиром. Совместимость радиосистем указывается вручную.
+Источники:
+
+DMX / DMX-передатчик [transmitter]
+Полная модель: Беспроводной DMX-трансмиттер
+Блок без модели
+Подпись: 
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT wireless
+
+Источники:
+
+DMX / Коммутатор [switch]
+Полная модель: Ethernet-коммутатор
+Блок без модели
+Подпись: 
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN ethernet; OUT ethernet / 1; OUT ethernet / 2; OUT ethernet / 3; OUT ethernet / 4
+
+Источники:
+
+Свет / PAR [generic-par]
+Полная модель: LED PAR
+Нужно уточнение
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+Настраиваемый блок без указанной модели. Каналы и разъёмы задаются после выбора конкретного прибора; общих DMX-режимов для этой категории не существует.
+Не установлено: model, modes, connectors, watts
+Источники:
+
+Свет / Spot [generic-spot]
+Полная модель: Moving Head Spot
+Нужно уточнение
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+Настраиваемый блок без указанной модели. Каналы и разъёмы задаются после выбора конкретного прибора; общих DMX-режимов для этой категории не существует.
+Не установлено: model, modes, connectors, watts
+Источники:
+
+Свет / Beam [generic-beam]
+Полная модель: Moving Head Beam
+Нужно уточнение
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+Настраиваемый блок без указанной модели. Каналы и разъёмы задаются после выбора конкретного прибора; общих DMX-режимов для этой категории не существует.
+Не установлено: model, modes, connectors, watts
+Источники:
+
+Свет / Пиксельный бар [generic-pixel]
+Полная модель: Пиксельный бар
+Блок без модели
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+
+Источники:
+
+Свет / Стробоскоп [generic-strobe]
+Полная модель: Стробоскоп
+Блок без модели
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+
+Источники:
+
+Свет / Блайндер [generic-blinder]
+Полная модель: Блайндер
+Блок без модели
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+
+Источники:
+
+Эффекты / Хейзер [generic-haze]
+Полная модель: Хейзер
+Блок без модели
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+
+Источники:
+
+Эффекты / Дым-машина [generic-fog]
+Полная модель: Дым-машина
+Блок без модели
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+
+Источники:
+
+Эффекты / Конфетти [generic-confetti]
+Полная модель: Конфетти
+Блок без модели
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+
+Источники:
+
+Эффекты / Снег [generic-snow]
+Полная модель: Снег
+Блок без модели
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+
+Источники:
+
+Эффекты / Пузыри [generic-bubble]
+Полная модель: Мыльные пузыри
+Блок без модели
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+
+Источники:
+
+Эффекты / CO₂ [generic-co2]
+Полная модель: CO₂-эффект
+Блок без модели
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+
+Источники:
+
+Управление и источники / Ноутбук [laptop]
+Полная модель: Ноутбук
+Блок без модели
+Подпись: 
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; OUT ethernet; OUT HDMI; OUT usb
+Типовой ноутбук. Порты могут требовать адаптеров; настрой фактические выходы.
+Источники:
+
+Управление и источники / Компьютер [computer]
+Полная модель: Компьютер
+Блок без модели
+Подпись: 
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; OUT ethernet; OUT HDMI; OUT usb
+
+Источники:
+
+Управление и источники / Видеомикшер [video-mixer]
+Полная модель: Видеомикшер
+Блок без модели
+Подпись: 
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN HDMI; OUT HDMI
+
+Источники:
+
+Видео / LED-стена [generic-ledwall]
+Полная модель: LED-стена
+Блок без модели
+Подпись: 
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN HDMI
+Укажи суммарную максимальную мощность всех кабинетов. Видеопроцессор и транспорт согласуются отдельно.
+Источники:
+
+Видео / Телевизор [generic-tv]
+Полная модель: Телевизор
+Блок без модели
+Подпись: 
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN HDMI
+Укажи модель и тип фактического видеопорта.
+Источники:
+
+Видео / Проектор [generic-projector]
+Полная модель: Проектор
+Блок без модели
+Подпись: 
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN HDMI
+Укажи модель и тип фактического видеопорта.
+Источники:
+
+Видео / Видеопроцессор [generic-processor]
+Полная модель: Видеопроцессор LED
+Блок без модели
+Подпись: 
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN HDMI; OUT HDMI
+Укажи модель и тип фактического видеопорта.
+Источники:
+
+Свет / Showtec Dreamwave [snl-432]
+Полная модель: Showtec Dreamwave + DMX controller
+Проверено
+Подпись: 10–34 CH · 3-pin
+DMX: есть
+Режимы: 10 CH [dmx-10]; 34 CH [dmx-34]
+Начальный режим планировщика: 10 CH
+Мощность: 70 W (manufacturer-full-output)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT IEC / DC; OUT 3-pin XLR
+Руководство Showtec 43166, стр. 26; оригинальный документ производителя размещён у Thomann. 70 W — при полном выходе. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.
+Источники:
+  https://im.static-thomann.de/pics/atg/atgdata/document/manual/465887_dreamwave_uk.pdf
+
+Свет / MegaStrobe 768 [snl-506]
+Полная модель: Eurolite Led Mega Strobe 768 Bar
+Проверено
+Подпись: RGB+W · 7–269 CH · 3-pin
+DMX: есть
+Режимы: 7 CH [7ch]; 18 CH [18ch]; 21 CH [21ch]; 113 CH [113ch]; 125 CH [125ch]; 257 CH [257ch]; 269 CH [269ch]
+Начальный режим планировщика: 21 CH
+Мощность: 350 W (manufacturer)
+Физические порты: IN P-Con blue / DC; IN 3-pin XLR; OUT P-Con blue / DC; OUT 3-pin XLR
+Оригинальное руководство Eurolite 00140513 v1.0 описывает POWER IN/OUT с P-Con и power-link до 8 приборов при 230/240 V. Режимы взяты из актуальной таблицы производителя; старая редакция мануала имеет другую расширенную DMX-таблицу, поэтому для старого firmware нужно сверить меню. 21 CH присутствует в обеих версиях.
+Источники:
+  https://www.steinigke.de/en/mpn52200950-eurolite-led-mega-strobe-768-bar.html
+  https://device.report/m/416483174be138ff38fa6ab812e488c7552ed61fda40c4086d41a3cae771d348_optim.pdf
+
+Свет / MegaStrobe 812 [snl-509]
+Полная модель: Eurolite Led Mega Strobe 812 Panel
+Проверено
+Подпись: RGB+W · 6–310 CH · 3/5-pin
+DMX: есть
+Режимы: 6 CH [6ch]; 17 CH [17ch]; 20 CH [20ch]; 21 CH [21ch]; 298 CH [298ch]; 310 CH [310ch]
+Начальный режим планировщика: 21 CH
+Мощность: 400 W (manufacturer)
+Физические порты: IN P-Con / DC; IN 3-pin XLR / 5-pin XLR; OUT P-Con / DC; OUT 3-pin XLR / 5-pin XLR
+ Начальный режим выбран планировщиком; это не заявление о заводской настройке. На приборе нужно установить тот же режим.
+Источники:
+  https://www.steinigke.de/en/mpn52200945-eurolite-led-mega-strobe-812-panel.html
+
+Свет / ADJ UBL6H [snl-498]
+Полная модель: Led Bar ADJ UBL 6H
+Проверено
+Подпись: RGBAL+UV · 6–28 CH · 5-pin
+DMX: есть
+Режимы: 6 CH [6ch]; 11 CH [11ch]; 13 CH [13ch]; 16 CH [16ch]; 18 CH [18ch]; 25 CH [25ch]; 28 CH [28ch]
+Начальный режим планировщика: 11 CH
+Мощность: 26 W (manufacturer)
+Физические порты: IN Locking Power / DC; IN 5-pin XLR; OUT Locking Power / DC; OUT 5-pin XLR
+RGBAL+UV; три группы по два LED. 11 CH — компактное управление всем баром. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.
+Источники:
+  https://www.adj.com/products/ubl6h
+
+Свет / ADJ UBL12H [snl-499]
+Полная модель: Led Bar ADJ UBL 12H
+Проверено
+Подпись: RGBAL+UV · 6–46 CH · 5-pin
+DMX: есть
+Режимы: 6 CH [6ch]; 11 CH [11ch]; 13 CH [13ch]; 16 CH [16ch]; 36 CH [36ch]; 43 CH [43ch]; 46 CH [46ch]
+Начальный режим планировщика: 11 CH
+Мощность: 61 W (manufacturer)
+Физические порты: IN Locking Power / DC; IN 5-pin XLR; OUT Locking Power / DC; OUT 5-pin XLR
+RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.
+Источники:
+  https://www.adj.com/products/ubl12h
+  https://www.adj.eu/mwdownloads/download/link/id/1709
+
+Свет / Element HEXIP [snl-311]
+Полная модель: Wireless Led par ADJ Element Hex IP
+Проверено
+Подпись: RGBAW+UV · 6–12 CH · WiFLY
+DMX: есть
+Режимы: 6 CH [6ch]; 7 CH [7ch]; 8 CH [8ch]; 11 CH [11ch]; 12 CH [12ch]
+Начальный режим планировщика: 7 CH
+Мощность: 42 W (manufacturer)
+Физические порты: IN IEC / DC; IN WiFLY EXR
+RGBAW+UV. У Element HEXIP отсутствуют проводные DMX IN/OUT; DMX принимается через WiFLY EXR, IEC используется для питания/зарядки. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.
+Источники:
+  https://www.adj.eu/element-hexip
+  https://www.adj.com/products/element-hexip
+  https://www.adj.eu/mwdownloads/download/link/id/1121
+
+Свет / ADJ 12P-HEX [snl-245]
+Полная модель: American DJ 12P Hex
+Проверено
+Подпись: RGBAW+UV · 6–12 CH · 3-pin
+DMX: есть
+Режимы: 6 CH [dmx-6]; 7 CH [dmx-7]; 8 CH [dmx-8]; 12 CH [dmx-12]
+Начальный режим планировщика: 7 CH
+Мощность: 150 W (manufacturer-full-output)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT IEC / DC; OUT 3-pin XLR
+RGBAW+UV. 150 W при всех светодиодах на полной мощности. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.
+Источники:
+  https://www.adj.com/products/12p-hex
+
+Свет / ADJ 18P-HEX [snl-450]
+Полная модель: ADJ Led PAR 18P Hex
+Проверено частично
+Подпись: RGBAW+UV · 6–12 CH · 3-pin
+DMX: есть
+Режимы: 6 CH [dmx-6]; 7 CH [dmx-7]; 8 CH [dmx-8]; 12 CH [dmx-12]
+Начальный режим планировщика: 7 CH
+Мощность: 154 W (manufacturer-specified)
+Физические порты: IN Locking Power / DC; IN 3-pin XLR; OUT Locking Power / DC; OUT 3-pin XLR
+Официальный мануал V1.1: старые версии были отдельно 3-pin и 5-pin, текущая имеет оба типа. S&L указывает 3-pin; конкретную аппаратную ревизию нужно сверить. 154 W — потребление по ADJ Europe, 216 W — сумма LED, не потребление. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.
+Не установлено: hardwareRevision, physicalDmxSocketVariant
+Источники:
+  https://www.adj.eu/18p-hex
+  https://www.adj.eu/mwdownloads/download/link/id/1003
+  https://www.adj.com/products/18p-hex
+
+Свет / Ikon Profile [snl-236]
+Полная модель: ADJ Ikon Profile
+Проверено
+Подпись: 3 CH · 3-pin
+DMX: есть
+Режимы: 3 CH [dmx-3]
+Начальный режим планировщика: 3 CH
+Мощность: 44 W (manufacturer-max)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT IEC / DC; OUT 3-pin XLR
+Ikon Profile без Plus; 3 CH. 44 W max. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.
+Источники:
+  https://www.adj.com/products/ikon-profile
+  https://www.adj.eu/mwdownloads/download/link/id/846
+
+Свет / Kupo 19° [snl-115]
+Полная модель: Kupo Profile 19° 750W
+Проверено частично
+Подпись: Лампа HPL
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 750 W (lamp-rating)
+Физические порты: IN power / DC
+S&L указывает HPL750 W, 19°. Это ламповый профиль: диммирование внешним диммером, собственного DMX-адреса нет. Семейство KUPO Megalite подтверждено, но артикул ML-7519B в прокатной карточке не указан; кабельный штекер зависит от комплектации.
+Не установлено: exactModel, powerConnector
+Источники:
+  https://kupostage.com/products/ml-7519b
+  https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=115
+
+Свет / Shehds 250W [snl-485]
+Полная модель: Shehds 250W
+Проверено частично
+Подпись: RGBW · 11 CH · 3-pin
+DMX: есть
+Режимы: 11 CH [11ch]
+Начальный режим планировщика: 11 CH
+Мощность: не подтверждена (unknown)
+Физические порты: IN powerCON / DC; IN 3-pin XLR; OUT powerCON / DC; OUT 3-pin XLR
+Модель S&L совпадает с текущей официальной RGBW 15–55°, 9.5 kg, 11 CH. На официальной фотографии задней панели отчётливо подписаны DMX IN, DMX OUT, POWER IN и POWER OUT: XLR 3-pin и powerCON. Найден и прочитан PDF по ссылке старого сайта производителя: это другая 6.75 kg ревизия с 7/10 CH, поэтому её режимы не перенесены на 9.5 kg прибор S&L. 250 W названы мощностью LED/Output Power, не подтверждённой входной мощностью.
+Не установлено: watts
+Источники:
+  https://shehds.com/products/shehds-250w-rgbw-spotlight-with-barndoors-pulse-strobe
+  https://shehds.com/cdn/shop/files/7_92bde12b-8aac-4d54-8643-8ccc9004dd67.jpg?v=1752917271&width=1445
+  https://shehds.net/products/shehds-250w-rgbw-with-barndoor-pulse-strobe-spotlight-for-dj-club-wedding-ktv
+  https://drive.google.com/file/d/1KeCiYzUoUVWzMZEay_tqE3rhehCW6VZY/view
+  https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=485
+
+Свет / Kupo 26° [snl-116]
+Полная модель: Kupo Profile 26° 750W
+Проверено частично
+Подпись: Лампа HPL
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 750 W (lamp-rating)
+Физические порты: IN power / DC
+S&L указывает HPL750 W, 26°. Это ламповый профиль: диммирование внешним диммером, собственного DMX-адреса нет. Семейство KUPO Megalite подтверждено, но артикул ML-7526B в прокатной карточке не указан; кабельный штекер зависит от комплектации.
+Не установлено: exactModel, powerConnector
+Источники:
+  https://kupostage.com/products/ml-7526b
+  https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=116
+
+Свет / Flood 30W [snl-303]
+Полная модель: Wireless Led Flood Light Projektor 30w (outdoor)
+Нужно уточнение
+Подпись: Прожектор
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC
+В карточке только rechargeable flood30 W, без производителя/артикула.30 W может относиться к LED; зарядный блок, сетевое потребление и отсутствие DMX документально не установлены.
+Не установлено: exactModel, modes, connectors, watts
+Источники:
+  https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=303
+
+Свет / GS Industry [snl-113]
+Полная модель: GS Projector
+Проверено частично
+Подпись: 500 W
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 500 W (rental-spec)
+Физические порты: IN power / DC
+В PDF S&L стр.12 — фотография обычного прожектора на штативе и Power 500 W; точного производителя/модели нет. Искались точное название, вариации GS Industry Projector и технические каталоги; найден только каталог самого владельца. 500 W сохранены как данные проката, не как подтверждённый паспорт. Сигнальные выходы не выдуманы. Требуется шильдик для точного производителя, разъёма и паспорта.
+Не установлено: exactModel, dmx, powerConnector, manufacturerPower
+Источники:
+  https://snl.ee/userfiles/files/catalogue/sl-concept_catalogue_light_rent_en.pdf
+  https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=113
+
+Свет / Kupo Ciclorama [snl-117]
+Полная модель: Kupo Ciclorama 1000W
+Проверено частично
+Подпись: Галогенная лампа
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 1000 W (lamp-rating)
+Физические порты: IN power / DC
+Ламповая циклорама 1000 W: собственного DMX нет; нужен внешний диммер. Семейства CYC-1000 и FDL-1000 отличаются оптикой; S&L не указывает артикул, его нельзя угадывать.
+Не установлено: exactModel, powerConnector
+Источники:
+  https://www.kupo.com.tw/kupo/pdf/Cyclorama-Flood%20Light.pdf
+  https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=117
+
+Свет / Tempo 3 [snl-164]
+Полная модель: Philips Tempo3
+Проверено частично
+Подпись: 400 W · 230 V · без DMX
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 400 W (manufacturer-specified)
+Физические порты: IN 3-pole screw terminal / DC
+PDF S&L уточняет семейство RVP351 HPI-TP400W KS. Официальный паспорт HPI-TP400W K IC S подтверждает 400 W, 230 V, PF 0.85, клеммный ввод 3-pole; Dimmable = No. Это обычный металлогалогенный прожектор: DMX, видео, Ethernet и сквозного Power OUT у него нет. Только вход питания — правильная схема. Внешняя вилка на кабеле прокатчика в документации не названа; не приписана Schuko или IEC.
+Не установлено: rentalCablePlug
+Источники:
+  https://snl.ee/userfiles/files/catalogue/sl-concept_catalogue_light_rent_en.pdf
+  https://www.assets.lighting.philips.com/is/content/PhilipsLighting/fp910502548718-pss-en_ae
+  https://www.assets.lighting.philips.com/is/content/PhilipsLighting/comf2297-pss-global
+
+Свет / Apollo AB-159B [snl-133]
+Полная модель: Appolo AB-159B
+Проверено частично
+Подпись: 4 CH · HMI 1200 W
+DMX: есть
+Режимы: 4 CH [4ch]
+Начальный режим планировщика: 4 CH
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN DMX512 · разъём требует сверки
+Официальный PDF владельца S&L прямо сообщает DMX512 и 4 CH для Appolo AB-159B; восстановлен документированный владельцем footprint 4 CH. Это не подтверждение таблицы производителя. Поиск Appolo/Apollo, AB-159B/AB159B/AB-159 на двух поисковых системах дал только S&L; паспорт производителя не найден. Тип DMX гнезда и наличие DMX THRU не определены: выход не выдуман. 1200 W — мощность HMI лампы; входная мощность вместе с ПРА неизвестна.
+Не установлено: manufacturerManual, dmxConnector, dmxOutput, watts
+Источники:
+  https://snl.ee/userfiles/files/catalogue/sl-concept_catalogue_light_rent_en.pdf
+  https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=133
+
+Свет / Intimidator Wave [snl-239]
+Полная модель: Moving head Chauvet Intimidator WAVE IRC + IRC remote
+Проверено
+Подпись: 14–34 CH · 3-pin
+DMX: есть
+Режимы: 14 CH [dmx-14]; 34 CH [dmx-34]
+Начальный режим планировщика: 14 CH
+Мощность: 174 W (manufacturer-230V)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT IEC / DC; OUT 3-pin XLR
+174 W / 1.3 A при 230 V. В США OUT Edison; для UK/Worldwide оба разъёма IEC. Мощность указана при рабочем напряжении, не как гарантированный максимум. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.
+Источники:
+  https://www.chauvetdj.com/products/intimidator-wave-irc/
+  https://www.chauvetdj.com/wp-content/uploads/2016/01/Intimidator_Wave_IRC_UM_Rev3_WO.pdf
+
+Свет / ADJ Kaos [snl-308]
+Полная модель: ADJ Kaos
+Проверено
+Подпись: 2–45 CH · 3-pin
+DMX: есть
+Режимы: 2 CH [dmx-2]; 6 CH [dmx-6]; 15 CH [dmx-15]; 23 CH [dmx-23]; 45 CH [dmx-45]
+Начальный режим планировщика: 15 CH
+Мощность: 140 W (manufacturer-max)
+Физические порты: IN Locking Power / DC; IN 3-pin XLR; OUT Locking Power / DC; OUT 3-pin XLR
+ADJ Europe подтверждает Locking Power IN/OUT, 140 W max и режимы 2/6/15/23/45 CH. Строка IEC на US-странице противоречит её же PowerCon IN/OUT; для EU используется согласованная спецификация ADJ Europe.
+Источники:
+  https://www.adj.com/products/kaos
+  https://cf3.zzounds.com/media/kaos-8b4ca4f0b66e69044102d7c4608089b2.pdf
+  https://www.adj.eu/kaos
+
+Свет / PocketSpot Twins [snl-238]
+Полная модель: ADJ Pocket Spot Twins + UC IR wireless remote
+Проверено частично
+Подпись: 19–23 CH · 3-pin
+DMX: есть
+Режимы: 19 CH [dmx-19]; 23 CH [dmx-23]
+Начальный режим планировщика: 19 CH
+Мощность: 85 W (manufacturer-specified)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT IEC / DC; OUT 3-pin XLR
+В руководстве и ADJ US 85 W, на ADJ Europe 66 W. Для планирования оставлено большее опубликованное потребление 85 W; аппаратную версию/шильдик нужно сверить. IEC OUT подтверждён разделом Power Cord Daisy Chain. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.
+Не установлено: powerRatingConflict, wattsMaximum
+Источники:
+  https://www.adj.eu/mwdownloads/download/link/id/654
+  https://www.adj.com/products/inno-pocket-spot-twins
+  https://www.adj.eu/inno-pocket-spot-twins
+
+Свет / Focus Flex [snl-444]
+Полная модель: WASH Moving Head ADJ Focus Flex
+Проверено
+Подпись: RGBW/CMY · 16–50 CH · 5-pin
+DMX: есть
+Режимы: Basic RGBW · 16 CH [basic-rgbw-16]; Standard RGBW · 25 CH [standard-rgbw-25]; Extended 3 · 34 CH [extended3-rgbw-34]; Extended 5 · 42 CH [extended5-rgbw-42]; Extended 7 · 50 CH [extended7-rgbw-50]; Standard CMY · 25 CH [standard-cmy-25]; Extended CMY · 28 CH [extended-cmy-28]
+Начальный режим планировщика: Standard RGBW · 25 CH
+Мощность: 340 W (maximum)
+Физические порты: IN Locking Power / DC; IN 5-pin XLR; OUT Locking Power / DC; OUT 5-pin XLR
+Manual v1.2: 7 режимов; Standard RGBW и Standard CMY занимают по 25 каналов, но являются разными personalities. Максимум 340 W при 120 V. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.
+Источники:
+  https://www.adj.eu/mwdownloads/download/link/id/1509
+  https://www.adj.com/products/focus-flex
+
+Свет / Vizi RXONE [snl-445]
+Полная модель: BEAM Moving Head ADJ Vizi Beam Rxone
+Проверено
+Подпись: 14 цветов + белый · 15–17 CH · 3-pin
+DMX: есть
+Режимы: 15 CH [15ch]; 17 CH [17ch]
+Начальный режим планировщика: 17 CH
+Мощность: 199 W (manufacturer)
+Физические порты: IN Locking Power / DC; IN 3-pin XLR; OUT Locking Power / DC; OUT 3-pin XLR
+Цветовое колесо 14 цветов+белый; паспортное потребление 199 W. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.
+Источники:
+  https://www.adj.com/products/vizi-beam-rxone
+  https://www.adj.eu/mwdownloads/download/link/id/868
+
+Свет / Focus Spot4Z [snl-470]
+Полная модель: Spot Moving head ADJ Focus Spot 4Z
+Проверено частично
+Подпись: 16/18/22 CH · 3-pin · RDM
+DMX: есть
+Режимы: Basic · 16 CH [basic-16]; Standard · 18 CH [standard-18]; Extended · 22 CH [extended-22]
+Начальный режим планировщика: Standard · 18 CH
+Мощность: 256 W (manufacturer-eu-conflict)
+Физические порты: IN Locking Power / DC; IN 3-pin XLR; OUT Locking Power / DC; OUT 3-pin XLR
+Вариант по умолчанию — европейская спецификация ADJ: 3-pin DMX IN/OUT, 256 W, Locking Power IN/OUT, 16/18/22 CH. На US странице указано 5-pin; руководство v1.8 противоречиво между схемой и итоговыми характеристиками. Это не универсальная неизвестная распиновка: в планировщике выбран явно обозначенный EU вариант, для другого экземпляра можно сменить разъём. USB используется для обновления прошивки, не для DMX/питания и не показан рабочим портом. Внутренняя батарейка питает меню, не световой источник.
+Не установлено: rentalHardwareVariant
+Источники:
+  https://www.adj.eu/focus-spot-4z
+  https://www.adj.com/products/focus-spot-4z
+  https://www.adj.eu/mwdownloads/download/link/id/1335
+  https://www.adj.com/blogs/news/adj-expands-focus-series-with-powerful-versatile-new-moving-head-spot
+
+Свет / Vortex 1200 [snl-222]
+Полная модель: Moving Head ADJ Vortex 1200
+Проверено
+Подпись: 14–29 CH · 3-pin
+DMX: есть
+Режимы: 14 CH [dmx-14]; 15 CH [dmx-15]; 17 CH [dmx-17]; 29 CH [dmx-29]
+Начальный режим планировщика: 14 CH
+Мощность: 174 W (manufacturer-full-output)
+Физические порты: IN Locking Power / DC; IN 3-pin XLR; OUT Locking Power / DC; OUT 3-pin XLR
+Официальные страницы ADJ US/EU указывают Locking AC IN/OUT, 174 W при всех LED на полной мощности. Семейство питания обозначено как Locking Power, без выдуманного IEC.
+Источники:
+  https://www.adj.com/products/vortex-1200
+  https://www.adj.eu/vortex-1200
+  https://www.allfordj.ru/upload/iblock/151/rukovodstvo_polzovatelya_adj_vortex_1200.pdf
+
+Эффекты / Chauvet Cumulus [snl-451]
+Полная модель: Chauvet Cumulus Low Fog machine
+Проверено
+Подпись: 2 CH · 3/5-pin · 970 W
+DMX: есть
+Режимы: 2 CH [2ch]
+Начальный режим планировщика: 2 CH
+Мощность: 970 W (manufacturer)
+Физические порты: IN IEC / DC; IN 3-pin XLR / 5-pin XLR; OUT 3-pin XLR / 5-pin XLR
+Данные Cumulus, не Cumulus HP. Начальный режим выбран планировщиком; это не заявление о заводской настройке. На приборе нужно установить тот же режим.
+Источники:
+  https://www.chauvetdj.com/products/cumulus/
+  https://www.chauvetdj.com/wp-content/uploads/2017/10/Cumulus_UM_Rev3_WO.pdf
+
+Эффекты / SnowFlurry HO [snl-447]
+Полная модель: Snowmachine ADJ Snow Flurry OH
+Проверено частично
+Подпись: 1 CH · 3-pin · 1250 W
+DMX: есть
+Режимы: 1 CH [dmx-1]
+Начальный режим планировщика: 1 CH
+Мощность: 1250 W (manufacturer)
+Физические порты: IN Сетевой кабель / DC; IN 3-pin XLR; OUT 3-pin XLR
+Название Snow Flurry OH в S&L переставляет буквы HO. VF Snow Flurry HO и HO EP имеют общие 1 CH, 3-pin DMX IN/OUT и 1250 W — эти подтверждённые возможности восстановлены. Дальность и ревизия корпуса у S&L/ADJ расходятся, поэтому они не подставлены как установленный факт.
+Не установлено: exactModelRevision
+Источники:
+  https://snl.ee/en/light/special_effects/?cat_id=447
+  https://www.adj.eu/vf-snow-flurry-ho
+  https://www.adj.eu/mwdownloads/download/link/id/799
+  https://www.adj.eu/vf-snow-flurry-ep
+
+Свет / LED стол [snl-320]
+Полная модель: DJ Led Table
+Проверено частично
+Подпись: RGBW · 18–30 панелей · Wi-Fi
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (configuration-dependent)
+Физические порты: IN Внешний БП Nanoleaf / DC
+S&L использует 18–30 оригинальных Nanoleaf Aurora, RGBW, Wi-Fi 2.4 GHz и внешний БП 60 W. Nanoleaf подтверждает максимум 2 W на панель. 36–60 W — максимум нагрузки панелей для этого диапазона количества, не полное потребление из розетки. DMX-адаптер Nanoleaf является отдельным аксессуаром и в комплекте S&L не указан; встроенных DMX-разъёмов у стола нет.
+Не установлено: mainsInputWatts
+Источники:
+  https://snl.ee/en/light/?cat_id=320
+  https://snl.ee/en/light/disco_lights/?cat_id=320
+  https://ca-commercial.nanoleaf.me/en-CA/plan-your-project/
+
+Управление и источники / Wolfmix W1-MK2 [snl-505]
+Полная модель: DMX controller Wolfmix W1 Mk2
+Проверено частично
+Подпись: 4 × DMX · USB-B / USB-A
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN USB-B / USB; IN 3.5 mm audio IN / AUDIO; OUT 3-pin XLR / U1; OUT 3-pin XLR / U2; OUT 5-pin XLR / U3; OUT 5-pin XLR / U4; OUT USB-A MIDI/MSD / USB
+Именно MK2: USB-B для питания/компьютера, USB-A MIDI/MSD. Текущая общая страница W1 описывает MK3 с USB-C — к MK2 не применять. До четырёх universes зависит от лицензии. Один 5-pin порт переключается DMX IN/OUT или WLINK.
+Не установлено: watts, installedUniverseLicenses
+Источники:
+  https://storage.googleapis.com/nicolaudie-us-litterature/Release/wolfmix_w1_mk2_datasheet.pdf
+
+Эффекты / FogFury Jett [snl-235]
+Полная модель: ADJ Fog Fury Jett
+Проверено
+Подпись: RGBA · 1/2/3/5/7 CH · 730 W
+DMX: есть
+Режимы: 1 CH [1ch]; 2 CH [2ch]; 3 CH [3ch]; 5 CH [5ch]; 7 CH [7ch]
+Начальный режим планировщика: 7 CH
+Мощность: 730 W (manufacturer)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT 3-pin XLR
+Потребление 730 W, нагреватель 700 W; эти величины различаются. Начальный режим выбран планировщиком; это не заявление о заводской настройке. На приборе нужно установить тот же режим.
+Источники:
+  https://www.adj.eu/fog-fury-jett
+  https://www.adj.eu/mwdownloads/download/link/id/663
+
+Эффекты / Bubble Haze [snl-310]
+Полная модель: Chauvet Hurricane Bubble Haze
+Проверено
+Подпись: 4 CH · 3/5-pin · 558 W
+DMX: есть
+Режимы: 4 CH [4ch]
+Начальный режим планировщика: 4 CH
+Мощность: 558 W (manufacturer)
+Физические порты: IN IEC / DC; IN 3-pin XLR / 5-pin XLR; OUT 3-pin XLR / 5-pin XLR
+Обычный Hurricane Bubble Haze; не X2 Q6 и не LT. Начальный режим выбран планировщиком; это не заявление о заводской настройке. На приборе нужно установить тот же режим.
+Источники:
+  https://www.chauvetdj.com/products/hurricane-bubble-haze/
+  https://www.chauvetdj.com/wp-content/uploads/2019/07/Hurricane_Bubble_Haze_UM_Rev2.pdf
+
+Эффекты / Equinox Flame [snl-202]
+Полная модель: Equinox RGB 1.5m DMX Multicoloured Flame Effect
+Проверено частично
+Подпись: RGB · 6 CH · 3-pin · 130 W
+DMX: есть
+Режимы: 6 CH [6ch]
+Начальный режим планировщика: 6 CH
+Мощность: 130 W (manufacturer)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT 3-pin XLR
+Оригинальное руководство Equinox FLAM11 старой версии177 LED даёт130 W и совпадает с S&L. Новая версия168 LED —150 W; перед расчётом нагрузки необходимо подтвердить ревизию. Начальный режим выбран планировщиком; это не заявление о заводской настройке. На приборе нужно установить тот же режим.
+Не установлено: exactModelRevision
+Источники:
+  https://r2.gear4music.com/media/14/143900/download_143900_1.pdf
+  https://www.prolight.co.uk/product_manual/FLAM11_Manual.pdf
+
+Свет / Плазма 20см [snl-435]
+Полная модель: Plasma ball 20 cm
+Проверено частично
+Подпись: 20cm · адаптер12V · без DMX
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN 12 V DC · адаптер / DC
+S&L: декоративный плазменный шар 20 cm с адаптером 12 V. DMX не заявлен. Универсального OEM-паспорта для всех шаров 20 cm нет; ток, потребление и штекер не подменены данными похожего изделия.
+Не установлено: manufacturer, articleNumber, watts, dcConnectorSize
+Источники:
+  https://snl.ee/en/light/?cat_id=435
+
+Свет / H2O IR [snl-266]
+Полная модель: ADJ H2O DMX IR (80W) + remote UC IR
+Проверено частично
+Подпись: 3 CH · 3-pin
+DMX: есть
+Режимы: 3 CH [dmx-3]
+Начальный режим планировщика: 3 CH
+Мощность: 80 W (manufacturer-specified)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT IEC / DC; OUT 3-pin XLR
+Руководство указывает потребление 80 W, страницы ADJ US/EU — 70 W. Для расчёта принято большее опубликованное 80 W; проверить ревизию и шильдик. 3 CH: диммер, стеклянное колесо, цвета. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.
+Не установлено: powerRatingConflict
+Источники:
+  https://www.adj.eu/mwdownloads/download/link/id/763
+  https://www.adj.com/products/h2o-dmx-ir
+  https://www.adj.eu/h2o-dmx-ir
+
+Свет / Laserworld PRO-1600RGB [snl-293]
+Полная модель: Laser LASERWORLD PRO 1600 RGB ext. + remote control
+Проверено частично
+Подпись: RGB · 16 CH · ILDA
+DMX: есть
+Режимы: 16 CH [16ch]
+Начальный режим планировщика: 16 CH
+Мощность: не подтверждена (unknown)
+Физические порты: IN IEC / DC; IN DMX · тип XLR требует сверки; IN DB25 ILDA / ILDA; OUT DMX · тип XLR требует сверки; OUT DB25 ILDA / ILDA
+Оригинальный Laserworld PRO-800/1600RGB manual 07/2016 подтверждает 16 CH, DMX IN/OUT, ILDA IN/OUT. Официальный дистрибьютор Steinigke подтверждает IEC IN и 80 W, мануал указывает 50 W. DMX-профиль полный; реальный силовой бюджет требует выбора ревизии.
+Не установлено: exactModelRevision, dmxConnector, powerRatingConflict
+Источники:
+  https://www.laserworld.com/en/product-history/laserworld/pro/pro-1600rgb.html
+  https://device.report/m/881132c669973995b23da77c1d3bcf8ee2c8eea68f3b1a1abc9c7aa1422fb0c3.pdf
+  https://www.steinigke.de/mpn51743240-laserworld-pro-1600rgb.html
+
+Свет / SwarmWash ILS [snl-439]
+Полная модель: Chauvet 4in1 DJ Swarm WASH FX ILS
+Проверено
+Подпись: RGBAW+UV · 2/18 CH · 3-pin
+DMX: есть
+Режимы: 2 CH [dmx-2]; 18 CH [dmx-18]
+Начальный режим планировщика: 18 CH
+Мощность: 50 W (manufacturer-230V)
+Физические порты: IN IEC / DC; IN 3-pin XLR; IN USB-A · только адаптер D-Fi / D-Fi; OUT IEC / DC; OUT 3-pin XLR
+Оригинальный Swarm Wash FX ILS UM Rev6: EU питание IEC IN/OUT; 50 W при 230 V. USB-A предназначен только для D-Fi адаптера, не для компьютера или универсальной USB-передачи.
+Источники:
+  https://www.chauvetdj.com/products/swarm-wash-fx-ils/
+  https://www.chauvetdj.com/wp-content/uploads/pdf/en/swarm-wash-fx-ils.pdf
+  https://www.chauvetdj.com/wp-content/uploads/2023/03/Swarm_Wash_FX_ILS_UM_ML6_Rev6.pdf
+
+Свет / Apollo HEX [snl-503]
+Полная модель: Wireless Led par Apollo Element Hex
+Проверено частично
+Подпись: RGBAW+UV · 6/10 CH · АКБ
+DMX: есть
+Режимы: 6 CH [dmx-6]; 10 CH [dmx-10]
+Начальный режим планировщика: 6 CH
+Мощность: не подтверждена (unknown)
+Физические порты: IN AC90–275 V · зарядный вход / DC
+S&L прямо публикует 6/10 CH, RGBAW+UV, DMX512, RDM и 8800 mAh. Размер DMX-профиля сохранён как данные проката, а не как подтверждённая OEM-таблица. Apollo не ADJ Element HEXIP: разъёмы, WiFLY и 12 CH от ADJ не копируются. Производитель, артикул и физические XLR в публикации отсутствуют.
+Не установлено: oemManual, dmxChannelMap, physicalDmxConnector, watts
+Источники:
+  https://snl.ee/en/light/?cat_id=503
+  https://snl.ee/en/light/disco_lights/?cat_id=503
+
+Свет / ADJ Warlock [snl-241]
+Полная модель: American DJ Warlock
+Проверено
+Подпись: 8 CH · 3-pin
+DMX: есть
+Режимы: 8 CH [dmx-8]
+Начальный режим планировщика: 8 CH
+Мощность: 202 W (manufacturer-max)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT IEC / DC; OUT 3-pin XLR
+202 W maximum; 132 W — лампа, не полное потребление. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.
+Источники:
+  https://www.adj.com/products/warlock
+
+Свет / GoFlow 100 [snl-530]
+Полная модель: Eurolite GoFlow 100
+Проверено
+Подпись: 2–8 CH · 3-pin
+DMX: есть
+Режимы: 2 CH [dmx-2]; 6 CH [dmx-6]; 8 CH [dmx-8]
+Начальный режим планировщика: 6 CH
+Мощность: 140 W (manufacturer-rated)
+Физические порты: IN IEC / DC; IN 3-pin XLR; IN USB-A · QuickDMX/W-DMX/CRMX / RF; OUT IEC / DC; OUT 3-pin XLR
+140 W — Gesamtanschlusswert. 100 W — мощность LED. Поддержка беспроводного DMX через отдельный USB-приёмник. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.
+Источники:
+  https://www.steinigke.de/mpn51918591-eurolite-goflow-100.html
+
+Свет / EL-500RGB KeyTEX [snl-240]
+Полная модель: RGB text and pattern Laser Laserworld EL-500RGB KeyTEX
+Проверено частично
+Подпись: RGB · 12 CH · USB-клавиатура
+DMX: есть
+Режимы: 12 CH [12ch]
+Начальный режим планировщика: 12 CH
+Мощность: 10 W (manufacturer)
+Физические порты: IN 12 V DC / DC; IN DMX · тип XLR требует сверки; IN USB-A · только клавиатура / Клав.; OUT DMX · тип XLR требует сверки
+Оригинальное руководство Laserworld 02/2016, раздел DMX содержит каналы 1–12; PDF доступен в архиве дистрибьютора AVE. Клавиатурный USB не является сетевым интерфейсом. Геометрия DMX-разъёма требует сверки по панели. Начальный режим выбран планировщиком; это не заявление о заводской настройке. На приборе нужно установить тот же режим.
+Не установлено: dmxConnector
+Источники:
+  https://www.laserworld.com/en/download-file-42-Laserworld_Manual_Ecoline_Series_EL_500RGB_KeyTEX_web.html
+  https://s3.avecorp.com.au/wp-content/uploads/2017/10/29154035/28381937.pdf
+
+Свет / Equinox Kaleido [snl-252]
+Полная модель: Equinox 60W Kaleido
+Проверено
+Подпись: 4 CH · 3-pin
+DMX: есть
+Режимы: 4 CH [dmx-4]
+Начальный режим планировщика: 4 CH
+Мощность: 85 W (manufacturer-specified)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT IEC / DC; OUT 3-pin XLR
+EQLED85: 4 CH, потребление 85 W. Не подменять моделью Kaleido XP 100W. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.
+Источники:
+  https://www.prolight.co.uk/ftp-in/EQLED85_Manual.pdf
+
+Свет / Gold 30см [snl-422]
+Полная модель: Gold Mirror Ball 30cm + motor + hook
+Проверено частично
+Подпись: 30 см · золото · мотор в комплекте
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 4 W (rental-specification)
+Физические порты: IN Фиксированный сетевой кабель / DC
+Зеркальный шар пассивный; электрическое питание относится только к мотору комплекта. S&L описывает простой синхронный AC-мотор без управленияDMX; поэтому каналов/DMX-разъёмов у блока нет. Точная модель мотора не опубликована.
+Не установлено: motorArticleNumber
+Источники:
+  https://snl.ee/en/light/?cat_id=422
+  https://www.snl.ee/en/light/download-pdf/
+
+Свет / Freedom Stick [snl-520]
+Полная модель: Chauvet Freedom Stick
+Проверено частично
+Подпись: RGB · 3/8/48/50 CH · D-Fi
+DMX: есть
+Режимы: 3 CH [3ch]; 8 CH [8ch]; 48 CH [48ch]; 50 CH [50ch]
+Начальный режим планировщика: 8 CH
+Мощность: 35 W (manufacturer-conflict)
+Физические порты: IN DC 15V 800mA / DC; IN D-Fi / D-Fi; OUT D-Fi / D-Fi
+Один блок — один оригинальный Freedom Stick из комплекта S&L ×4, не модель Freedom Stick X4 2023 года. Rev.5, стр.5: только DC Power In; стр.20: DMX I/O = Wireless, 3/8/48/50 CH. Встроенный D-Fi работает как передатчик или приёмник; проводного DMX и USB нет. Зарядка 15 V DC / 800 mA. Производитель печатает 35 W и несовместимые с этим 0.03 A при 230 V; 35 W сохранены как опубликованное, но спорное потребление, не подтверждённый максимум. 8 CH выбраны планировщиком; режим и D-Fi канал на приборе настраиваются отдельно.
+Не установлено: wattsMaximum
+Источники:
+  https://snl.ee/userfiles/files/catalogue/sl-concept_catalogue_light_rent_en.pdf
+  https://www.chauvetdj.com/products/freedom-stick/
+  https://www.chauvetdj.com/wp-content/uploads/2016/01/Freedom_Stick_UM_Rev5.pdf
+
+Питание / Delta Max [snl-368]
+Полная модель: EcoFLOW DELTA Max Power Station, 2016Wh
+Проверено частично
+Подпись: Power Station · 2016 Wh
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (not-applicable)
+Физические порты: IN IEC AC charge input, 220–240 V / DC; IN XT60 solar/car input, 11–100 V / DC; IN EcoFlow DELTA Max extra-battery port / DC; IN EcoFlow DELTA Max extra-battery port / DC; OUT USB-A / DC; OUT USB-A / DC; OUT USB-A / DC; OUT USB-A / DC; OUT USB-C PD / DC; OUT USB-C PD / DC; OUT 230 V AC EU socket / DC; OUT 230 V AC EU socket / DC; OUT 230 V AC EU socket / DC; OUT 230 V AC EU socket / DC; OUT DC5521 12.6 V 3 A / DC; OUT DC5521 12.6 V 3 A / DC; OUT 12 V car socket, 12.6 V 10 A / DC
+DELTA Max 2000 EU: 2016 Wh; четыре AC-выхода 230 V, суммарно 2400 W непрерывно. AC-зарядка до 2000 W, фактическая нагрузка зависит от настройки и заряда. Четыре USB-A (2 × 12 W, 2 × 18 W), два USB-C по 100 W. Автомобильный выход и два DC5521 делят 126 W. Два порта дополнительной батареи; XT60 solar/car IN 11–100 V, 13 A, 800 W. 4600 W surge — не рабочий лимит, 2016 Wh — не потребление.
+Не установлено: exactRentalACSocketVariant, actualChargingLoad
+Источники:
+  https://websiteoss.ecoflow.com/cms/upload/2022/10/6/-736245501_1665036560150.pdf
+
+Питание / EcoFlow Extra [snl-369]
+Полная модель: EcoFLOW DELTA Max Smart Extra Battery, 2016Wh
+Проверено частично
+Подпись: Extra Battery · 2016 Wh
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: OUT EcoFlow DELTA Max extra-battery connection / DC
+DELTA Max Extra Battery: 2016 Wh и специальный двунаправленный порт к DELTA Max или Smart Generator. Это батарея расширения: собственных выходов 230 V и USB нет.
+Не установлено: chargeDischargeLimits
+Источники:
+  https://uk.ecoflow.com/collections/delta-max-accessories/products/delta-max-smart-extra-battery?variant=47709023863123
+
+Питание / Smart Generator [snl-448]
+Полная модель: Smart Generator EcoFlow 1800W
+Проверено частично
+Подпись: 1800 W · AC / DC
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: OUT 230 V AC EU socket / DC; OUT XT150 EcoFlow battery charging, 42–58.8 V / DC
+Оригинальный бензиновый Smart Generator: выход AC и XT150 DC для зарядки EcoFlow. Руководство §2.4.4.1: суммарная мощность AC + DC — 1800 W, приоритет AC. Нельзя складывать 1800 W AC и 1800 W DC. Разъём 120 V из американского PDF не перенесён на европейский экземпляр.
+Не установлено: exactRentalACSocketVariant
+Источники:
+  https://www.ecoflow.com/eu/smart-generator
+  https://websiteoss.ecoflow.com/website/upload/2022/3/7/Smart_Generator_User_Manual_1646656403861.pdf
+
+Питание / EcoFlow Solar [snl-460]
+Полная модель: Solar Panel 400W EcoFlow (Power bank Delta max charging)
+Проверено
+Подпись: 400 W · MC4
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: OUT MC4 DC pair, Vmp 41 V / Voc 48 V / DC
+EcoFlow Solar 400 W: один DC-выход парой MC4, Vmp 41 V, Voc 48 V. 400 W — паспортная мощность при STC, не гарантированная выработка. Для DELTA Max нужен кабель MC4 → XT60. Выхода AC 230 V нет.
+Источники:
+  https://websiteoss.ecoflow.com/website/upload/2022/2/22/400W_Solar_Panel_User_Manual_1645511402758.pdf
+
+Свет / Neewer 530Pro [snl-414]
+Полная модель: Neewer 530 Pro RGB LED (2 RGB Led Panels + 2 Stands + 2 Softbox with grid + 4 Sony Batterries NP-F96
+Проверено частично
+Подпись: RGB + CCT3200–5600K
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC
+Руководство NEEWER RGB530PRO: RGB/CCT3200–5600K, 45 W на панель, управление Bluetooth/кнопками, без DMX. В прокатной позиции две панели.45 W — номинал панели при DC12–15 V; максимум из сети с потерями двух адаптеров не указан, поэтому итоговые W не придуманы.
+Не установлено: mainsWatts, powerConnectorDimensions
+Источники:
+  https://www.bhphotovideo.com/lit_files/1280328.pdf
+  https://snl.ee/en/light/wireless_light_equipment/?cat_id=414
+
+Свет / Chauvet Cast [snl-357]
+Полная модель: Chauvet Cast Panel Pack (2 Chauvet Led Panels + 2 Stands + 2 Softbox + 4 Sony Batterries NP-F960)
+Проверено частично
+Подпись: CCT2700–8000K
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC
+Две панели CCT2700–8000K; локальные органы управления, DMX не предусмотрен. Производитель публикует 59 W@230 V и 62 W@120 V, но не обозначает однозначно, относится таблица к панели или комплекту. Не удваивать/делить автоматически до подтверждения.
+Не установлено: bundlePowerScope, powerConnectorDimensions
+Источники:
+  https://www.chauvetdj.com/products/cast-panel-pack/
+  https://www.chauvetdj.com/wp-content/uploads/2020/12/Cast_Panel_Pack_QRG_Rev3_ML6.pdf
+
+Свет / Свет пюпитра [snl-493]
+Полная модель: Wireless Light for Music stand and etc.
+Проверено
+Подпись: 3×AAA · диммер · без кабелей
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 0 W (no-external-power)
+Физические порты: нет
+Описание S&L полностью совпадает с официальным IF The Really Bright Book Light: 3 AAA, локальный диммер и гибкая шея. Сетевого входа, USB и DMX нет. 0 W означает нулевую нагрузку на внешнее питание, не потребление светодиодов.
+Источники:
+  https://snl.ee/en/light/wireless_light_equipment/?cat_id=493
+  https://www.ifplc.com/products/the-really-bright-book-light/
+
+Управление и источники / BeamZ Mini [snl-398]
+Полная модель: 8ch. DMX mini controller Beamz
+Проверено частично
+Подпись: 64 ch · XLR 3 · аккумулятор
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN DC 12 V IN / DC; OUT 3-pin XLR / U1
+Страница производителя 154.065 и описание S&L указывают 64 канала; новое руководство V1.2 — 512 каналов с дополнительными страницами. Проверить revision реального пульта. Восемь фейдеров не означают восемь DMX-каналов всего.
+Не установлено: outputChannelsRevision, watts
+Источники:
+  https://www.beamzlighting.com/product/dmx-512-mini-controller/
+  https://www.beamzlighting.com/wp-content/uploads/2025/09/154.065_DMX-512MINI-controller_manual_V1.2.pdf
+
+Свет / ADJ SP-1500MKII [snl-230]
+Полная модель: Strobo ADJ SP-1500 MKII + Strobo Master 1
+Проверено
+Подпись: Xenon · 2 CH · 1600 W
+DMX: есть
+Режимы: 2 CH [2ch]
+Начальный режим планировщика: 2 CH
+Мощность: 1600 W (manufacturer)
+Физические порты: IN IEC / DC; IN 3-pin XLR; IN 6.35 mm · ADJ UC3 / UC3; OUT 3-pin XLR
+Два канала: скорость вспышек и диммер. Мощность лампы 1500 W, максимальное потребление 1600 W. Начальный режим выбран планировщиком; это не заявление о заводской настройке. На приборе нужно установить тот же режим.
+Источники:
+  https://www.adj.eu/strobe-sp-1500-dmx-mkii
+  https://www.adj.eu/mwdownloads/download/link/id/486
+
+Свет / FREQ Matrix [snl-184]
+Полная модель: American DJ FREQ Matrix QUAD + UC3 konroller
+Проверено
+Подпись: RGBW · 2/5/18/64 CH · 3-pin
+DMX: есть
+Режимы: 2 CH [2ch]; 5 CH [5ch]; 18 CH [18ch]; 64 CH [64ch]
+Начальный режим планировщика: 18 CH
+Мощность: 152 W (manufacturer)
+Физические порты: IN IEC / DC; IN 3-pin XLR; IN 6.35 mm · ADJ UC3 / UC3; OUT IEC / DC; OUT 3-pin XLR
+DMX и разъёмы сверены с оригинальным руководством ADJ, PDF сохранён дилером. Максимум 152 W по технической таблице производителя; описательное 143 W из старого листка не использовано. Начальный режим выбран планировщиком; это не заявление о заводской настройке. На приборе нужно установить тот же режим.
+Источники:
+  https://www.adj.com/products/freq-matrix-quad
+  https://www.allfordj.ru/upload/iblock/750/rukovodstvo_polzovatelya_american_dj_freq_matrix_quad.pdf
+
+Свет / EcoUV Plus [snl-192]
+Полная модель: American DJ Eco UV Bar Plus
+Проверено частично
+Подпись: 60 W
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 60 W (manufacturer-specified)
+Физические порты: IN power / DC
+Постоянный UV-свет включается сетевым переключателем, DMX отсутствует. Руководство подтверждает 60 W; точный тип сетевого ввода текстом не указан.
+Не установлено: powerConnectorSubtype, wattsMaximum
+Источники:
+  https://www.adj.com/products/eco-uv-bar-plus
+  https://www.adj.eu/mwdownloads/download/link/id/380
+
+Свет / UVPlus DMX [snl-295]
+Полная модель: ADJ ECO UV Bar DMX
+Проверено частично
+Подпись: UV · 3 CH · 3-pin
+DMX: есть
+Режимы: 3 CH [dmx-3]
+Начальный режим планировщика: 3 CH
+Мощность: 60 W (manufacturer-specified)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT IEC / DC; OUT 3-pin XLR
+Название S&L «UV Plus DMX» сопоставлено с ECO UV BAR DMX по 18 UV LED/3 CH/пульту. Новое руководство и ADJ US: 60 W; ADJ Europe: 52 W. Использовано 60 W, нужна сверка версии. В абзаце руководства ошибочно написано eight DMX channel modes, но таблица DMX Traits и спецификация однозначно 3 канала. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим. PDF S&L, раздел ADJ Led BAR UV Plus DMX, прямо называет модель ECO UV Bar DMX; это подтверждённое сопоставление, не отдельная Plus-модель.
+Не установлено: powerRatingConflict, wattsMaximum
+Источники:
+  https://www.adj.com/products/eco-uv-bar-dmx
+  https://www.adj.eu/eco-uv-bar-dmx
+  https://www.adj.eu/mwdownloads/download/link/id/589
+  https://snl.ee/userfiles/files/catalogue/sl-concept_catalogue_light_rent_en.pdf
+
+Свет / Шар 30см [snl-100]
+Полная модель: Mirror ball 30cm + mootor + hook
+Проверено частично
+Подпись: 30 см · мотор в комплекте
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN Фиксированный сетевой кабель / DC
+Зеркальный шар пассивный; электрическое питание относится только к мотору комплекта. S&L описывает простой синхронный AC-мотор без управленияDMX; поэтому каналов/DMX-разъёмов у блока нет. Точная модель мотора не опубликована.
+Не установлено: motorArticleNumber
+Источники:
+  https://snl.ee/en/light/mirror_balls/?cat_id=100
+  https://www.snl.ee/en/light/download-pdf/
+
+Свет / Полушар 40см [snl-362]
+Полная модель: Eurolite Half Mirror Ball 40cm (Built In Motor)
+Проверено частично
+Подпись: 40cm · встроенный мотор · 4 W
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 4 W (rental-specification)
+Физические порты: IN Фиксированный сетевой кабель / DC
+Текущая карточка S&L: 40 cm, 4 W, фиксированный шнур 1 m. Официальный Eurolite 50102120: 40 cm, 3.5 W, 3.15 kg, фиксированный Schuko, без DMX. Прокатная карточка сохранила 5.8 kg от версии 50 cm из PDF 2021; для бюджета оставлены заявленные прокатом 4 W, ревизия не выдумана.
+Не установлено: hardwareRevision
+Источники:
+  https://snl.ee/en/light/mirror_balls/?cat_id=362
+  https://www.steinigke.de/mpn50102120-eurolite-spiegel-halbkugel-40cm-motorisiert.html
+  https://www.snl.ee/en/light/download-pdf/
+
+Свет / Шар 50см [snl-99]
+Полная модель: Light weight Mirror Ball 50cm + motor + hook
+Проверено частично
+Подпись: 50 см · мотор в комплекте
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN Фиксированный сетевой кабель / DC
+Зеркальный шар пассивный; электрическое питание относится только к мотору комплекта. S&L описывает простой синхронный AC-мотор без управленияDMX; поэтому каналов/DMX-разъёмов у блока нет. Точная модель мотора не опубликована.
+Не установлено: motorArticleNumber
+Источники:
+  https://snl.ee/en/light/mirror_balls/?cat_id=99
+  https://www.snl.ee/en/light/download-pdf/
+
+Свет / Мотор шара [snl-403]
+Полная модель: Mirror ball motor with weight 3 kg
+Проверено частично
+Подпись: 4 W · до3kg · 0.8 об/мин
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 4 W (rental-specification)
+Физические порты: IN Фиксированный сетевой кабель / DC
+Зеркальный шар пассивный; электрическое питание относится только к мотору комплекта. S&L описывает простой синхронный AC-мотор без управленияDMX; поэтому каналов/DMX-разъёмов у блока нет. Точная модель мотора не опубликована.
+Не установлено: motorArticleNumber
+Источники:
+  https://snl.ee/en/light/mirror_balls/?cat_id=403
+  https://www.snl.ee/en/light/download-pdf/
+
+Эффекты / MiniFogger 400W [snl-351]
+Полная модель: Mini Fogger HQ power 400w + controller
+Проверено частично
+Подпись: 400 W · проводной пульт
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 400 W (manufacturer-family-match)
+Физические порты: IN Type E/F · сетевой кабель / DC
+С характеристиками HQSM10011 совпали 400 W, 23×11×11 cm, 2 kg, бак 0.3 l, 70 m³/min, 60–80 ml/min, прогрев 4 min и предохранитель 5AL250V. Это семейство HQPower с несъёмным проводным пультом, без DMX; исходный неподходящий HQHZ10003 удалён. Артикул прокатного экземпляра явно не напечатан.
+Не установлено: rentalArticleNumber
+Источники:
+  https://snl.ee/en/light/smoke-machines/?cat_id=351
+  https://www.velleman.eu/products/view/smoke-machine-400-w-with-controller-hqsm10011/?id=449590&lang=en
+  https://cdn.velleman.eu/downloads/4/hqsm10011a5v05.pdf
+
+Эффекты / Hurricane 1200 [snl-442]
+Полная модель: Fogger Chauvet DJ Hurricane 1200
+Проверено
+Подпись: 1180 W · FC-T · без DMX
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 1180 W (manufacturer)
+Физические порты: IN power / DC
+Ручная кнопка, проводной FC-T и опциональный FC-W; штатного DMX нет.
+Источники:
+  https://www.chauvetdj.com/products/hurricane-1200/
+  https://www.chauvetdj.com/wp-content/uploads/2015/12/Hurricane_1200_UM_Rev3.pdf
+
+Эффекты / Jett Pro [snl-292]
+Полная модель: Fog machine ADJ FOG FURY JETT PRO 1.5kW + remote control
+Проверено частично
+Подпись: RGBA+UV · 1–9 CH · 1550 W
+DMX: есть
+Режимы: 1 CH [1ch]; 2 CH [2ch]; 3 CH [3ch]; 7 CH [7ch]; 9 CH [9ch]
+Начальный режим планировщика: 9 CH
+Мощность: 1550 W (manufacturer)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT 3-pin XLR
+Потребление 1550 W, нагреватель 1450 W. Официальный ADJ EU и европейский cutsheet подтверждают 3-pin и 5-pin DMX IN/OUT; страница ADJ US перечисляет только 3-pin. Использована европейская спецификация, фактическая версия проверяется по панели. Начальный режим 9 CH выбран планировщиком; на приборе нужно установить тот же режим.
+Не установлено: regionalConnectorRevision
+Источники:
+  https://www.adj.com/products/fog-fury-jett-pro
+  https://www.adj.eu/fog-fury-jett-pro
+  https://www.adj.eu/mwdownloads/download/link/id/936
+
+Эффекты / Stairville AFH-600 [snl-350]
+Полная модель: Stairville AFH-600 DMX
+Проверено
+Подпись: 1 CH · 3-pin · 650 W
+DMX: есть
+Режимы: 1 CH [1ch]
+Начальный режим планировщика: 1 CH
+Мощность: 650 W (manufacturer)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT 3-pin XLR
+Руководство производителя v4 различает нагреватель 600 W и полное потребление 650 W. В веб-каталоге Thomann указано 600 W; для бюджета мощности использовано 650 W из руководства. Исправлено написание Stairville. Начальный режим 1 CH выбран планировщиком.
+Источники:
+  https://www.thomann.fi/stairville_afh_600_dmx_hazer.htm?type=manufacturer
+  https://images.static-thomann.de/pics/atg/atgdata/document/manual/c_306309_v4_en_online.pdf
+
+Свет / Лава [snl-20]
+Полная модель: Lava effect
+Проверено частично
+Подпись: Telstar · 50cm · лампа28/35 W
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (bulb-revision-dependent)
+Физические порты: IN Сетевой шнур / DC
+PDF S&L прямо называет Telstar 50 cm. Современный Mathmos Telstar использует 28 W GU10; старые Telstar используют 35 W G9/SES. DMX нет. Патрон и лампа прокатного экземпляра не указаны, поэтому значение 28/35 W не выбрано наугад.
+Не установлено: installedBulbWattage
+Источники:
+  https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=20
+  https://mathmos.com/product/telstar-rocket-lava-lamp-silver/
+  https://mathmos.com/product/telstar-lava-lamp-bulb-35w-g9-halogen-3pack/
+  https://www.snl.ee/en/light/download-pdf/
+
+Свет / Dynamic Cloud [snl-186]
+Полная модель: Dynamic Cloud lighting
+Нужно уточнение
+Подпись: RGB · 3 W LED · модель не указана
+DMX: не подтверждён
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC
+S&L называет только Dynamic Cloud: RGB LED 3 W, 110–240 V, 85×156 mm и 269 g. 3 W — мощность источника света, не доказанное потребление прибора. Марка, модель, разъёмы и протокол управления не опубликованы; точную OEM-инструкцию нельзя выбрать по общему названию. DMX и его режимы не выдуманы.
+Не установлено: manufacturer, articleNumber, nativeControlProtocol, powerConnectorSubtype, watts
+Источники:
+  https://snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=186
+  https://www.snl.ee/en/light/download-pdf/
+
+Свет / Hypnotic SL-A200RGB [snl-462]
+Полная модель: Hypnotic laser SL-A200RGB + remote
+Проверено частично
+Подпись: RGB · IR-пульт
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 9 W (rental-specification)
+Физические порты: IN 12 V DC · адаптер1A / DC
+S&L SL-A200RGB 105×105×50 mm: manual/IR/auto/sound, 9 W, адаптер 12 V / 1 A; DMX не заявлен. Найденный Sharelife A200 USB 5 V в другом корпусе — другой прибор, его USB и мощность не перенесены.
+Не установлено: oemManual, dcConnectorSize
+Источники:
+  https://www.snl.ee/en/light/lasers/?cat_id=462
+
+Свет / Martin DC2 [snl-17]
+Полная модель: Martin DC2 Fire
+Проверено
+Подпись: 109 W
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 109 W (manufacturer-typical-230V)
+Физические порты: IN IEC / DC
+Не DMX: локальная регулировка скорости/направления эффекта. 109 W — типичное потребление при 230 V, 50 Hz, допуск ±10%; не максимум и не 100 W лампы.
+Источники:
+  https://www.martin.com/en-US/products/mania-dc2
+
+Свет / Martin DC3 [snl-18]
+Полная модель: Martin DC3 Oil
+Проверено
+Подпись: 265 W
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 265 W (manufacturer-typical-230V)
+Физические порты: IN IEC / DC; IN RJ45 · Martin remote / REMOTE; OUT RJ45 · Martin remote / LINK
+RJ45 — фирменный проводной пульт, не Ethernet/Art-Net/DMX. 265 W — типичное потребление при 230 V, 50 Hz, допуск ±10%; не максимум. 250 W относится к лампе.
+Источники:
+  https://www.martin.com/en-US/products/mania-dc3
+
+Свет / H2O Pro [snl-171]
+Полная модель: ADJ H2O DMX Pro + ADJ UC3 kontroller
+Проверено частично
+Подпись: 3 CH · 3-pin
+DMX: есть
+Режимы: 3 CH [dmx-3]
+Начальный режим планировщика: 3 CH
+Мощность: 69 W (manufacturer-max)
+Физические порты: IN IEC / DC; IN 3-pin XLR; IN 6.35 mm · ADJ UC3 / UC3; OUT IEC / DC; OUT 3-pin XLR
+Страница ADJ указывает 69 W max, раннее руководство 2011 года — 54 W. Для расчёта оставлено большее опубликованное 69 W. Нужно сверить версию; 3 CH и IEC IN/OUT совпадают. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.
+Не установлено: powerRatingConflict
+Источники:
+  https://www.adj.com/products/h2o-dmx-pro
+  https://www.adj.eu/h2o-dmx-pro
+  https://www.adj.eu/mwdownloads/download/link/id/235
+
+Свет / SGM CD100 [snl-19]
+Полная модель: SGM COLOUR DYNAMIC 100 adv. (Sand Effect)
+Проверено частично
+Подпись: 250 W лампа · ручное управление
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (modified-rental-unit)
+Физические порты: IN Сетевой вход / DC
+Оригинальный каталог SGM описывает Colour Dynamic 100 с двумя локальными регуляторами скорости цветового колеса и эффекта, без DMX. В S&L установлены лампа 250 W / 24 V и дополнительный вентилятор вместо заводской лампы 100 W / 12 V. Мощность лампы не равна полному потреблению изменённого прибора. Режим 6 CH соседней модели Colorlab 250 к нему не относится.
+Не установлено: modifiedUnitPower, powerConnectorSubtype
+Источники:
+  https://www.snl.ee/en/light/projection_and_decor_light_effects_gobo_projectors/?cat_id=19
+  https://www.snl.ee/ru/svet/download-pdf/
+  https://www.techni-lux.com/files/documents/lit/zzal0027.pdf
+  https://www.snl.ee/en/light/download-pdf/
+
+Свет / Color Strand [snl-294]
+Полная модель: String ADJ Color Strand LED + remote control
+Проверено частично
+Подпись: RGB + WW
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 240 W (manufacturer-specified)
+Физические порты: IN power / DC; OUT power / DC
+20 ламп по 12 W: всего 240 W по ADJ Europe. Управление фирменным беспроводным пультом, прямо обозначено non-DMX. Точный тип силовых соединителей не указан в тексте документа.
+Не установлено: powerConnectorSubtype
+Источники:
+  https://www.adj.com/products/color-strand-led
+  https://www.adj.eu/color-strand-led
+  https://www.adj.eu/mwdownloads/download/link/id/1004
+
+Свет / Motion Orb [snl-231]
+Полная модель: Chauvet MotionOrb
+Проверено
+Подпись: RGB · 9/165/240/315 CH · 3-pin
+DMX: есть
+Режимы: 9 CH [9ch]; 165 CH · 2 м [165ch]; 240 CH · 3 м [240ch]; 315 CH · 4 м [315ch]
+Начальный режим планировщика: 9 CH
+Мощность: 42 W (manufacturer)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT IEC / DC; OUT 3-pin XLR
+Пять нитей по 11 RGB-сфер: 55 сфер в базовом комплекте 2 м. Это пиксельный занавес, не бар. 9 CH — общий режим, 165 CH — индивидуальный RGB; 240/315 CH только с удлинением до 3/4 м. IEC IN/OUT и DMX 3-pin IN/OUT. 42 W при 230 V.
+Источники:
+  https://www.chauvetdj.com/products/motionorb/
+  https://www.chauvetdj.com/wp-content/uploads/2015/12/MotionOrb_UM_Rev6_ML3_WO-1.pdf
+
+Свет / Gobo Projector [snl-153]
+Полная модель: AMERICAN DJ Gobo Projector LED
+Проверено
+Подпись: 12 W
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 12 W (manufacturer-max)
+Физические порты: IN IEC / DC
+Не DMX: подключение к сети и локальный переключатель вращения GOBO. 12 W max.
+Источники:
+  https://www.adj.com/products/gobo-projector-led
+  https://www.adj.eu/mwdownloads/download/link/id/253
+
+Свет / Ikon LED [snl-201]
+Полная модель: ADJ Ikon LED
+Проверено
+Подпись: 60 W LED · RF · без DMX
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 83.6 W (manufacturer-max)
+Физические порты: IN IEC / DC; OUT IEC / DC
+Оригинальный ADJ Ikon LED User Instructions Rev10/13: автономный гобопроектор, два регулятора сзади и RF-пульт; DMX-режима/разъёмов нет. IEC IN/OUT и 83.6 W max подтверждены официальной страницей.
+Источники:
+  https://www.adj.com/products/ikon-led
+  https://www.adj.eu/ikon-led
+  https://device.report/m/3b4f402c0dc398534c193ee80c790a0a87367db17b9c15f75daae291e74df309
+
+Свет / ADJ Messenger [snl-3]
+Полная модель: American DJ Led Messenger
+Проверено
+Подпись: 3 CH · 3-pin
+DMX: есть
+Режимы: 3 CH [dmx-3]
+Начальный режим планировщика: 3 CH
+Мощность: 55 W (manufacturer-specified)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT IEC / DC; OUT 3-pin XLR
+3 CH управляют программой/активацией по звуку, скоростью/чувствительностью и стробом. Напряжение ранних версий задано с завода; перед включением проверить шильдик. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.
+Источники:
+  https://www.adj.com/products/led-messenger
+  https://www.adj.eu/led-messenger
+  https://www.adj.eu/mwdownloads/download/link/id/279
+
+Свет / MiniLaser RGB [snl-225]
+Полная модель: Mini Laser RGB
+Проверено частично
+Подпись: RGB · ИК-пульт
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 3.5 W (rental-specification)
+Физические порты: IN 12 V DC · адаптер / DC
+PDF S&L: Mini Laser RGB 118×93×47 mm, питание 12 V / 0.6 A, потребление 3.5 W, режимы ИК/auto/sound. DMX не заявлен, физические DMX-выходы не добавлены. Производитель и артикул не опубликованы; 3.5 W — данные проката, не OEM-паспорт.
+Не установлено: manufacturer, articleNumber, dcConnectorSize
+Источники:
+  https://www.snl.ee/en/light/lasers/?cat_id=225
+  https://www.snl.ee/en/light/download-pdf/
+
+Свет / Eurolite MS3 [snl-9]
+Полная модель: Eurolite MS3 Polar laser (adv. version)
+Проверено частично
+Подпись: RG + blue LED · 35 W
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 35 W (manufacturer)
+Физические порты: IN power / DC
+Оригинальное руководство Eurolite MS-3, артикул 51741070, версия 1.0: автономное управление, 35 W, без DMX. В S&L добавлено adv. version без артикула — возможную модификацию нужно сопоставить с шильдиком.
+Не установлено: exactModelRevision, powerConnector
+Источники:
+  https://www.huss-licht-ton.de/images/products_download/User_Manual_15825_1.pdf
+
+Свет / Scorpion Script [snl-226]
+Полная модель: Chauvet DJ Scorpion Script Laser
+Проверено
+Подпись: Green 50 mW · IR · без DMX
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 9 W (manufacturer)
+Физические порты: IN 12 V DC / DC; IN PS/2 / Клав.
+Штатное управление — IR, PS/2-клавиатура, auto/sound; в схеме соединений и режимах руководства DMX отсутствует. 9 W при 230 V.
+Источники:
+  https://www.chauvetdj.com/products/scorpion-script/
+  https://www.chauvetdj.com/wp-content/uploads/2015/12/Scorpion_Script_UM_Rev4_ML3_WO.pdf
+
+Свет / ADJ Inno [snl-227]
+Полная модель: ADJ Inno Roll HP 80W LED Scanner + UC 3 kontroller
+Проверено
+Подпись: 9 CH · 3-pin · 108 W
+DMX: есть
+Режимы: 9 CH [dmx-9]
+Начальный режим планировщика: 9 CH
+Мощность: 108 W (manufacturer-full-output)
+Физические порты: IN IEC / DC; IN 3-pin XLR; IN 6.35 mm · ADJ UC3 / UC3; OUT 3-pin XLR
+ADJ Inno Roll HP: 9 DMX-каналов, 3-pin XLR IN/OUT, 108 W full-on. Официальная таблица указывает Power Link: No — силового OUT нет. UC3 — отдельный фирменный пульт, не USB.
+Источники:
+  https://www.adj.com/products/inno-roll-hp
+
+Свет / Rotosphere Q3 [snl-399]
+Полная модель: Chauvet Rotosphere Q3 Led Mirror Ball
+Проверено
+Подпись: RGBW · 3/9/19 CH · 3-pin
+DMX: есть
+Режимы: 3 CH [3ch]; 9 CH [9ch]; 19 CH [19ch]
+Начальный режим планировщика: 9 CH
+Мощность: 44 W (manufacturer)
+Физические порты: IN IEC / DC; IN 3-pin XLR; OUT IEC / DC; OUT 3-pin XLR
+Активный LED-эффект с DMX, а не пассивный зеркальный шар. 44 W при 230 V. Начальный режим выбран планировщиком; это не заявление о заводской настройке. На приборе нужно установить тот же режим.
+Источники:
+  https://www.chauvetdj.com/products/rotosphere-q3/
+  https://www.chauvetdj.com/wp-content/uploads/2016/12/Rotosphere_Q3_UM_Rev2_WO.pdf
+
+Эффекты / Bubble King [snl-33]
+Полная модель: Bubble generator Chauvet Bubble King + remote control FC5
+Проверено частично
+Подпись: 84 W · FC5/DMX-3F отдельно
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 84 W (manufacturer)
+Физические порты: IN Сетевой вход / DC
+У Chauvet Bubble King нет нативного DMX. PDF S&L перечисляет отдельный конвертер DMX-3F и пульт FC5. Их нельзя превратить в DMX IN/OUT корпуса Bubble King: конвертер нужен отдельным блоком. Машина потребляет 84 W при 230 V.
+Не установлено: powerConnectorSubtype, rentalControllerWiring
+Источники:
+  https://www.chauvetdj.com/products/bubble-king/
+  https://www.chauvetdj.com/wp-content/uploads/2015/12/B550_Bubble_King_UM_Rev6.pdf
+  https://www.snl.ee/en/light/download-pdf/
+
+Эффекты / Snow Flurry [snl-35]
+Полная модель: Snow mashine ADJ Snow Flurry
+Проверено частично
+Подпись: 600 W · таймер · без DMX
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 600 W (manufacturer)
+Физические порты: IN Сетевой кабель / DC
+Старый Snow Flurry, не VF/HO: 600 W по ADJ. Официальное руководство 2006 года описывает съёмный timer remote, страница EU — несъёмный; DMX нет в обеих версиях. Тип разъёма пульта без сверки экземпляра не придуман.
+Не установлено: remoteCableRevision, powerConnectorSubtype
+Источники:
+  https://www.adj.com/products/snow-flurry
+  https://www.adj.com/blogs/news/snow-flurry-press-release
+  https://www.adj.eu/mwdownloads/download/link/id/310
+  https://www.adj.eu/snow-flurry-snow-machine
+
+Эффекты / Chauvet Funfetti [snl-255]
+Полная модель: Chauvet Funfetti + remote control
+Проверено
+Подпись: 1 CH · 3-pin · 1430 W
+DMX: есть
+Режимы: 1 CH [1ch]
+Начальный режим планировщика: 1 CH
+Мощность: 1430 W (manufacturer)
+Физические порты: IN Сетевой вход · локальная вилка / DC; IN 3-pin XLR; IN Фирменный FC-W receiver / FC-W; OUT 3-pin XLR
+Funfetti Shot QRG Rev4, схема стр4 и характеристики стр8: DMX IN/OUT 3-pin, отдельный Wireless Remote Port, только Power IN; EU версия 1430 W при230 V. Точный приборный подтип силового разъёма не назван производителем, локальная вилка указана прямо.
+Источники:
+  https://www.chauvetdj.com/products/funfetti-shot/
+  https://www.chauvetdj.com/wp-content/uploads/2015/12/Funfetti_Shot_QRG_Rev4_ML6-1.pdf
+
+Эффекты / Вентилятор 16″ [snl-440]
+Полная модель: Floor Fan machine chrome 16”
+Проверено частично
+Подпись: 40 см · модель не указана
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC
+S&L описывает обычный хромированный напольный вентилятор 16 дюймов с тремя локальными скоростями и реверсом, без DMX. Марка и модель отсутствуют; прежние 90 W не подтверждены. Автопатч ему не применим, добавление DMX по аналогии с Entour Cyclone неверно.
+Не установлено: manufacturer, articleNumber, watts, powerConnectorSubtype
+Источники:
+  https://snl.ee/en/light/special_effects/?cat_id=440
+
+Эффекты / Entour Cyclone [snl-309]
+Полная модель: ADJ Entour Cyclone
+Проверено
+Подпись: 1/2 CH · 3-pin · 220 W
+DMX: есть
+Режимы: 1 CH [1ch]; 2 CH [2ch]
+Начальный режим планировщика: 2 CH
+Мощность: 220 W (manufacturer)
+Физические порты: IN Locking Power / DC; IN 3-pin XLR; IN 6.35 mm · Entour VT-1 / VT-1; OUT Locking Power / DC; OUT 3-pin XLR
+Расчёт по максимуму 220 W (минимум120 W). Производитель называет разъёмы питания Locking Power IN/OUT; точное семейство коннектора не утверждается. Начальный режим выбран планировщиком; это не заявление о заводской настройке. На приборе нужно установить тот же режим.
+Источники:
+  https://www.adj.com/products/entour-cyclone
+  https://www.adj.eu/entour-vt-1-controller
+
+Видео / Видеостена 4×55″ [snl-533]
+Полная модель: Portable TV Video Wall with 4psc. TV 55″ (Full set)
+Проверено частично
+Подпись: 4 × 55″ · HDMI / DP IN
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN HDMI Type A / HDMI 1 IN; IN DisplayPort / DisplayPort IN; IN DE-9 · RS-232 / RS-232; IN AC input · TV adapter/cable / DC; IN AC input · TV adapter/cable / DC; IN AC input · TV adapter/cable / DC; IN AC input · TV adapter/cable / DC; IN DC barrel / DC; OUT HDMI Type A / HDMI 1 OUT; OUT HDMI Type A / HDMI 2 OUT; OUT HDMI Type A / HDMI 3 OUT; OUT HDMI Type A / HDMI 4 OUT
+Комплект состоит из 4× SamsungUE55CU7172UXXH и 1× 8K controller (snl-526); kitComponents задаёт состав для разворачивания. На карточке комплекта показаны разъёмы контроллера. HDMI OUT1–4 идут на четыре телевизора. Только телевизоры: 4×145=580W; контроллер дополнительно, общий максимум не известен. Не назначать одному HDMI входу фиктивный видеовыход телевизора.
+Не установлено: controllerManufacturerModel, controllerWatts
+Источники:
+  https://snl.ee/en/video/?cat_id=533
+
+Видео / Samsung UE55CU7172 [snl-515]
+Полная модель: LCD TV Samsung UE55CU7172UXXH, UHD, 55”
+Проверено
+Подпись: 55″ · 4K · 3 HDMI
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 145 W (manufacturer-max)
+Физические порты: IN power / DC; IN HDMI Type A / HDMI 1 IN; IN HDMI Type A / HDMI 2 IN; IN HDMI Type A / HDMI 3 IN; IN RJ45 · Ethernet / LAN; OUT USB-A / USB-A 1
+3 входа HDMI, 1 LAN, 1 USB. 145 W максимум; 83 W типично. Ethernet двунаправленный; сторона входа в схеме условна.
+Источники:
+  https://www.samsung.com/lt/tvs/uhd-4k-tv/cu7000-55-inch-ue55cu7172uxxh/
+
+Видео / NEC ME403U [snl-512]
+Полная модель: Video projector NEC ME403U
+Проверено
+Подпись: WUXGA · 2 HDMI · VGA
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 305 W (manufacturer-high-bright)
+Физические порты: IN power / DC; IN HDMI Type A / HDMI 1 IN; IN HDMI Type A / HDMI 2 IN; IN VGA / DE-15 / VGA / DE-15 IN; IN RCA · CVBS / RCA · CVBS IN; IN RJ45 · Ethernet / LAN; IN USB-B / USB-B 1; IN DE-9 · RS-232 / RS-232; OUT VGA / DE-15 / VGA OUT; OUT USB-A / USB-A 1
+Потребление High Bright из европейского паспорта, не абсолютный максимум всех сетевых напряжений/режимов. USB-A — host/viewer, USB-B — USB Display. Добавлен физический RS-232 DE-9. Аналоговый VGA OUT передаёт RGB с VGA IN; это не HDMI-конвертер.
+Источники:
+  https://www.sharpdisplays.eu/p/datasheet/en/datasheet/rp/me403u.xhtml
+
+Видео / Epson EB-770F [snl-513]
+Полная модель: Laser Video projector EPSON EB-770F
+Проверено
+Подпись: 4100 лм · 3 HDMI · UST
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 263 W (manufacturer-peak)
+Физические порты: IN power / DC; IN HDMI Type A / HDMI 1 IN; IN HDMI Type A / HDMI 2 IN; IN HDMI Type A / HDMI 3 IN; IN VGA / DE-15 / VGA 1 IN; IN VGA / DE-15 / VGA 2 / OUT; IN RCA · CVBS / RCA · CVBS IN; IN RJ45 · Ethernet / LAN; IN USB-B / USB Display; IN DE-9 · RS-232 / RS-232; OUT USB-A / USB-A 1; OUT USB-A · WLAN module only / WLAN module
+263 W Normal Peak, 197 W Normal On. Computer2/Monitor Out — один физический переключаемый VGA-разъём; направление задаётся в меню проектора и на схеме. USB-B поддерживает USB Display. Внешний USB-A — носитель/камера, USB-A под крышкой — только WLAN-модуль. Есть RS-232 DE-9. Переключение на схеме не меняет настройку проектора.
+Источники:
+  https://www.epson.eu/en_EU/products/projector/ultra-short-throw/eb-770f-projector/p/38505
+  https://files.support.epson.com/docid/cpd6/cpd63099.pdf
+
+Управление и источники / Lumix G9 [snl-328]
+Полная модель: Panasonic Lumix DC – G9
+Проверено частично
+Подпись: HDMI A · USB Micro-B 3.0
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN USB 3.0 Micro-B / USB; OUT HDMI Type A / HDMI
+Полноразмерный HDMI Type A, USB 3.0 Micro-B. HDMI не HDMI-IN; это выход камеры. Питание батарейное/через совместимые аксессуары.
+Не установлено: operatingWatts
+Источники:
+  https://help.na.panasonic.com/answers/features-and-specifications-lumix-g-series-dc-g9/
+  https://www.panasonic.com/content/dam/Panasonic/au/en/support_manual/lumix-cameras/DC-G9_user-manual-firmware-v2.0.pdf
+
+Видео / ATEM Extreme [snl-510]
+Полная модель: Video mixer Black Magic ATEM Mini Extreme ISO
+Проверено
+Подпись: 8 HDMI IN · 2 OUT · ISO
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 36 W (manufacturer-rated)
+Физические порты: IN HDMI Type A / HDMI 1 IN; IN HDMI Type A / HDMI 2 IN; IN HDMI Type A / HDMI 3 IN; IN HDMI Type A / HDMI 4 IN; IN HDMI Type A / HDMI 5 IN; IN HDMI Type A / HDMI 6 IN; IN HDMI Type A / HDMI 7 IN; IN HDMI Type A / HDMI 8 IN; IN RJ45 · Ethernet / LAN; IN DC locking barrel / DC; OUT HDMI Type A / HDMI 1 OUT; OUT HDMI Type A / HDMI 2 OUT; OUT USB-C / USB-C 1; OUT USB-C / USB-C 2
+Оригинальный Extreme ISO, не G2: 8 HDMI входов, 2 HDMI выхода, 2 USB-C, 1 GbE. Архивный паспорт Blackmagic 2023 сохранён у прокатчика; текущая страница производителя переключилась на G2. USB-C многофункциональны: webcam out, запись диска и управление; стрелка не ограничивает реальные функции.
+Источники:
+  https://documents.blackmagicdesign.com/UserManuals/ATEM_Mini_Manual.pdf
+  https://www.fisheraudiovisual.com/wp-content/uploads/2023/01/atem-mini-extreme-iso-techspecs.pdf
+
+Управление и источники / GoPro Hero9 [snl-330]
+Полная модель: Camera GoPro Hero 9 Black
+Проверено частично
+Подпись: USB-C · HDMI через Media Mod
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN USB-C / USB
+У камеры нет встроенного HDMI. HDMI добавляет отдельный Media Mod; он не подтверждён в прокатном комплекте. Поэтому HDMI-порт по умолчанию отключён.
+Не установлено: includedMediaMod, operatingWatts
+Источники:
+  https://gopro.com/content/dam/help/hero9-black/manuals/HERO9Black_UM_ENG_REVA.pdf
+  https://gopro.com/en/ee/shop/mounts-accessories/camera-media-mod/ADFMD-001.html
+
+Видео / HDMI радиокомплект [snl-478]
+Полная модель: HDMI video transmitter + receiver
+Проверено частично
+Подпись: Wireless HDMI · TX + RX
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN HDMI / TX HDMI IN; IN DC barrel / DC; IN DC barrel / DC; OUT HDMI / TX HDMI LOOP; OUT HDMI / RX HDMI OUT
+Комплект Qkens TX+RX: передатчик HDMI IN+LOOP OUT, приёмник HDMI OUT. У каждой коробки своё питание DC5V; две антенны не RJ45. 5V2A — номинал БП, а не паспортная нагрузка. Точный артикул Qkens не указан. Порты восстановлены по описанию и фотографиям проката.
+Не установлено: manufacturerModel, manufacturerManual, watts
+Источники:
+  https://snl.ee/en/video/?cat_id=478
+
+Видео / HP E24t-G4 [snl-480]
+Полная модель: 23.8” Touch Screen Monitor HP E-Series E24t G4
+Проверено
+Подпись: 23,8″ · HDMI · DP · Touch
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 52 W (manufacturer-max)
+Физические порты: IN power / DC; IN HDMI Type A / HDMI 1 IN; IN DisplayPort 1.2 / DisplayPort 1.2 IN; IN VGA / DE-15 / VGA / DE-15 IN; IN USB-B / USB Touch; OUT USB-A / USB-A 1; OUT USB-A / USB-A 2; OUT USB-A / USB-A 3; OUT USB-A / USB-A 4
+52 W максимум, 25 W типично. Один upstream USB-B для touch/USB hub и четыре downstream USB-A. Видеовыхода нет.
+Источники:
+  https://support.hp.com/us-en/product/product-specs/hp-e24t-g4-fhd-touch-monitor/34513980
+  https://jp.ext.hp.com/content/dam/jp-ext-hp-com/jp/ja/ec/lib/products/desktops/specs/monitor/e24t_spec.pdf
+
+Видео / Монитор 15.6″ [snl-537]
+Полная модель: 15.6" 4K Portable Monitor UHD 3840*2160
+Проверено частично
+Подпись: 15,6″ · 4K · mini HDMI
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN Mini HDMI Type C / Mini HDMI Type C IN; IN USB-C · DisplayPort Alt Mode / USB-C VIDEO; IN USB-C · power only / DC
+Схема на фотографии S&L явно разделяет mini HDMI, USB-C video/data и второй USB-C POWER. Порты восстановлены по этой схеме; второй USB-C не является вторым видеовходом. На маркетинговых изображениях watermark JVSUPER, но шильдик/артикул отсутствуют. Это подтверждение разъёмов прокатчиком, не официальный паспорт производителя.
+Не установлено: manufacturerModel, manufacturerManual, watts
+Источники:
+  https://snl.ee/en/video/?cat_id=537
+  https://snl.ee/userfiles/catalog/6756d92b969cf.jpg
+  https://snl.ee/userfiles/catalog/6756d92abcfeb.jpg
+
+Свет / Ulanzi VL66 [snl-476]
+Полная модель: Wireless LED Video Light VL66
+Проверено частично
+Подпись: CCT · ревизия 2500/3200–6500 K
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 5 W (manufacturer-rating)
+Физические порты: IN power / DC
+Официальный manual Ulanzi 2135 VL66 R2: USB-C, 5 W, CCT 2500–6500 K, 2000 mAh; DMX отсутствует. S&L указывает 6 W и 3200–6500 K, поэтому ревизию нужно сверить. В бюджете 5 W — номинал устройства, не потери внешнего USB-адаптера.
+Не установлено: hardwareRevision, mainsAdapterWatts
+Источники:
+  https://www.ulanzi.com/en-gb/pages/documentation
+  https://cdn.shopify.com/s/files/1/0136/3119/3188/files/2135_Ulanzi_VL66_20250319_R2.pdf?v=1781769062
+  https://snl.ee/en/video/lighting_equipment_for_filming/?cat_id=476
+
+Видео / Видеоконтроллер 8K [snl-526]
+Полная модель: 8K TV Video Wall Controller
+Проверено частично
+Подпись: HDMI + DP → 4 HDMI
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN HDMI Type A / HDMI 1 IN; IN DisplayPort / DisplayPort IN; IN DE-9 · RS-232 / RS-232; IN DC barrel / DC; OUT HDMI Type A / HDMI 1 OUT; OUT HDMI Type A / HDMI 2 OUT; OUT HDMI Type A / HDMI 3 OUT; OUT HDMI Type A / HDMI 4 OUT
+Основная задняя панель S&L: HDMI + DisplayPort INPUT; четыре HDMI OUTPUT; DE-9 RS232; DC12V IN. Второе фото в карточке показывает иной корпус, поэтому точная модель/ревизия не установлена. Разъёмы заданы по основной маркированной панели, а не догадкой по словам 8K. Входная мощность не опубликована.
+Не установлено: manufacturerModel, manufacturerManual, watts
+Источники:
+  https://snl.ee/en/video/?cat_id=526
+  https://snl.ee/userfiles/catalog/6762a0782523a.jpg
+
+Видео / Feelworld F6Plus [snl-531]
+Полная модель: Camera Field Monitor 6” FEELWORLD F6 Plus V2
+Проверено
+Подпись: 6″ · HDMI IN / LOOP · 8 W
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 8 W (manufacturer-max)
+Физические порты: IN HDMI Type A / HDMI 1 IN; IN DC barrel / DC; IN USB-C · power only / DC; OUT HDMI Type A / HDMI LOOP; OUT DC barrel 5.5×2.1 mm / DC
+F6 PLUS V2: HDMI IN и LOOP OUT; DC 12V IN; USB-C 5V только питание (не данные, не видео, не power OUT); DC 8V OUT 5.5×2.1 мм. Питание также от NP-F/LP-E6. 8W максимум самого монитора; внешняя камера/потери БП в эти 8W не входят. 4K60 относится к аппаратной ревизии V7.x, прежние версии V2 не обновляются до неё прошивкой.
+Источники:
+  https://www.feelworld.cn/feelworld-f6-plus-v2-6-inch-3d-lut-touch-screen-dslr-camera-field-monitor-ips-fhd1920x1080-support-4k-hdmi-input-output-tilt-arm-power-output/
+
+Видео / USB-C док [snl-473]
+Полная модель: 12 in 1 Type-C Dock-Station
+Проверено частично
+Подпись: USB-C · 2 HDMI · VGA
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN RJ45 · Ethernet / LAN; IN USB-C / USB-C Host; IN USB-C · Power Delivery input / DC; OUT HDMI Type A / HDMI 1 OUT; OUT HDMI Type A / HDMI 2 OUT; OUT VGA / DE-15 / VGA / DE-15 OUT; OUT USB-A / USB-A 1; OUT USB-A / USB-A 2; OUT USB-A / USB-A 3; OUT USB-C · data / USB-C DATA
+По маркированной схеме S&L: несъёмный USB-C Host; USB-A×3; отдельный USB-C DATA; отдельный USB-C PD IN; HDMI OUT×2, VGA OUT, Ethernet. Отдельный USB-C DATA не заявлен как второй видеовход/выход. Данные изготовителя/точный артикул и потребление не раскрыты. USB-C Host одновременно несёт данные/Alt Mode и питание ноутбука; отдельный AC-вход отсутствует.
+Не установлено: manufacturerModel, manufacturerManual, watts
+Источники:
+  https://snl.ee/en/video/?cat_id=473
+  https://snl.ee/userfiles/catalog/63974a6c43890.jpg
+
+Видео / Samsung UE50NU7092 [snl-307]
+Полная модель: LCD Samsung 50'' Ultra HD LED UE50NU7092UXXH
+Проверено частично
+Подпись: 50″ · 4K · 2 HDMI
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN HDMI Type A / HDMI 1 IN; IN HDMI Type A / HDMI 2 IN; IN RJ45 · Ethernet / LAN; OUT USB-A / USB-A 1
+Точный UE50NU7092U подтверждён поддержкой и оригинальным руководством Samsung BN68-09160E-00. Руководство прямо отсылает за потреблением к шильдику, числового W не содержит. На фото S&L видны HDMI IN×2, USB-A, LAN и IEC C8; аналоговых видео-входов/видеовыхода нет. Фото относится к серии, мелкий шильдик не использован для переноса мощности другого размера. Число портов подтверждено фото прокатчика, а не таблицей Samsung.
+Не установлено: manufacturerPortTable, watts
+Источники:
+  https://www.samsung.com/ee/support/model/UE50NU7092UXXH/
+  https://snl.ee/en/video/tv_and_monitors/?cat_id=307
+  https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_UK&OriginYN=N&ModelType=N&ModelName=UE50NU7092U&CttFileID=7075800&CDCttType=EM&VPath=EM%2F201807%2F20180726123206132%2FBN68-09160E-00_UNU7090P_XH_L16_180525.0.pdf
+  https://snl.ee/userfiles/catalog/616c0c9fb4780.jpg
+
+Видео / Samsung 40″ [snl-496]
+Полная модель: LCD SAMSUNG 40” FULL HD LED UE55F6650SS
+Проверено частично
+Подпись: 40″ / 55″ · выбор модели
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN HDMI Type A / HDMI IN; IN RJ45 · Ethernet / LAN; OUT USB-A / USB-A
+В заголовке S&L UE55F6650SS (55″), в описании LH40DBEPLGC/EN и на фото DB40E (40″). До подтверждения показаны лишь общие HDMI/LAN/USB, мощность не назначена. В списке аппаратных вариантов полностью документированный DB40E с 121W. Вариант 55F6650 не подменён параметрами DB40E: старое официальное eManual семейства не подтверждает число разъёмов конкретного SKU. Выбор модели обязателен перед финальной проверкой.
+Не установлено: rentalModelIdentity
+Источники:
+  https://snl.ee/en/video/tv_and_monitors/?cat_id=496
+  https://www.samsung.com/us/business/support/owners/product/db-series-digital-signage-db40e/
+  https://snl.ee/userfiles/catalog/641c6f38b5f81.jpg
+  https://www.samsung.com/ie/support/model.UE55F6650SSXXH/
+
+Видео / LG 32LD350 [snl-336]
+Полная модель: Televiisor LG 32LD350 – 32“
+Проверено
+Подпись: 32″ · 2 HDMI · VGA
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 120 W (manufacturer-rated)
+Физические порты: IN power / DC; IN HDMI Type A / HDMI 1 IN; IN HDMI Type A / HDMI 2 IN; IN VGA / DE-15 / VGA / DE-15 IN; IN SCART / SCART IN/OUT; IN 3×RCA · YPbPr / YPbPr IN; IN RCA · CVBS / RCA · CVBS IN; OUT USB-A / USB-A
+Проверено руководство европейского 32LD350-ZA: A-5 задняя/боковая панели, стр.137 питание. 2 HDMI (задний и боковой), VGA, SCART, компонентный, CVBS, USB; LAN отсутствует. 120 W по руководству вместо 110 W S&L/150 W ошибочной RU-страницы. SCART поддерживает вход/выход, в схеме один физический порт с переключаемым направлением. RF/CI и аудио не моделируются.
+Источники:
+  https://www.lg.com/ee/toetus/toote/lg-32LD350.AEU
+  https://gscs-b2c.lge.com/open/downloadFile?fileId=XwdO1AqQoKxuJN8XZpkZA
+
+Видео / Samsung C24T550 [snl-341]
+Полная модель: Curved monitor 24” Samsung C24T550FDU
+Проверено частично
+Подпись: 24″ · HDMI · DP · VGA
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 33 W (manufacturer-typical)
+Физические порты: IN HDMI Type A / HDMI 1 IN; IN DisplayPort 1.2 / DisplayPort 1.2 IN; IN VGA / DE-15 / VGA / DE-15 IN; IN DC barrel · external adapter / DC
+33 W типичное потребление, максимум не найден. По одному HDMI 1.4, DisplayPort 1.2 и VGA входу; USB и видеовыходов нет.
+Не установлено: wattsMaximum
+Источники:
+  https://www.samsung.com/fr/monitors/curved/curved-monitor-t55-series-24-inch-lc24t550fduxen/
+
+Видео / Philips 32PFL7332/10 [snl-365]
+Полная модель: TV LCD Philips 32PFL7332/10 32”
+Проверено
+Подпись: 32″ · 2 HDMI · 128 W
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 128 W (manufacturer-rated)
+Физические порты: IN power / DC; IN HDMI Type A / HDMI 1 IN; IN HDMI Type A / HDMI 2 IN; IN SCART / SCART 1 IN/OUT; IN SCART / SCART 2 IN/OUT; IN 3×RCA · YPbPr / YPbPr IN; IN RCA · CVBS / RCA · CVBS IN; IN S-Video · mini-DIN 4 / S-Video · mini-DIN 4; OUT USB-A / USB-A 1
+Проверена именно европейская /10: 2 HDMI, 2 SCART, компонентный вход, боковые CVBS/S-Video/USB. У SCART есть CVBS in/out; физические разъёмы имеют переключаемое направление на схеме. Не применена другая региональная схема с VGA.
+Источники:
+  https://www.documents.philips.com/assets/20230224/f8c87ea356a44987bddaafb300f13e8e.pdf
+
+Видео / ATEM MiniPro [snl-327]
+Полная модель: Blackmagic Design Atem Mini Pro
+Проверено
+Подпись: 4 HDMI IN · 1 OUT · USB-C
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 30 W (manufacturer-rated)
+Физические порты: IN HDMI Type A / HDMI 1 IN; IN HDMI Type A / HDMI 2 IN; IN HDMI Type A / HDMI 3 IN; IN HDMI Type A / HDMI 4 IN; IN RJ45 · Ethernet / LAN; IN DC locking barrel / DC; OUT HDMI Type A / HDMI 1 OUT; OUT USB-C / USB-C 1
+Проверен раздел ATEM Mini Pro, не Pro ISO/Extreme. USB-C: webcam/запись/управление; Ethernet двунаправленный.
+Источники:
+  https://www.blackmagicdesign.com/products/atemmini/techspecs
+
+Видео / NEC VT660K [snl-405]
+Полная модель: Projector NEC VT660K 2000lum
+Проверено
+Подпись: 2000 лм · VGA · CVBS
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 270 W (manufacturer-normal)
+Физические порты: IN power / DC; IN VGA / DE-15 / VGA / DE-15 IN; IN RCA · CVBS / RCA · CVBS IN; IN S-Video · mini-DIN 4 / S-Video · mini-DIN 4; IN USB-B / USB Mouse; IN Mini-DIN 8 · NEC PC Control / PC CONTROL; OUT VGA / DE-15 / VGA OUT
+Руководство VT660K: VGA IN/OUT, CVBS, S-Video, USB-B Mouse и PC CONTROL mini-DIN 8. 270 W Normal / 220 W Eco. HDMI/LAN отсутствуют; USB не видеовход. Мониторный VGA OUT выводит сигнал RGB IN.
+Источники:
+  https://sharp-displays.jp.sharp/support/webdl/dl_service/data/manual/english/vt660k_e.pdf
+  https://www.sharp-nec-displays.com/support/webdl/dl_service/data/manual/english/vt660k_us_e.pdf
+
+Видео / Sanyo PLC-XU355 [snl-173]
+Полная модель: Videoprojector Sanyo PLC-XU355
+Проверено
+Подпись: 3500 лм · DVI-I · VGA
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 330 W (manufacturer-normal)
+Физические порты: IN power / DC; IN VGA / DE-15 / VGA / DE-15 IN; IN DVI-I / DVI-I IN; IN RCA · CVBS / RCA · CVBS IN; IN S-Video · mini-DIN 4 / S-Video · mini-DIN 4; IN RJ45 · Ethernet / LAN; IN USB-B / USB Mouse; IN DE-9 · RS-232 / RS-232; OUT VGA / DE-15 / VGA OUT; OUT USB-A / USB-A 1
+Оригинальный паспорт SANYO 04/2009: VGA + DVI-I + CVBS + S-Video IN; отдельный VGA MONITOR OUT; DE-9 CONTROL; USB-B Mouse, USB-A Memory Viewer и LAN. 330 W Normal / 252 W Eco. VGA OUT не конвертирует HDMI/DVI в аналоговое видео.
+Источники:
+  https://www.projectorcentral.com/pdf/projector_spec_4843.pdf
+
+Видео / NEC ME383W [snl-511]
+Полная модель: Video projector NEC ME383W
+Проверено
+Подпись: WXGA · 2 HDMI · VGA
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 293 W (manufacturer-high-bright)
+Физические порты: IN power / DC; IN HDMI Type A / HDMI 1 IN; IN HDMI Type A / HDMI 2 IN; IN VGA / DE-15 / VGA / DE-15 IN; IN RCA · CVBS / RCA · CVBS IN; IN RJ45 · Ethernet / LAN; IN USB-B / USB-B 1; IN DE-9 · RS-232 / RS-232; OUT VGA / DE-15 / VGA OUT; OUT USB-A / USB-A 1
+Потребление High Bright из европейского паспорта, не абсолютный максимум всех сетевых напряжений/режимов. USB-A — host/viewer, USB-B — USB Display. Добавлен физический RS-232 DE-9. Аналоговый VGA OUT передаёт RGB с VGA IN; это не HDMI-конвертер.
+Источники:
+  https://www.sharpdisplays.eu/p/datasheet/en/datasheet/rp/me383w.xhtml
+
+Видео / NovaStar VX4 [snl-542]
+Полная модель: NovaStar VX4 – professional video controller for LED screens
+Проверено
+Подпись: 10 IN · 4 LED OUT · 25 W
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 25 W (manufacturer-rated)
+Физические порты: IN power / DC; IN HDMI Type A / HDMI 1 IN; IN DisplayPort / DisplayPort IN; IN DVI / DVI 1 IN; IN DVI / DVI 2 IN; IN VGA / DE-15 / VGA 1 IN; IN VGA / DE-15 / VGA 2 IN; IN VGA / DE-15 / VGA 3 IN; IN CVBS / CVBS 1 IN; IN CVBS / CVBS 2 IN; IN CVBS / CVBS 3 IN; IN RJ45 · Ethernet / LAN Control; IN USB-B / USB Control; OUT DVI / DVI LOOP; OUT DVI / MONITOR 1; OUT DVI / MONITOR 2; OUT RJ45 · NovaStar LED data / LED 1 OUT; OUT RJ45 · NovaStar LED data / LED 2 OUT; OUT RJ45 · NovaStar LED data / LED 3 OUT; OUT RJ45 · NovaStar LED data / LED 4 OUT; OUT USB-A / USB Cascade; OUT USB-A / USB Cascade
+VX4, не VX4S/VX400. HDMI×1, DP×1, DVI×2, VGA×3, CVBS×3; DVI loop×1 и monitor×2; LED OUT×4 и отдельный Ethernet управления. LED OUT предназначены приёмным картам LED, не HDMI и не обычному LAN-коммутатору. USB-B PC/cascade IN; USB-A спереди/сзади не подключать напрямую к PC.
+Источники:
+  https://www.novastar.tech/wp-content/uploads/2019/06/VX4-VX4S-User-Manual-Rev1.1.2.pdf
+
+Управление и источники / Martin MC1 [snl-128]
+Полная модель: Martin MC1
+Проверено частично
+Подпись: 1 CH · XLR 3 · Martin
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN IEC 3-prong mains inlet / DC; OUT 3-pin XLR / U1
+Оригинальное руководство Martin MC-1, P/N 35000078 Rev C: DMX-512, канал 1, XLR 3-pin OUT и IEC AC IN. Пульт предназначен для совместимых Martin в режиме 1 CH или автодетекта MC-1; это не универсальная консоль. Мощность производитель предлагает читать на шильдике, в руководстве числа нет.
+Не установлено: operatingWatts
+Источники:
+  https://www.martin.com/en-US/products/mc-1-controller
+  https://www.martin.com/en/site_elements/user-manual-0973401e-eae2-45f0-9e2c-11e9da03a433
+  https://www.martin.com/en/site_elements/manuel-d-utilisation-6587641c-6211-409e-b630-6fec2efdecca
+  https://manualzz.com/doc/4197336/martin-mc-1-controller-user-manual
+
+Управление и источники / Elation SDC-6V2 [snl-449]
+Полная модель: DMX controller Elation SDC-6 V2
+Проверено частично
+Подпись: 6 ch · XLR 3
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN DC 12 V IN / DC; OUT 3-pin XLR / U1
+Шесть выходных каналов DMX и master. Питание внешним 12 VDC БП; мощность БП не равна фактическому потреблению.
+Не установлено: watts
+Источники:
+  https://www.elationlighting.eu/sdc-6-faderdesk-v2-black
+
+Управление и источники / DMX-48 [snl-532]
+Полная модель: 8 ch. Light Console DMX-48
+Проверено частично
+Подпись: DMX OUT · XLR 3
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 2 W (rental)
+Физические порты: IN DC barrel, 5 V via supplied USB cable / DC; OUT 3-pin XLR / U1
+По фотографии S&L: GZYUELIGHTING DMX-48, один XLR 3-pin OUT и круглый DC IN. USB 5 V относится к питающему кабелю, а не физическому USB-гнезду. S&L указывает 2 W и 4/8CH; точная карта банков и каналов производителем не найдена. Не выдавать название DMX-48 за подтверждённые 48 каналов. Фото и данные проката отделены от manufacturer verification.
+Не установлено: manufacturerManual, outputChannels
+Источники:
+  https://snl.ee/en/light/light_controllers_dimmers/?cat_id=532
+  https://snl.ee/userfiles/catalog/6754907322301.jpg
+
+DMX / Martin RS485 [snl-127]
+Полная модель: Martin RS 485
+Проверено частично
+Подпись: 4 OUT + THRU · XLR 3
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN 3-pin XLR / IN; IN Fixed AC mains lead, 115/230 V selector / DC; OUT 3-pin XLR / 1; OUT 3-pin XLR / 2; OUT 3-pin XLR / 3; OUT 3-pin XLR / 4; OUT 3-pin XLR / THRU
+Один вход: четыре изолированные ветви одного universe и пассивный THRU. Это не пять universes. RDM не заявлен.
+Не установлено: watts
+Источники:
+  https://www.martin.com/en-US/products/rs-485-optosplitter
+  https://www.martin.com/en/site_elements/user-manual-800afd5e-0295-49c1-8e24-c8bd034bcdde
+
+DMX / NA 4RDM [snl-516]
+Полная модель: NA 4 RDM
+Проверено
+Подпись: 1 → 4 · RDM · XLR 3
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 10 W (manufacturer-rated)
+Физические порты: IN 3-pin XLR / IN; IN powerCON IN / DC; OUT 3-pin XLR / 1; OUT 3-pin XLR / 2; OUT 3-pin XLR / 3; OUT 3-pin XLR / 4
+Один universe распределяется на четыре выхода. Число контактов 3-pin указано в конкретной позиции проката; datasheet семейства допускает разные XLR.
+Источники:
+  https://na-products.lv/cdn/shop/files/Datasheet_DMX_Splitter_4S_RDM.pdf?v=18128843329230923609
+  https://snl.ee/en/light/light_controllers_dimmers/?cat_id=516
+
+DMX / NA 8RDM [snl-517]
+Полная модель: NA 8 RDM
+Проверено
+Подпись: 2 → 8 · RDM · XLR 3
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 10 W (manufacturer-rated)
+Физические порты: IN 3-pin XLR / A; IN 3-pin XLR / B; IN powerCON IN / DC; OUT 3-pin XLR / 1; OUT 3-pin XLR / 2; OUT 3-pin XLR / 3; OUT 3-pin XLR / 4; OUT 3-pin XLR / 5; OUT 3-pin XLR / 6; OUT 3-pin XLR / 7; OUT 3-pin XLR / 8
+Каждый выход назначается входу A или B; это до двух входных universes, не восемь независимых universes. Число контактов 3-pin указано в конкретной позиции проката; datasheet семейства допускает разные XLR.
+Источники:
+  https://na-products.lv/cdn/shop/files/Datasheet_DMX_Splitter_8_RDM.pdf?v=8329267464380099723
+  https://snl.ee/en/light/light_controllers_dimmers/?cat_id=517
+
+DMX / Swisson XPD-28-3R [snl-508]
+Полная модель: Swisson XPD-28-3R
+Проверено
+Подпись: 2 → 8 · RDM · XLR 3
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 10 W (typical)
+Физические порты: IN 3-pin XLR / A; IN 3-pin XLR / B; IN powerCON IN / DC; OUT 3-pin XLR / 1; OUT 3-pin XLR / 2; OUT 3-pin XLR / 3; OUT 3-pin XLR / 4; OUT 3-pin XLR / 5; OUT 3-pin XLR / 6; OUT 3-pin XLR / 7; OUT 3-pin XLR / 8; OUT powerCON OUT / DC
+Manual V01-05 (2020) указывает 10 W typical. Старые руководства указывают 9 W. Два DMX-входа A/B, восемь назначаемых выходов; Ethernet отсутствует. USB-B только для обновления firmware.
+Источники:
+  https://www.swisson.com/site/assets/files/1261/um_xpd-28-d0-len-v01-05.pdf
+
+DMX / D-Fi Hub [snl-400]
+Полная модель: Chauvet D-FI HUB
+Проверено
+Подпись: Передатчик / приёмник · XLR 3
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 4 W (manufacturer-rated)
+Физические порты: IN 3-pin XLR / IN; IN Chauvet D-Fi 2.4 GHz / D-Fi; IN DC 9 V IN / DC; OUT 3-pin XLR / OUT
+Переключаемый передатчик/приёмник D-Fi 2,4 GHz. Это не Wi-Fi Art-Net и не универсальная совместимость с любым wireless DMX. Внешний БП 9 VDC.
+Источники:
+  https://www.chauvetdj.com/products/d-fi-hub/
+  https://www.chauvetdj.com/wp-content/uploads/2015/12/D-Fi_Hub_UM_Rev2_WO.pdf
+
+DMX / FlareCON Air2 [snl-540]
+Полная модель: FlareCON Air 2 transmitter/receiver
+Проверено
+Подпись: Wi-Fi → D-Fi / DMX · 512 ch
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 4 W (manufacturer-rated)
+Физические порты: IN USB power / USB; IN Wi-Fi / FlareCON app / Wi-Fi; OUT 3-pin XLR via supplied adapter / OUT; OUT Chauvet D-Fi 2.4 GHz / D-Fi
+Wi-Fi-приёмник для приложения FlareCON и передатчик D-Fi. Встроенная батарея; 5 VDC питание. Проводной DMX через комплектный адаптер. Wi-Fi не означает Art-Net/sACN; совместимость протокола должна совпадать.
+Источники:
+  https://www.chauvetdj.com/products/flarecon-air-2/
+  https://www.chauvetdj.com/wp-content/uploads/2019/11/FlareCON_Air_2_UM_Rev1.pdf
+
+DMX / Wireless DMX [snl-123]
+Полная модель: Wireless DMX
+Проверено частично
+Подпись: Приёмник · W-DMX
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN W-DMX legacy 2.4 GHz / W-DMX; IN Power input: hardware revision to verify / DC; OUT DMX OUT: разъём сверить / OUT
+Фото проката совпадает с обложкой оригинального W-DMX 512 Black Box Operation Handbook (старый корпус Receiver). Роль RX и W-DMX подтверждены. У этой 3-страничной инструкции нет задней панели и электрических параметров; разъёмы новых G3/G4/G6 не перенесены на старую модель. На схеме DMX OUT логический до проверки задней панели; Ethernet/USB и дополнительные выходы не выдуманы.
+Не установлено: rearPanelConnector, operatingWatts, powerConnector
+Источники:
+  https://www.techni-lux.com/files/documents/AC-WDMXR512_manual.pdf
+  https://snl.ee/userfiles/catalog/61b75f719207c.jpg
+  https://wirelessdmx.com/legacy-product-support/
+
+Управление и источники / ADJ Hexcon [snl-251]
+Полная модель: American DJ Hexcon
+Проверено
+Подпись: 36 ch · RGBWA+UV · XLR 3
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 3.6 W (manufacturer-rated)
+Физические порты: IN DC 12 V IN / DC; OUT 3-pin XLR / U1; OUT USB-A phone charging / DC
+Контроллер — источник DMX, каналы не занимают адреса патча. Независимые группы ожидают 6-channel RGBWA+UV на адресах 1/7/13/19/25/31.
+Источники:
+  https://www.adj.eu/hexcon
+
+Управление и источники / WiFLY NE1 [snl-401]
+Полная модель: ADJ WiFLY NE1 DMX controller
+Проверено
+Подпись: 432 ch · WiFLY · XLR 3
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 2.7 W (manufacturer-rated)
+Физические порты: IN DC 9–12 V IN / DC; OUT 3-pin XLR / U1; OUT ADJ WiFLY / WiFLY; OUT USB-A storage host / USB
+Контроллер — источник DMX, каналы не занимают адреса патча. WiFLY — отдельный радиопротокол, не Wi-Fi/Art-Net.
+Источники:
+  https://www.adj.eu/wifly-ne1
+  https://www.adj.eu/mwdownloads/download/link/id/709
+
+Управление и источники / WiFLY RGBW8C [snl-233]
+Полная модель: DMX controller WiFLY RGBW8C + WiFLY Transceiver
+Проверено частично
+Подпись: 64 ch · RGBW · WiFLY
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 3.6 W (manufacturer-rated)
+Физические порты: IN DC 12 V IN / DC; OUT 3-pin XLR / U1; OUT ADJ WiFLY / WiFLY
+Контроллер — источник DMX, каналы не занимают адреса патча. В каталоге комплект с отдельным WiFLY Transceiver: 3,6 W относится только к пульту; отдельный приёмник учитывать отдельным блоком.
+Не установлено: bundleTransceiverRevision
+Источники:
+  https://www.adj.eu/wifly-rgbw8c
+
+Управление и источники / Easy Show [snl-490]
+Полная модель: DMX recorder Eurolite Easy Show
+Проверено
+Подпись: 512 ch · IN / OUT · XLR 3
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 1.25 W (manufacturer-rated)
+Физические порты: IN USB-C power / USB; IN 3-pin XLR / IN; OUT 3-pin XLR / U1; OUT USB-A storage / USB; OUT USB-A QuickDMX receiver / QuickDMX
+DMX recorder/controller. 3-pin IN и OUT, USB-C питание, USB-A для памяти и опционального QuickDMX. QuickDMX USB не равен обычному USB-DMX интерфейсу для ПК.
+Источники:
+  https://www.steinigke.com/mpn70064578-eurolite-easy-show.html
+
+Управление и источники / Obey 4 [snl-407]
+Полная модель: Chauvet Obey 4 DMX
+Проверено частично
+Подпись: 16 ch · XLR 3
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN DC 9 V IN / DC; OUT 3-pin XLR / U1
+Выход DMX; питание внешним 9 VDC БП. Номинал БП 500 mA не следует записывать как потребление.
+Не установлено: watts
+Источники:
+  https://www.chauvetdj.com/products/obey-4/
+
+Управление и источники / Obey 70 [snl-250]
+Полная модель: Chauvet Obey 70 Dmx
+Проверено частично
+Подпись: 384 ch · XLR 3
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN MIDI DIN 5-pin / MIDI; IN DC 9 V IN / DC; OUT 3-pin XLR / U1; OUT Chauvet fog remote 5-pin / FOG; OUT 6.35 mm strobe trigger / STROBE
+Obey 70: 384 DMX-канала, 3-pin XLR OUT, MIDI IN, отдельные выходы FOG 5-pin и STROBE 6.35 mm. Remote FOG и STROBE не являются DMX. Питание 9 V DC; 500 mA — рейтинг адаптера, не подтверждённое потребление.
+Не установлено: watts
+Источники:
+  https://www.chauvetdj.com/products/obey-70/
+  https://www.chauvetdj.com/wp-content/uploads/2015/12/Obey-70_Rev7_UM_ML5.pdf
+
+Управление и источники / Scene Setter [snl-131]
+Полная модель: Elation Scene Setter
+Проверено частично
+Подпись: 24 ch · фейдерный пульт
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN MIDI DIN 5-pin / MIDI; IN 6.35 mm TRS remote / REMOTE; IN DC 12–20 V IN / DC; OUT 3-pin XLR / U1; OUT MIDI DIN 5-pin / MIDI; OUT MIDI DIN 5-pin / THRU; OUT Fog remote connector / FOG
+Найдена оригинальная инструкция Elation Scene Setter 24 CH. DMX OUT XLR 3-pin, MIDI IN/OUT/THRU, дистанционный Full On/Black Out 6.35 mm TRS. DC 12–20 V; 500 mA minimum — требование к адаптеру, не измеренное потребление. Это не Scene Setter 48. Разъём FOG — отдельный протокол, не DMX.
+Не установлено: operatingWatts, fogRemotePinout
+Источники:
+  https://www.adj.eu/scene-setter
+  https://www.adj.com/products/scene-setter
+  https://device.report/m/323b6298f48b7dc773124c0fa3fb90e4c62c058ed079a5f57b804694dbff112c.pdf
+  https://manualzz.com/doc/23973409/elation-professional-scene-setter-dimmer-console-user-manual
+
+DMX / ADJ DMX3.0 [snl-323]
+Полная модель: ADJ DMX 3.0
+Проверено частично
+Подпись: USB → DMX · XLR 3 / 5
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN USB-B / USB; OUT 3-pin XLR / U1; OUT 5-pin XLR / U1
+MyDMX 3.0: USB-B от компьютера и питание; физические XLR 3-pin и 5-pin выводят один universe, не два независимых. Базовая лицензия: 512 live / 60 standalone каналов. Не заменять USB Ethernet-портом; AC-потребление неприменимо к самому USB-интерфейсу.
+Не установлено: watts, installedLicense
+Источники:
+  https://www.adj.eu/mydmx-3-0
+  https://www.adj.com/blogs/news/adj-s-new-mydmx-3-0-introduces-multiple-scene-playback-and-other-advanced-features
+
+Управление и источники / Avolites T2 [snl-384]
+Полная модель: Avolites T2 USB Interface
+Проверено частично
+Подпись: 2 × XLR 5 · USB-B
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN USB-B / USB; IN SMPTE LTC 3-pin XLR / LTC; OUT 5-pin XLR / U1; OUT 5-pin XLR / U2
+USB-питание от компьютера. Art-Net/sACN выходит через сетевую карту ПК, не через T2. LTC — временной код, не DMX. T2 предоставляет два universes.
+Не установлено: ACwatts
+Источники:
+  https://www.avolites.com/app/uploads/2021/06/T2_Spec_Sheet.pdf
+  https://manual.avolites.com/docs/18.0/about-the-consoles/t1-and-t2/
+
+Управление и источники / Avolites T3 [snl-535]
+Полная модель: Lighting controller Avolites T3
+Проверено частично
+Подпись: 4 × XLR 5 · USB-C
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN USB-C / USB; IN SMPTE LTC 3-pin XLR / LTC; OUT 5-pin XLR / U1; OUT 5-pin XLR / U2; OUT 5-pin XLR / U3; OUT 5-pin XLR / U4
+USB-питание от компьютера. Art-Net/sACN выходит через сетевую карту ПК, не через T3. LTC — временной код, не DMX. До 16 universes через ПК; 4 аппаратных DMX-порта. Порт допускает IN с подходящим переходником. USB до 900 mA.
+Не установлено: ACwatts
+Источники:
+  https://www.t3.avolites.com/
+
+Видео / Xiuhu P3.91 [snl-541]
+Полная модель: LED screen Xiuhu P3.91
+Проверено частично
+Подпись: P3.91 · LED-кабинет
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN LED cabinet data · receiving card unconfirmed / LED DATA IN; OUT LED cabinet data · receiving card unconfirmed / LED DATA OUT
+P3.91 обозначает шаг, а не модель. Фото S&L показывает кабинет и коммутационный блок, но надписи разъёмов/receiving card не читаются. Пара LED DATA IN/OUT оставлена как явно непроверенная схема каскада; это не Ethernet/LAN и не подтверждение pinout. Точные power IN/OUT, лимиты и NovaStar-совместимость не присвоены по внешнему виду. Противоречие S&L: 500×500мм и64×64px не соответствует шагу3.91мм. Каталог изготовителя Showho/Xiuhu исследован, точная серия не установлена.
+Не установлено: manufacturerModel, receivingCard, connectorPinout, powerLink, watts
+Источники:
+  https://snl.ee/en/video/led_screens/?cat_id=541
+  https://snl.ee/userfiles/catalog/6809364658dee.jpg
+  https://www.showholed.com/?a=index&c=Lists&lang=en&m=home&tid=48
+
+Видео / HDMI 1×4 [snl-345]
+Полная модель: 4 Port HDMI 18G Splitter
+Проверено частично
+Подпись: HDMI 1→4 · 4K60 · EDID
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN HDMI Type A / HDMI 1 IN; IN DC barrel / DC; OUT HDMI Type A / HDMI 1 OUT; OUT HDMI Type A / HDMI 2 OUT; OUT HDMI Type A / HDMI 3 OUT; OUT HDMI Type A / HDMI 4 OUT
+Описание S&L дословно соответствует Lindy 38236; код на шильдике не дан, поэтому идентификация условна. 1 HDMI вход, 4 выхода подтверждены обеими страницами. Питание 5 V DC 1 A — номинал БП, не подтверждённое потребление; не записано как 5 W нагрузки.
+Не установлено: rentalPartNumber, watts
+Источники:
+  https://www.lindy.co.uk/audio-video-c2/splitters-c159/4-port-hdmi-18g-splitter-p12070
+  https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=345
+
+Видео / Pro-Signal 4×1 [snl-353]
+Полная модель: HDMI Switcher 2.0 4*1 Pro-Signal
+Проверено частично
+Подпись: HDMI 4→1 · 4K60
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN HDMI Type A / HDMI 1 IN; IN HDMI Type A / HDMI 2 IN; IN HDMI Type A / HDMI 3 IN; IN HDMI Type A / HDMI 4 IN; IN DC barrel / DC; OUT HDMI Type A / HDMI 1 OUT
+S&L текст и фото совпадают с Pro Signal PSG3059: четыре HDMI IN, один HDMI OUT. Первичный паспорт владельца бренда Farnell подтверждает топологию и внешний БП 5V1A. 5W — предел адаптера, не опубликованное потребление устройства; поэтому нагрузка не выдумана. Точный артикул на шильдике S&L не приведён.
+Не установлено: rentalPartNumber, watts
+Источники:
+  https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=353
+  https://www.farnell.com/datasheets/2819751.pdf
+  https://ee.farnell.com/pro-signal/psg3059/hdmi-4x1-switcher-4k-60hz/dp/3446593
+
+Видео / Well Repeater [snl-354]
+Полная модель: 4K HDMI Repeater V1.4 Well
+Проверено частично
+Подпись: HDMI 1→1 · репитер
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 1.5 W (manufacturer-max-provisional-model)
+Физические порты: IN HDMI Type A / HDMI 1 IN; IN Micro-USB · power only / DC; OUT HDMI Type A / HDMI 1 OUT
+Найдено оригинальное руководство Well REP-HDMI1.4/35M-WL: HDMI IN/OUT Type A, необязательный micro-USB POWER, максимум 1.5W (стр.2), питание возможно через HDMI. Текст характеристик совпадает с S&L, но сам артикул прокатчик не указывает; 1.5W относится к этому сопоставленному руководству и отмечено как предварительное соответствие модели. Micro-USB не является видеовходом.
+Не установлено: rentalPartNumber
+Источники:
+  https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=354
+  https://www.manualslib.com/manual/2554167/Well-Rep-Hdmi1-4-35m-Wl.html?page=3
+
+Видео / Nedis 1×2 [snl-356]
+Полная модель: HDMI Splitter Nedis 1 in/2 out
+Проверено частично
+Подпись: HDMI 1→2 · 4K30 · EDID
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN HDMI Type A / HDMI 1 IN; IN DC barrel · external adapter / DC; OUT HDMI Type A / HDMI 1 OUT; OUT HDMI Type A / HDMI 2 OUT
+По размерам/EDID/спецификации вероятен VSPL3402AT; S&L код не сообщает. 1 вход и 2 выхода подтверждены S&L и руководством Nedis. 10 W в S&L — operating, не удостоверенный максимум; не импортирован как паспортная мощность.
+Не установлено: rentalPartNumber, wattsMaximum
+Источники:
+  https://cdn.nedis.com/datasheets/VSPL3402AT_MAN_COMP_0818_web.PDF
+  https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=356
+
+Видео / HDMI Capture [snl-358]
+Полная модель: Video Card Capture HDMI With Loop
+Проверено частично
+Подпись: HDMI IN / LOOP · USB
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN HDMI Type A / HDMI 1 IN; IN Micro-USB · power only / DC; OUT HDMI / HDMI LOOP; OUT USB (тип уточнить) / USB Capture
+YS-11268 без идентифицированного производителя. S&L показывает HDMI INPUT и маркированный DC5V micro-USB; текст подтверждает HDMI LOOP и USB Capture к компьютеру. Power micro-USB не подменяет USB capture выход: физический тип последнего не показан на доступных ракурсах и оставлен явно неизвестным. 4K не означает capture4K; мощность не подтверждена.
+Не установлено: manufacturerModel, manufacturerManual, watts
+Источники:
+  https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=358
+  https://snl.ee/userfiles/catalog/618180195c840.jpg
+
+Видео / HDMI2AV [snl-364]
+Полная модель: Mini HDMI2AV to AV Video Converter
+Проверено частично
+Подпись: HDMI → CVBS · PAL/NTSC
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN HDMI / HDMI IN; IN Mini-USB · power only / DC; OUT RCA · CVBS / CVBS OUT
+Безымянный MINI HDMI2AV. Фото S&L показывает HDMI INPUT, жёлтый RCA CVBS OUT, красный/белый RCA audio, mini-USB POWER, PAL/NTSC. Выходы аудио не выдаются за дополнительные видеовыходы. USB только питание; мощности и заводского артикула нет.
+Не установлено: manufacturerModel, manufacturerManual, watts
+Источники:
+  https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=364
+
+Видео / Nedis Extender [snl-383]
+Полная модель: HDMI Extender Nedis 50m Cat5e/6
+Проверено частично
+Подпись: HDMI ↔ Cat6 · TX + RX
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 5 W (manufacturer-operating)
+Физические порты: IN HDMI Type A / TX HDMI IN; IN RJ45 · HDMI extender / RX CAT IN; IN DC barrel / DC; IN DC barrel / DC; OUT RJ45 · HDMI extender / TX CAT OUT; OUT HDMI Type A / RX HDMI OUT
+Nedis VREP3415AT — комплект TX+RX с двумя отдельными DC5V входами и двумя БП. Официальная спецификация позиции указывает 5W operating, 1W standby; 5W не абсолютный максимум. S&L указывает 10W, расхождение не усреднено. RJ45 несёт видео между TX/RX и не является обычной LAN-сетью.
+Не установлено: wattsMaximum
+Источники:
+  https://datasheets.content4us.com/da-dk/550670228/portrait
+  https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=383
+  https://snl.ee/userfiles/catalog/61968d78cd25a.jpg
+
+Видео / Blackmagic Converters [snl-390]
+Полная модель: Black Magic HDMI/ SDI/HDMI Micro Converters Set
+Проверено
+Подпись: HDMI ↔ 3G-SDI · 2 прибора
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: 3.6 W (manufacturer-device-sum)
+Физические порты: IN HDMI Type A / TX HDMI IN; IN BNC · 3G-SDI / RX SDI IN; IN USB-C / DC; IN USB-C / DC; OUT BNC · 3G-SDI / TX SDI 1 OUT; OUT BNC · 3G-SDI / TX SDI 2 OUT; OUT BNC · 3G-SDI / RX SDI LOOP; OUT HDMI Type A / RX HDMI OUT
+Два отдельных Blackmagic Micro Converter: HDMI→SDI 3G (2W) и SDI→HDMI 3G (1.6W). Каждый питается через свой USB-C; эти же физические порты позволяют конфигурацию. Дополнительные выдуманные AC-входы удалены. 3.6W — сумма нагрузки DC устройств, потери адаптеров не включены. Это не один BiDirectional и не внутреннее автоматическое соединение.
+Источники:
+  https://www.blackmagicdesign.com/products/microconverters/techspecs
+  https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=390
+
+Видео / HDMI Extractor [snl-391]
+Полная модель: HDMI Audio Extractor Splitter 4K@60Hz
+Проверено частично
+Подпись: HDMI 1→1 · аудиоэкстрактор
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN HDMI Type A / HDMI 1 IN; IN Micro-USB · power only / DC; OUT HDMI Type A / HDMI 1 OUT
+На маркированной фотографии S&L: HDMI IN, HDMI OUT с ARC, micro-USB DC5V IN, optical S/PDIF OUT, аналоговый audio OUT 3.5мм через RCA кабель. Это не HDMI 1→2. USB не data. 350mA из проката — ток DC, сетевое потребление с БП не подтверждено. Точного производителя/артикула нет.
+Не установлено: manufacturerModel, manufacturerManual, watts
+Источники:
+  https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=391
+
+Видео / HDMI 2×1 [snl-489]
+Полная модель: Mini 2x1 4K HDMI Switch & Audio Extractor
+Проверено частично
+Подпись: HDMI 2→1 · ARC
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN HDMI Type A / HDMI 1 IN; IN HDMI Type A / HDMI 2 IN; IN Micro-USB · power only / DC; OUT HDMI Type A / HDMI 1 OUT
+S&L VBDWRM H20B2X1: фотографии подтверждают HDMI IN×2, HDMI OUT×1, micro-USB DC5V. Optical/coaxial/RCA/3.5мм относятся к аудио и не создают дополнительные видеовыходы. Первичный паспорт конкретного OEM/мощность не найдены; отсутствие паспорта не удаляет явно видимые HDMI OUT.
+Не установлено: manufacturerModel, manufacturerManual, watts
+Источники:
+  https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=489
+
+Видео / HDMI→VGA [snl-420]
+Полная модель: Hdmi-Vga converter
+Проверено частично
+Подпись: HDMI → VGA · 1080p
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN HDMI Type A / HDMI Type A IN; OUT VGA / DE-15 / VGA OUT
+DIGITUS DA-70461: активный HDMI→VGA адаптер с несъёмным HDMI кабелем. В первичном паспорте и изображении отдельного AC/DC входа нет, поэтому выдуманная сетевая розетка удалена. Питается со стороны источника HDMI; паспорт не нормирует собственную мощность. Направление преобразования не обратимое.
+Не установлено: watts
+Источники:
+  https://www.assmann.com/product-pdf/en/4016032368007.pdf
+  https://snl.ee/en/video/splitters_switches_video_capture_converters_repeaters_audio_extractors_bluetooth/?cat_id=420
+
+Управление и источники / WD TVLive [snl-389]
+Полная модель: WD TV Live HD Media Player
+Проверено частично
+Подпись: HDMI · LAN · 2 USB
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN RJ45 Ethernet / LAN; IN DC barrel adapter input / DC; OUT HDMI Type A / HDMI; OUT Composite AV breakout jack / AV; OUT Component YPbPr breakout jack / YPbPr; OUT USB-A 2.0 host / 1; OUT USB-A 2.0 host / 2; OUT TOSLINK optical audio / OPT
+По фото задней панели S&L идентифицирован оригинальный WD TV Live HD с AV OUT и YPbPr. Оригинальное руководство WD, Connections, стр. 9, подтверждает HDMI, TOSLINK, LAN, два USB, composite и component OUT. Это не Streaming Live 2011. LAN медиаплеера не означает Art-Net; USB host предназначен для носителей.
+Не установлено: operatingWatts, dcBarrelDimensions
+Источники:
+  https://manualzilla.com/doc/5769002/wd-tv%E2%84%A2-live-hd-media-player---user-manual
+  https://snl.ee/userfiles/catalog/63aec7d41357e.jpg
+
+Управление и источники / G96Q Max [snl-472]
+Полная модель: Android Media Player G96Q MAX
+Проверено частично
+Подпись: HDMI · LAN · 3 USB
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN RJ45 Ethernet / LAN; IN DC barrel IN 5 V / DC; OUT HDMI Type A 2.0a / HDMI; OUT AV composite OUT / AV; OUT USB-A host / 1; OUT USB-A host / 2; OUT USB-A host / 3; OUT Optical digital audio OUT / OPT
+Название G96Q в S&L конфликтует с фото 2UIDID X96Q MAX. Порты восстановлены по спецификации и таблице на фото проката: HDMI 2.0a, AV, три USB Host, optical, RJ45, DC 5 V. Рейтинг адаптера 5 V / 2 A — не измеренное потребление 10 W. Руководство изготовителя не опубликовано; Android и LAN не означают штатный Art-Net.
+Не установлено: manufacturerManual, dcConnectorDimensions, operatingWatts
+Источники:
+  https://snl.ee/en/video/dvd_usb_video_players/?cat_id=472
+  https://snl.ee/userfiles/catalog/6397432d45951.jpg
+  https://snl.ee/userfiles/catalog/6397432d46410.jpg
+
+Свет / Kupo FDL-1000 [snl-376]
+Полная модель: KUPO CICLORAMA 1000W FDL-1000 Soft floodlight + Dimmer ADJ Uni Pack 2
+Проверено частично
+Подпись: 1 CH · 3-pin
+DMX: есть
+Режимы: Dimmer · 1 CH [dimmer-1]
+Начальный режим планировщика: Dimmer · 1 CH
+Мощность: 1000 W (lamp-rating)
+Физические порты: IN power / DC; IN 3-pin XLR; OUT 3-pin XLR
+Комплект: FDL-1000 с лампой 1000 W и отдельный Uni Pak II. Один DMX-канал относится к диммеру; лампа не имеет DMX-разъёмов.1000 W — нагрузка лампы, собственное потребление диммера не включено; US Edison нельзя переносить на EU комплект.
+Не установлено: powerConnectorVariant, dimmerSelfConsumption
+Источники:
+  https://www.kupo.com.tw/kupo/pdf/Cyclorama-Flood%20Light.pdf
+  https://www.adj.com/products/uni-pak-ii
+  https://snl.ee/en/video/lighting_equipment_for_filming/?cat_id=376
+
+Управление и источники / Galaxy TabA [snl-339]
+Полная модель: Tablet Samsung Galaxy Tab A
+Проверено частично
+Подпись: 2019 Wi-Fi · USB-C
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN USB-C / USB
+Каталог S&L уточняет Tab A 10.1 Wi-Fi (2019), семейство SM-T510. USB-C подтверждён таблицей зарядных разъёмов Samsung. HDMI и RJ45 не встроены.
+Не установлено: operatingWatts
+Источники:
+  https://www.samsung.com/ee/business/tablets/galaxy-tab-a/galaxy-tab-a-t510-sm-t510nzkdseb/
+  https://snl.ee/userfiles/files/catalogue/sl-concept_catalogue_video_rent_et.pdf
+  https://www.samsung.com/uk/support/mobile-devices/which-charger-should-i-use-for-my-galaxy-phone-or-tablet/
+
+Управление и источники / Lenovo X505F [snl-340]
+Полная модель: Tablet Lenovo – X505F
+Проверено частично
+Подпись: TB-X505F · Micro-USB
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN Micro-USB / USB
+TB-X505F — HD-вариант с Micro-USB, не Type-C других Tab M10. HDMI и RJ45 не встроены.
+Не установлено: operatingWatts
+Источники:
+  https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Tab_M10/Tab_M10_Spec.PDF
+
+Управление и источники / MacBook Pro [snl-346]
+Полная модель: Laptop MacBook Pro (Retina, Mid 2012)
+Проверено частично
+Подпись: HDMI · 2 × USB · Thunderbolt
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN Apple MagSafe 2 / DC; OUT HDMI Type A / HDMI; OUT USB-A 3.0 / USB1; OUT USB-A 3.0 / USB2; OUT Thunderbolt / Mini DisplayPort / TB1; OUT Thunderbolt / Mini DisplayPort / TB2
+Retina Mid 2012 — 15-inch: HDMI, два USB-A, два Thunderbolt, MagSafe 2. RJ45 только через отдельный адаптер, не встроенный. 85 W адаптер не равен постоянному потреблению.
+Не установлено: operatingACwatts
+Источники:
+  https://support.apple.com/en-ie/112576
+
+Управление и источники / Asus FX505DU [snl-347]
+Полная модель: Laptop Asus TUF Gaming FX505DU-AL079T
+Проверено частично
+Подпись: HDMI 2.0 · RJ45 · 3 × USB
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN ASUS DC adapter barrel / DC; OUT HDMI Type A 2.0 / HDMI; OUT RJ45 Ethernet / LAN; OUT USB-A 3.1 Gen1 / USB1; OUT USB-A 3.1 Gen1 / USB2; OUT USB-A 2.0 / USB3
+HDMI и RJ45 штатные. Наличие Ethernet не означает запущенный Art-Net: необходим подходящий софт. Региональный SKU AL079T отличается конфигурацией, не найден отдельный паспорт мощности.
+Не установлено: operatingACwatts
+Источники:
+  https://www.asus.com/ca-en/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-fx505dd-dt-du/
+
+Управление и источники / Samsung S9+ [snl-370]
+Полная модель: Mobile phone Samsung S9+
+Проверено частично
+Подпись: USB-C · DeX через адаптер
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN USB-C / USB
+Телефон не имеет физического HDMI/RJ45. HDMI возможен через совместимую DeX-станцию/адаптер, которую нужно добавить отдельно; не рисовать штатный HDMI.
+Не установлено: includedVideoAdapter, operatingWatts
+Источники:
+  https://news.samsung.com/us/samsung-galaxy-s9-s9plus/
+
+Управление и источники / Samsung A5 [snl-380]
+Полная модель: Smartphone Samsung Galaxy A5 (2016)
+Проверено частично
+Подпись: 2016 · USB 2.0
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN Micro-USB 2.0 / USB
+Официальная таблица Samsung: A5 (2016), SM-A510F — Micro-USB; USB-C относится к A5 (2017), SM-A520F. Отдельных входов 230 V и HDMI нет; питание через USB или встроенную батарею.
+Не установлено: operatingWatts
+Источники:
+  https://www.samsungmobilepress.com/articles/samsung-launches-galaxy-a-2016-with-premium-design-and-improved-features
+  https://www.samsung.com/fr/support/mobile-devices/quelles-sont-les-differentes-manieres-de-charger-la-batterie-de-mon-smartphone-galaxy/
+
+Питание / JoyTutus [snl-441]
+Полная модель: JoyTutus Power Bank 60000mAH (216WH)
+Проверено частично
+Подпись: 60 000 mAh · 216 Wh
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (not-applicable)
+Физические порты: IN DC barrel IN 12 V 3 A / DC; OUT USB-A / DC; OUT USB-A / DC; OUT DC barrel OUT 12–16.8 V 10 A / DC
+На крупном фото панели читаются заводские маркировки: INPUT 12 V / 3 A, DC OUT 12–16.8 V / 10 A, USB OUT 5 V / 3 A. Два USB-A и один DC OUT восстановлены по самой панели. Фирменное руководство и артикул не опубликованы; размеры DC-штекера и общий лимит DC + USB не подставлены. 216 Wh — энергия, не мощность.
+Не установлено: manufacturerManual, dcConnectorDimensions, combinedDCUSBOutputLimit
+Источники:
+  https://snl.ee/ru/video/zarjadnye_stantsii_power_banks/?cat_id=441
+  https://snl.ee/userfiles/catalog/637dd85ab02d6.jpg
+
+Питание / MAXOAK K3 [snl-349]
+Полная модель: Power bank MAXOAK K3 36000mAh
+Проверено частично
+Подпись: 36 000 mAh
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (not-applicable)
+Физические порты: IN DC charging input / DC; OUT USB-A / DC; OUT USB-A / DC; OUT USB-C PD IN/OUT / DC; OUT DC laptop output / DC
+MAXOAK K3: два USB-A OUT, USB-C IN/OUT, отдельные DC charge IN и DC laptop OUT. У текущей официальной ревизии другие лимиты PD/DC, чем у старого экземпляра в прокате. Общие разъёмы подтверждены; лимиты новой ревизии на старую не перенесены.
+Не установлено: rentalHardwareRevision, exactPortLimits
+Источники:
+  https://maxoak.net/products/maxoak-k3-36000mah-power-bank-for-mac-laptop
+
+Питание / Baseus [snl-434]
+Полная модель: Powerbank Baseus 15W 20000mA
+Проверено частично
+Подпись: 20 000 mAh · 15 W
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (not-applicable)
+Физические порты: IN Micro-USB / DC; OUT USB-C IN/OUT / DC; OUT USB-A / DC; OUT USB-A / DC
+Фото S&L показывает Baseus Bipow 15 W: Micro-USB IN, USB-C IN/OUT и USB1/USB2 OUT. Официальная спецификация Bipow 20000 mAh 15 W подтверждает эти разъёмы. 3 A нельзя умножать на три выхода. Точный SKU на наклейке прокатного экземпляра не виден; семейство и порты сверены.
+Не установлено: rentalSKU
+Источники:
+  https://baseus.com.au/products/bipow-digital-display-power-bank-20000mah-15w
+  https://snl.ee/userfiles/catalog/6299ac10cc2c3.jpg
+
+Питание / Samsung Powerbank [snl-352]
+Полная модель: Power bank Samsung 10000mAh
+Проверено частично
+Подпись: 10 000 mAh · 15 W
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (not-applicable)
+Физические порты: IN Micro-USB / DC; OUT USB-A / DC; OUT USB-A / DC
+Фото S&L с двумя USB-A, Micro-USB IN и серебристым корпусом 10000 FAST CHARGE соответствует Samsung EB-P1100B. Samsung различает версию B с Micro-USB и C с USB-C; в прокате показана B. Быстрая зарядка 15 W работает с одним устройством; при одновременной зарядке двух fast charge отключается. Артикул снизу реального экземпляра не сфотографирован.
+Не установлено: rentalPartNumberLabel
+Источники:
+  https://www.samsung.com/ie/business/mobile-accessories/battery-pack-eb-p1100b-eb-p1100bsegww/
+  https://snl.ee/userfiles/catalog/617d7e4599c31.jpg
+
+Питание / Denver [snl-382]
+Полная модель: Jump starter Denver Power Bank 10000mAh
+Проверено частично
+Подпись: 10 000 mAh
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (not-applicable)
+Физические порты: IN DC charging IN 15 V / DC; OUT USB-A 5 V / DC; OUT DC OUT 12/16/19 V selectable / DC
+Denver JST-10010: 10000 mAh / 37 Wh, USB 5 V OUT, регулируемый DC 12/16/19 V OUT и зарядный DC 15 V IN. Высокотоковый стартерный разъём не является выходом 230 V и не включён в сценическую цепь. Размер DC-штекера в инструкции не дан.
+Не установлено: physicalDCConnectorDimensions
+Источники:
+  https://old.denver.eu/media/16482/denver-jst-10010-manual-_dutch.pdf
+  https://www.snl.ee/en/video/power_stations_power_banks/?cat_id=382
+
+DMX / Art-Net нода [generic-node]
+Полная модель: Art-Net-нода
+Блок без модели
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN ethernet; OUT dmx / U1; OUT dmx / U2; OUT dmx / U3; OUT dmx / U4
+
+Источники:
+
+Свет / LED бар [generic-bar]
+Полная модель: Бар
+Блок без модели
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+
+Источники:
+
+Свет / Wash [generic-head]
+Полная модель: Wash
+Блок без модели
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+
+Источники:
+
+Свет / Лазер [generic-laser]
+Полная модель: Лазер
+Блок без модели
+Подпись: 
+DMX: есть
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; IN dmx; OUT dmx
+
+Источники:
+
+Свет / Зеркальный шар [generic-mirrorball]
+Полная модель: Зеркальный шар
+Блок без модели
+Подпись: 
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC
+
+Источники:
+
+Управление и источники / Телефон [generic-phone]
+Полная модель: Телефон
+Блок без модели
+Подпись: 
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC
+
+Источники:
+
+Управление и источники / Планшет [generic-tablet]
+Полная модель: Планшет
+Блок без модели
+Подпись: 
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC
+
+Источники:
+
+Управление и источники / Медиаплеер [generic-player]
+Полная модель: Медиаплеер
+Блок без модели
+Подпись: 
+DMX: нет штатного DMX
+Режимы: не применимо / не подтверждены
+Начальный режим планировщика: нет
+Мощность: не подтверждена (unknown)
+Физические порты: IN power / DC; OUT HDMI
+
+Источники:

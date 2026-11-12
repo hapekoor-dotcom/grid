@@ -1,0 +1,2544 @@
+{
+  "snl-127": {
+    "catalogTitle": "Martin RS 485",
+    "catalogSubtitle": "4 OUT + THRU · XLR 3",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.martin.com/en-US/products/rs-485-optosplitter"
+      ],
+      "checkedFields": [
+        "inputs",
+        "outputs",
+        "connectors",
+        "dmx",
+        "ethernet"
+      ],
+      "missingFields": [
+        "watts"
+      ],
+      "note": "Один вход: четыре изолированные ветви одного universe и пассивный THRU. Это не пять universes. RDM не заявлен.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=127"
+    },
+    "inputs": 1,
+    "outputs": 4,
+    "ethernet": false,
+    "dmx": true,
+    "dmxConnector": "3-pin XLR",
+    "connectors": [
+      "1 × XLR 3-pin IN",
+      "4 × XLR 3-pin OUT",
+      "1 × XLR 3-pin THRU"
+    ],
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": "IN"
+      },
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "1"
+      },
+      {
+        "id": "out2",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "2"
+      },
+      {
+        "id": "out3",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "3"
+      },
+      {
+        "id": "out4",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "4"
+      },
+      {
+        "id": "dmxThru",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "THRU"
+      }
+    ],
+    "manufacturerSource": "https://www.martin.com/en-US/products/rs-485-optosplitter",
+    "verifiedFields": [
+      "inputs",
+      "outputs",
+      "connectors",
+      "dmx",
+      "ethernet"
+    ],
+    "notes": [
+      "Один вход: четыре изолированные ветви одного universe и пассивный THRU. Это не пять universes. RDM не заявлен."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=127"
+  },
+  "snl-516": {
+    "catalogTitle": "NA 4 RDM",
+    "catalogSubtitle": "1 → 4 · RDM · XLR 3",
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://na-products.lv/cdn/shop/files/Datasheet_DMX_Splitter_4S_RDM.pdf?v=18128843329230923609",
+        "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=516"
+      ],
+      "checkedFields": [
+        "inputs",
+        "outputs",
+        "watts",
+        "connectors",
+        "dmx",
+        "ethernet",
+        "rdm"
+      ],
+      "missingFields": [],
+      "note": "Один universe распределяется на четыре выхода. Число контактов 3-pin указано в конкретной позиции проката; datasheet семейства допускает разные XLR.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=516"
+    },
+    "inputs": 1,
+    "outputs": 4,
+    "watts": 10,
+    "wattsBasis": "manufacturer-rated",
+    "dmx": true,
+    "ethernet": false,
+    "rdm": true,
+    "dmxConnector": "3-pin XLR",
+    "powerLink": false,
+    "connectors": [
+      "XLR 3-pin IN/OUT",
+      "Neutrik powerCON IN"
+    ],
+    "manufacturerSource": "https://na-products.lv/cdn/shop/files/Datasheet_DMX_Splitter_4S_RDM.pdf?v=18128843329230923609",
+    "verifiedFields": [
+      "inputs",
+      "outputs",
+      "watts",
+      "connectors",
+      "dmx",
+      "ethernet",
+      "rdm"
+    ],
+    "notes": [
+      "Один universe распределяется на четыре выхода. Число контактов 3-pin указано в конкретной позиции проката; datasheet семейства допускает разные XLR."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=516",
+    "manuals": [
+      "https://na-products.lv/cdn/shop/files/Datasheet_DMX_Splitter_4S_RDM.pdf?v=18128843329230923609"
+    ]
+  },
+  "snl-517": {
+    "catalogTitle": "NA 8 RDM",
+    "catalogSubtitle": "2 → 8 · RDM · XLR 3",
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://na-products.lv/cdn/shop/files/Datasheet_DMX_Splitter_8_RDM.pdf?v=8329267464380099723",
+        "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=517"
+      ],
+      "checkedFields": [
+        "inputs",
+        "outputs",
+        "watts",
+        "connectors",
+        "dmx",
+        "ethernet",
+        "rdm"
+      ],
+      "missingFields": [],
+      "note": "Каждый выход назначается входу A или B; это до двух входных universes, не восемь независимых universes. Число контактов 3-pin указано в конкретной позиции проката; datasheet семейства допускает разные XLR.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=517"
+    },
+    "inputs": 2,
+    "outputs": 8,
+    "watts": 10,
+    "wattsBasis": "manufacturer-rated",
+    "dmx": true,
+    "ethernet": false,
+    "rdm": true,
+    "dmxConnector": "3-pin XLR",
+    "powerLink": false,
+    "connectors": [
+      "XLR 3-pin IN/OUT",
+      "Neutrik powerCON IN"
+    ],
+    "manufacturerSource": "https://na-products.lv/cdn/shop/files/Datasheet_DMX_Splitter_8_RDM.pdf?v=8329267464380099723",
+    "verifiedFields": [
+      "inputs",
+      "outputs",
+      "watts",
+      "connectors",
+      "dmx",
+      "ethernet",
+      "rdm"
+    ],
+    "notes": [
+      "Каждый выход назначается входу A или B; это до двух входных universes, не восемь независимых universes. Число контактов 3-pin указано в конкретной позиции проката; datasheet семейства допускает разные XLR."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=517",
+    "manuals": [
+      "https://na-products.lv/cdn/shop/files/Datasheet_DMX_Splitter_8_RDM.pdf?v=8329267464380099723"
+    ]
+  },
+  "snl-508": {
+    "catalogTitle": "Swisson XPD-28-3R",
+    "catalogSubtitle": "2 → 8 · RDM · XLR 3",
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.swisson.com/site/assets/files/1261/um_xpd-28-d0-len-v01-05.pdf"
+      ],
+      "checkedFields": [
+        "inputs",
+        "outputs",
+        "watts",
+        "connectors",
+        "dmx",
+        "ethernet",
+        "rdm",
+        "powerLink"
+      ],
+      "missingFields": [],
+      "note": "Manual V01-05 (2020) указывает 10 W typical. Старые руководства указывают 9 W. Два DMX-входа A/B, восемь назначаемых выходов; Ethernet отсутствует. USB-B только для обновления firmware.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=508"
+    },
+    "inputs": 2,
+    "outputs": 8,
+    "watts": 10,
+    "wattsBasis": "typical",
+    "ethernet": false,
+    "dmx": true,
+    "rdm": true,
+    "dmxConnector": "3-pin XLR",
+    "powerLink": true,
+    "connectors": [
+      "2 × XLR 3-pin IN",
+      "8 × XLR 3-pin OUT",
+      "powerCON IN/OUT",
+      "USB-B: firmware only"
+    ],
+    "manufacturerSource": "https://www.swisson.com/site/assets/files/1261/um_xpd-28-d0-len-v01-05.pdf",
+    "verifiedFields": [
+      "inputs",
+      "outputs",
+      "watts",
+      "connectors",
+      "dmx",
+      "ethernet",
+      "rdm",
+      "powerLink"
+    ],
+    "notes": [
+      "Manual V01-05 (2020) указывает 10 W typical. Старые руководства указывают 9 W. Два DMX-входа A/B, восемь назначаемых выходов; Ethernet отсутствует. USB-B только для обновления firmware."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=508",
+    "manuals": [
+      "https://www.swisson.com/site/assets/files/1261/um_xpd-28-d0-len-v01-05.pdf"
+    ]
+  },
+  "swisson-xnd8": {
+    "catalogTitle": "Swisson XND-8",
+    "catalogSubtitle": "8 портов · Art-Net / sACN",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.swisson.com/site/assets/files/1238/um_xnd-8-d0-len-v01-05-1.pdf"
+      ],
+      "checkedFields": [
+        "outputs",
+        "watts",
+        "ethernet",
+        "rdm",
+        "powerLink",
+        "protocols"
+      ],
+      "missingFields": [
+        "dmxConnectorVariant"
+      ],
+      "note": "Восемь DMX-портов переключаются IN/OUT; по умолчанию схема использует OUT. Конкретный суффикс XND-8 (3/5-pin/RJ45) не указан: не подставлять XLR 5 автоматически. USB-B служебный, не USB-DMX. 11 W — typical, не max. Power-link суммарно до 19,8 A по руководству.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://www.swisson.com/en/products/data-distribution/ethernet-dmx-node/"
+    },
+    "outputs": 8,
+    "ethernet": true,
+    "dmx": true,
+    "rdm": true,
+    "watts": 11,
+    "wattsBasis": "typical",
+    "powerLink": true,
+    "dmxConnector": "",
+    "protocols": [
+      "Art-Net 1–4",
+      "sACN",
+      "RDM"
+    ],
+    "connectors": [
+      "Ethernet RJ45 etherCON",
+      "8 × DMX: вариант 3-pin / 5-pin / RJ45",
+      "powerCON IN/OUT",
+      "USB-B: firmware only"
+    ],
+    "manufacturerSource": "https://www.swisson.com/site/assets/files/1238/um_xnd-8-d0-len-v01-05-1.pdf",
+    "verifiedFields": [
+      "outputs",
+      "watts",
+      "ethernet",
+      "rdm",
+      "powerLink",
+      "protocols"
+    ],
+    "notes": [
+      "Восемь DMX-портов переключаются IN/OUT; по умолчанию схема использует OUT. Конкретный суффикс XND-8 (3/5-pin/RJ45) не указан: не подставлять XLR 5 автоматически. USB-B служебный, не USB-DMX. 11 W — typical, не max. Power-link суммарно до 19,8 A по руководству."
+    ],
+    "source": "https://www.swisson.com/en/products/data-distribution/ethernet-dmx-node/",
+    "manuals": [
+      "https://www.swisson.com/site/assets/files/1238/um_xnd-8-d0-len-v01-05-1.pdf"
+    ]
+  },
+  "snl-323": {
+    "catalogTitle": "ADJ DMX 3.0",
+    "catalogSubtitle": "USB → DMX · XLR 3 / 5",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.adj.eu/mydmx-3-0",
+        "https://www.adj.com/blogs/news/adj-s-new-mydmx-3-0-introduces-multiple-scene-playback-and-other-advanced-features"
+      ],
+      "checkedFields": [
+        "kind",
+        "connectors",
+        "ethernet",
+        "usbPowered",
+        "outputChannels"
+      ],
+      "missingFields": [
+        "watts",
+        "installedLicense"
+      ],
+      "note": "USB-интерфейс myDMX 3.0. Стандартная лицензия: 512 каналов live, 60 standalone; расширения лицензируются отдельно. 3-pin и 5-pin физические порты не следует автоматически считать разными universes. Совместимость с Titan не заявлена. В схеме два варианта XLR представлены одним логическим выходом U1.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=323"
+    },
+    "kind": "interface",
+    "outputs": 1,
+    "ethernet": false,
+    "usb": true,
+    "usbPowered": true,
+    "dmx": true,
+    "dmxPhysical": true,
+    "wirelessDMX": false,
+    "outputChannels": 512,
+    "connectors": [
+      "USB host/power",
+      "XLR 3-pin OUT",
+      "XLR 5-pin OUT"
+    ],
+    "signalPorts": [
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "USB",
+        "label": "USB"
+      },
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "3 / 5-pin XLR",
+        "label": "U1"
+      }
+    ],
+    "manufacturerSource": "https://www.adj.eu/mydmx-3-0",
+    "verifiedFields": [
+      "kind",
+      "connectors",
+      "ethernet",
+      "usbPowered",
+      "outputChannels"
+    ],
+    "notes": [
+      "USB-интерфейс myDMX 3.0. Стандартная лицензия: 512 каналов live, 60 standalone; расширения лицензируются отдельно. 3-pin и 5-pin физические порты не следует автоматически считать разными universes. Совместимость с Titan не заявлена. В схеме два варианта XLR представлены одним логическим выходом U1."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=323"
+  },
+  "snl-400": {
+    "catalogTitle": "Chauvet D-Fi Hub",
+    "catalogSubtitle": "Передатчик / приёмник · XLR 3",
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.chauvetdj.com/products/d-fi-hub/",
+        "https://www.chauvetdj.com/wp-content/uploads/2015/12/D-Fi_Hub_UM_Rev2_WO.pdf"
+      ],
+      "checkedFields": [
+        "connectors",
+        "watts",
+        "ethernet",
+        "wirelessDMX",
+        "protocols"
+      ],
+      "missingFields": [],
+      "note": "Переключаемый передатчик/приёмник D-Fi 2,4 GHz. Это не Wi-Fi Art-Net и не универсальная совместимость с любым wireless DMX. Внешний БП 9 VDC.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=400"
+    },
+    "kind": "receiver",
+    "watts": 4,
+    "wattsBasis": "manufacturer-rated",
+    "ethernet": false,
+    "dmx": true,
+    "wirelessDMX": true,
+    "protocols": [
+      "D-Fi 2.4 GHz",
+      "DMX512"
+    ],
+    "outputs": 1,
+    "connectors": [
+      "XLR 3-pin IN/OUT",
+      "9 VDC power IN"
+    ],
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": "IN"
+      },
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "OUT"
+      }
+    ],
+    "manufacturerSource": "https://www.chauvetdj.com/products/d-fi-hub/",
+    "verifiedFields": [
+      "connectors",
+      "watts",
+      "ethernet",
+      "wirelessDMX",
+      "protocols"
+    ],
+    "notes": [
+      "Переключаемый передатчик/приёмник D-Fi 2,4 GHz. Это не Wi-Fi Art-Net и не универсальная совместимость с любым wireless DMX. Внешний БП 9 VDC."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=400",
+    "manuals": [
+      "https://www.chauvetdj.com/wp-content/uploads/2015/12/D-Fi_Hub_UM_Rev2_WO.pdf"
+    ]
+  },
+  "snl-540": {
+    "catalogTitle": "Chauvet FlareCON Air 2",
+    "catalogSubtitle": "Wi-Fi → D-Fi / DMX · 512 ch",
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.chauvetdj.com/products/flarecon-air-2/",
+        "https://www.chauvetdj.com/wp-content/uploads/2019/11/FlareCON_Air_2_UM_Rev1.pdf"
+      ],
+      "checkedFields": [
+        "connectors",
+        "watts",
+        "ethernet",
+        "wirelessDMX",
+        "battery",
+        "outputChannels"
+      ],
+      "missingFields": [],
+      "note": "Wi-Fi-приёмник для приложения FlareCON и передатчик D-Fi. Встроенная батарея; 5 VDC питание. Проводной DMX через комплектный адаптер. Wi-Fi не означает Art-Net/sACN; совместимость протокола должна совпадать.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=540"
+    },
+    "watts": 4,
+    "wattsBasis": "manufacturer-rated",
+    "ethernet": false,
+    "dmx": true,
+    "usbPowered": true,
+    "usb": true,
+    "hasBattery": true,
+    "wirelessDMX": true,
+    "outputChannels": 512,
+    "outputs": 1,
+    "connectors": [
+      "USB: power IN",
+      "XLR 3-pin DMX via adapter",
+      "Wi-Fi",
+      "D-Fi"
+    ],
+    "signalPorts": [
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "USB power",
+        "label": "USB"
+      },
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR via supplied adapter",
+        "label": "OUT"
+      }
+    ],
+    "manufacturerSource": "https://www.chauvetdj.com/products/flarecon-air-2/",
+    "verifiedFields": [
+      "connectors",
+      "watts",
+      "ethernet",
+      "wirelessDMX",
+      "battery",
+      "outputChannels"
+    ],
+    "notes": [
+      "Wi-Fi-приёмник для приложения FlareCON и передатчик D-Fi. Встроенная батарея; 5 VDC питание. Проводной DMX через комплектный адаптер. Wi-Fi не означает Art-Net/sACN; совместимость протокола должна совпадать."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=540",
+    "manuals": [
+      "https://www.chauvetdj.com/wp-content/uploads/2019/11/FlareCON_Air_2_UM_Rev1.pdf"
+    ]
+  },
+  "snl-123": {
+    "catalogTitle": "Wireless DMX",
+    "catalogSubtitle": "Модель и протокол не указаны",
+    "modes": [],
+    "verification": {
+      "status": "unresolved",
+      "sources": [],
+      "checkedFields": [],
+      "missingFields": [
+        "manufacturer",
+        "model",
+        "connectors",
+        "watts",
+        "wirelessProtocol"
+      ],
+      "note": "Название не идентифицирует оборудование. Не подменять неизвестный wireless DMX протоколами W-DMX, CRMX, D-Fi или WiFLY.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=123"
+    },
+    "planningOnly": true,
+    "dmxPhysical": false,
+    "signalPorts": [],
+    "connectors": [],
+    "verifiedFields": [],
+    "notes": [
+      "Название не идентифицирует оборудование. Не подменять неизвестный wireless DMX протоколами W-DMX, CRMX, D-Fi или WiFLY."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=123"
+  },
+  "snl-384": {
+    "catalogTitle": "Avolites T2",
+    "catalogSubtitle": "2 × XLR 5 · USB-B",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.avolites.com/app/uploads/2021/06/T2_Spec_Sheet.pdf",
+        "https://manual.avolites.com/docs/18.0/about-the-consoles/t1-and-t2/"
+      ],
+      "checkedFields": [
+        "outputs",
+        "connectors",
+        "ethernet",
+        "usbPowered",
+        "dmx"
+      ],
+      "missingFields": [
+        "ACwatts"
+      ],
+      "note": "USB-питание от компьютера. Art-Net/sACN выходит через сетевую карту ПК, не через T2. LTC — временной код, не DMX. T2 предоставляет два universes.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=384"
+    },
+    "outputs": 2,
+    "ethernet": false,
+    "usb": true,
+    "usbPowered": true,
+    "dmx": true,
+    "connectors": [
+      "USB-B host/power",
+      "2 × XLR 5-pin DMX",
+      "XLR 3-pin LTC IN"
+    ],
+    "signalPorts": [
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-B",
+        "label": "USB"
+      },
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "5-pin XLR",
+        "label": "U1"
+      },
+      {
+        "id": "out2",
+        "type": "dmx",
+        "out": true,
+        "connector": "5-pin XLR",
+        "label": "U2"
+      },
+      {
+        "id": "ltcIn",
+        "type": "control",
+        "out": false,
+        "connector": "SMPTE LTC 3-pin XLR",
+        "label": "LTC"
+      }
+    ],
+    "manufacturerSource": "https://www.avolites.com/app/uploads/2021/06/T2_Spec_Sheet.pdf",
+    "verifiedFields": [
+      "outputs",
+      "connectors",
+      "ethernet",
+      "usbPowered",
+      "dmx"
+    ],
+    "notes": [
+      "USB-питание от компьютера. Art-Net/sACN выходит через сетевую карту ПК, не через T2. LTC — временной код, не DMX. T2 предоставляет два universes."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=384",
+    "manuals": [
+      "https://www.avolites.com/app/uploads/2021/06/T2_Spec_Sheet.pdf"
+    ]
+  },
+  "snl-535": {
+    "catalogTitle": "Avolites T3",
+    "catalogSubtitle": "4 × XLR 5 · USB-C",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.t3.avolites.com/"
+      ],
+      "checkedFields": [
+        "outputs",
+        "connectors",
+        "ethernet",
+        "usbPowered",
+        "dmx"
+      ],
+      "missingFields": [
+        "ACwatts"
+      ],
+      "note": "USB-питание от компьютера. Art-Net/sACN выходит через сетевую карту ПК, не через T3. LTC — временной код, не DMX. До 16 universes через ПК; 4 аппаратных DMX-порта. Порт допускает IN с подходящим переходником. USB до 900 mA.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=535"
+    },
+    "outputs": 4,
+    "ethernet": false,
+    "usb": true,
+    "usbPowered": true,
+    "dmx": true,
+    "connectors": [
+      "USB-C host/power",
+      "4 × XLR 5-pin DMX",
+      "XLR 3-pin LTC IN"
+    ],
+    "signalPorts": [
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-C",
+        "label": "USB"
+      },
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "5-pin XLR",
+        "label": "U1"
+      },
+      {
+        "id": "out2",
+        "type": "dmx",
+        "out": true,
+        "connector": "5-pin XLR",
+        "label": "U2"
+      },
+      {
+        "id": "out3",
+        "type": "dmx",
+        "out": true,
+        "connector": "5-pin XLR",
+        "label": "U3"
+      },
+      {
+        "id": "out4",
+        "type": "dmx",
+        "out": true,
+        "connector": "5-pin XLR",
+        "label": "U4"
+      },
+      {
+        "id": "ltcIn",
+        "type": "control",
+        "out": false,
+        "connector": "SMPTE LTC 3-pin XLR",
+        "label": "LTC"
+      }
+    ],
+    "manufacturerSource": "https://www.t3.avolites.com/",
+    "verifiedFields": [
+      "outputs",
+      "connectors",
+      "ethernet",
+      "usbPowered",
+      "dmx"
+    ],
+    "notes": [
+      "USB-питание от компьютера. Art-Net/sACN выходит через сетевую карту ПК, не через T3. LTC — временной код, не DMX. До 16 universes через ПК; 4 аппаратных DMX-порта. Порт допускает IN с подходящим переходником. USB до 900 mA."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=535"
+  },
+  "snl-536": {
+    "catalogTitle": "Avolites T3 Wing",
+    "catalogSubtitle": "USB-C · 20 фейдеров",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.t3.avolites.com/"
+      ],
+      "checkedFields": [
+        "dmx",
+        "ethernet",
+        "connectors",
+        "usbPowered"
+      ],
+      "missingFields": [
+        "ACwatts"
+      ],
+      "note": "Расширение управления, не автономный DMX-пульт. Собственных XLR DMX и Ethernet нет; USB до 900 mA.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=536"
+    },
+    "dmx": false,
+    "dmxPhysical": false,
+    "ethernet": false,
+    "usb": true,
+    "usbPowered": true,
+    "outputs": 0,
+    "connectors": [
+      "USB-C host/power"
+    ],
+    "signalPorts": [
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-C",
+        "label": "USB"
+      }
+    ],
+    "manufacturerSource": "https://www.t3.avolites.com/",
+    "verifiedFields": [
+      "dmx",
+      "ethernet",
+      "connectors",
+      "usbPowered"
+    ],
+    "notes": [
+      "Расширение управления, не автономный DMX-пульт. Собственных XLR DMX и Ethernet нет; USB до 900 mA."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=536"
+  },
+  "snl-505": {
+    "catalogTitle": "Wolfmix W1 Mk2",
+    "catalogSubtitle": "4 × DMX · USB-B / USB-A",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://storage.googleapis.com/nicolaudie-us-litterature/Release/wolfmix_w1_mk2_datasheet.pdf"
+      ],
+      "checkedFields": [
+        "connectors",
+        "outputs",
+        "ethernet",
+        "usbPowered"
+      ],
+      "missingFields": [
+        "watts",
+        "installedUniverseLicenses"
+      ],
+      "note": "Именно MK2: USB-B для питания/компьютера, USB-A MIDI/MSD. Текущая общая страница W1 описывает MK3 с USB-C — к MK2 не применять. До четырёх universes зависит от лицензии. Один 5-pin порт переключается DMX IN/OUT или WLINK.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/?cat_id=505"
+    },
+    "outputs": 4,
+    "dmx": true,
+    "ethernet": false,
+    "usb": true,
+    "usbPowered": true,
+    "connectors": [
+      "2 × XLR 3-pin OUT",
+      "1 × XLR 5-pin OUT",
+      "1 × XLR 5-pin IN/OUT WLINK",
+      "USB-B",
+      "USB-A MIDI/MSD",
+      "3.5 mm audio IN"
+    ],
+    "signalPorts": [
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-B",
+        "label": "USB"
+      },
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "1"
+      },
+      {
+        "id": "out2",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "2"
+      },
+      {
+        "id": "out3",
+        "type": "dmx",
+        "out": true,
+        "connector": "5-pin XLR",
+        "label": "3"
+      },
+      {
+        "id": "out4",
+        "type": "dmx",
+        "out": true,
+        "connector": "5-pin XLR",
+        "label": "4"
+      },
+      {
+        "id": "usbHost",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A MIDI/MSD",
+        "label": "USB"
+      }
+    ],
+    "manufacturerSource": "https://storage.googleapis.com/nicolaudie-us-litterature/Release/wolfmix_w1_mk2_datasheet.pdf",
+    "verifiedFields": [
+      "connectors",
+      "outputs",
+      "ethernet",
+      "usbPowered"
+    ],
+    "notes": [
+      "Именно MK2: USB-B для питания/компьютера, USB-A MIDI/MSD. Текущая общая страница W1 описывает MK3 с USB-C — к MK2 не применять. До четырёх universes зависит от лицензии. Один 5-pin порт переключается DMX IN/OUT или WLINK."
+    ],
+    "source": "https://snl.ee/en/light/?cat_id=505",
+    "manuals": [
+      "https://storage.googleapis.com/nicolaudie-us-litterature/Release/wolfmix_w1_mk2_datasheet.pdf"
+    ]
+  },
+  "snl-398": {
+    "catalogTitle": "BeamZ Mini",
+    "catalogSubtitle": "64 ch · XLR 3 · аккумулятор",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.beamzlighting.com/product/dmx-512-mini-controller/",
+        "https://www.beamzlighting.com/wp-content/uploads/2025/09/154.065_DMX-512MINI-controller_manual_V1.2.pdf"
+      ],
+      "checkedFields": [
+        "connectors",
+        "ethernet",
+        "battery"
+      ],
+      "missingFields": [
+        "outputChannelsRevision",
+        "watts"
+      ],
+      "note": "Страница производителя 154.065 и описание S&L указывают 64 канала; новое руководство V1.2 — 512 каналов с дополнительными страницами. Проверить revision реального пульта. Восемь фейдеров не означают восемь DMX-каналов всего.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=398"
+    },
+    "outputs": 1,
+    "dmx": true,
+    "ethernet": false,
+    "hasBattery": true,
+    "outputChannels": 64,
+    "connectors": [
+      "XLR 3-pin OUT",
+      "12 VDC adapter IN"
+    ],
+    "signalPorts": [
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "DMX"
+      }
+    ],
+    "manufacturerSource": "https://www.beamzlighting.com/product/dmx-512-mini-controller/",
+    "verifiedFields": [
+      "connectors",
+      "ethernet",
+      "battery"
+    ],
+    "notes": [
+      "Страница производителя 154.065 и описание S&L указывают 64 канала; новое руководство V1.2 — 512 каналов с дополнительными страницами. Проверить revision реального пульта. Восемь фейдеров не означают восемь DMX-каналов всего."
+    ],
+    "source": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=398",
+    "manuals": [
+      "https://www.beamzlighting.com/wp-content/uploads/2025/09/154.065_DMX-512MINI-controller_manual_V1.2.pdf"
+    ]
+  },
+  "snl-156": {
+    "catalogTitle": "ADJ UC3",
+    "catalogSubtitle": "Пульт UC3 · jack 6,35",
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.adj.com/products/uc3-controller"
+      ],
+      "checkedFields": [
+        "dmx",
+        "ethernet",
+        "connectors"
+      ],
+      "missingFields": [],
+      "note": "Фирменный UC3 control, не DMX. Подключается только к совместимому прибору через 1/4-inch stereo jack.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=156"
+    },
+    "dmx": false,
+    "dmxPhysical": false,
+    "ethernet": false,
+    "connectors": [
+      "6.35 mm TRS: ADJ UC3 control"
+    ],
+    "signalPorts": [
+      {
+        "id": "controlOut",
+        "type": "control",
+        "out": true,
+        "connector": "ADJ UC3 6.35 mm TRS",
+        "label": "UC3"
+      }
+    ],
+    "manufacturerSource": "https://www.adj.com/products/uc3-controller",
+    "verifiedFields": [
+      "dmx",
+      "ethernet",
+      "connectors"
+    ],
+    "notes": [
+      "Фирменный UC3 control, не DMX. Подключается только к совместимому прибору через 1/4-inch stereo jack."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=156"
+  },
+  "snl-203": {
+    "catalogTitle": "ADJ UC3 RC",
+    "catalogSubtitle": "433,92 MHz · UC3 jack 6,35",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.adj.eu/uc3-rc-system"
+      ],
+      "checkedFields": [
+        "dmx",
+        "ethernet",
+        "connectors",
+        "usbPowered",
+        "wirelessProtocol"
+      ],
+      "missingFields": [
+        "watts"
+      ],
+      "note": "Комплект пульта и приёмника UC3. Пять групп UC3 не являются DMX-каналами. Приёмник: mini USB питание и 6,35 mm TRS к прибору; пульт питается 12 V батарейкой.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=203"
+    },
+    "dmx": false,
+    "dmxPhysical": false,
+    "ethernet": false,
+    "usbPowered": true,
+    "connectors": [
+      "Mini USB: receiver power",
+      "6.35 mm TRS: UC3 control"
+    ],
+    "signalPorts": [
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "Mini USB power",
+        "label": "USB"
+      },
+      {
+        "id": "controlOut",
+        "type": "control",
+        "out": true,
+        "connector": "ADJ UC3 6.35 mm TRS",
+        "label": "UC3"
+      }
+    ],
+    "manufacturerSource": "https://www.adj.eu/uc3-rc-system",
+    "verifiedFields": [
+      "dmx",
+      "ethernet",
+      "connectors",
+      "usbPowered",
+      "wirelessProtocol"
+    ],
+    "notes": [
+      "Комплект пульта и приёмника UC3. Пять групп UC3 не являются DMX-каналами. Приёмник: mini USB питание и 6,35 mm TRS к прибору; пульт питается 12 V батарейкой."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=203"
+  },
+  "snl-128": {
+    "catalogTitle": "Martin MC1",
+    "catalogSubtitle": "Пульт Martin · XLR 3",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.martin.com/en-US/products/mc-1-controller",
+        "https://www.martin.com/en/site_elements/user-manual-0973401e-eae2-45f0-9e2c-11e9da03a433"
+      ],
+      "checkedFields": [
+        "controlRole"
+      ],
+      "missingFields": [
+        "watts",
+        "fullManualAccess"
+      ],
+      "note": "Специализированное управление совместимыми Martin. Не предоставлять как универсальный источник DMX universes. Руководство найдено на сайте производителя, но выдача PDF закрыта 403.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=128"
+    },
+    "dmx": false,
+    "dmxPhysical": false,
+    "ethernet": false,
+    "connectors": [
+      "Martin MC1 control: XLR 3-pin"
+    ],
+    "signalPorts": [
+      {
+        "id": "controlOut",
+        "type": "control",
+        "out": true,
+        "connector": "Martin MC1 control",
+        "label": "MC1"
+      }
+    ],
+    "manufacturerSource": "https://www.martin.com/en-US/products/mc-1-controller",
+    "verifiedFields": [
+      "controlRole"
+    ],
+    "notes": [
+      "Специализированное управление совместимыми Martin. Не предоставлять как универсальный источник DMX universes. Руководство найдено на сайте производителя, но выдача PDF закрыта 403."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=128"
+  },
+  "snl-408": {
+    "catalogTitle": "Martin Detonator",
+    "catalogSubtitle": "Atomic 3000 DMX · XLR 3",
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.martin.com/en-US/products/detonator"
+      ],
+      "checkedFields": [
+        "controlRole",
+        "connectors",
+        "powerSupply",
+        "dmx",
+        "ethernet"
+      ],
+      "missingFields": [],
+      "note": "Специализированный пульт оригинального Atomic 3000 DMX, несовместим с Atomic 3000 LED. Получает 3 V питания от главного прибора по control-кабелю. Разъём XLR не делает протокол универсальным DMX.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=408"
+    },
+    "dmx": false,
+    "dmxPhysical": false,
+    "ethernet": false,
+    "consumes": false,
+    "connectors": [
+      "XLR 3-pin: Martin Atomic control + power"
+    ],
+    "signalPorts": [
+      {
+        "id": "controlOut",
+        "type": "control",
+        "out": true,
+        "connector": "Martin Atomic control",
+        "label": "Atomic"
+      }
+    ],
+    "manufacturerSource": "https://www.martin.com/en-US/products/detonator",
+    "verifiedFields": [
+      "controlRole",
+      "connectors",
+      "powerSupply",
+      "dmx",
+      "ethernet"
+    ],
+    "notes": [
+      "Специализированный пульт оригинального Atomic 3000 DMX, несовместим с Atomic 3000 LED. Получает 3 V питания от главного прибора по control-кабелю. Разъём XLR не делает протокол универсальным DMX."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=408"
+  },
+  "snl-449": {
+    "catalogTitle": "Elation SDC-6 V2",
+    "catalogSubtitle": "6 ch · XLR 3",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.elationlighting.eu/sdc-6-faderdesk-v2-black"
+      ],
+      "checkedFields": [
+        "outputChannels",
+        "connectors",
+        "dmx",
+        "ethernet"
+      ],
+      "missingFields": [
+        "watts"
+      ],
+      "note": "Шесть выходных каналов DMX и master. Питание внешним 12 VDC БП; мощность БП не равна фактическому потреблению.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=449"
+    },
+    "dmx": true,
+    "outputs": 1,
+    "ethernet": false,
+    "outputChannels": 6,
+    "connectors": [
+      "XLR 3-pin OUT",
+      "12 VDC power IN"
+    ],
+    "signalPorts": [
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "DMX"
+      }
+    ],
+    "manufacturerSource": "https://www.elationlighting.eu/sdc-6-faderdesk-v2-black",
+    "verifiedFields": [
+      "outputChannels",
+      "connectors",
+      "dmx",
+      "ethernet"
+    ],
+    "notes": [
+      "Шесть выходных каналов DMX и master. Питание внешним 12 VDC БП; мощность БП не равна фактическому потреблению."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=449"
+  },
+  "snl-532": {
+    "catalogTitle": "DMX-48",
+    "catalogSubtitle": "XLR 3 · модель не подтверждена",
+    "modes": [],
+    "verification": {
+      "status": "unresolved",
+      "sources": [],
+      "checkedFields": [],
+      "missingFields": [
+        "manufacturer",
+        "modelRevision",
+        "outputChannels",
+        "watts",
+        "powerConnector"
+      ],
+      "note": "У S&L указаны 4/8CH, 2 W, 5 V и 3-pin output, но изготовитель и руководство конкретной ревизии отсутствуют. Название DMX-48 не доказывает 48 выходных каналов.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=532"
+    },
+    "planningOnly": true,
+    "signalPorts": [],
+    "watts": null,
+    "wattsBasis": "unknown",
+    "verifiedFields": [],
+    "notes": [
+      "У S&L указаны 4/8CH, 2 W, 5 V и 3-pin output, но изготовитель и руководство конкретной ревизии отсутствуют. Название DMX-48 не доказывает 48 выходных каналов."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=532"
+  },
+  "snl-251": {
+    "catalogTitle": "ADJ Hexcon",
+    "catalogSubtitle": "36 ch · RGBWA+UV · XLR 3",
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.adj.eu/hexcon"
+      ],
+      "checkedFields": [
+        "outputChannels",
+        "watts",
+        "connectors",
+        "ethernet",
+        "wirelessDMX"
+      ],
+      "missingFields": [],
+      "note": "Контроллер — источник DMX, каналы не занимают адреса патча. Независимые группы ожидают 6-channel RGBWA+UV на адресах 1/7/13/19/25/31.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=251"
+    },
+    "outputs": 1,
+    "outputChannels": 36,
+    "watts": 3.6,
+    "wattsBasis": "manufacturer-rated",
+    "ethernet": false,
+    "dmx": true,
+    "wirelessDMX": false,
+    "connectors": [
+      "XLR 3-pin OUT",
+      "DC power IN"
+    ],
+    "signalPorts": [
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "DMX"
+      }
+    ],
+    "manufacturerSource": "https://www.adj.eu/hexcon",
+    "verifiedFields": [
+      "outputChannels",
+      "watts",
+      "connectors",
+      "ethernet",
+      "wirelessDMX"
+    ],
+    "notes": [
+      "Контроллер — источник DMX, каналы не занимают адреса патча. Независимые группы ожидают 6-channel RGBWA+UV на адресах 1/7/13/19/25/31."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=251"
+  },
+  "snl-401": {
+    "catalogTitle": "ADJ WiFLY NE1",
+    "catalogSubtitle": "432 ch · WiFLY · XLR 3",
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.adj.eu/wifly-ne1"
+      ],
+      "checkedFields": [
+        "outputChannels",
+        "watts",
+        "connectors",
+        "ethernet",
+        "wirelessDMX"
+      ],
+      "missingFields": [],
+      "note": "Контроллер — источник DMX, каналы не занимают адреса патча. WiFLY — отдельный радиопротокол, не Wi-Fi/Art-Net.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=401"
+    },
+    "outputs": 1,
+    "outputChannels": 432,
+    "watts": 2.7,
+    "wattsBasis": "manufacturer-rated",
+    "ethernet": false,
+    "dmx": true,
+    "wirelessDMX": true,
+    "connectors": [
+      "XLR 3-pin OUT",
+      "DC power IN"
+    ],
+    "signalPorts": [
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "DMX"
+      }
+    ],
+    "manufacturerSource": "https://www.adj.eu/wifly-ne1",
+    "verifiedFields": [
+      "outputChannels",
+      "watts",
+      "connectors",
+      "ethernet",
+      "wirelessDMX"
+    ],
+    "notes": [
+      "Контроллер — источник DMX, каналы не занимают адреса патча. WiFLY — отдельный радиопротокол, не Wi-Fi/Art-Net."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=401"
+  },
+  "snl-233": {
+    "catalogTitle": "ADJ WiFLY RGBW8C",
+    "catalogSubtitle": "64 ch · RGBW · WiFLY",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.adj.eu/wifly-rgbw8c"
+      ],
+      "checkedFields": [
+        "outputChannels",
+        "watts",
+        "connectors",
+        "ethernet",
+        "wirelessDMX"
+      ],
+      "missingFields": [
+        "bundleTransceiverRevision"
+      ],
+      "note": "Контроллер — источник DMX, каналы не занимают адреса патча. В каталоге комплект с отдельным WiFLY Transceiver: 3,6 W относится только к пульту; отдельный приёмник учитывать отдельным блоком.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=233"
+    },
+    "outputs": 1,
+    "outputChannels": 64,
+    "watts": 3.6,
+    "wattsBasis": "manufacturer-rated",
+    "ethernet": false,
+    "dmx": true,
+    "wirelessDMX": true,
+    "connectors": [
+      "XLR 3-pin OUT",
+      "DC power IN"
+    ],
+    "signalPorts": [
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "DMX"
+      }
+    ],
+    "manufacturerSource": "https://www.adj.eu/wifly-rgbw8c",
+    "verifiedFields": [
+      "outputChannels",
+      "watts",
+      "connectors",
+      "ethernet",
+      "wirelessDMX"
+    ],
+    "notes": [
+      "Контроллер — источник DMX, каналы не занимают адреса патча. В каталоге комплект с отдельным WiFLY Transceiver: 3,6 W относится только к пульту; отдельный приёмник учитывать отдельным блоком."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=233"
+  },
+  "snl-490": {
+    "catalogTitle": "Eurolite Easy Show",
+    "catalogSubtitle": "512 ch · IN / OUT · XLR 3",
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.steinigke.com/mpn70064578-eurolite-easy-show.html"
+      ],
+      "checkedFields": [
+        "watts",
+        "connectors",
+        "ethernet",
+        "usbPowered",
+        "outputChannels"
+      ],
+      "missingFields": [],
+      "note": "DMX recorder/controller. 3-pin IN и OUT, USB-C питание, USB-A для памяти и опционального QuickDMX. QuickDMX USB не равен обычному USB-DMX интерфейсу для ПК.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=490"
+    },
+    "outputs": 1,
+    "outputChannels": 512,
+    "watts": 1.25,
+    "wattsBasis": "manufacturer-rated",
+    "ethernet": false,
+    "dmx": true,
+    "usbPowered": true,
+    "usb": true,
+    "connectors": [
+      "XLR 3-pin IN/OUT",
+      "USB-C power IN",
+      "USB-A storage",
+      "USB-A optional QuickDMX"
+    ],
+    "signalPorts": [
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-C power",
+        "label": "USB"
+      },
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": "IN"
+      },
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "OUT"
+      }
+    ],
+    "manufacturerSource": "https://www.steinigke.com/mpn70064578-eurolite-easy-show.html",
+    "verifiedFields": [
+      "watts",
+      "connectors",
+      "ethernet",
+      "usbPowered",
+      "outputChannels"
+    ],
+    "notes": [
+      "DMX recorder/controller. 3-pin IN и OUT, USB-C питание, USB-A для памяти и опционального QuickDMX. QuickDMX USB не равен обычному USB-DMX интерфейсу для ПК."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=490"
+  },
+  "snl-407": {
+    "catalogTitle": "Chauvet Obey 4",
+    "catalogSubtitle": "16 ch · XLR 3",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.chauvetdj.com/products/obey-4/"
+      ],
+      "checkedFields": [
+        "connectors",
+        "ethernet",
+        "outputChannels"
+      ],
+      "missingFields": [
+        "watts"
+      ],
+      "note": "Выход DMX; питание внешним 9 VDC БП. Номинал БП 500 mA не следует записывать как потребление.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=407"
+    },
+    "dmx": true,
+    "outputs": 1,
+    "outputChannels": 16,
+    "ethernet": false,
+    "connectors": [
+      "XLR 3-pin OUT",
+      "9 VDC power IN"
+    ],
+    "signalPorts": [
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "DMX"
+      }
+    ],
+    "manufacturerSource": "https://www.chauvetdj.com/products/obey-4/",
+    "verifiedFields": [
+      "connectors",
+      "ethernet",
+      "outputChannels"
+    ],
+    "notes": [
+      "Выход DMX; питание внешним 9 VDC БП. Номинал БП 500 mA не следует записывать как потребление."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=407"
+  },
+  "snl-250": {
+    "catalogTitle": "Chauvet Obey 70",
+    "catalogSubtitle": "384 ch · XLR 3",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.chauvetdj.com/products/obey-70/"
+      ],
+      "checkedFields": [
+        "connectors",
+        "ethernet",
+        "outputChannels"
+      ],
+      "missingFields": [
+        "watts"
+      ],
+      "note": "Выход DMX; питание внешним 9 VDC БП. Номинал БП 500 mA не следует записывать как потребление.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=250"
+    },
+    "dmx": true,
+    "outputs": 1,
+    "outputChannels": 384,
+    "ethernet": false,
+    "connectors": [
+      "XLR 3-pin OUT",
+      "9 VDC power IN"
+    ],
+    "signalPorts": [
+      {
+        "id": "out1",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "DMX"
+      }
+    ],
+    "manufacturerSource": "https://www.chauvetdj.com/products/obey-70/",
+    "verifiedFields": [
+      "connectors",
+      "ethernet",
+      "outputChannels"
+    ],
+    "notes": [
+      "Выход DMX; питание внешним 9 VDC БП. Номинал БП 500 mA не следует записывать как потребление."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=250"
+  },
+  "snl-131": {
+    "catalogTitle": "Elation Scene Setter",
+    "catalogSubtitle": "24 ch · фейдерный пульт",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.adj.eu/scene-setter",
+        "https://www.adj.com/products/scene-setter"
+      ],
+      "checkedFields": [
+        "outputChannels",
+        "dmx"
+      ],
+      "missingFields": [
+        "originalElationRevisionConnectors",
+        "watts"
+      ],
+      "note": "24-channel Scene Setter; не путать с Scene Setter 48 или Stage Setter. Современная документация ADJ подтверждает семейство, разъём старой Elation ревизии требуется сверить.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=131"
+    },
+    "outputChannels": 24,
+    "dmx": true,
+    "outputs": 1,
+    "ethernet": false,
+    "connectors": [],
+    "manufacturerSource": "https://www.adj.eu/scene-setter",
+    "verifiedFields": [
+      "outputChannels",
+      "dmx"
+    ],
+    "notes": [
+      "24-channel Scene Setter; не путать с Scene Setter 48 или Stage Setter. Современная документация ADJ подтверждает семейство, разъём старой Elation ревизии требуется сверить."
+    ],
+    "source": "https://snl.ee/en/light/light_controllers_dimmers/?cat_id=131"
+  },
+  "snl-368": {
+    "catalogTitle": "Delta Max",
+    "catalogSubtitle": "Power Station · 2016 Wh",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://websiteoss.ecoflow.com/cms/upload/2022/10/6/-736245501_1665036560150.pdf"
+      ],
+      "checkedFields": [
+        "batteryWh",
+        "outputWatts",
+        "dmx"
+      ],
+      "missingFields": [
+        "exactRentalACSocketVariant",
+        "chargingLoad"
+      ],
+      "note": "DELTA Max 2000: 2016 Wh, 2400 W суммарная непрерывная AC-мощность. 4600 W surge/X-Boost не использовать как рабочий лимит. Зарядка и питание нагрузки различаются; не считать 2016 Wh потреблением в W.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=368"
+    },
+    "batteryWh": 2016,
+    "outputWatts": 2400,
+    "defaultLimit": 2400,
+    "outputs": 4,
+    "dmx": false,
+    "consumes": false,
+    "connectors": [
+      "AC outputs: EU variant to confirm",
+      "USB-A",
+      "USB-C",
+      "DC5521",
+      "car DC",
+      "extra battery port"
+    ],
+    "manufacturerSource": "https://websiteoss.ecoflow.com/cms/upload/2022/10/6/-736245501_1665036560150.pdf",
+    "verifiedFields": [
+      "batteryWh",
+      "outputWatts",
+      "dmx"
+    ],
+    "notes": [
+      "DELTA Max 2000: 2016 Wh, 2400 W суммарная непрерывная AC-мощность. 4600 W surge/X-Boost не использовать как рабочий лимит. Зарядка и питание нагрузки различаются; не считать 2016 Wh потреблением в W."
+    ],
+    "source": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=368",
+    "manuals": [
+      "https://websiteoss.ecoflow.com/cms/upload/2022/10/6/-736245501_1665036560150.pdf"
+    ]
+  },
+  "snl-369": {
+    "catalogTitle": "Delta Max",
+    "catalogSubtitle": "Extra Battery · 2016 Wh",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://uk.ecoflow.com/collections/delta-max-accessories/products/delta-max-smart-extra-battery?variant=47709023863123"
+      ],
+      "checkedFields": [
+        "batteryWh",
+        "dmx",
+        "powerRole"
+      ],
+      "missingFields": [
+        "chargeDischargeLimits"
+      ],
+      "note": "Батарейное расширение DELTA Max; нет самостоятельного 230 V выхода. Подключается фирменным extra-battery кабелем к совместимой станции.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=369"
+    },
+    "batteryWh": 2016,
+    "dmx": false,
+    "consumes": false,
+    "powerLink": false,
+    "powerPorts": false,
+    "planningOnly": true,
+    "connectors": [
+      "EcoFlow DELTA Max extra-battery connection"
+    ],
+    "manufacturerSource": "https://uk.ecoflow.com/collections/delta-max-accessories/products/delta-max-smart-extra-battery?variant=47709023863123",
+    "verifiedFields": [
+      "batteryWh",
+      "dmx",
+      "powerRole"
+    ],
+    "notes": [
+      "Батарейное расширение DELTA Max; нет самостоятельного 230 V выхода. Подключается фирменным extra-battery кабелем к совместимой станции."
+    ],
+    "source": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=369"
+  },
+  "snl-448": {
+    "catalogTitle": "Smart Generator",
+    "catalogSubtitle": "1800 W · AC / DC",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.ecoflow.com/eu/smart-generator"
+      ],
+      "checkedFields": [
+        "outputWatts",
+        "dmx",
+        "powerRole"
+      ],
+      "missingFields": [
+        "regionalACSocket",
+        "combinedACDCLimitManual"
+      ],
+      "note": "1800 W — выходная мощность генератора, не потребление. AC и фирменный DC для зарядки станции; мощности выходов нельзя без проверки суммировать как независимые лимиты.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=448"
+    },
+    "outputWatts": 1800,
+    "dmx": false,
+    "consumes": false,
+    "powerPorts": false,
+    "planningOnly": true,
+    "connectors": [
+      "AC: региональный вариант",
+      "EcoFlow DC charging output"
+    ],
+    "manufacturerSource": "https://www.ecoflow.com/eu/smart-generator",
+    "verifiedFields": [
+      "outputWatts",
+      "dmx",
+      "powerRole"
+    ],
+    "notes": [
+      "1800 W — выходная мощность генератора, не потребление. AC и фирменный DC для зарядки станции; мощности выходов нельзя без проверки суммировать как независимые лимиты."
+    ],
+    "source": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=448"
+  },
+  "snl-460": {
+    "catalogTitle": "Solar Panel",
+    "catalogSubtitle": "400 W · MC4",
+    "modes": [],
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://websiteoss.ecoflow.com/website/upload/2022/2/22/400W_Solar_Panel_User_Manual_1645511402758.pdf"
+      ],
+      "checkedFields": [
+        "ratedGenerationWatts",
+        "connectors",
+        "dmx"
+      ],
+      "missingFields": [],
+      "note": "400 W — паспортная генерация при стандартных условиях, не гарантированная мощность на площадке. MC4 DC; нельзя соединять с 230 V входом прибора. Voc 48 V, Vmp 41 V; Isc 11 A, Imp 9,8 A.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=460"
+    },
+    "ratedGenerationWatts": 400,
+    "dmx": false,
+    "consumes": false,
+    "powerPorts": false,
+    "planningOnly": true,
+    "connectors": [
+      "MC4 DC"
+    ],
+    "manufacturerSource": "https://websiteoss.ecoflow.com/website/upload/2022/2/22/400W_Solar_Panel_User_Manual_1645511402758.pdf",
+    "verifiedFields": [
+      "ratedGenerationWatts",
+      "connectors",
+      "dmx"
+    ],
+    "notes": [
+      "400 W — паспортная генерация при стандартных условиях, не гарантированная мощность на площадке. MC4 DC; нельзя соединять с 230 V входом прибора. Voc 48 V, Vmp 41 V; Isc 11 A, Imp 9,8 A."
+    ],
+    "source": "https://snl.ee/en/light/wireless_light_equipment/?cat_id=460",
+    "manuals": [
+      "https://websiteoss.ecoflow.com/website/upload/2022/2/22/400W_Solar_Panel_User_Manual_1645511402758.pdf"
+    ]
+  },
+  "snl-441": {
+    "catalogTitle": "JoyTutus",
+    "catalogSubtitle": "60 000 mAh · 216 Wh",
+    "modes": [],
+    "verification": {
+      "status": "unresolved",
+      "sources": [],
+      "checkedFields": [],
+      "missingFields": [
+        "exactModelOrRevision",
+        "officialManual",
+        "connectors",
+        "outputLimits"
+      ],
+      "note": "Название/ёмкость сохранены из карточки S&L. Руководство производителя именно этой модели не найдено; не выдавать параметры похожего powerbank за подтверждённые. Ватты заряда, энергия Wh и ёмкость mAh — разные величины.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=441"
+    },
+    "dmx": false,
+    "consumes": false,
+    "powerPorts": false,
+    "planningOnly": true,
+    "connectors": [],
+    "verifiedFields": [],
+    "notes": [
+      "Название/ёмкость сохранены из карточки S&L. Руководство производителя именно этой модели не найдено; не выдавать параметры похожего powerbank за подтверждённые. Ватты заряда, энергия Wh и ёмкость mAh — разные величины."
+    ],
+    "source": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=441"
+  },
+  "snl-349": {
+    "catalogTitle": "MAXOAK K3",
+    "catalogSubtitle": "36 000 mAh",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://maxoak.net/products/maxoak-k3-36000mah-power-bank-for-mac-laptop"
+      ],
+      "checkedFields": [
+        "model",
+        "connectorFamilies",
+        "capacitymAh"
+      ],
+      "missingFields": [
+        "rentalHardwareRevision",
+        "exactPortLimits"
+      ],
+      "note": "MAXOAK подтверждает K3, 36000 mAh, USB-A/USB-C/DC. Но текущая upgraded K3 имеет DC 16,8 V / 4,6 A и USB-C PD до 20 V, а S&L описывает DC 3,5 A и USB-C 12 V: лимиты нельзя переносить между ревизиями. Нужен шильдик конкретного экземпляра.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=349"
+    },
+    "dmx": false,
+    "consumes": false,
+    "powerPorts": false,
+    "planningOnly": true,
+    "connectors": [
+      "2 × USB-A output",
+      "USB-C PD input/output",
+      "DC input",
+      "DC laptop output"
+    ],
+    "verifiedFields": [
+      "model",
+      "connectorFamilies",
+      "capacitymAh"
+    ],
+    "notes": [
+      "MAXOAK подтверждает K3, 36000 mAh, USB-A/USB-C/DC. Но текущая upgraded K3 имеет DC 16,8 V / 4,6 A и USB-C PD до 20 V, а S&L описывает DC 3,5 A и USB-C 12 V: лимиты нельзя переносить между ревизиями. Нужен шильдик конкретного экземпляра."
+    ],
+    "source": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=349",
+    "manufacturerSource": "https://maxoak.net/products/maxoak-k3-36000mah-power-bank-for-mac-laptop"
+  },
+  "snl-434": {
+    "catalogTitle": "Baseus",
+    "catalogSubtitle": "20 000 mAh · 15 W",
+    "modes": [],
+    "verification": {
+      "status": "unresolved",
+      "sources": [],
+      "checkedFields": [],
+      "missingFields": [
+        "exactModelOrRevision",
+        "officialManual",
+        "connectors",
+        "outputLimits"
+      ],
+      "note": "Название/ёмкость сохранены из карточки S&L. Руководство производителя именно этой модели не найдено; не выдавать параметры похожего powerbank за подтверждённые. Ватты заряда, энергия Wh и ёмкость mAh — разные величины.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=434"
+    },
+    "dmx": false,
+    "consumes": false,
+    "powerPorts": false,
+    "planningOnly": true,
+    "connectors": [],
+    "verifiedFields": [],
+    "notes": [
+      "Название/ёмкость сохранены из карточки S&L. Руководство производителя именно этой модели не найдено; не выдавать параметры похожего powerbank за подтверждённые. Ватты заряда, энергия Wh и ёмкость mAh — разные величины."
+    ],
+    "source": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=434"
+  },
+  "snl-352": {
+    "catalogTitle": "Samsung",
+    "catalogSubtitle": "10 000 mAh",
+    "modes": [],
+    "verification": {
+      "status": "unresolved",
+      "sources": [],
+      "checkedFields": [],
+      "missingFields": [
+        "exactModelOrRevision",
+        "officialManual",
+        "connectors",
+        "outputLimits"
+      ],
+      "note": "Название/ёмкость сохранены из карточки S&L. Руководство производителя именно этой модели не найдено; не выдавать параметры похожего powerbank за подтверждённые. Ватты заряда, энергия Wh и ёмкость mAh — разные величины.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=352"
+    },
+    "dmx": false,
+    "consumes": false,
+    "powerPorts": false,
+    "planningOnly": true,
+    "connectors": [],
+    "verifiedFields": [],
+    "notes": [
+      "Название/ёмкость сохранены из карточки S&L. Руководство производителя именно этой модели не найдено; не выдавать параметры похожего powerbank за подтверждённые. Ватты заряда, энергия Wh и ёмкость mAh — разные величины."
+    ],
+    "source": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=352"
+  },
+  "snl-382": {
+    "catalogTitle": "Denver",
+    "catalogSubtitle": "10 000 mAh",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://old.denver.eu/media/16482/denver-jst-10010-manual-_dutch.pdf",
+        "https://www.snl.ee/en/video/power_stations_power_banks/?cat_id=382"
+      ],
+      "checkedFields": [
+        "model",
+        "batteryWh",
+        "dcRatings",
+        "dmx"
+      ],
+      "missingFields": [
+        "physicalDCConnectorDimensions"
+      ],
+      "note": "Определён JST-10010: 37 Wh; USB 5 V и отдельный DC 12/16/19 V. Пусковой выход автомобиля не является источником сценического 230 V питания и не рисуется обычной розеткой.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=382"
+    },
+    "modelCode": "JST-10010",
+    "batteryWh": 37,
+    "dmx": false,
+    "consumes": false,
+    "powerPorts": false,
+    "planningOnly": true,
+    "connectors": [
+      "USB 5 V output",
+      "DC 15 V input",
+      "DC 12/16/19 V output",
+      "12 V starter output: excluded from rig"
+    ],
+    "manufacturerSource": "https://old.denver.eu/media/16482/denver-jst-10010-manual-_dutch.pdf",
+    "verifiedFields": [
+      "model",
+      "batteryWh",
+      "dcRatings",
+      "dmx"
+    ],
+    "notes": [
+      "Определён JST-10010: 37 Wh; USB 5 V и отдельный DC 12/16/19 V. Пусковой выход автомобиля не является источником сценического 230 V питания и не рисуется обычной розеткой."
+    ],
+    "source": "https://snl.ee/en/video/power_stations_power_banks/?cat_id=382",
+    "manuals": [
+      "https://old.denver.eu/media/16482/denver-jst-10010-manual-_dutch.pdf"
+    ]
+  },
+  "snl-328": {
+    "catalogTitle": "Panasonic Lumix G9",
+    "catalogSubtitle": "HDMI A · USB Micro-B 3.0",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://help.na.panasonic.com/answers/features-and-specifications-lumix-g-series-dc-g9/",
+        "https://www.panasonic.com/content/dam/Panasonic/au/en/support_manual/lumix-cameras/DC-G9_user-manual-firmware-v2.0.pdf"
+      ],
+      "checkedFields": [
+        "connectors",
+        "video",
+        "usb",
+        "ethernet",
+        "dmx"
+      ],
+      "missingFields": [
+        "operatingWatts"
+      ],
+      "note": "Полноразмерный HDMI Type A, USB 3.0 Micro-B. HDMI не HDMI-IN; это выход камеры. Питание батарейное/через совместимые аксессуары.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/?cat_id=328"
+    },
+    "dmx": false,
+    "ethernet": false,
+    "video": true,
+    "usb": true,
+    "hasBattery": true,
+    "videoConnector": "HDMI Type A",
+    "connectors": [
+      "HDMI Type A OUT",
+      "USB 3.0 Micro-B",
+      "3.5 mm MIC IN",
+      "3.5 mm headphones",
+      "2.5 mm remote"
+    ],
+    "signalPorts": [
+      {
+        "id": "videoOut",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI"
+      },
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "USB 3.0 Micro-B",
+        "label": "USB"
+      }
+    ],
+    "manufacturerSource": "https://help.na.panasonic.com/answers/features-and-specifications-lumix-g-series-dc-g9/",
+    "verifiedFields": [
+      "connectors",
+      "video",
+      "usb",
+      "ethernet",
+      "dmx"
+    ],
+    "notes": [
+      "Полноразмерный HDMI Type A, USB 3.0 Micro-B. HDMI не HDMI-IN; это выход камеры. Питание батарейное/через совместимые аксессуары."
+    ],
+    "source": "https://snl.ee/en/video/?cat_id=328",
+    "manuals": [
+      "https://www.panasonic.com/content/dam/Panasonic/au/en/support_manual/lumix-cameras/DC-G9_user-manual-firmware-v2.0.pdf"
+    ]
+  },
+  "snl-330": {
+    "catalogTitle": "GoPro Hero 9 Black",
+    "catalogSubtitle": "USB-C · HDMI через Media Mod",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://gopro.com/content/dam/help/hero9-black/manuals/HERO9Black_UM_ENG_REVA.pdf",
+        "https://gopro.com/en/ee/shop/mounts-accessories/camera-media-mod/ADFMD-001.html"
+      ],
+      "checkedFields": [
+        "connectors",
+        "video",
+        "usb",
+        "dmx"
+      ],
+      "missingFields": [
+        "includedMediaMod",
+        "operatingWatts"
+      ],
+      "note": "У камеры нет встроенного HDMI. HDMI добавляет отдельный Media Mod; он не подтверждён в прокатном комплекте. Поэтому HDMI-порт по умолчанию отключён.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/?cat_id=330"
+    },
+    "dmx": false,
+    "ethernet": false,
+    "video": false,
+    "usb": true,
+    "usbPowered": true,
+    "hasBattery": true,
+    "connectors": [
+      "USB-C"
+    ],
+    "signalPorts": [
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-C",
+        "label": "USB"
+      }
+    ],
+    "manufacturerSource": "https://gopro.com/content/dam/help/hero9-black/manuals/HERO9Black_UM_ENG_REVA.pdf",
+    "verifiedFields": [
+      "connectors",
+      "video",
+      "usb",
+      "dmx"
+    ],
+    "notes": [
+      "У камеры нет встроенного HDMI. HDMI добавляет отдельный Media Mod; он не подтверждён в прокатном комплекте. Поэтому HDMI-порт по умолчанию отключён."
+    ],
+    "source": "https://snl.ee/en/video/?cat_id=330",
+    "manuals": [
+      "https://gopro.com/content/dam/help/hero9-black/manuals/HERO9Black_UM_ENG_REVA.pdf"
+    ]
+  },
+  "snl-346": {
+    "catalogTitle": "MacBook Pro Retina 2012",
+    "catalogSubtitle": "HDMI · 2 × USB · Thunderbolt",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://support.apple.com/en-ie/112576"
+      ],
+      "checkedFields": [
+        "connectors",
+        "video",
+        "usb",
+        "ethernet",
+        "dmx"
+      ],
+      "missingFields": [
+        "operatingACwatts"
+      ],
+      "note": "Retina Mid 2012 — 15-inch: HDMI, два USB-A, два Thunderbolt, MagSafe 2. RJ45 только через отдельный адаптер, не встроенный. 85 W адаптер не равен постоянному потреблению.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=346"
+    },
+    "dmx": false,
+    "ethernet": false,
+    "video": true,
+    "usb": true,
+    "hasBattery": true,
+    "connectors": [
+      "HDMI OUT",
+      "2 × USB-A 3.0",
+      "2 × Thunderbolt",
+      "MagSafe 2 power IN"
+    ],
+    "signalPorts": [
+      {
+        "id": "videoOut",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI"
+      },
+      {
+        "id": "usbOut",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB"
+      }
+    ],
+    "manufacturerSource": "https://support.apple.com/en-ie/112576",
+    "verifiedFields": [
+      "connectors",
+      "video",
+      "usb",
+      "ethernet",
+      "dmx"
+    ],
+    "notes": [
+      "Retina Mid 2012 — 15-inch: HDMI, два USB-A, два Thunderbolt, MagSafe 2. RJ45 только через отдельный адаптер, не встроенный. 85 W адаптер не равен постоянному потреблению."
+    ],
+    "source": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=346"
+  },
+  "snl-347": {
+    "catalogTitle": "Asus TUF FX505DU",
+    "catalogSubtitle": "HDMI 2.0 · RJ45 · 3 × USB",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.asus.com/ca-en/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-fx505dd-dt-du/"
+      ],
+      "checkedFields": [
+        "connectors",
+        "video",
+        "usb",
+        "ethernet",
+        "dmx"
+      ],
+      "missingFields": [
+        "operatingACwatts"
+      ],
+      "note": "HDMI и RJ45 штатные. Наличие Ethernet не означает запущенный Art-Net: необходим подходящий софт. Региональный SKU AL079T отличается конфигурацией, не найден отдельный паспорт мощности.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=347"
+    },
+    "dmx": false,
+    "ethernet": true,
+    "video": true,
+    "usb": true,
+    "hasBattery": true,
+    "connectors": [
+      "HDMI 2.0 OUT",
+      "RJ45 LAN",
+      "2 × USB-A 3.1 Gen 1",
+      "USB-A 2.0",
+      "DC power IN"
+    ],
+    "signalPorts": [
+      {
+        "id": "videoOut",
+        "type": "video",
+        "out": true,
+        "connector": "HDMI Type A",
+        "label": "HDMI"
+      },
+      {
+        "id": "ethernetOut",
+        "type": "ethernet",
+        "out": true,
+        "connector": "RJ45 Ethernet",
+        "label": "LAN"
+      },
+      {
+        "id": "usbOut",
+        "type": "usb",
+        "out": true,
+        "connector": "USB-A",
+        "label": "USB"
+      }
+    ],
+    "manufacturerSource": "https://www.asus.com/ca-en/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-fx505dd-dt-du/",
+    "verifiedFields": [
+      "connectors",
+      "video",
+      "usb",
+      "ethernet",
+      "dmx"
+    ],
+    "notes": [
+      "HDMI и RJ45 штатные. Наличие Ethernet не означает запущенный Art-Net: необходим подходящий софт. Региональный SKU AL079T отличается конфигурацией, не найден отдельный паспорт мощности."
+    ],
+    "source": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=347"
+  },
+  "snl-340": {
+    "catalogTitle": "Lenovo Tab M10 HD",
+    "catalogSubtitle": "TB-X505F · Micro-USB",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Tab_M10/Tab_M10_Spec.PDF"
+      ],
+      "checkedFields": [
+        "model",
+        "connectors",
+        "usb",
+        "ethernet",
+        "dmx"
+      ],
+      "missingFields": [
+        "operatingWatts"
+      ],
+      "note": "TB-X505F — HD-вариант с Micro-USB, не Type-C других Tab M10. HDMI и RJ45 не встроены.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=340"
+    },
+    "kind": "tablet",
+    "dmx": false,
+    "ethernet": false,
+    "video": false,
+    "usb": true,
+    "usbPowered": true,
+    "hasBattery": true,
+    "connectors": [
+      "Micro-USB 2.0",
+      "3.5 mm audio"
+    ],
+    "signalPorts": [
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "Micro-USB",
+        "label": "USB"
+      }
+    ],
+    "manufacturerSource": "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Tab_M10/Tab_M10_Spec.PDF",
+    "verifiedFields": [
+      "model",
+      "connectors",
+      "usb",
+      "ethernet",
+      "dmx"
+    ],
+    "notes": [
+      "TB-X505F — HD-вариант с Micro-USB, не Type-C других Tab M10. HDMI и RJ45 не встроены."
+    ],
+    "source": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=340",
+    "manuals": [
+      "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Tab_M10/Tab_M10_Spec.PDF"
+    ]
+  },
+  "snl-339": {
+    "catalogTitle": "Samsung Tab A 10.1",
+    "catalogSubtitle": "2019 Wi-Fi · USB-C",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.samsung.com/ee/business/tablets/galaxy-tab-a/galaxy-tab-a-t510-sm-t510nzkdseb/",
+        "https://snl.ee/userfiles/files/catalogue/sl-concept_catalogue_video_rent_et.pdf",
+        "https://www.samsung.com/uk/support/mobile-devices/which-charger-should-i-use-for-my-galaxy-phone-or-tablet/"
+      ],
+      "checkedFields": [
+        "modelFamily",
+        "usb",
+        "ethernet",
+        "dmx",
+        "connectors"
+      ],
+      "missingFields": [
+        "operatingWatts"
+      ],
+      "note": "Каталог S&L уточняет Tab A 10.1 Wi-Fi (2019), семейство SM-T510. USB-C подтверждён таблицей зарядных разъёмов Samsung. HDMI и RJ45 не встроены.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=339"
+    },
+    "kind": "tablet",
+    "dmx": false,
+    "ethernet": false,
+    "video": false,
+    "usb": true,
+    "usbPowered": true,
+    "hasBattery": true,
+    "connectors": [
+      "USB-C 2.0",
+      "3.5 mm audio"
+    ],
+    "signalPorts": [
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-C",
+        "label": "USB"
+      }
+    ],
+    "manufacturerSource": "https://www.samsung.com/ee/business/tablets/galaxy-tab-a/galaxy-tab-a-t510-sm-t510nzkdseb/",
+    "verifiedFields": [
+      "modelFamily",
+      "usb",
+      "ethernet",
+      "dmx",
+      "connectors"
+    ],
+    "notes": [
+      "Каталог S&L уточняет Tab A 10.1 Wi-Fi (2019), семейство SM-T510. USB-C подтверждён таблицей зарядных разъёмов Samsung. HDMI и RJ45 не встроены."
+    ],
+    "source": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=339"
+  },
+  "snl-370": {
+    "catalogTitle": "Samsung Galaxy S9+",
+    "catalogSubtitle": "USB-C · DeX через адаптер",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://news.samsung.com/us/samsung-galaxy-s9-s9plus/"
+      ],
+      "checkedFields": [
+        "connectors",
+        "usb",
+        "dmx",
+        "ethernet"
+      ],
+      "missingFields": [
+        "includedVideoAdapter",
+        "operatingWatts"
+      ],
+      "note": "Телефон не имеет физического HDMI/RJ45. HDMI возможен через совместимую DeX-станцию/адаптер, которую нужно добавить отдельно; не рисовать штатный HDMI.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=370"
+    },
+    "kind": "phone",
+    "dmx": false,
+    "ethernet": false,
+    "video": false,
+    "usb": true,
+    "usbPowered": true,
+    "hasBattery": true,
+    "connectors": [
+      "USB Type-C",
+      "3.5 mm audio"
+    ],
+    "signalPorts": [
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "USB-C",
+        "label": "USB"
+      }
+    ],
+    "manufacturerSource": "https://news.samsung.com/us/samsung-galaxy-s9-s9plus/",
+    "verifiedFields": [
+      "connectors",
+      "usb",
+      "dmx",
+      "ethernet"
+    ],
+    "notes": [
+      "Телефон не имеет физического HDMI/RJ45. HDMI возможен через совместимую DeX-станцию/адаптер, которую нужно добавить отдельно; не рисовать штатный HDMI."
+    ],
+    "source": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=370"
+  },
+  "snl-380": {
+    "catalogTitle": "Samsung Galaxy A5",
+    "catalogSubtitle": "2016 · USB 2.0",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.samsungmobilepress.com/articles/samsung-launches-galaxy-a-2016-with-premium-design-and-improved-features"
+      ],
+      "checkedFields": [
+        "usb",
+        "dmx",
+        "ethernet",
+        "model"
+      ],
+      "missingFields": [
+        "physicalUSBConnector",
+        "operatingWatts"
+      ],
+      "note": "Galaxy A5 (2016), не современная A-серия. Публикация производителя подтверждает USB 2.0; физический connector и видеовыход не подставлены по аналогии.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=380"
+    },
+    "kind": "phone",
+    "dmx": false,
+    "ethernet": false,
+    "video": false,
+    "usb": true,
+    "usbPowered": true,
+    "hasBattery": true,
+    "connectors": [
+      "USB 2.0"
+    ],
+    "signalPorts": [
+      {
+        "id": "usbIn",
+        "type": "usb",
+        "out": false,
+        "connector": "USB 2.0",
+        "label": "USB"
+      }
+    ],
+    "manufacturerSource": "https://www.samsungmobilepress.com/articles/samsung-launches-galaxy-a-2016-with-premium-design-and-improved-features",
+    "verifiedFields": [
+      "usb",
+      "dmx",
+      "ethernet",
+      "model"
+    ],
+    "notes": [
+      "Galaxy A5 (2016), не современная A-серия. Публикация производителя подтверждает USB 2.0; физический connector и видеовыход не подставлены по аналогии."
+    ],
+    "source": "https://snl.ee/en/video/computers_tablets_mobile_phones/?cat_id=380"
+  },
+  "snl-389": {
+    "catalogTitle": "WD TV Live HD",
+    "catalogSubtitle": "Медиаплеер · ревизия не указана",
+    "modes": [],
+    "verification": {
+      "status": "unresolved",
+      "sources": [],
+      "checkedFields": [],
+      "missingFields": [
+        "manufacturerManual",
+        "hardwareRevision",
+        "connectors",
+        "watts"
+      ],
+      "note": "По карточке проката это медиаплеер, не управляющий компьютер Titan. Официальное руководство конкретной аппаратной ревизии не найдено; не выдавать Ethernet за Art-Net и не добавлять неподтверждённые порты.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/dvd_usb_video_players/?cat_id=389"
+    },
+    "kind": "player",
+    "dmx": false,
+    "planningOnly": true,
+    "connectors": [],
+    "signalPorts": [],
+    "video": false,
+    "ethernet": false,
+    "usb": false,
+    "verifiedFields": [],
+    "notes": [
+      "По карточке проката это медиаплеер, не управляющий компьютер Titan. Официальное руководство конкретной аппаратной ревизии не найдено; не выдавать Ethernet за Art-Net и не добавлять неподтверждённые порты."
+    ],
+    "source": "https://snl.ee/en/video/dvd_usb_video_players/?cat_id=389"
+  },
+  "snl-472": {
+    "catalogTitle": "G96Q Max",
+    "catalogSubtitle": "Android-плеер · модель уточнить",
+    "modes": [],
+    "verification": {
+      "status": "unresolved",
+      "sources": [],
+      "checkedFields": [],
+      "missingFields": [
+        "manufacturerManual",
+        "hardwareRevision",
+        "connectors",
+        "watts"
+      ],
+      "note": "По карточке проката это медиаплеер, не управляющий компьютер Titan. Официальное руководство конкретной аппаратной ревизии не найдено; не выдавать Ethernet за Art-Net и не добавлять неподтверждённые порты.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://snl.ee/en/video/dvd_usb_video_players/?cat_id=472"
+    },
+    "kind": "player",
+    "dmx": false,
+    "planningOnly": true,
+    "connectors": [],
+    "signalPorts": [],
+    "video": false,
+    "ethernet": false,
+    "usb": false,
+    "verifiedFields": [],
+    "notes": [
+      "По карточке проката это медиаплеер, не управляющий компьютер Titan. Официальное руководство конкретной аппаратной ревизии не найдено; не выдавать Ethernet за Art-Net и не добавлять неподтверждённые порты."
+    ],
+    "source": "https://snl.ee/en/video/dvd_usb_video_players/?cat_id=472"
+  },
+  "xnd8": {
+    "catalogTitle": "Swisson XND-8",
+    "catalogSubtitle": "8 портов · Art-Net / sACN",
+    "modes": [],
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.swisson.com/site/assets/files/1238/um_xnd-8-d0-len-v01-05-1.pdf"
+      ],
+      "checkedFields": [
+        "outputs",
+        "watts",
+        "ethernet",
+        "rdm",
+        "powerLink",
+        "protocols"
+      ],
+      "missingFields": [
+        "dmxConnectorVariant"
+      ],
+      "note": "Восемь DMX-портов переключаются IN/OUT; по умолчанию схема использует OUT. Конкретный суффикс XND-8 (3/5-pin/RJ45) не указан: не подставлять XLR 5 автоматически. USB-B служебный, не USB-DMX. 11 W — typical, не max. Power-link суммарно до 19,8 A по руководству.",
+      "checkedAt": "2026-11-05",
+      "catalogSource": "https://www.swisson.com/en/products/data-distribution/ethernet-dmx-node/"
+    },
+    "outputs": 8,
+    "ethernet": true,
+    "dmx": true,
+    "rdm": true,
+    "watts": 11,
+    "wattsBasis": "typical",
+    "powerLink": true,
+    "dmxConnector": "",
+    "protocols": [
+      "Art-Net 1–4",
+      "sACN",
+      "RDM"
+    ],
+    "connectors": [
+      "Ethernet RJ45 etherCON",
+      "8 × DMX: вариант 3-pin / 5-pin / RJ45",
+      "powerCON IN/OUT",
+      "USB-B: firmware only"
+    ],
+    "manufacturerSource": "https://www.swisson.com/site/assets/files/1238/um_xnd-8-d0-len-v01-05-1.pdf",
+    "verifiedFields": [
+      "outputs",
+      "watts",
+      "ethernet",
+      "rdm",
+      "powerLink",
+      "protocols"
+    ],
+    "notes": [
+      "Восемь DMX-портов переключаются IN/OUT; по умолчанию схема использует OUT. Конкретный суффикс XND-8 (3/5-pin/RJ45) не указан: не подставлять XLR 5 автоматически. USB-B служебный, не USB-DMX. 11 W — typical, не max. Power-link суммарно до 19,8 A по руководству."
+    ],
+    "source": "https://www.swisson.com/en/products/data-distribution/ethernet-dmx-node/",
+    "manuals": [
+      "https://www.swisson.com/site/assets/files/1238/um_xnd-8-d0-len-v01-05-1.pdf"
+    ]
+  }
+}

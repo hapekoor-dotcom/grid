@@ -1,0 +1,2554 @@
+{
+  "snl-498": {
+    "modes": [
+      {
+        "channels": 6,
+        "label": "6 CH",
+        "id": "6ch"
+      },
+      {
+        "channels": 11,
+        "label": "11 CH",
+        "id": "11ch"
+      },
+      {
+        "channels": 13,
+        "label": "13 CH",
+        "id": "13ch"
+      },
+      {
+        "channels": 16,
+        "label": "16 CH",
+        "id": "16ch"
+      },
+      {
+        "channels": 18,
+        "label": "18 CH",
+        "id": "18ch"
+      },
+      {
+        "channels": 25,
+        "label": "25 CH",
+        "id": "25ch"
+      },
+      {
+        "channels": 28,
+        "label": "28 CH",
+        "id": "28ch"
+      }
+    ],
+    "defaultModeId": "11ch",
+    "watts": 26,
+    "wattsBasis": "manufacturer",
+    "connectors": [
+      "DMX XLR 5-pin IN/OUT",
+      "Locking power IN/OUT"
+    ],
+    "dmxConnector": "5-pin XLR",
+    "verifiedFields": [
+      "modes",
+      "connectors",
+      "watts",
+      "powerLink",
+      "colorSystem"
+    ],
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.adj.com/products/ubl6h"
+      ],
+      "checkedFields": [
+        "modes",
+        "connectors",
+        "watts",
+        "powerLink",
+        "colorSystem"
+      ],
+      "missingFields": [],
+      "note": "RGBAL+UV; три группы по два LED. 11 CH — компактное управление всем баром. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": true,
+    "dmxPhysical": true,
+    "powerLink": true,
+    "colorSystem": "RGBAL+UV",
+    "defaultModeBasis": "planner-choice",
+    "notes": [
+      "RGBAL+UV; три группы по два LED. 11 CH — компактное управление всем баром. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же."
+    ],
+    "default": 11,
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "5-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "5-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "Locking Power",
+    "kind": "bar"
+  },
+  "snl-499": {
+    "modes": [
+      {
+        "channels": 6,
+        "label": "6 CH",
+        "id": "6ch"
+      },
+      {
+        "channels": 11,
+        "label": "11 CH",
+        "id": "11ch"
+      },
+      {
+        "channels": 13,
+        "label": "13 CH",
+        "id": "13ch"
+      },
+      {
+        "channels": 16,
+        "label": "16 CH",
+        "id": "16ch"
+      },
+      {
+        "channels": 36,
+        "label": "36 CH",
+        "id": "36ch"
+      },
+      {
+        "channels": 43,
+        "label": "43 CH",
+        "id": "43ch"
+      },
+      {
+        "channels": 46,
+        "label": "46 CH",
+        "id": "46ch"
+      }
+    ],
+    "defaultModeId": "11ch",
+    "watts": 61,
+    "wattsBasis": "manufacturer",
+    "connectors": [
+      "DMX XLR 5-pin IN/OUT",
+      "Locking power IN/OUT"
+    ],
+    "dmxConnector": "5-pin XLR",
+    "verifiedFields": [
+      "modes",
+      "connectors",
+      "watts",
+      "powerLink",
+      "colorSystem"
+    ],
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.adj.com/products/ubl12h",
+        "https://www.adj.eu/mwdownloads/download/link/id/1709"
+      ],
+      "checkedFields": [
+        "modes",
+        "connectors",
+        "watts",
+        "powerLink",
+        "colorSystem"
+      ],
+      "missingFields": [],
+      "note": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": true,
+    "dmxPhysical": true,
+    "powerLink": true,
+    "colorSystem": "RGBAL+UV",
+    "defaultModeBasis": "planner-choice",
+    "notes": [
+      "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же."
+    ],
+    "default": 11,
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "5-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "5-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "Locking Power",
+    "kind": "bar"
+  },
+  "snl-444": {
+    "modes": [
+      {
+        "channels": 16,
+        "label": "Basic RGBW · 16 CH",
+        "id": "basic-rgbw-16"
+      },
+      {
+        "channels": 25,
+        "label": "Standard RGBW · 25 CH",
+        "id": "standard-rgbw-25"
+      },
+      {
+        "channels": 34,
+        "label": "Extended 3 · 34 CH",
+        "id": "extended3-rgbw-34"
+      },
+      {
+        "channels": 42,
+        "label": "Extended 5 · 42 CH",
+        "id": "extended5-rgbw-42"
+      },
+      {
+        "channels": 50,
+        "label": "Extended 7 · 50 CH",
+        "id": "extended7-rgbw-50"
+      },
+      {
+        "channels": 25,
+        "label": "Standard CMY · 25 CH",
+        "id": "standard-cmy-25"
+      },
+      {
+        "channels": 28,
+        "label": "Extended CMY · 28 CH",
+        "id": "extended-cmy-28"
+      }
+    ],
+    "defaultModeId": "standard-rgbw-25",
+    "watts": 340,
+    "wattsBasis": "maximum",
+    "connectors": [
+      "DMX XLR 5-pin IN/OUT",
+      "Locking power IN/OUT"
+    ],
+    "dmxConnector": "5-pin XLR",
+    "verifiedFields": [
+      "modes",
+      "connectors",
+      "watts",
+      "powerLink",
+      "colorSystem",
+      "rdm"
+    ],
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.adj.eu/mwdownloads/download/link/id/1509",
+        "https://www.adj.com/products/focus-flex"
+      ],
+      "checkedFields": [
+        "modes",
+        "connectors",
+        "watts",
+        "powerLink",
+        "colorSystem",
+        "rdm"
+      ],
+      "missingFields": [],
+      "note": "Manual v1.2: 7 режимов; Standard RGBW и Standard CMY занимают по 25 каналов, но являются разными personalities. Максимум 340 W при 120 V. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": true,
+    "dmxPhysical": true,
+    "powerLink": true,
+    "colorSystem": "RGBW / virtual CMY",
+    "rdm": true,
+    "defaultModeBasis": "planner-choice",
+    "notes": [
+      "Manual v1.2: 7 режимов; Standard RGBW и Standard CMY занимают по 25 каналов, но являются разными personalities. Максимум 340 W при 120 V. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же."
+    ],
+    "default": 25,
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "5-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "5-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "Locking Power",
+    "kind": "head",
+    "fixtureType": "moving-wash"
+  },
+  "snl-445": {
+    "modes": [
+      {
+        "channels": 15,
+        "label": "15 CH",
+        "id": "15ch"
+      },
+      {
+        "channels": 17,
+        "label": "17 CH",
+        "id": "17ch"
+      }
+    ],
+    "defaultModeId": "17ch",
+    "watts": 199,
+    "wattsBasis": "manufacturer",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT",
+      "Locking power IN/OUT"
+    ],
+    "dmxConnector": "3-pin XLR",
+    "verifiedFields": [
+      "modes",
+      "connectors",
+      "watts",
+      "powerLink",
+      "colorSystem"
+    ],
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.adj.com/products/vizi-beam-rxone",
+        "https://www.adj.eu/mwdownloads/download/link/id/868"
+      ],
+      "checkedFields": [
+        "modes",
+        "connectors",
+        "watts",
+        "powerLink",
+        "colorSystem"
+      ],
+      "missingFields": [],
+      "note": "Цветовое колесо 14 цветов+белый; паспортное потребление 199 W. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": true,
+    "dmxPhysical": true,
+    "powerLink": true,
+    "colorSystem": "14 цветов + белый",
+    "defaultModeBasis": "planner-choice",
+    "notes": [
+      "Цветовое колесо 14 цветов+белый; паспортное потребление 199 W. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же."
+    ],
+    "default": 17,
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "Locking Power",
+    "kind": "beam",
+    "fixtureType": "moving-beam"
+  },
+  "snl-470": {
+    "modes": [
+      {
+        "channels": 16,
+        "label": "Basic · 16 CH",
+        "id": "basic-16"
+      },
+      {
+        "channels": 18,
+        "label": "Standard · 18 CH",
+        "id": "standard-18"
+      },
+      {
+        "channels": 22,
+        "label": "Extended · 22 CH",
+        "id": "extended-22"
+      }
+    ],
+    "defaultModeId": "standard-18",
+    "watts": 256,
+    "wattsBasis": "manufacturer-eu-conflict",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT (EU)",
+      "Locking Power IN/OUT",
+      "USB firmware service"
+    ],
+    "dmxConnector": "3-pin XLR",
+    "verifiedFields": [
+      "modes",
+      "powerLink",
+      "colorSystem",
+      "rdm",
+      "signalPorts",
+      "servicePorts",
+      "variantDefaultId"
+    ],
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.adj.eu/focus-spot-4z",
+        "https://www.adj.com/products/focus-spot-4z",
+        "https://www.adj.eu/mwdownloads/download/link/id/1335",
+        "https://www.adj.com/blogs/news/adj-expands-focus-series-with-powerful-versatile-new-moving-head-spot"
+      ],
+      "checkedFields": [
+        "modes",
+        "powerLink",
+        "colorSystem",
+        "rdm",
+        "signalPorts",
+        "servicePorts",
+        "variantDefaultId"
+      ],
+      "missingFields": [
+        "rentalHardwareVariant"
+      ],
+      "note": "Вариант по умолчанию — европейская спецификация ADJ: 3-pin DMX IN/OUT, 256 W, Locking Power IN/OUT, 16/18/22 CH. На US странице указано 5-pin; руководство v1.8 противоречиво между схемой и итоговыми характеристиками. Это не универсальная неизвестная распиновка: в планировщике выбран явно обозначенный EU вариант, для другого экземпляра можно сменить разъём. USB используется для обновления прошивки, не для DMX/питания и не показан рабочим портом. Внутренняя батарейка питает меню, не световой источник.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": true,
+    "dmxPhysical": true,
+    "powerLink": true,
+    "colorSystem": "8 цветов + белый",
+    "rdm": true,
+    "defaultModeBasis": "planner-choice",
+    "notes": [
+      "Вариант по умолчанию — европейская спецификация ADJ: 3-pin DMX IN/OUT, 256 W, Locking Power IN/OUT, 16/18/22 CH. На US странице указано 5-pin; руководство v1.8 противоречиво между схемой и итоговыми характеристиками. Это не универсальная неизвестная распиновка: в планировщике выбран явно обозначенный EU вариант, для другого экземпляра можно сменить разъём. USB используется для обновления прошивки, не для DMX/питания и не показан рабочим портом. Внутренняя батарейка питает меню, не световой источник."
+    ],
+    "default": 18,
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "Locking Power",
+    "kind": "spot",
+    "fixtureType": "moving-spot",
+    "servicePorts": [
+      {
+        "type": "usb",
+        "connector": "USB",
+        "role": "firmware-only"
+      }
+    ],
+    "catalogSubtitle": "16/18/22 CH · 3-pin · RDM",
+    "variantDefaultId": "eu-3pin",
+    "hardwareVariants": [
+      {
+        "id": "eu-3pin",
+        "label": "EU · 3-pin",
+        "dmxConnector": "3-pin XLR",
+        "watts": 256,
+        "name": "EU · 3-pin",
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "3-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "3-pin XLR",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "id": "us-5pin",
+        "label": "US · 5-pin",
+        "dmxConnector": "5-pin XLR",
+        "watts": 256,
+        "name": "US · 5-pin",
+        "signalPorts": [
+          {
+            "id": "dmxIn",
+            "type": "dmx",
+            "out": false,
+            "connector": "5-pin XLR",
+            "label": ""
+          },
+          {
+            "id": "dmxOut",
+            "type": "dmx",
+            "out": true,
+            "connector": "5-pin XLR",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  "snl-485": {
+    "modes": [
+      {
+        "channels": 11,
+        "label": "11 CH",
+        "id": "11ch"
+      }
+    ],
+    "defaultModeId": "11ch",
+    "watts": null,
+    "wattsBasis": "unknown",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT",
+      "powerCON IN/OUT"
+    ],
+    "dmxConnector": "3-pin XLR",
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "signalPorts",
+      "powerLink",
+      "powerConnector",
+      "colorSystem",
+      "weightKg"
+    ],
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://shehds.com/products/shehds-250w-rgbw-spotlight-with-barndoors-pulse-strobe",
+        "https://shehds.com/cdn/shop/files/7_92bde12b-8aac-4d54-8643-8ccc9004dd67.jpg?v=1752917271&width=1445",
+        "https://shehds.net/products/shehds-250w-rgbw-with-barndoor-pulse-strobe-spotlight-for-dj-club-wedding-ktv",
+        "https://drive.google.com/file/d/1KeCiYzUoUVWzMZEay_tqE3rhehCW6VZY/view",
+        "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=485"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "signalPorts",
+        "powerLink",
+        "powerConnector",
+        "colorSystem",
+        "weightKg"
+      ],
+      "missingFields": [
+        "watts"
+      ],
+      "note": "Модель S&L совпадает с текущей официальной RGBW 15–55°, 9.5 kg, 11 CH. На официальной фотографии задней панели отчётливо подписаны DMX IN, DMX OUT, POWER IN и POWER OUT: XLR 3-pin и powerCON. Найден и прочитан PDF по ссылке старого сайта производителя: это другая 6.75 kg ревизия с 7/10 CH, поэтому её режимы не перенесены на 9.5 kg прибор S&L. 250 W названы мощностью LED/Output Power, не подтверждённой входной мощностью.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": true,
+    "colorSystem": "RGBW",
+    "defaultModeBasis": "planner-choice",
+    "notes": [
+      "Модель S&L совпадает с текущей официальной RGBW 15–55°, 9.5 kg, 11 CH. На официальной фотографии задней панели отчётливо подписаны DMX IN, DMX OUT, POWER IN и POWER OUT: XLR 3-pin и powerCON. Найден и прочитан PDF по ссылке старого сайта производителя: это другая 6.75 kg ревизия с 7/10 CH, поэтому её режимы не перенесены на 9.5 kg прибор S&L. 250 W названы мощностью LED/Output Power, не подтверждённой входной мощностью."
+    ],
+    "default": 11,
+    "kind": "spot",
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "name": "Shehds 250W",
+    "shortName": "Shehds 250W",
+    "fixtureType": "fresnel",
+    "dmxPhysical": true,
+    "powerLink": true,
+    "powerConnector": "powerCON",
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "catalogSubtitle": "RGBW · 11 CH · 3-pin",
+    "weightKg": 9.5,
+    "sourceWatts": 250,
+    "sourceWattsBasis": "LED",
+    "manufacturerSource": "https://shehds.com/products/shehds-250w-rgbw-spotlight-with-barndoors-pulse-strobe",
+    "manuals": [
+      "https://drive.google.com/file/d/1KeCiYzUoUVWzMZEay_tqE3rhehCW6VZY/view"
+    ],
+    "revisionNote": "Текущая 9.5 kg версия: 11 CH. Более старое руководство 6.75 kg версии: 7/10 CH; режимы разных ревизий не объединяются."
+  },
+  "snl-115": {
+    "modes": [],
+    "defaultModeId": null,
+    "watts": 750,
+    "wattsBasis": "lamp-rating",
+    "connectors": [],
+    "dmxConnector": null,
+    "verifiedFields": [
+      "lampWattage",
+      "nonDMX"
+    ],
+    "modesBasis": "unknown",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://kupostage.com/products/ml-7519b",
+        "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=115"
+      ],
+      "checkedFields": [
+        "lampWattage",
+        "nonDMX"
+      ],
+      "missingFields": [
+        "exactModel",
+        "powerConnector"
+      ],
+      "note": "S&L указывает HPL750 W, 19°. Это ламповый профиль: диммирование внешним диммером, собственного DMX-адреса нет. Семейство KUPO Megalite подтверждено, но артикул ML-7519B в прокатной карточке не указан; кабельный штекер зависит от комплектации.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": false,
+    "dmxPhysical": false,
+    "colorSystem": "Лампа HPL",
+    "notes": [
+      "S&L указывает HPL750 W, 19°. Это ламповый профиль: диммирование внешним диммером, собственного DMX-адреса нет. Семейство KUPO Megalite подтверждено, но артикул ML-7519B в прокатной карточке не указан; кабельный штекер зависит от комплектации.",
+      "У самого светильника нет DMX. Для управления яркостью нужен отдельный диммер; DMX адрес назначается диммеру, не лампе."
+    ],
+    "default": null,
+    "kind": "flood",
+    "signalPorts": [],
+    "powerLink": false,
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "defaultModeBasis": null,
+    "fixtureType": "conventional-profile",
+    "externalDimmer": true
+  },
+  "snl-116": {
+    "modes": [],
+    "defaultModeId": null,
+    "watts": 750,
+    "wattsBasis": "lamp-rating",
+    "connectors": [],
+    "dmxConnector": null,
+    "verifiedFields": [
+      "lampWattage",
+      "nonDMX"
+    ],
+    "modesBasis": "unknown",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://kupostage.com/products/ml-7526b",
+        "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=116"
+      ],
+      "checkedFields": [
+        "lampWattage",
+        "nonDMX"
+      ],
+      "missingFields": [
+        "exactModel",
+        "powerConnector"
+      ],
+      "note": "S&L указывает HPL750 W, 26°. Это ламповый профиль: диммирование внешним диммером, собственного DMX-адреса нет. Семейство KUPO Megalite подтверждено, но артикул ML-7526B в прокатной карточке не указан; кабельный штекер зависит от комплектации.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": false,
+    "dmxPhysical": false,
+    "colorSystem": "Лампа HPL",
+    "notes": [
+      "S&L указывает HPL750 W, 26°. Это ламповый профиль: диммирование внешним диммером, собственного DMX-адреса нет. Семейство KUPO Megalite подтверждено, но артикул ML-7526B в прокатной карточке не указан; кабельный штекер зависит от комплектации.",
+      "У самого светильника нет DMX. Для управления яркостью нужен отдельный диммер; DMX адрес назначается диммеру, не лампе."
+    ],
+    "default": null,
+    "kind": "flood",
+    "signalPorts": [],
+    "powerLink": false,
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "defaultModeBasis": null,
+    "fixtureType": "conventional-profile",
+    "externalDimmer": true
+  },
+  "snl-117": {
+    "modes": [],
+    "defaultModeId": null,
+    "watts": 1000,
+    "wattsBasis": "lamp-rating",
+    "connectors": [],
+    "dmxConnector": null,
+    "verifiedFields": [
+      "lampWattage",
+      "nonDMX"
+    ],
+    "modesBasis": "unknown",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.kupo.com.tw/kupo/pdf/Cyclorama-Flood%20Light.pdf",
+        "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=117"
+      ],
+      "checkedFields": [
+        "lampWattage",
+        "nonDMX"
+      ],
+      "missingFields": [
+        "exactModel",
+        "powerConnector"
+      ],
+      "note": "Ламповая циклорама 1000 W: собственного DMX нет; нужен внешний диммер. Семейства CYC-1000 и FDL-1000 отличаются оптикой; S&L не указывает артикул, его нельзя угадывать.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": false,
+    "dmxPhysical": false,
+    "colorSystem": "Галогенная лампа",
+    "notes": [
+      "Ламповая циклорама 1000 W: собственного DMX нет; нужен внешний диммер. Семейства CYC-1000 и FDL-1000 отличаются оптикой; S&L не указывает артикул, его нельзя угадывать.",
+      "У самого светильника нет DMX. Для управления яркостью нужен отдельный диммер; DMX адрес назначается диммеру, не лампе."
+    ],
+    "default": null,
+    "kind": "flood",
+    "signalPorts": [],
+    "powerLink": false,
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "defaultModeBasis": null,
+    "fixtureType": "conventional-cyclorama",
+    "externalDimmer": true
+  },
+  "snl-376": {
+    "modes": [
+      {
+        "channels": 1,
+        "label": "Dimmer · 1 CH",
+        "id": "dimmer-1"
+      }
+    ],
+    "defaultModeId": "dimmer-1",
+    "watts": 1000,
+    "wattsBasis": "lamp-rating",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT на Uni Pak II",
+      "Сетевой выход диммера · региональная комплектация"
+    ],
+    "dmxConnector": "3-pin XLR · Uni Pak II",
+    "verifiedFields": [
+      "modes",
+      "dmxConnector",
+      "lampWattage",
+      "bundle"
+    ],
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.kupo.com.tw/kupo/pdf/Cyclorama-Flood%20Light.pdf",
+        "https://www.adj.com/products/uni-pak-ii",
+        "https://snl.ee/en/video/lighting_equipment_for_filming/?cat_id=376"
+      ],
+      "checkedFields": [
+        "modes",
+        "dmxConnector",
+        "lampWattage",
+        "bundle"
+      ],
+      "missingFields": [
+        "powerConnectorVariant",
+        "dimmerSelfConsumption"
+      ],
+      "note": "Комплект: FDL-1000 с лампой 1000 W и отдельный Uni Pak II. Один DMX-канал относится к диммеру; лампа не имеет DMX-разъёмов.1000 W — нагрузка лампы, собственное потребление диммера не включено; US Edison нельзя переносить на EU комплект.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": true,
+    "dmxPhysical": true,
+    "consumes": true,
+    "powerLink": false,
+    "defaultModeBasis": "planner-choice",
+    "notes": [
+      "Комплект: FDL-1000 с лампой 1000 W и отдельный Uni Pak II. Один DMX-канал относится к диммеру; лампа не имеет DMX-разъёмов.1000 W — нагрузка лампы, собственное потребление диммера не включено; US Edison нельзя переносить на EU комплект."
+    ],
+    "default": 1,
+    "kind": "flood",
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": "",
+        "component": "ADJ Uni Pak II"
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": "",
+        "component": "ADJ Uni Pak II"
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "fixtureType": "cyclorama-dimmer-bundle",
+    "bundle": true,
+    "bundleComponents": [
+      "Kupo FDL-1000",
+      "ADJ Uni Pak II"
+    ]
+  },
+  "snl-113": {
+    "modes": [],
+    "defaultModeId": null,
+    "watts": 500,
+    "wattsBasis": "rental-spec",
+    "connectors": [],
+    "dmxConnector": null,
+    "verifiedFields": [
+      "rentalPower"
+    ],
+    "modesBasis": "unknown",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/userfiles/files/catalogue/sl-concept_catalogue_light_rent_en.pdf",
+        "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=113"
+      ],
+      "checkedFields": [
+        "rentalPower"
+      ],
+      "missingFields": [
+        "exactModel",
+        "dmx",
+        "powerConnector",
+        "manufacturerPower"
+      ],
+      "note": "В PDF S&L стр.12 — фотография обычного прожектора на штативе и Power 500 W; точного производителя/модели нет. Искались точное название, вариации GS Industry Projector и технические каталоги; найден только каталог самого владельца. 500 W сохранены как данные проката, не как подтверждённый паспорт. Сигнальные выходы не выдуманы. Требуется шильдик для точного производителя, разъёма и паспорта.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": null,
+    "notes": [
+      "В PDF S&L стр.12 — фотография обычного прожектора на штативе и Power 500 W; точного производителя/модели нет. Искались точное название, вариации GS Industry Projector и технические каталоги; найден только каталог самого владельца. 500 W сохранены как данные проката, не как подтверждённый паспорт. Сигнальные выходы не выдуманы. Требуется шильдик для точного производителя, разъёма и паспорта."
+    ],
+    "default": null,
+    "kind": "flood",
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "defaultModeBasis": null,
+    "name": "GS Projector",
+    "shortName": "GS Projector",
+    "fixtureType": "conventional-flood",
+    "signalPorts": [],
+    "powerLink": false,
+    "sourceWatts": 500
+  },
+  "snl-164": {
+    "modes": [],
+    "defaultModeId": null,
+    "watts": 400,
+    "wattsBasis": "manufacturer-specified",
+    "connectors": [
+      "230 V AC IN · screw terminal 3-pole"
+    ],
+    "dmxConnector": null,
+    "verifiedFields": [
+      "modelFamily",
+      "modes",
+      "dmx",
+      "dmxPhysical",
+      "signalPorts",
+      "powerLink",
+      "powerConnector",
+      "watts",
+      "dimmable",
+      "voltage",
+      "powerFactor"
+    ],
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/userfiles/files/catalogue/sl-concept_catalogue_light_rent_en.pdf",
+        "https://www.assets.lighting.philips.com/is/content/PhilipsLighting/fp910502548718-pss-en_ae",
+        "https://www.assets.lighting.philips.com/is/content/PhilipsLighting/comf2297-pss-global"
+      ],
+      "checkedFields": [
+        "modelFamily",
+        "modes",
+        "dmx",
+        "dmxPhysical",
+        "signalPorts",
+        "powerLink",
+        "powerConnector",
+        "watts",
+        "dimmable",
+        "voltage",
+        "powerFactor"
+      ],
+      "missingFields": [
+        "rentalCablePlug"
+      ],
+      "note": "PDF S&L уточняет семейство RVP351 HPI-TP400W KS. Официальный паспорт HPI-TP400W K IC S подтверждает 400 W, 230 V, PF 0.85, клеммный ввод 3-pole; Dimmable = No. Это обычный металлогалогенный прожектор: DMX, видео, Ethernet и сквозного Power OUT у него нет. Только вход питания — правильная схема. Внешняя вилка на кабеле прокатчика в документации не названа; не приписана Schuko или IEC.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": false,
+    "notes": [
+      "PDF S&L уточняет семейство RVP351 HPI-TP400W KS. Официальный паспорт HPI-TP400W K IC S подтверждает 400 W, 230 V, PF 0.85, клеммный ввод 3-pole; Dimmable = No. Это обычный металлогалогенный прожектор: DMX, видео, Ethernet и сквозного Power OUT у него нет. Только вход питания — правильная схема. Внешняя вилка на кабеле прокатчика в документации не названа; не приписана Schuko или IEC."
+    ],
+    "default": null,
+    "kind": "flood",
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "defaultModeBasis": null,
+    "name": "Philips Tempo3",
+    "shortName": "Philips Tempo3",
+    "fixtureType": "conventional-flood",
+    "dmxPhysical": false,
+    "powerLink": false,
+    "powerConnector": "3-pole screw terminal",
+    "signalPorts": [],
+    "voltage": 230,
+    "powerFactor": 0.85,
+    "dimmable": false,
+    "catalogSubtitle": "400 W · 230 V · без DMX",
+    "manufacturerSource": "https://www.assets.lighting.philips.com/is/content/PhilipsLighting/fp910502548718-pss-en_ae",
+    "manuals": [
+      "https://www.assets.lighting.philips.com/is/content/PhilipsLighting/fp910502548718-pss-en_ae",
+      "https://www.assets.lighting.philips.com/is/content/PhilipsLighting/comf2297-pss-global"
+    ]
+  },
+  "snl-133": {
+    "modes": [
+      {
+        "id": "4ch",
+        "label": "4 CH",
+        "channels": 4
+      }
+    ],
+    "defaultModeId": "4ch",
+    "watts": null,
+    "wattsBasis": "unknown",
+    "connectors": [],
+    "dmxConnector": null,
+    "verifiedFields": [
+      "rentalModel",
+      "dmx",
+      "rentalModes"
+    ],
+    "modesBasis": "rental-spec",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/userfiles/files/catalogue/sl-concept_catalogue_light_rent_en.pdf",
+        "https://snl.ee/en/light/led_projectors_lamp_projectors_follow_spots/?cat_id=133"
+      ],
+      "checkedFields": [
+        "rentalModel",
+        "dmx",
+        "rentalModes"
+      ],
+      "missingFields": [
+        "manufacturerManual",
+        "dmxConnector",
+        "dmxOutput",
+        "watts"
+      ],
+      "note": "Официальный PDF владельца S&L прямо сообщает DMX512 и 4 CH для Appolo AB-159B; восстановлен документированный владельцем footprint 4 CH. Это не подтверждение таблицы производителя. Поиск Appolo/Apollo, AB-159B/AB159B/AB-159 на двух поисковых системах дал только S&L; паспорт производителя не найден. Тип DMX гнезда и наличие DMX THRU не определены: выход не выдуман. 1200 W — мощность HMI лампы; входная мощность вместе с ПРА неизвестна.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": true,
+    "notes": [
+      "Официальный PDF владельца S&L прямо сообщает DMX512 и 4 CH для Appolo AB-159B; восстановлен документированный владельцем footprint 4 CH. Это не подтверждение таблицы производителя. Поиск Appolo/Apollo, AB-159B/AB159B/AB-159 на двух поисковых системах дал только S&L; паспорт производителя не найден. Тип DMX гнезда и наличие DMX THRU не определены: выход не выдуман. 1200 W — мощность HMI лампы; входная мощность вместе с ПРА неизвестна."
+    ],
+    "default": 4,
+    "kind": "flood",
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "defaultModeBasis": "planner-choice",
+    "name": "Appolo AB-159B",
+    "shortName": "Appolo AB-159B",
+    "fixtureType": "followspot",
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "DMX512 · разъём требует сверки",
+        "label": ""
+      }
+    ],
+    "powerLink": false,
+    "sourceWatts": 1200,
+    "sourceWattsBasis": "HMI lamp",
+    "catalogSubtitle": "4 CH · HMI 1200 W",
+    "manuals": []
+  },
+  "snl-236": {
+    "modes": [
+      {
+        "id": "dmx-3",
+        "label": "3 CH",
+        "channels": 3
+      }
+    ],
+    "defaultModeId": "dmx-3",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT",
+      "IEC IN/OUT"
+    ],
+    "dmxConnector": "3-pin XLR",
+    "dmx": true,
+    "watts": 44,
+    "wattsBasis": "manufacturer-max",
+    "powerLink": true,
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.adj.com/products/ikon-profile",
+        "https://www.adj.eu/mwdownloads/download/link/id/846"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "connectors",
+        "powerLink",
+        "watts"
+      ],
+      "missingFields": [],
+      "note": "Ikon Profile без Plus; 3 CH. 44 W max. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmxPhysical": true,
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "connectors",
+      "powerLink",
+      "watts"
+    ],
+    "notes": [
+      "Ikon Profile без Plus; 3 CH. 44 W max. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим."
+    ],
+    "defaultModeBasis": "planner-choice",
+    "default": 3,
+    "kind": "effectlight",
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "IEC",
+    "fixtureType": "gobo-projector"
+  },
+  "snl-239": {
+    "modes": [
+      {
+        "id": "dmx-14",
+        "label": "14 CH",
+        "channels": 14
+      },
+      {
+        "id": "dmx-34",
+        "label": "34 CH",
+        "channels": 34
+      }
+    ],
+    "defaultModeId": "dmx-14",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT",
+      "IEC IN/OUT (UK/Worldwide)"
+    ],
+    "dmxConnector": "3-pin XLR",
+    "dmx": true,
+    "watts": 174,
+    "wattsBasis": "manufacturer-230V",
+    "powerLink": true,
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.chauvetdj.com/products/intimidator-wave-irc/",
+        "https://www.chauvetdj.com/wp-content/uploads/2016/01/Intimidator_Wave_IRC_UM_Rev3_WO.pdf"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "connectors",
+        "powerLink",
+        "watts"
+      ],
+      "missingFields": [
+        "wattsMaximum"
+      ],
+      "note": "174 W / 1.3 A при 230 V. В США OUT Edison; для UK/Worldwide оба разъёма IEC. Мощность указана при рабочем напряжении, не как гарантированный максимум. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.",
+      "checkedAt": "2026-11-05"
+    },
+    "current230": 1.3,
+    "dmxPhysical": true,
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "connectors",
+      "powerLink",
+      "watts"
+    ],
+    "notes": [
+      "174 W / 1.3 A при 230 V. В США OUT Edison; для UK/Worldwide оба разъёма IEC. Мощность указана при рабочем напряжении, не как гарантированный максимум. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим."
+    ],
+    "defaultModeBasis": "planner-choice",
+    "default": 14,
+    "kind": "effectlight",
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "IEC",
+    "fixtureType": "moving-beam-array"
+  },
+  "snl-308": {
+    "modes": [
+      {
+        "id": "dmx-2",
+        "label": "2 CH",
+        "channels": 2
+      },
+      {
+        "id": "dmx-6",
+        "label": "6 CH",
+        "channels": 6
+      },
+      {
+        "id": "dmx-15",
+        "label": "15 CH",
+        "channels": 15
+      },
+      {
+        "id": "dmx-23",
+        "label": "23 CH",
+        "channels": 23
+      },
+      {
+        "id": "dmx-45",
+        "label": "45 CH",
+        "channels": 45
+      }
+    ],
+    "defaultModeId": "dmx-15",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT",
+      "powerCON IN/OUT"
+    ],
+    "dmxConnector": "3-pin XLR",
+    "dmx": true,
+    "watts": 140,
+    "wattsBasis": "manufacturer-max",
+    "powerLink": true,
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.adj.com/products/kaos",
+        "https://cf3.zzounds.com/media/kaos-8b4ca4f0b66e69044102d7c4608089b2.pdf"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "connectors",
+        "powerLink",
+        "watts"
+      ],
+      "missingFields": [
+        "physicalPowerConnectorConfirmation"
+      ],
+      "note": "140 W maximum. Руководство ADJ размещено у Zzounds. На странице встречается противоречивое упоминание IEC; для силовой пары использована явно указанная PowerCon IN/OUT. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmxPhysical": true,
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "connectors",
+      "powerLink",
+      "watts"
+    ],
+    "notes": [
+      "140 W maximum. Руководство ADJ размещено у Zzounds. На странице встречается противоречивое упоминание IEC; для силовой пары использована явно указанная PowerCon IN/OUT. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим."
+    ],
+    "defaultModeBasis": "planner-choice",
+    "default": 15,
+    "kind": "effectlight",
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "Locking Power",
+    "fixtureType": "moving-beam-array"
+  },
+  "snl-238": {
+    "modes": [
+      {
+        "id": "dmx-19",
+        "label": "19 CH",
+        "channels": 19
+      },
+      {
+        "id": "dmx-23",
+        "label": "23 CH",
+        "channels": 23
+      }
+    ],
+    "defaultModeId": "dmx-19",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT",
+      "IEC IN/OUT"
+    ],
+    "dmxConnector": "3-pin XLR",
+    "dmx": true,
+    "watts": 85,
+    "wattsBasis": "manufacturer-specified",
+    "powerLink": true,
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.adj.eu/mwdownloads/download/link/id/654",
+        "https://www.adj.com/products/inno-pocket-spot-twins",
+        "https://www.adj.eu/inno-pocket-spot-twins"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "connectors",
+        "powerLink",
+        "watts"
+      ],
+      "missingFields": [
+        "powerRatingConflict",
+        "wattsMaximum"
+      ],
+      "note": "В руководстве и ADJ US 85 W, на ADJ Europe 66 W. Для планирования оставлено большее опубликованное потребление 85 W; аппаратную версию/шильдик нужно сверить. IEC OUT подтверждён разделом Power Cord Daisy Chain. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmxPhysical": true,
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "connectors",
+      "powerLink",
+      "watts"
+    ],
+    "notes": [
+      "В руководстве и ADJ US 85 W, на ADJ Europe 66 W. Для планирования оставлено большее опубликованное потребление 85 W; аппаратную версию/шильдик нужно сверить. IEC OUT подтверждён разделом Power Cord Daisy Chain. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим."
+    ],
+    "defaultModeBasis": "planner-choice",
+    "default": 19,
+    "kind": "spot",
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "IEC",
+    "fixtureType": "twin-moving-spot"
+  },
+  "snl-222": {
+    "modes": [
+      {
+        "id": "dmx-14",
+        "label": "14 CH",
+        "channels": 14
+      },
+      {
+        "id": "dmx-15",
+        "label": "15 CH",
+        "channels": 15
+      },
+      {
+        "id": "dmx-17",
+        "label": "17 CH",
+        "channels": 17
+      },
+      {
+        "id": "dmx-29",
+        "label": "29 CH",
+        "channels": 29
+      }
+    ],
+    "defaultModeId": "dmx-14",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT",
+      "Locking Power IN/OUT"
+    ],
+    "dmxConnector": "3-pin XLR",
+    "dmx": true,
+    "watts": 174,
+    "wattsBasis": "manufacturer-full-output",
+    "powerLink": true,
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.adj.com/products/vortex-1200",
+        "https://www.adj.eu/vortex-1200",
+        "https://www.allfordj.ru/upload/iblock/151/rukovodstvo_polzovatelya_adj_vortex_1200.pdf"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "connectors",
+        "powerLink",
+        "watts"
+      ],
+      "missingFields": [
+        "powerConnectorSubtype"
+      ],
+      "note": "174 W при полном выходе. DMX подтверждён схемой в руководстве ADJ; PDF размещён у дилера. Название точного семейства locking power требует сверки разъёма. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmxPhysical": true,
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "connectors",
+      "powerLink",
+      "watts"
+    ],
+    "notes": [
+      "174 W при полном выходе. DMX подтверждён схемой в руководстве ADJ; PDF размещён у дилера. Название точного семейства locking power требует сверки разъёма. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим."
+    ],
+    "defaultModeBasis": "planner-choice",
+    "default": 14,
+    "kind": "effectlight",
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "fixtureType": "moving-beam-array"
+  },
+  "snl-266": {
+    "modes": [
+      {
+        "id": "dmx-3",
+        "label": "3 CH",
+        "channels": 3
+      }
+    ],
+    "defaultModeId": "dmx-3",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT",
+      "IEC IN/OUT"
+    ],
+    "dmxConnector": "3-pin XLR",
+    "dmx": true,
+    "watts": 80,
+    "wattsBasis": "manufacturer-specified",
+    "powerLink": true,
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.adj.eu/mwdownloads/download/link/id/763",
+        "https://www.adj.com/products/h2o-dmx-ir",
+        "https://www.adj.eu/h2o-dmx-ir"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "connectors",
+        "powerLink",
+        "watts"
+      ],
+      "missingFields": [
+        "powerRatingConflict",
+        "wattsMaximum"
+      ],
+      "note": "Руководство указывает потребление 80 W, страницы ADJ US/EU — 70 W. Для расчёта принято большее опубликованное 80 W; проверить ревизию и шильдик. 3 CH: диммер, стеклянное колесо, цвета. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmxPhysical": true,
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "connectors",
+      "powerLink",
+      "watts"
+    ],
+    "notes": [
+      "Руководство указывает потребление 80 W, страницы ADJ US/EU — 70 W. Для расчёта принято большее опубликованное 80 W; проверить ревизию и шильдик. 3 CH: диммер, стеклянное колесо, цвета. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим."
+    ],
+    "defaultModeBasis": "planner-choice",
+    "default": 3,
+    "kind": "effectlight",
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "IEC",
+    "fixtureType": "water-projector"
+  },
+  "snl-530": {
+    "modes": [
+      {
+        "id": "dmx-2",
+        "label": "2 CH",
+        "channels": 2
+      },
+      {
+        "id": "dmx-6",
+        "label": "6 CH",
+        "channels": 6
+      },
+      {
+        "id": "dmx-8",
+        "label": "8 CH",
+        "channels": 8
+      }
+    ],
+    "defaultModeId": "dmx-6",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT",
+      "IEC IN/OUT",
+      "USB для QuickDMX/W-DMX/CRMX"
+    ],
+    "dmxConnector": "3-pin XLR",
+    "dmx": true,
+    "watts": 140,
+    "wattsBasis": "manufacturer-rated",
+    "powerLink": true,
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.steinigke.de/mpn51918591-eurolite-goflow-100.html"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "connectors",
+        "powerLink",
+        "watts"
+      ],
+      "missingFields": [],
+      "note": "140 W — Gesamtanschlusswert. 100 W — мощность LED. Поддержка беспроводного DMX через отдельный USB-приёмник. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmxPhysical": true,
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "connectors",
+      "powerLink",
+      "watts"
+    ],
+    "notes": [
+      "140 W — Gesamtanschlusswert. 100 W — мощность LED. Поддержка беспроводного DMX через отдельный USB-приёмник. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим."
+    ],
+    "defaultModeBasis": "planner-choice",
+    "default": 6,
+    "kind": "effectlight",
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "IEC"
+  },
+  "snl-252": {
+    "modes": [
+      {
+        "id": "dmx-4",
+        "label": "4 CH",
+        "channels": 4
+      }
+    ],
+    "defaultModeId": "dmx-4",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT",
+      "IEC IN/OUT"
+    ],
+    "dmxConnector": "3-pin XLR",
+    "dmx": true,
+    "watts": 85,
+    "wattsBasis": "manufacturer-specified",
+    "powerLink": true,
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.prolight.co.uk/ftp-in/EQLED85_Manual.pdf"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "connectors",
+        "powerLink",
+        "watts"
+      ],
+      "missingFields": [],
+      "note": "EQLED85: 4 CH, потребление 85 W. Не подменять моделью Kaleido XP 100W. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmxPhysical": true,
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "connectors",
+      "powerLink",
+      "watts"
+    ],
+    "notes": [
+      "EQLED85: 4 CH, потребление 85 W. Не подменять моделью Kaleido XP 100W. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим."
+    ],
+    "defaultModeBasis": "planner-choice",
+    "default": 4,
+    "kind": "effectlight",
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "IEC"
+  },
+  "snl-192": {
+    "modes": [],
+    "defaultModeId": null,
+    "connectors": [
+      "AC IN"
+    ],
+    "dmxConnector": null,
+    "dmx": false,
+    "watts": 60,
+    "wattsBasis": "manufacturer-specified",
+    "powerLink": false,
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.adj.com/products/eco-uv-bar-plus",
+        "https://www.adj.eu/mwdownloads/download/link/id/380"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "connectors",
+        "powerLink",
+        "watts"
+      ],
+      "missingFields": [
+        "powerConnectorSubtype",
+        "wattsMaximum"
+      ],
+      "note": "Постоянный UV-свет включается сетевым переключателем, DMX отсутствует. Руководство подтверждает 60 W; точный тип сетевого ввода текстом не указан.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmxPhysical": false,
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "connectors",
+      "powerLink",
+      "watts"
+    ],
+    "notes": [
+      "Постоянный UV-свет включается сетевым переключателем, DMX отсутствует. Руководство подтверждает 60 W; точный тип сетевого ввода текстом не указан."
+    ],
+    "default": null,
+    "signalPorts": [],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "defaultModeBasis": null,
+    "kind": "bar"
+  },
+  "snl-295": {
+    "modes": [
+      {
+        "id": "dmx-3",
+        "label": "3 CH",
+        "channels": 3
+      }
+    ],
+    "defaultModeId": "dmx-3",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT",
+      "IEC IN/OUT"
+    ],
+    "dmxConnector": "3-pin XLR",
+    "dmx": true,
+    "watts": 60,
+    "wattsBasis": "manufacturer-specified",
+    "powerLink": true,
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.adj.com/products/eco-uv-bar-dmx",
+        "https://www.adj.eu/eco-uv-bar-dmx",
+        "https://www.adj.eu/mwdownloads/download/link/id/589",
+        "https://snl.ee/userfiles/files/catalogue/sl-concept_catalogue_light_rent_en.pdf"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "connectors",
+        "powerLink",
+        "watts"
+      ],
+      "missingFields": [
+        "powerRatingConflict",
+        "wattsMaximum"
+      ],
+      "note": "Название S&L «UV Plus DMX» сопоставлено с ECO UV BAR DMX по 18 UV LED/3 CH/пульту. Новое руководство и ADJ US: 60 W; ADJ Europe: 52 W. Использовано 60 W, нужна сверка версии. В абзаце руководства ошибочно написано eight DMX channel modes, но таблица DMX Traits и спецификация однозначно 3 канала. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим. PDF S&L, раздел ADJ Led BAR UV Plus DMX, прямо называет модель ECO UV Bar DMX; это подтверждённое сопоставление, не отдельная Plus-модель.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmxPhysical": true,
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "connectors",
+      "powerLink",
+      "watts"
+    ],
+    "notes": [
+      "Название S&L «UV Plus DMX» сопоставлено с ECO UV BAR DMX по 18 UV LED/3 CH/пульту. Новое руководство и ADJ US: 60 W; ADJ Europe: 52 W. Использовано 60 W, нужна сверка версии. В абзаце руководства ошибочно написано eight DMX channel modes, но таблица DMX Traits и спецификация однозначно 3 канала. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим."
+    ],
+    "defaultModeBasis": "planner-choice",
+    "default": 3,
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "IEC",
+    "name": "ADJ ECO UV Bar DMX",
+    "shortName": "UV DMX",
+    "kind": "bar",
+    "fixtureType": "uv-bar",
+    "catalogSubtitle": "UV · 3 CH · 3-pin"
+  },
+  "snl-171": {
+    "modes": [
+      {
+        "id": "dmx-3",
+        "label": "3 CH",
+        "channels": 3
+      }
+    ],
+    "defaultModeId": "dmx-3",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT",
+      "IEC IN/OUT",
+      "UC3 remote"
+    ],
+    "dmxConnector": "3-pin XLR",
+    "dmx": true,
+    "watts": 69,
+    "wattsBasis": "manufacturer-max",
+    "powerLink": true,
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://www.adj.com/products/h2o-dmx-pro",
+        "https://www.adj.eu/h2o-dmx-pro",
+        "https://www.adj.eu/mwdownloads/download/link/id/235"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "connectors",
+        "powerLink",
+        "watts"
+      ],
+      "missingFields": [
+        "powerRatingConflict"
+      ],
+      "note": "Страница ADJ указывает 69 W max, раннее руководство 2011 года — 54 W. Для расчёта оставлено большее опубликованное 69 W. Нужно сверить версию; 3 CH и IEC IN/OUT совпадают. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmxPhysical": true,
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "connectors",
+      "powerLink",
+      "watts"
+    ],
+    "notes": [
+      "Страница ADJ указывает 69 W max, раннее руководство 2011 года — 54 W. Для расчёта оставлено большее опубликованное 69 W. Нужно сверить версию; 3 CH и IEC IN/OUT совпадают. Режим по умолчанию выбран приложением; это не утверждение о заводском режиме прибора. На самом приборе следует установить тот же режим."
+    ],
+    "defaultModeBasis": "planner-choice",
+    "default": 3,
+    "kind": "effectlight",
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "IEC",
+    "fixtureType": "water-projector"
+  },
+  "snl-153": {
+    "modes": [],
+    "defaultModeId": null,
+    "connectors": [
+      "IEC AC IN"
+    ],
+    "dmxConnector": null,
+    "dmx": false,
+    "watts": 12,
+    "wattsBasis": "manufacturer-max",
+    "powerLink": false,
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.adj.com/products/gobo-projector-led",
+        "https://www.adj.eu/mwdownloads/download/link/id/253"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "connectors",
+        "powerLink",
+        "watts"
+      ],
+      "missingFields": [],
+      "note": "Не DMX: подключение к сети и локальный переключатель вращения GOBO. 12 W max.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmxPhysical": false,
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "connectors",
+      "powerLink",
+      "watts"
+    ],
+    "notes": [
+      "Не DMX: подключение к сети и локальный переключатель вращения GOBO. 12 W max."
+    ],
+    "default": null,
+    "kind": "effectlight",
+    "signalPorts": [],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "defaultModeBasis": null,
+    "powerConnector": "IEC",
+    "fixtureType": "gobo-projector"
+  },
+  "snl-201": {
+    "modes": [],
+    "defaultModeId": null,
+    "connectors": [
+      "IEC IN/OUT"
+    ],
+    "dmxConnector": null,
+    "dmx": false,
+    "watts": 83.6,
+    "wattsBasis": "maximum",
+    "powerLink": true,
+    "modesBasis": "unknown",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.adj.com/cdn/shop/files/865b70cd44ef5b051db6fc1aa053289b450099f4_ikon_led.pdf?v=455035248180311827",
+        "https://www.adj.com/products/ikon-led",
+        "https://www.adj.eu/ikon-led"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxPhysical",
+        "signalPorts",
+        "connectors",
+        "powerConnector",
+        "powerLink",
+        "watts"
+      ],
+      "missingFields": [],
+      "note": "Оригинальное руководство ADJ Rev.10/13: самостоятельный гобо-проектор, управление двумя ручками и RF пультом. DMX интерфейса нет. IEC IN/OUT подтверждены разделом Power Cord Daisy Chain; максимум 83.6 W. Не смешивать с Ikon Profile, у которого есть 3 CH DMX.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmxPhysical": false,
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxPhysical",
+      "signalPorts",
+      "connectors",
+      "powerConnector",
+      "powerLink",
+      "watts"
+    ],
+    "notes": [
+      "Оригинальное руководство ADJ Rev.10/13: самостоятельный гобо-проектор, управление двумя ручками и RF пультом. DMX интерфейса нет. IEC IN/OUT подтверждены разделом Power Cord Daisy Chain; максимум 83.6 W. Не смешивать с Ikon Profile, у которого есть 3 CH DMX."
+    ],
+    "default": null,
+    "kind": "effectlight",
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "defaultModeBasis": null,
+    "powerConnector": "IEC",
+    "name": "ADJ Ikon LED",
+    "shortName": "Ikon LED",
+    "fixtureType": "gobo-projector",
+    "signalPorts": [],
+    "catalogSubtitle": "83.6 W · IEC OUT · без DMX",
+    "manuals": [
+      "https://www.adj.com/cdn/shop/files/865b70cd44ef5b051db6fc1aa053289b450099f4_ikon_led.pdf?v=455035248180311827"
+    ]
+  },
+  "snl-520": {
+    "modes": [
+      {
+        "channels": 3,
+        "label": "3 CH",
+        "id": "3ch"
+      },
+      {
+        "channels": 8,
+        "label": "8 CH",
+        "id": "8ch"
+      },
+      {
+        "channels": 48,
+        "label": "48 CH",
+        "id": "48ch"
+      },
+      {
+        "channels": 50,
+        "label": "50 CH",
+        "id": "50ch"
+      }
+    ],
+    "defaultModeId": "8ch",
+    "dmx": true,
+    "dmxConnector": null,
+    "connectors": [
+      "DC 15 V / 800 mA charging IN",
+      "D-Fi 2.4 GHz wireless DMX transceiver"
+    ],
+    "watts": 35,
+    "wattsBasis": "manufacturer-conflict",
+    "modesBasis": "manufacturer",
+    "catalogSubtitle": "RGB · 3/8/48/50 CH · D-Fi",
+    "verifiedFields": [
+      "model",
+      "modes",
+      "dmx",
+      "dmxPhysical",
+      "signalPorts",
+      "connectors",
+      "powerConnector",
+      "powerLink",
+      "internalBattery",
+      "usb",
+      "wirelessDMX",
+      "packQuantity"
+    ],
+    "manufacturerSource": "https://www.chauvetdj.com/products/freedom-stick/",
+    "verification": {
+      "status": "partial",
+      "sources": [
+        "https://snl.ee/userfiles/files/catalogue/sl-concept_catalogue_light_rent_en.pdf",
+        "https://www.chauvetdj.com/products/freedom-stick/",
+        "https://www.chauvetdj.com/wp-content/uploads/2016/01/Freedom_Stick_UM_Rev5.pdf"
+      ],
+      "checkedFields": [
+        "model",
+        "modes",
+        "dmx",
+        "dmxPhysical",
+        "signalPorts",
+        "connectors",
+        "powerConnector",
+        "powerLink",
+        "internalBattery",
+        "usb",
+        "wirelessDMX",
+        "packQuantity"
+      ],
+      "missingFields": [
+        "wattsMaximum"
+      ],
+      "note": "Один блок — один оригинальный Freedom Stick из комплекта S&L ×4, не модель Freedom Stick X4 2023 года. Rev.5, стр.5: только DC Power In; стр.20: DMX I/O = Wireless, 3/8/48/50 CH. Встроенный D-Fi работает как передатчик или приёмник; проводного DMX и USB нет. Зарядка 15 V DC / 800 mA. Производитель печатает 35 W и несовместимые с этим 0.03 A при 230 V; 35 W сохранены как опубликованное, но спорное потребление, не подтверждённый максимум. 8 CH выбраны планировщиком; режим и D-Fi канал на приборе настраиваются отдельно.",
+      "checkedAt": "2026-11-05"
+    },
+    "notes": [
+      "Один блок — один оригинальный Freedom Stick из комплекта S&L ×4, не модель Freedom Stick X4 2023 года. Rev.5, стр.5: только DC Power In; стр.20: DMX I/O = Wireless, 3/8/48/50 CH. Встроенный D-Fi работает как передатчик или приёмник; проводного DMX и USB нет. Зарядка 15 V DC / 800 mA. Производитель печатает 35 W и несовместимые с этим 0.03 A при 230 V; 35 W сохранены как опубликованное, но спорное потребление, не подтверждённый максимум. 8 CH выбраны планировщиком; режим и D-Fi канал на приборе настраиваются отдельно."
+    ],
+    "battery": true,
+    "powerLink": false,
+    "wirelessDMX": true,
+    "usbPowered": false,
+    "manuals": [
+      "https://www.chauvetdj.com/wp-content/uploads/2016/01/Freedom_Stick_UM_Rev5.pdf"
+    ],
+    "defaultModeBasis": "planner-choice",
+    "signalPorts": [
+      {
+        "id": "wirelessIn",
+        "type": "wireless",
+        "out": false,
+        "connector": "D-Fi",
+        "label": "D-Fi"
+      },
+      {
+        "id": "wirelessOut",
+        "type": "wireless",
+        "out": true,
+        "connector": "D-Fi",
+        "label": "D-Fi"
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "ethernet": false,
+    "video": false,
+    "default": 8,
+    "name": "Chauvet Freedom Stick",
+    "shortName": "Freedom Stick",
+    "kind": "pixel",
+    "fixtureType": "pixel-tube",
+    "dmxPhysical": false,
+    "wirelessProtocol": "D-Fi",
+    "internalBattery": true,
+    "consumes": true,
+    "powerInput": true,
+    "powerConnector": "DC 15V 800mA",
+    "powerInputType": "dc",
+    "chargeVoltage": 15,
+    "chargeCurrentA": 0.8,
+    "wattsMaximum": null,
+    "packQuantity": 4,
+    "unitQuantity": 1
+  },
+  "snl-231": {
+    "modes": [
+      {
+        "channels": 9,
+        "label": "9 CH",
+        "id": "9ch"
+      },
+      {
+        "channels": 165,
+        "label": "165 CH · 2 м",
+        "id": "165ch"
+      },
+      {
+        "channels": 240,
+        "label": "240 CH · 3 м",
+        "id": "240ch"
+      },
+      {
+        "channels": 315,
+        "label": "315 CH · 4 м",
+        "id": "315ch"
+      }
+    ],
+    "defaultModeId": "9ch",
+    "dmx": true,
+    "dmxConnector": "XLR 3-pin",
+    "connectors": [
+      "DMX XLR 3-pin IN/OUT",
+      "IEC power IN/OUT"
+    ],
+    "watts": 42,
+    "wattsBasis": "manufacturer",
+    "modesBasis": "manufacturer",
+    "catalogSubtitle": "RGB · 9/165/240/315 CH · 3-pin",
+    "verifiedFields": [
+      "modes",
+      "dmx",
+      "dmxConnector",
+      "watts",
+      "powerConnector"
+    ],
+    "manufacturerSource": "https://www.chauvetdj.com/products/motionorb/",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.chauvetdj.com/products/motionorb/",
+        "https://www.chauvetdj.com/wp-content/uploads/2015/12/MotionOrb_UM_Rev6_ML3_WO-1.pdf"
+      ],
+      "checkedFields": [
+        "modes",
+        "dmx",
+        "dmxConnector",
+        "watts",
+        "powerConnector",
+        "signalPorts",
+        "powerLink",
+        "fixtureType",
+        "pixelCount"
+      ],
+      "missingFields": [],
+      "note": "Пять нитей по 11 RGB-сфер: 55 сфер в базовом комплекте 2 м. Это пиксельный занавес, не бар. 9 CH — общий режим, 165 CH — индивидуальный RGB; 240/315 CH только с удлинением до 3/4 м. IEC IN/OUT и DMX 3-pin IN/OUT. 42 W при 230 V.",
+      "checkedAt": "2026-11-05"
+    },
+    "notes": [
+      "Пять нитей по 11 RGB-сфер: 55 сфер в базовом комплекте 2 м. Это пиксельный занавес, не бар. 9 CH — общий режим, 165 CH — индивидуальный RGB; 240/315 CH только с удлинением до 3/4 м. IEC IN/OUT и DMX 3-pin IN/OUT. 42 W при 230 V."
+    ],
+    "powerLink": true,
+    "manuals": [
+      "https://www.chauvetdj.com/wp-content/uploads/2015/12/MotionOrb_UM_Rev6_ML3_WO-1.pdf"
+    ],
+    "powerEvidence": "manufacturer-document",
+    "defaultModeBasis": "planner-choice",
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "3-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "3-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "default": 9,
+    "powerConnector": "IEC",
+    "name": "Chauvet MotionOrb",
+    "shortName": "Chauvet MotionOrb",
+    "kind": "pixel",
+    "fixtureType": "pixel-curtain",
+    "symbol": "pixel-curtain",
+    "dmxPhysical": true,
+    "colorSystem": "RGB",
+    "pixelCount": 55,
+    "stringLengthMeters": 2
+  },
+  "ubl12h": {
+    "modes": [
+      {
+        "channels": 6,
+        "label": "6 CH",
+        "id": "6ch"
+      },
+      {
+        "channels": 11,
+        "label": "11 CH",
+        "id": "11ch"
+      },
+      {
+        "channels": 13,
+        "label": "13 CH",
+        "id": "13ch"
+      },
+      {
+        "channels": 16,
+        "label": "16 CH",
+        "id": "16ch"
+      },
+      {
+        "channels": 36,
+        "label": "36 CH",
+        "id": "36ch"
+      },
+      {
+        "channels": 43,
+        "label": "43 CH",
+        "id": "43ch"
+      },
+      {
+        "channels": 46,
+        "label": "46 CH",
+        "id": "46ch"
+      }
+    ],
+    "defaultModeId": "11ch",
+    "watts": 61,
+    "wattsBasis": "manufacturer",
+    "connectors": [
+      "DMX XLR 5-pin IN/OUT",
+      "Locking power IN/OUT"
+    ],
+    "dmxConnector": "5-pin XLR",
+    "verifiedFields": [
+      "modes",
+      "connectors",
+      "watts",
+      "powerLink",
+      "colorSystem"
+    ],
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.adj.com/products/ubl12h",
+        "https://www.adj.eu/mwdownloads/download/link/id/1709"
+      ],
+      "checkedFields": [
+        "modes",
+        "connectors",
+        "watts",
+        "powerLink",
+        "colorSystem"
+      ],
+      "missingFields": [],
+      "note": "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": true,
+    "dmxPhysical": true,
+    "powerLink": true,
+    "colorSystem": "RGBAL+UV",
+    "defaultModeBasis": "planner-choice",
+    "notes": [
+      "RGBAL+UV; шесть групп по два LED. Данные относятся к UBL12H. Вступление карточки S&L ошибочно описывает UB12H — при выдаче сверить модель. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же."
+    ],
+    "default": 11,
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "5-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "5-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "Locking Power",
+    "kind": "bar"
+  },
+  "focusflex": {
+    "modes": [
+      {
+        "channels": 16,
+        "label": "Basic RGBW · 16 CH",
+        "id": "basic-rgbw-16"
+      },
+      {
+        "channels": 25,
+        "label": "Standard RGBW · 25 CH",
+        "id": "standard-rgbw-25"
+      },
+      {
+        "channels": 34,
+        "label": "Extended 3 · 34 CH",
+        "id": "extended3-rgbw-34"
+      },
+      {
+        "channels": 42,
+        "label": "Extended 5 · 42 CH",
+        "id": "extended5-rgbw-42"
+      },
+      {
+        "channels": 50,
+        "label": "Extended 7 · 50 CH",
+        "id": "extended7-rgbw-50"
+      },
+      {
+        "channels": 25,
+        "label": "Standard CMY · 25 CH",
+        "id": "standard-cmy-25"
+      },
+      {
+        "channels": 28,
+        "label": "Extended CMY · 28 CH",
+        "id": "extended-cmy-28"
+      }
+    ],
+    "defaultModeId": "standard-rgbw-25",
+    "watts": 340,
+    "wattsBasis": "maximum",
+    "connectors": [
+      "DMX XLR 5-pin IN/OUT",
+      "Locking power IN/OUT"
+    ],
+    "dmxConnector": "5-pin XLR",
+    "verifiedFields": [
+      "modes",
+      "connectors",
+      "watts",
+      "powerLink",
+      "colorSystem",
+      "rdm"
+    ],
+    "modesBasis": "manufacturer",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://www.adj.eu/mwdownloads/download/link/id/1509",
+        "https://www.adj.com/products/focus-flex"
+      ],
+      "checkedFields": [
+        "modes",
+        "connectors",
+        "watts",
+        "powerLink",
+        "colorSystem",
+        "rdm"
+      ],
+      "missingFields": [],
+      "note": "Manual v1.2: 7 режимов; Standard RGBW и Standard CMY занимают по 25 каналов, но являются разными personalities. Максимум 340 W при 120 V. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же.",
+      "checkedAt": "2026-11-05"
+    },
+    "dmx": true,
+    "dmxPhysical": true,
+    "powerLink": true,
+    "colorSystem": "RGBW / virtual CMY",
+    "rdm": true,
+    "defaultModeBasis": "planner-choice",
+    "notes": [
+      "Manual v1.2: 7 режимов; Standard RGBW и Standard CMY занимают по 25 каналов, но являются разными personalities. Максимум 340 W при 120 V. Режим по умолчанию выбран приложением для нового блока; режим на физическом приборе необходимо выставить таким же."
+    ],
+    "default": 25,
+    "signalPorts": [
+      {
+        "id": "dmxIn",
+        "type": "dmx",
+        "out": false,
+        "connector": "5-pin XLR",
+        "label": ""
+      },
+      {
+        "id": "dmxOut",
+        "type": "dmx",
+        "out": true,
+        "connector": "5-pin XLR",
+        "label": ""
+      }
+    ],
+    "category": "light",
+    "usb": false,
+    "usbPowered": false,
+    "ethernet": false,
+    "video": false,
+    "powerConnector": "Locking Power",
+    "kind": "head",
+    "fixtureType": "moving-wash"
+  }
+}
